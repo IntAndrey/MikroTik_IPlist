@@ -1,5 +1,14 @@
 :global AddressList
 /ip firewall address-list
+:do {add list=$AddressList comment=spotify.com address=5.178.43.91} on-error {}
+:do {add list=$AddressList comment=spotify.com address=52.11.118.109} on-error {}
+:do {add list=$AddressList comment=spotify.com address=52.52.148.123} on-error {}
+:do {add list=$AddressList comment=spotify.com address=52.52.162.152} on-error {}
+:do {add list=$AddressList comment=spotify.com address=52.52.205.62} on-error {}
+:do {add list=$AddressList comment=spotify.com address=52.8.139.48} on-error {}
+:do {add list=$AddressList comment=spotify.com address=52.8.173.161} on-error {}
+:do {add list=$AddressList comment=spotify.com address=52.8.232.244} on-error {}
+:do {add list=$AddressList comment=spotify.com address=52.8.7.198} on-error {}
 :do {add list=$AddressList comment=spotify.com address=52.9.125.179} on-error {}
 :do {add list=$AddressList comment=spotify.com address=54.151.30.247} on-error {}
 :do {add list=$AddressList comment=spotify.com address=54.153.30.211} on-error {}
@@ -341,12 +350,3 @@
 :do {add list=$AddressList comment=spotify.com address=92.123.106.9} on-error {}
 :do {add list=$AddressList comment=spotify.com address=92.123.106.96} on-error {}
 :do {add list=$AddressList comment=spotify.com address=92.123.133.21} on-error {}
-:do {add list=$AddressList comment=spotify.com address=92.123.133.25} on-error {}
-:do {add list=$AddressList comment=spotify.com address=92.123.133.27} on-error {}
-:do {add list=$AddressList comment=spotify.com address=92.123.133.30} on-error {}
-:do {add list=$AddressList comment=spotify.com address=92.123.133.35} on-error {}
-:do {add list=$AddressList comment=spotify.com address=92.123.133.55} on-error {}
-:do {add list=$AddressList comment=spotify.com address=92.123.133.7} on-error {}
-:do {add list=$AddressList comment=spotify.com address=92.123.133.9} on-error {}
-:do {add list=$AddressList comment=spotify.com address=92.123.135.137} on-error {}
-:do {add list=$AddressList comment=spotify.com address=92.123.135.139} on-error {}

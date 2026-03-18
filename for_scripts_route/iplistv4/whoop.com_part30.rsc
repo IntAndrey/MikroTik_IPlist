@@ -2,6 +2,12 @@
 :global RouteTab
 :global GateWay
 /ip route
+:if ([:len [/ip/route/find dst-address=3.164.240.30 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=3.164.240.30 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=whoop.com }
+:if ([:len [/ip/route/find dst-address=3.164.240.32 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=3.164.240.32 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=whoop.com }
+:if ([:len [/ip/route/find dst-address=3.164.240.35 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=3.164.240.35 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=whoop.com }
+:if ([:len [/ip/route/find dst-address=3.164.240.36 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=3.164.240.36 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=whoop.com }
+:if ([:len [/ip/route/find dst-address=3.164.240.37 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=3.164.240.37 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=whoop.com }
+:if ([:len [/ip/route/find dst-address=3.164.240.41 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=3.164.240.41 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=whoop.com }
 :if ([:len [/ip/route/find dst-address=3.164.240.69 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=3.164.240.69 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=whoop.com }
 :if ([:len [/ip/route/find dst-address=3.164.240.70 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=3.164.240.70 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=whoop.com }
 :if ([:len [/ip/route/find dst-address=3.164.240.88 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=3.164.240.88 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=whoop.com }
@@ -96,9 +102,3 @@
 :if ([:len [/ip/route/find dst-address=3.165.232.112 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=3.165.232.112 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=whoop.com }
 :if ([:len [/ip/route/find dst-address=3.165.232.126 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=3.165.232.126 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=whoop.com }
 :if ([:len [/ip/route/find dst-address=3.165.232.19 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=3.165.232.19 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=whoop.com }
-:if ([:len [/ip/route/find dst-address=3.165.232.21 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=3.165.232.21 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=whoop.com }
-:if ([:len [/ip/route/find dst-address=3.165.232.31 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=3.165.232.31 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=whoop.com }
-:if ([:len [/ip/route/find dst-address=3.165.232.32 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=3.165.232.32 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=whoop.com }
-:if ([:len [/ip/route/find dst-address=3.165.232.49 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=3.165.232.49 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=whoop.com }
-:if ([:len [/ip/route/find dst-address=3.165.232.58 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=3.165.232.58 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=whoop.com }
-:if ([:len [/ip/route/find dst-address=3.165.232.79 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=3.165.232.79 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=whoop.com }

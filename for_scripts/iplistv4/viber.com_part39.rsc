@@ -1,5 +1,23 @@
 :global AddressList
 /ip firewall address-list
+:do {add list=$AddressList comment=viber.com address=52.55.183.122} on-error {}
+:do {add list=$AddressList comment=viber.com address=52.55.184.222} on-error {}
+:do {add list=$AddressList comment=viber.com address=52.55.19.129} on-error {}
+:do {add list=$AddressList comment=viber.com address=52.55.20.27} on-error {}
+:do {add list=$AddressList comment=viber.com address=52.55.228.7} on-error {}
+:do {add list=$AddressList comment=viber.com address=52.55.233.214} on-error {}
+:do {add list=$AddressList comment=viber.com address=52.55.234.166} on-error {}
+:do {add list=$AddressList comment=viber.com address=52.55.234.42} on-error {}
+:do {add list=$AddressList comment=viber.com address=52.55.5.187} on-error {}
+:do {add list=$AddressList comment=viber.com address=52.55.52.163} on-error {}
+:do {add list=$AddressList comment=viber.com address=52.55.56.125} on-error {}
+:do {add list=$AddressList comment=viber.com address=52.55.68.178} on-error {}
+:do {add list=$AddressList comment=viber.com address=52.55.70.10} on-error {}
+:do {add list=$AddressList comment=viber.com address=52.55.76.179} on-error {}
+:do {add list=$AddressList comment=viber.com address=52.55.99.146} on-error {}
+:do {add list=$AddressList comment=viber.com address=52.56.133.6} on-error {}
+:do {add list=$AddressList comment=viber.com address=52.56.192.120} on-error {}
+:do {add list=$AddressList comment=viber.com address=52.56.66.27} on-error {}
 :do {add list=$AddressList comment=viber.com address=52.56.85.199} on-error {}
 :do {add list=$AddressList comment=viber.com address=52.57.1.126} on-error {}
 :do {add list=$AddressList comment=viber.com address=52.57.1.68} on-error {}
@@ -12,6 +30,7 @@
 :do {add list=$AddressList comment=viber.com address=52.57.161.189} on-error {}
 :do {add list=$AddressList comment=viber.com address=52.57.168.176} on-error {}
 :do {add list=$AddressList comment=viber.com address=52.57.173.98} on-error {}
+:do {add list=$AddressList comment=viber.com address=52.57.174.180} on-error {}
 :do {add list=$AddressList comment=viber.com address=52.57.18.82} on-error {}
 :do {add list=$AddressList comment=viber.com address=52.57.19.103} on-error {}
 :do {add list=$AddressList comment=viber.com address=52.57.19.169} on-error {}
@@ -331,22 +350,3 @@
 :do {add list=$AddressList comment=viber.com address=52.84.106.39} on-error {}
 :do {add list=$AddressList comment=viber.com address=52.84.106.41} on-error {}
 :do {add list=$AddressList comment=viber.com address=52.84.106.42} on-error {}
-:do {add list=$AddressList comment=viber.com address=52.84.106.45} on-error {}
-:do {add list=$AddressList comment=viber.com address=52.84.106.46} on-error {}
-:do {add list=$AddressList comment=viber.com address=52.84.106.47} on-error {}
-:do {add list=$AddressList comment=viber.com address=52.84.106.49} on-error {}
-:do {add list=$AddressList comment=viber.com address=52.84.106.5} on-error {}
-:do {add list=$AddressList comment=viber.com address=52.84.106.51} on-error {}
-:do {add list=$AddressList comment=viber.com address=52.84.106.54} on-error {}
-:do {add list=$AddressList comment=viber.com address=52.84.106.56} on-error {}
-:do {add list=$AddressList comment=viber.com address=52.84.106.59} on-error {}
-:do {add list=$AddressList comment=viber.com address=52.84.106.60} on-error {}
-:do {add list=$AddressList comment=viber.com address=52.84.106.63} on-error {}
-:do {add list=$AddressList comment=viber.com address=52.84.106.64} on-error {}
-:do {add list=$AddressList comment=viber.com address=52.84.106.67} on-error {}
-:do {add list=$AddressList comment=viber.com address=52.84.106.69} on-error {}
-:do {add list=$AddressList comment=viber.com address=52.84.106.70} on-error {}
-:do {add list=$AddressList comment=viber.com address=52.84.106.72} on-error {}
-:do {add list=$AddressList comment=viber.com address=52.84.106.75} on-error {}
-:do {add list=$AddressList comment=viber.com address=52.84.106.78} on-error {}
-:do {add list=$AddressList comment=viber.com address=52.84.106.79} on-error {}

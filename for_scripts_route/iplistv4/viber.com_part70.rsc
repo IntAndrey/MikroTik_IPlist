@@ -2,6 +2,12 @@
 :global RouteTab
 :global GateWay
 /ip route
+:if ([:len [/ip/route/find dst-address=216.137.52.115 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=216.137.52.115 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=viber.com }
+:if ([:len [/ip/route/find dst-address=216.137.52.12 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=216.137.52.12 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=viber.com }
+:if ([:len [/ip/route/find dst-address=216.137.52.126 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=216.137.52.126 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=viber.com }
+:if ([:len [/ip/route/find dst-address=216.137.52.127 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=216.137.52.127 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=viber.com }
+:if ([:len [/ip/route/find dst-address=216.137.52.26 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=216.137.52.26 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=viber.com }
+:if ([:len [/ip/route/find dst-address=216.137.52.31 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=216.137.52.31 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=viber.com }
 :if ([:len [/ip/route/find dst-address=216.137.52.32 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=216.137.52.32 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=viber.com }
 :if ([:len [/ip/route/find dst-address=216.137.52.33 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=216.137.52.33 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=viber.com }
 :if ([:len [/ip/route/find dst-address=216.137.52.34 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=216.137.52.34 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=viber.com }
@@ -96,9 +102,3 @@
 :if ([:len [/ip/route/find dst-address=23.21.140.113 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=23.21.140.113 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=viber.com }
 :if ([:len [/ip/route/find dst-address=23.21.140.88 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=23.21.140.88 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=viber.com }
 :if ([:len [/ip/route/find dst-address=23.21.160.131 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=23.21.160.131 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=viber.com }
-:if ([:len [/ip/route/find dst-address=23.21.161.214 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=23.21.161.214 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=viber.com }
-:if ([:len [/ip/route/find dst-address=23.21.161.242 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=23.21.161.242 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=viber.com }
-:if ([:len [/ip/route/find dst-address=23.21.170.157 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=23.21.170.157 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=viber.com }
-:if ([:len [/ip/route/find dst-address=23.21.190.120 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=23.21.190.120 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=viber.com }
-:if ([:len [/ip/route/find dst-address=23.21.203.43 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=23.21.203.43 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=viber.com }
-:if ([:len [/ip/route/find dst-address=23.21.208.62 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=23.21.208.62 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=viber.com }

@@ -2,6 +2,12 @@
 :global RouteTab
 :global GateWay
 /ip route
+:if ([:len [/ip/route/find dst-address=99.84.91.93 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=99.84.91.93 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=whoop.com }
+:if ([:len [/ip/route/find dst-address=99.84.91.94 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=99.84.91.94 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=whoop.com }
+:if ([:len [/ip/route/find dst-address=99.86.159.103 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=99.86.159.103 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=whoop.com }
+:if ([:len [/ip/route/find dst-address=99.86.159.104 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=99.86.159.104 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=whoop.com }
+:if ([:len [/ip/route/find dst-address=99.86.159.105 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=99.86.159.105 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=whoop.com }
+:if ([:len [/ip/route/find dst-address=99.86.159.106 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=99.86.159.106 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=whoop.com }
 :if ([:len [/ip/route/find dst-address=99.86.159.120 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=99.86.159.120 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=whoop.com }
 :if ([:len [/ip/route/find dst-address=99.86.159.123 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=99.86.159.123 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=whoop.com }
 :if ([:len [/ip/route/find dst-address=99.86.159.125 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=99.86.159.125 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=whoop.com }

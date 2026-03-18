@@ -2,6 +2,10 @@
 :global RouteTab
 :global GateWay
 /ip route
+:if ([:len [/ip/route/find dst-address=52.16.254.95 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=52.16.254.95 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=jetbrains%40grazie.ai }
+:if ([:len [/ip/route/find dst-address=52.16.37.235 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=52.16.37.235 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=jetbrains%40grazie.ai }
+:if ([:len [/ip/route/find dst-address=52.16.73.243 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=52.16.73.243 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=jetbrains%40grazie.ai }
+:if ([:len [/ip/route/find dst-address=52.16.89.243 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=52.16.89.243 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=jetbrains%40grazie.ai }
 :if ([:len [/ip/route/find dst-address=52.17.14.81 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=52.17.14.81 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=jetbrains%40grazie.ai }
 :if ([:len [/ip/route/find dst-address=52.17.213.182 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=52.17.213.182 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=jetbrains%40grazie.ai }
 :if ([:len [/ip/route/find dst-address=52.18.108.145 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=52.18.108.145 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=jetbrains%40grazie.ai }
@@ -98,7 +102,3 @@
 :if ([:len [/ip/route/find dst-address=52.222.169.72 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=52.222.169.72 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=jetbrains%40grazie.ai }
 :if ([:len [/ip/route/find dst-address=52.28.170.7 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=52.28.170.7 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=jetbrains%40grazie.ai }
 :if ([:len [/ip/route/find dst-address=52.29.51.37 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=52.29.51.37 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=jetbrains%40grazie.ai }
-:if ([:len [/ip/route/find dst-address=52.30.130.174 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=52.30.130.174 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=jetbrains%40grazie.ai }
-:if ([:len [/ip/route/find dst-address=52.30.150.173 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=52.30.150.173 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=jetbrains%40grazie.ai }
-:if ([:len [/ip/route/find dst-address=52.30.196.213 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=52.30.196.213 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=jetbrains%40grazie.ai }
-:if ([:len [/ip/route/find dst-address=52.30.222.237 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=52.30.222.237 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=jetbrains%40grazie.ai }

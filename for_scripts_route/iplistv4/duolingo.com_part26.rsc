@@ -2,6 +2,12 @@
 :global RouteTab
 :global GateWay
 /ip route
+:if ([:len [/ip/route/find dst-address=2.16.204.97 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=2.16.204.97 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=duolingo.com }
+:if ([:len [/ip/route/find dst-address=2.16.206.200 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=2.16.206.200 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=duolingo.com }
+:if ([:len [/ip/route/find dst-address=2.16.27.134 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=2.16.27.134 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=duolingo.com }
+:if ([:len [/ip/route/find dst-address=2.16.27.135 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=2.16.27.135 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=duolingo.com }
+:if ([:len [/ip/route/find dst-address=2.16.27.86 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=2.16.27.86 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=duolingo.com }
+:if ([:len [/ip/route/find dst-address=2.16.27.88 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=2.16.27.88 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=duolingo.com }
 :if ([:len [/ip/route/find dst-address=2.16.27.94 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=2.16.27.94 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=duolingo.com }
 :if ([:len [/ip/route/find dst-address=2.16.56.139 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=2.16.56.139 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=duolingo.com }
 :if ([:len [/ip/route/find dst-address=2.16.56.153 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=2.16.56.153 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=duolingo.com }
@@ -96,9 +102,3 @@
 :if ([:len [/ip/route/find dst-address=2.20.109.113 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=2.20.109.113 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=duolingo.com }
 :if ([:len [/ip/route/find dst-address=2.20.109.32 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=2.20.109.32 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=duolingo.com }
 :if ([:len [/ip/route/find dst-address=2.20.109.72 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=2.20.109.72 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=duolingo.com }
-:if ([:len [/ip/route/find dst-address=2.20.110.123 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=2.20.110.123 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=duolingo.com }
-:if ([:len [/ip/route/find dst-address=2.20.110.146 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=2.20.110.146 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=duolingo.com }
-:if ([:len [/ip/route/find dst-address=2.20.110.153 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=2.20.110.153 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=duolingo.com }
-:if ([:len [/ip/route/find dst-address=2.20.110.89 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=2.20.110.89 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=duolingo.com }
-:if ([:len [/ip/route/find dst-address=2.20.111.214 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=2.20.111.214 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=duolingo.com }
-:if ([:len [/ip/route/find dst-address=2.20.111.215 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=2.20.111.215 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=duolingo.com }

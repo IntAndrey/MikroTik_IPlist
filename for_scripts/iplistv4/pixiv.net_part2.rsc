@@ -36,6 +36,7 @@
 :do {add list=$AddressList comment=pixiv.net address=216.198.54.1} on-error {}
 :do {add list=$AddressList comment=pixiv.net address=216.198.54.11} on-error {}
 :do {add list=$AddressList comment=pixiv.net address=216.198.54.6} on-error {}
+:do {add list=$AddressList comment=pixiv.net address=216.58.204.115} on-error {}
 :do {add list=$AddressList comment=pixiv.net address=216.58.204.243} on-error {}
 :do {add list=$AddressList comment=pixiv.net address=216.58.205.51} on-error {}
 :do {add list=$AddressList comment=pixiv.net address=216.58.206.51} on-error {}
@@ -123,6 +124,10 @@
 :do {add list=$AddressList comment=pixiv.net address=3.174.18.35} on-error {}
 :do {add list=$AddressList comment=pixiv.net address=3.174.18.51} on-error {}
 :do {add list=$AddressList comment=pixiv.net address=3.174.18.61} on-error {}
+:do {add list=$AddressList comment=pixiv.net address=3.174.230.124} on-error {}
+:do {add list=$AddressList comment=pixiv.net address=3.174.230.19} on-error {}
+:do {add list=$AddressList comment=pixiv.net address=3.174.230.33} on-error {}
+:do {add list=$AddressList comment=pixiv.net address=3.174.230.52} on-error {}
 :do {add list=$AddressList comment=pixiv.net address=3.174.98.2} on-error {}
 :do {add list=$AddressList comment=pixiv.net address=3.174.98.26} on-error {}
 :do {add list=$AddressList comment=pixiv.net address=3.174.98.58} on-error {}

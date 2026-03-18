@@ -2,6 +2,12 @@
 :global RouteTab
 :global GateWay
 /ip route
+:if ([:len [/ip/route/find dst-address=3.208.58.35 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=3.208.58.35 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=viber.com }
+:if ([:len [/ip/route/find dst-address=3.208.58.98 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=3.208.58.98 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=viber.com }
+:if ([:len [/ip/route/find dst-address=3.208.60.183 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=3.208.60.183 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=viber.com }
+:if ([:len [/ip/route/find dst-address=3.208.81.181 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=3.208.81.181 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=viber.com }
+:if ([:len [/ip/route/find dst-address=3.208.85.223 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=3.208.85.223 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=viber.com }
+:if ([:len [/ip/route/find dst-address=3.209.113.152 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=3.209.113.152 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=viber.com }
 :if ([:len [/ip/route/find dst-address=3.209.117.82 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=3.209.117.82 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=viber.com }
 :if ([:len [/ip/route/find dst-address=3.209.149.241 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=3.209.149.241 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=viber.com }
 :if ([:len [/ip/route/find dst-address=3.209.150.35 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=3.209.150.35 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=viber.com }
@@ -96,9 +102,3 @@
 :if ([:len [/ip/route/find dst-address=3.212.205.239 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=3.212.205.239 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=viber.com }
 :if ([:len [/ip/route/find dst-address=3.212.213.115 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=3.212.213.115 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=viber.com }
 :if ([:len [/ip/route/find dst-address=3.212.217.65 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=3.212.217.65 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=viber.com }
-:if ([:len [/ip/route/find dst-address=3.212.23.137 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=3.212.23.137 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=viber.com }
-:if ([:len [/ip/route/find dst-address=3.212.251.119 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=3.212.251.119 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=viber.com }
-:if ([:len [/ip/route/find dst-address=3.212.31.168 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=3.212.31.168 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=viber.com }
-:if ([:len [/ip/route/find dst-address=3.212.38.120 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=3.212.38.120 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=viber.com }
-:if ([:len [/ip/route/find dst-address=3.212.45.118 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=3.212.45.118 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=viber.com }
-:if ([:len [/ip/route/find dst-address=3.212.6.148 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=3.212.6.148 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=viber.com }

@@ -2,6 +2,12 @@
 :global RouteTab
 :global GateWay
 /ip route
+:if ([:len [/ip/route/find dst-address=95.100.98.122 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=95.100.98.122 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=whoop.com }
+:if ([:len [/ip/route/find dst-address=95.100.98.129 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=95.100.98.129 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=whoop.com }
+:if ([:len [/ip/route/find dst-address=95.101.10.147 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=95.101.10.147 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=whoop.com }
+:if ([:len [/ip/route/find dst-address=95.101.10.163 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=95.101.10.163 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=whoop.com }
+:if ([:len [/ip/route/find dst-address=95.101.10.185 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=95.101.10.185 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=whoop.com }
+:if ([:len [/ip/route/find dst-address=95.101.10.195 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=95.101.10.195 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=whoop.com }
 :if ([:len [/ip/route/find dst-address=95.101.10.200 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=95.101.10.200 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=whoop.com }
 :if ([:len [/ip/route/find dst-address=95.101.10.203 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=95.101.10.203 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=whoop.com }
 :if ([:len [/ip/route/find dst-address=95.101.10.208 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=95.101.10.208 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=whoop.com }
@@ -96,9 +102,3 @@
 :if ([:len [/ip/route/find dst-address=95.101.74.72 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=95.101.74.72 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=whoop.com }
 :if ([:len [/ip/route/find dst-address=95.101.74.76 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=95.101.74.76 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=whoop.com }
 :if ([:len [/ip/route/find dst-address=95.101.74.85 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=95.101.74.85 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=whoop.com }
-:if ([:len [/ip/route/find dst-address=95.101.79.112 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=95.101.79.112 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=whoop.com }
-:if ([:len [/ip/route/find dst-address=95.101.79.115 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=95.101.79.115 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=whoop.com }
-:if ([:len [/ip/route/find dst-address=95.101.79.128 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=95.101.79.128 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=whoop.com }
-:if ([:len [/ip/route/find dst-address=95.101.79.81 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=95.101.79.81 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=whoop.com }
-:if ([:len [/ip/route/find dst-address=95.101.79.88 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=95.101.79.88 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=whoop.com }
-:if ([:len [/ip/route/find dst-address=96.16.248.133 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=96.16.248.133 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=whoop.com }

@@ -1,5 +1,7 @@
 :global AddressList
 /ip firewall address-list
+:do {add list=$AddressList comment=chatgpt.com address=20.50.80.212} on-error {}
+:do {add list=$AddressList comment=chatgpt.com address=20.50.80.213} on-error {}
 :do {add list=$AddressList comment=chatgpt.com address=20.50.80.214} on-error {}
 :do {add list=$AddressList comment=chatgpt.com address=20.52.64.200} on-error {}
 :do {add list=$AddressList comment=chatgpt.com address=20.52.64.201} on-error {}
