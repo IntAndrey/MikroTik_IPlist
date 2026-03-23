@@ -1,5 +1,14 @@
 :global AddressList
 /ip firewall address-list
+:do {add list=$AddressList comment=facebook.com address=31.13.86.21} on-error {}
+:do {add list=$AddressList comment=facebook.com address=31.13.86.33} on-error {}
+:do {add list=$AddressList comment=facebook.com address=31.13.86.35} on-error {}
+:do {add list=$AddressList comment=facebook.com address=31.13.86.36} on-error {}
+:do {add list=$AddressList comment=facebook.com address=31.13.86.4} on-error {}
+:do {add list=$AddressList comment=facebook.com address=31.13.86.50} on-error {}
+:do {add list=$AddressList comment=facebook.com address=31.13.86.6} on-error {}
+:do {add list=$AddressList comment=facebook.com address=31.13.86.8} on-error {}
+:do {add list=$AddressList comment=facebook.com address=31.13.86.9} on-error {}
 :do {add list=$AddressList comment=facebook.com address=31.13.87.15} on-error {}
 :do {add list=$AddressList comment=facebook.com address=31.13.87.19} on-error {}
 :do {add list=$AddressList comment=facebook.com address=31.13.87.33} on-error {}
@@ -341,12 +350,3 @@
 :do {add list=$AddressList comment=facebook.com address=88.221.132.33} on-error {}
 :do {add list=$AddressList comment=facebook.com address=88.221.132.34} on-error {}
 :do {add list=$AddressList comment=facebook.com address=88.221.132.35} on-error {}
-:do {add list=$AddressList comment=facebook.com address=88.221.132.41} on-error {}
-:do {add list=$AddressList comment=facebook.com address=88.221.132.43} on-error {}
-:do {add list=$AddressList comment=facebook.com address=88.221.132.48} on-error {}
-:do {add list=$AddressList comment=facebook.com address=88.221.132.49} on-error {}
-:do {add list=$AddressList comment=facebook.com address=88.221.132.51} on-error {}
-:do {add list=$AddressList comment=facebook.com address=88.221.132.64} on-error {}
-:do {add list=$AddressList comment=facebook.com address=88.221.132.75} on-error {}
-:do {add list=$AddressList comment=facebook.com address=88.221.132.80} on-error {}
-:do {add list=$AddressList comment=facebook.com address=88.221.132.88} on-error {}

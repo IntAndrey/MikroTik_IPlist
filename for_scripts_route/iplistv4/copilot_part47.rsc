@@ -2,6 +2,8 @@
 :global RouteTab
 :global GateWay
 /ip route
+:if ([:len [/ip/route/find dst-address=92.123.236.32 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=92.123.236.32 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=copilot }
+:if ([:len [/ip/route/find dst-address=92.123.236.41 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=92.123.236.41 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=copilot }
 :if ([:len [/ip/route/find dst-address=92.123.236.65 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=92.123.236.65 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=copilot }
 :if ([:len [/ip/route/find dst-address=92.123.236.74 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=92.123.236.74 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=copilot }
 :if ([:len [/ip/route/find dst-address=92.123.236.8 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=92.123.236.8 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=copilot }
@@ -100,5 +102,3 @@
 :if ([:len [/ip/route/find dst-address=95.100.108.169 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=95.100.108.169 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=copilot }
 :if ([:len [/ip/route/find dst-address=95.100.108.171 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=95.100.108.171 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=copilot }
 :if ([:len [/ip/route/find dst-address=95.100.108.184 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=95.100.108.184 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=copilot }
-:if ([:len [/ip/route/find dst-address=95.100.108.185 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=95.100.108.185 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=copilot }
-:if ([:len [/ip/route/find dst-address=95.100.108.186 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=95.100.108.186 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=copilot }

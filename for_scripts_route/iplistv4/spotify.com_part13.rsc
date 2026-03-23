@@ -2,6 +2,12 @@
 :global RouteTab
 :global GateWay
 /ip route
+:if ([:len [/ip/route/find dst-address=2.23.176.137 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=2.23.176.137 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=spotify.com }
+:if ([:len [/ip/route/find dst-address=2.23.176.141 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=2.23.176.141 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=spotify.com }
+:if ([:len [/ip/route/find dst-address=2.23.176.143 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=2.23.176.143 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=spotify.com }
+:if ([:len [/ip/route/find dst-address=2.23.176.144 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=2.23.176.144 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=spotify.com }
+:if ([:len [/ip/route/find dst-address=2.23.176.145 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=2.23.176.145 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=spotify.com }
+:if ([:len [/ip/route/find dst-address=2.23.176.146 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=2.23.176.146 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=spotify.com }
 :if ([:len [/ip/route/find dst-address=2.23.176.147 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=2.23.176.147 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=spotify.com }
 :if ([:len [/ip/route/find dst-address=2.23.176.148 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=2.23.176.148 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=spotify.com }
 :if ([:len [/ip/route/find dst-address=2.23.176.149 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=2.23.176.149 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=spotify.com }
@@ -96,9 +102,3 @@
 :if ([:len [/ip/route/find dst-address=2.23.82.201 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=2.23.82.201 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=spotify.com }
 :if ([:len [/ip/route/find dst-address=2.23.82.210 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=2.23.82.210 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=spotify.com }
 :if ([:len [/ip/route/find dst-address=2.23.82.24 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=2.23.82.24 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=spotify.com }
-:if ([:len [/ip/route/find dst-address=2.23.82.32 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=2.23.82.32 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=spotify.com }
-:if ([:len [/ip/route/find dst-address=2.23.82.42 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=2.23.82.42 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=spotify.com }
-:if ([:len [/ip/route/find dst-address=2.23.82.49 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=2.23.82.49 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=spotify.com }
-:if ([:len [/ip/route/find dst-address=2.23.82.80 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=2.23.82.80 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=spotify.com }
-:if ([:len [/ip/route/find dst-address=2.23.82.82 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=2.23.82.82 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=spotify.com }
-:if ([:len [/ip/route/find dst-address=2.23.82.89 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=2.23.82.89 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=spotify.com }
