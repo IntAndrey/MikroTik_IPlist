@@ -1,5 +1,20 @@
 :global AddressList
 /ip firewall address-list
+:do {add list=$AddressList comment=themoviedb.org address=18.172.242.120} on-error {}
+:do {add list=$AddressList comment=themoviedb.org address=18.172.242.15} on-error {}
+:do {add list=$AddressList comment=themoviedb.org address=18.172.242.18} on-error {}
+:do {add list=$AddressList comment=themoviedb.org address=18.172.242.23} on-error {}
+:do {add list=$AddressList comment=themoviedb.org address=18.172.242.26} on-error {}
+:do {add list=$AddressList comment=themoviedb.org address=18.172.242.27} on-error {}
+:do {add list=$AddressList comment=themoviedb.org address=18.172.242.31} on-error {}
+:do {add list=$AddressList comment=themoviedb.org address=18.172.242.36} on-error {}
+:do {add list=$AddressList comment=themoviedb.org address=18.172.242.37} on-error {}
+:do {add list=$AddressList comment=themoviedb.org address=18.172.242.40} on-error {}
+:do {add list=$AddressList comment=themoviedb.org address=18.172.242.42} on-error {}
+:do {add list=$AddressList comment=themoviedb.org address=18.172.242.43} on-error {}
+:do {add list=$AddressList comment=themoviedb.org address=18.172.242.44} on-error {}
+:do {add list=$AddressList comment=themoviedb.org address=18.172.242.46} on-error {}
+:do {add list=$AddressList comment=themoviedb.org address=18.172.242.54} on-error {}
 :do {add list=$AddressList comment=themoviedb.org address=18.172.242.57} on-error {}
 :do {add list=$AddressList comment=themoviedb.org address=18.172.242.58} on-error {}
 :do {add list=$AddressList comment=themoviedb.org address=18.172.242.6} on-error {}
@@ -335,18 +350,3 @@
 :do {add list=$AddressList comment=themoviedb.org address=18.66.122.75} on-error {}
 :do {add list=$AddressList comment=themoviedb.org address=18.66.147.14} on-error {}
 :do {add list=$AddressList comment=themoviedb.org address=18.66.147.16} on-error {}
-:do {add list=$AddressList comment=themoviedb.org address=18.66.147.85} on-error {}
-:do {add list=$AddressList comment=themoviedb.org address=18.66.147.92} on-error {}
-:do {add list=$AddressList comment=themoviedb.org address=18.66.171.110} on-error {}
-:do {add list=$AddressList comment=themoviedb.org address=18.66.171.113} on-error {}
-:do {add list=$AddressList comment=themoviedb.org address=18.66.171.64} on-error {}
-:do {add list=$AddressList comment=themoviedb.org address=18.66.171.84} on-error {}
-:do {add list=$AddressList comment=themoviedb.org address=18.66.192.129} on-error {}
-:do {add list=$AddressList comment=themoviedb.org address=18.66.192.22} on-error {}
-:do {add list=$AddressList comment=themoviedb.org address=18.66.192.37} on-error {}
-:do {add list=$AddressList comment=themoviedb.org address=18.66.192.52} on-error {}
-:do {add list=$AddressList comment=themoviedb.org address=18.66.192.57} on-error {}
-:do {add list=$AddressList comment=themoviedb.org address=18.66.192.67} on-error {}
-:do {add list=$AddressList comment=themoviedb.org address=18.66.192.86} on-error {}
-:do {add list=$AddressList comment=themoviedb.org address=18.66.192.95} on-error {}
-:do {add list=$AddressList comment=themoviedb.org address=18.66.195.101} on-error {}

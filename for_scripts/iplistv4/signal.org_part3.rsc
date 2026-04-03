@@ -1,5 +1,12 @@
 :global AddressList
 /ip firewall address-list
+:do {add list=$AddressList comment=signal.org address=3.160.132.77} on-error {}
+:do {add list=$AddressList comment=signal.org address=3.160.132.8} on-error {}
+:do {add list=$AddressList comment=signal.org address=3.160.188.2} on-error {}
+:do {add list=$AddressList comment=signal.org address=3.160.188.23} on-error {}
+:do {add list=$AddressList comment=signal.org address=3.160.188.43} on-error {}
+:do {add list=$AddressList comment=signal.org address=3.160.188.69} on-error {}
+:do {add list=$AddressList comment=signal.org address=3.160.39.126} on-error {}
 :do {add list=$AddressList comment=signal.org address=3.160.39.4} on-error {}
 :do {add list=$AddressList comment=signal.org address=3.160.39.50} on-error {}
 :do {add list=$AddressList comment=signal.org address=3.160.39.90} on-error {}
@@ -26,7 +33,10 @@
 :do {add list=$AddressList comment=signal.org address=3.164.230.102} on-error {}
 :do {add list=$AddressList comment=signal.org address=3.164.230.115} on-error {}
 :do {add list=$AddressList comment=signal.org address=3.164.230.49} on-error {}
+:do {add list=$AddressList comment=signal.org address=3.164.230.61} on-error {}
 :do {add list=$AddressList comment=signal.org address=3.164.230.63} on-error {}
+:do {add list=$AddressList comment=signal.org address=3.164.230.64} on-error {}
+:do {add list=$AddressList comment=signal.org address=3.164.230.72} on-error {}
 :do {add list=$AddressList comment=signal.org address=3.164.240.13} on-error {}
 :do {add list=$AddressList comment=signal.org address=3.164.240.27} on-error {}
 :do {add list=$AddressList comment=signal.org address=3.164.240.49} on-error {}
@@ -340,13 +350,3 @@
 :do {add list=$AddressList comment=signal.org address=44.219.76.109} on-error {}
 :do {add list=$AddressList comment=signal.org address=44.221.186.20} on-error {}
 :do {add list=$AddressList comment=signal.org address=44.221.188.5} on-error {}
-:do {add list=$AddressList comment=signal.org address=50.16.133.64} on-error {}
-:do {add list=$AddressList comment=signal.org address=50.16.139.207} on-error {}
-:do {add list=$AddressList comment=signal.org address=50.17.190.197} on-error {}
-:do {add list=$AddressList comment=signal.org address=52.0.157.130} on-error {}
-:do {add list=$AddressList comment=signal.org address=52.0.54.110} on-error {}
-:do {add list=$AddressList comment=signal.org address=52.1.0.79} on-error {}
-:do {add list=$AddressList comment=signal.org address=52.1.194.236} on-error {}
-:do {add list=$AddressList comment=signal.org address=52.2.1.121} on-error {}
-:do {add list=$AddressList comment=signal.org address=52.2.17.120} on-error {}
-:do {add list=$AddressList comment=signal.org address=52.2.190.16} on-error {}

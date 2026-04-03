@@ -1,5 +1,18 @@
 :global AddressList
 /ip firewall address-list
+:do {add list=$AddressList comment=golosameriki.com address=173.222.105.23} on-error {}
+:do {add list=$AddressList comment=golosameriki.com address=173.222.105.27} on-error {}
+:do {add list=$AddressList comment=golosameriki.com address=173.222.105.53} on-error {}
+:do {add list=$AddressList comment=golosameriki.com address=173.222.106.142} on-error {}
+:do {add list=$AddressList comment=golosameriki.com address=173.222.106.15} on-error {}
+:do {add list=$AddressList comment=golosameriki.com address=173.222.106.153} on-error {}
+:do {add list=$AddressList comment=golosameriki.com address=173.222.106.158} on-error {}
+:do {add list=$AddressList comment=golosameriki.com address=173.222.106.171} on-error {}
+:do {add list=$AddressList comment=golosameriki.com address=173.222.106.175} on-error {}
+:do {add list=$AddressList comment=golosameriki.com address=173.222.106.189} on-error {}
+:do {add list=$AddressList comment=golosameriki.com address=173.222.106.193} on-error {}
+:do {add list=$AddressList comment=golosameriki.com address=173.222.106.37} on-error {}
+:do {add list=$AddressList comment=golosameriki.com address=173.222.106.38} on-error {}
 :do {add list=$AddressList comment=golosameriki.com address=173.222.106.48} on-error {}
 :do {add list=$AddressList comment=golosameriki.com address=173.222.106.60} on-error {}
 :do {add list=$AddressList comment=golosameriki.com address=173.222.106.62} on-error {}
@@ -59,6 +72,10 @@
 :do {add list=$AddressList comment=golosameriki.com address=18.160.18.3} on-error {}
 :do {add list=$AddressList comment=golosameriki.com address=18.160.18.44} on-error {}
 :do {add list=$AddressList comment=golosameriki.com address=18.160.18.59} on-error {}
+:do {add list=$AddressList comment=golosameriki.com address=18.161.125.16} on-error {}
+:do {add list=$AddressList comment=golosameriki.com address=18.161.125.48} on-error {}
+:do {add list=$AddressList comment=golosameriki.com address=18.161.125.73} on-error {}
+:do {add list=$AddressList comment=golosameriki.com address=18.161.125.85} on-error {}
 :do {add list=$AddressList comment=golosameriki.com address=18.161.170.27} on-error {}
 :do {add list=$AddressList comment=golosameriki.com address=18.161.170.79} on-error {}
 :do {add list=$AddressList comment=golosameriki.com address=18.161.170.89} on-error {}
@@ -333,20 +350,3 @@
 :do {add list=$AddressList comment=golosameriki.com address=2.16.135.217} on-error {}
 :do {add list=$AddressList comment=golosameriki.com address=2.16.135.225} on-error {}
 :do {add list=$AddressList comment=golosameriki.com address=2.16.158.176} on-error {}
-:do {add list=$AddressList comment=golosameriki.com address=2.16.158.184} on-error {}
-:do {add list=$AddressList comment=golosameriki.com address=2.16.158.80} on-error {}
-:do {add list=$AddressList comment=golosameriki.com address=2.16.16.162} on-error {}
-:do {add list=$AddressList comment=golosameriki.com address=2.16.16.165} on-error {}
-:do {add list=$AddressList comment=golosameriki.com address=2.16.16.169} on-error {}
-:do {add list=$AddressList comment=golosameriki.com address=2.16.16.170} on-error {}
-:do {add list=$AddressList comment=golosameriki.com address=2.16.16.176} on-error {}
-:do {add list=$AddressList comment=golosameriki.com address=2.16.16.177} on-error {}
-:do {add list=$AddressList comment=golosameriki.com address=2.16.16.179} on-error {}
-:do {add list=$AddressList comment=golosameriki.com address=2.16.16.182} on-error {}
-:do {add list=$AddressList comment=golosameriki.com address=2.16.16.208} on-error {}
-:do {add list=$AddressList comment=golosameriki.com address=2.16.16.228} on-error {}
-:do {add list=$AddressList comment=golosameriki.com address=2.16.16.249} on-error {}
-:do {add list=$AddressList comment=golosameriki.com address=2.16.165.107} on-error {}
-:do {add list=$AddressList comment=golosameriki.com address=2.16.165.186} on-error {}
-:do {add list=$AddressList comment=golosameriki.com address=2.16.172.107} on-error {}
-:do {add list=$AddressList comment=golosameriki.com address=2.16.172.139} on-error {}

@@ -1,5 +1,24 @@
 :global AddressList
 /ip firewall address-list
+:do {add list=$AddressList comment=duolingo.com address=18.67.13.21} on-error {}
+:do {add list=$AddressList comment=duolingo.com address=18.67.13.30} on-error {}
+:do {add list=$AddressList comment=duolingo.com address=18.67.13.33} on-error {}
+:do {add list=$AddressList comment=duolingo.com address=18.67.13.48} on-error {}
+:do {add list=$AddressList comment=duolingo.com address=18.67.13.50} on-error {}
+:do {add list=$AddressList comment=duolingo.com address=18.67.13.62} on-error {}
+:do {add list=$AddressList comment=duolingo.com address=18.67.13.78} on-error {}
+:do {add list=$AddressList comment=duolingo.com address=18.67.13.88} on-error {}
+:do {add list=$AddressList comment=duolingo.com address=18.67.13.9} on-error {}
+:do {add list=$AddressList comment=duolingo.com address=18.67.13.98} on-error {}
+:do {add list=$AddressList comment=duolingo.com address=18.67.13.99} on-error {}
+:do {add list=$AddressList comment=duolingo.com address=18.67.65.25} on-error {}
+:do {add list=$AddressList comment=duolingo.com address=18.67.65.4} on-error {}
+:do {add list=$AddressList comment=duolingo.com address=18.67.65.5} on-error {}
+:do {add list=$AddressList comment=duolingo.com address=18.67.65.76} on-error {}
+:do {add list=$AddressList comment=duolingo.com address=184.25.102.14} on-error {}
+:do {add list=$AddressList comment=duolingo.com address=184.25.102.32} on-error {}
+:do {add list=$AddressList comment=duolingo.com address=184.25.102.34} on-error {}
+:do {add list=$AddressList comment=duolingo.com address=184.25.102.4} on-error {}
 :do {add list=$AddressList comment=duolingo.com address=184.25.239.11} on-error {}
 :do {add list=$AddressList comment=duolingo.com address=184.25.239.112} on-error {}
 :do {add list=$AddressList comment=duolingo.com address=184.25.239.195} on-error {}
@@ -331,22 +350,3 @@
 :do {add list=$AddressList comment=duolingo.com address=2.23.80.192} on-error {}
 :do {add list=$AddressList comment=duolingo.com address=2.23.80.210} on-error {}
 :do {add list=$AddressList comment=duolingo.com address=2.23.97.178} on-error {}
-:do {add list=$AddressList comment=duolingo.com address=2.23.97.184} on-error {}
-:do {add list=$AddressList comment=duolingo.com address=204.236.224.126} on-error {}
-:do {add list=$AddressList comment=duolingo.com address=204.236.232.239} on-error {}
-:do {add list=$AddressList comment=duolingo.com address=204.236.232.41} on-error {}
-:do {add list=$AddressList comment=duolingo.com address=204.236.239.228} on-error {}
-:do {add list=$AddressList comment=duolingo.com address=216.137.52.105} on-error {}
-:do {add list=$AddressList comment=duolingo.com address=216.137.52.111} on-error {}
-:do {add list=$AddressList comment=duolingo.com address=216.137.52.113} on-error {}
-:do {add list=$AddressList comment=duolingo.com address=216.137.52.42} on-error {}
-:do {add list=$AddressList comment=duolingo.com address=216.137.52.62} on-error {}
-:do {add list=$AddressList comment=duolingo.com address=216.137.52.80} on-error {}
-:do {add list=$AddressList comment=duolingo.com address=216.137.52.81} on-error {}
-:do {add list=$AddressList comment=duolingo.com address=216.137.53.110} on-error {}
-:do {add list=$AddressList comment=duolingo.com address=216.137.53.124} on-error {}
-:do {add list=$AddressList comment=duolingo.com address=216.137.53.25} on-error {}
-:do {add list=$AddressList comment=duolingo.com address=216.137.53.50} on-error {}
-:do {add list=$AddressList comment=duolingo.com address=23.0.162.72} on-error {}
-:do {add list=$AddressList comment=duolingo.com address=23.0.162.83} on-error {}
-:do {add list=$AddressList comment=duolingo.com address=23.1.254.107} on-error {}

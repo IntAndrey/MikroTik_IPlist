@@ -1,5 +1,13 @@
 :global AddressList
 /ip firewall address-list
+:do {add list=$AddressList comment=jetbrains%40grazie.ai address=52.208.219.84} on-error {}
+:do {add list=$AddressList comment=jetbrains%40grazie.ai address=52.208.253.157} on-error {}
+:do {add list=$AddressList comment=jetbrains%40grazie.ai address=52.208.40.82} on-error {}
+:do {add list=$AddressList comment=jetbrains%40grazie.ai address=52.208.47.197} on-error {}
+:do {add list=$AddressList comment=jetbrains%40grazie.ai address=52.208.5.164} on-error {}
+:do {add list=$AddressList comment=jetbrains%40grazie.ai address=52.208.71.123} on-error {}
+:do {add list=$AddressList comment=jetbrains%40grazie.ai address=52.209.145.129} on-error {}
+:do {add list=$AddressList comment=jetbrains%40grazie.ai address=52.209.149.192} on-error {}
 :do {add list=$AddressList comment=jetbrains%40grazie.ai address=52.209.167.111} on-error {}
 :do {add list=$AddressList comment=jetbrains%40grazie.ai address=52.209.197.36} on-error {}
 :do {add list=$AddressList comment=jetbrains%40grazie.ai address=52.209.223.202} on-error {}
@@ -342,11 +350,3 @@
 :do {add list=$AddressList comment=jetbrains%40grazie.ai address=65.9.189.69} on-error {}
 :do {add list=$AddressList comment=jetbrains%40grazie.ai address=65.9.189.70} on-error {}
 :do {add list=$AddressList comment=jetbrains%40grazie.ai address=65.9.189.93} on-error {}
-:do {add list=$AddressList comment=jetbrains%40grazie.ai address=65.9.189.99} on-error {}
-:do {add list=$AddressList comment=jetbrains%40grazie.ai address=65.9.46.115} on-error {}
-:do {add list=$AddressList comment=jetbrains%40grazie.ai address=65.9.46.118} on-error {}
-:do {add list=$AddressList comment=jetbrains%40grazie.ai address=65.9.46.26} on-error {}
-:do {add list=$AddressList comment=jetbrains%40grazie.ai address=65.9.46.42} on-error {}
-:do {add list=$AddressList comment=jetbrains%40grazie.ai address=65.9.46.76} on-error {}
-:do {add list=$AddressList comment=jetbrains%40grazie.ai address=65.9.46.83} on-error {}
-:do {add list=$AddressList comment=jetbrains%40grazie.ai address=65.9.46.89} on-error {}
