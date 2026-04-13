@@ -77,10 +77,14 @@
 :do {add list=$AddressList comment=trainingpeaks.com address=108.138.36.53} on-error {}
 :do {add list=$AddressList comment=trainingpeaks.com address=108.138.36.95} on-error {}
 :do {add list=$AddressList comment=trainingpeaks.com address=108.138.51.100} on-error {}
+:do {add list=$AddressList comment=trainingpeaks.com address=108.138.51.109} on-error {}
+:do {add list=$AddressList comment=trainingpeaks.com address=108.138.51.128} on-error {}
+:do {add list=$AddressList comment=trainingpeaks.com address=108.138.51.17} on-error {}
 :do {add list=$AddressList comment=trainingpeaks.com address=108.138.51.23} on-error {}
 :do {add list=$AddressList comment=trainingpeaks.com address=108.138.51.36} on-error {}
 :do {add list=$AddressList comment=trainingpeaks.com address=108.138.51.42} on-error {}
 :do {add list=$AddressList comment=trainingpeaks.com address=108.138.51.43} on-error {}
+:do {add list=$AddressList comment=trainingpeaks.com address=108.138.51.44} on-error {}
 :do {add list=$AddressList comment=trainingpeaks.com address=108.138.51.48} on-error {}
 :do {add list=$AddressList comment=trainingpeaks.com address=108.138.51.56} on-error {}
 :do {add list=$AddressList comment=trainingpeaks.com address=108.138.51.57} on-error {}
@@ -346,7 +350,3 @@
 :do {add list=$AddressList comment=trainingpeaks.com address=13.224.186.48} on-error {}
 :do {add list=$AddressList comment=trainingpeaks.com address=13.224.186.57} on-error {}
 :do {add list=$AddressList comment=trainingpeaks.com address=13.224.186.6} on-error {}
-:do {add list=$AddressList comment=trainingpeaks.com address=13.224.186.65} on-error {}
-:do {add list=$AddressList comment=trainingpeaks.com address=13.224.186.81} on-error {}
-:do {add list=$AddressList comment=trainingpeaks.com address=13.224.186.84} on-error {}
-:do {add list=$AddressList comment=trainingpeaks.com address=13.224.186.85} on-error {}
