@@ -2,6 +2,12 @@
 :global RouteTab
 :global GateWay
 /ip route
+:if ([:len [/ip/route/find dst-address=23.35.71.8 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=23.35.71.8 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=tiktok.com }
+:if ([:len [/ip/route/find dst-address=23.35.71.80 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=23.35.71.80 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=tiktok.com }
+:if ([:len [/ip/route/find dst-address=23.35.71.81 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=23.35.71.81 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=tiktok.com }
+:if ([:len [/ip/route/find dst-address=23.35.71.82 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=23.35.71.82 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=tiktok.com }
+:if ([:len [/ip/route/find dst-address=23.35.71.83 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=23.35.71.83 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=tiktok.com }
+:if ([:len [/ip/route/find dst-address=23.35.71.88 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=23.35.71.88 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=tiktok.com }
 :if ([:len [/ip/route/find dst-address=23.35.71.89 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=23.35.71.89 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=tiktok.com }
 :if ([:len [/ip/route/find dst-address=23.35.71.9 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=23.35.71.9 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=tiktok.com }
 :if ([:len [/ip/route/find dst-address=23.35.71.90 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=23.35.71.90 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=tiktok.com }
@@ -96,9 +102,3 @@
 :if ([:len [/ip/route/find dst-address=23.36.162.205 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=23.36.162.205 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=tiktok.com }
 :if ([:len [/ip/route/find dst-address=23.36.162.206 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=23.36.162.206 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=tiktok.com }
 :if ([:len [/ip/route/find dst-address=23.36.162.207 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=23.36.162.207 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=tiktok.com }
-:if ([:len [/ip/route/find dst-address=23.36.162.208 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=23.36.162.208 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=tiktok.com }
-:if ([:len [/ip/route/find dst-address=23.36.162.209 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=23.36.162.209 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=tiktok.com }
-:if ([:len [/ip/route/find dst-address=23.36.162.21 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=23.36.162.21 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=tiktok.com }
-:if ([:len [/ip/route/find dst-address=23.36.162.210 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=23.36.162.210 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=tiktok.com }
-:if ([:len [/ip/route/find dst-address=23.36.162.211 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=23.36.162.211 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=tiktok.com }
-:if ([:len [/ip/route/find dst-address=23.36.162.212 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=23.36.162.212 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=tiktok.com }

@@ -2,6 +2,12 @@
 :global RouteTab
 :global GateWay
 /ip route
+:if ([:len [/ip/route/find dst-address=23.59.252.107 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=23.59.252.107 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=tiktok.com }
+:if ([:len [/ip/route/find dst-address=23.59.252.113 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=23.59.252.113 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=tiktok.com }
+:if ([:len [/ip/route/find dst-address=23.59.252.121 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=23.59.252.121 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=tiktok.com }
+:if ([:len [/ip/route/find dst-address=23.59.252.128 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=23.59.252.128 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=tiktok.com }
+:if ([:len [/ip/route/find dst-address=23.59.252.138 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=23.59.252.138 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=tiktok.com }
+:if ([:len [/ip/route/find dst-address=23.59.252.139 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=23.59.252.139 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=tiktok.com }
 :if ([:len [/ip/route/find dst-address=23.59.252.154 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=23.59.252.154 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=tiktok.com }
 :if ([:len [/ip/route/find dst-address=23.59.252.155 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=23.59.252.155 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=tiktok.com }
 :if ([:len [/ip/route/find dst-address=23.59.252.160 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=23.59.252.160 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=tiktok.com }
@@ -96,9 +102,3 @@
 :if ([:len [/ip/route/find dst-address=23.60.12.56 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=23.60.12.56 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=tiktok.com }
 :if ([:len [/ip/route/find dst-address=23.60.12.80 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=23.60.12.80 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=tiktok.com }
 :if ([:len [/ip/route/find dst-address=23.60.12.9 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=23.60.12.9 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=tiktok.com }
-:if ([:len [/ip/route/find dst-address=23.60.12.99 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=23.60.12.99 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=tiktok.com }
-:if ([:len [/ip/route/find dst-address=23.60.13.26 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=23.60.13.26 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=tiktok.com }
-:if ([:len [/ip/route/find dst-address=23.60.13.41 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=23.60.13.41 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=tiktok.com }
-:if ([:len [/ip/route/find dst-address=23.60.13.51 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=23.60.13.51 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=tiktok.com }
-:if ([:len [/ip/route/find dst-address=23.60.13.56 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=23.60.13.56 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=tiktok.com }
-:if ([:len [/ip/route/find dst-address=23.60.159.10 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=23.60.159.10 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=tiktok.com }

@@ -1,5 +1,14 @@
 :global AddressList
 /ip firewall address-list
+:do {add list=$AddressList comment=grammarly.com address=34.202.49.177} on-error {}
+:do {add list=$AddressList comment=grammarly.com address=34.202.49.37} on-error {}
+:do {add list=$AddressList comment=grammarly.com address=34.202.50.140} on-error {}
+:do {add list=$AddressList comment=grammarly.com address=34.202.50.154} on-error {}
+:do {add list=$AddressList comment=grammarly.com address=34.202.57.17} on-error {}
+:do {add list=$AddressList comment=grammarly.com address=34.202.6.130} on-error {}
+:do {add list=$AddressList comment=grammarly.com address=34.202.61.243} on-error {}
+:do {add list=$AddressList comment=grammarly.com address=34.202.63.20} on-error {}
+:do {add list=$AddressList comment=grammarly.com address=34.202.65.25} on-error {}
 :do {add list=$AddressList comment=grammarly.com address=34.202.66.243} on-error {}
 :do {add list=$AddressList comment=grammarly.com address=34.202.69.5} on-error {}
 :do {add list=$AddressList comment=grammarly.com address=34.202.72.136} on-error {}
@@ -341,12 +350,3 @@
 :do {add list=$AddressList comment=grammarly.com address=34.206.47.161} on-error {}
 :do {add list=$AddressList comment=grammarly.com address=34.206.47.54} on-error {}
 :do {add list=$AddressList comment=grammarly.com address=34.206.48.252} on-error {}
-:do {add list=$AddressList comment=grammarly.com address=34.206.49.56} on-error {}
-:do {add list=$AddressList comment=grammarly.com address=34.206.55.102} on-error {}
-:do {add list=$AddressList comment=grammarly.com address=34.206.6.128} on-error {}
-:do {add list=$AddressList comment=grammarly.com address=34.206.61.193} on-error {}
-:do {add list=$AddressList comment=grammarly.com address=34.206.63.241} on-error {}
-:do {add list=$AddressList comment=grammarly.com address=34.206.63.97} on-error {}
-:do {add list=$AddressList comment=grammarly.com address=34.206.65.156} on-error {}
-:do {add list=$AddressList comment=grammarly.com address=34.206.65.203} on-error {}
-:do {add list=$AddressList comment=grammarly.com address=34.206.70.52} on-error {}

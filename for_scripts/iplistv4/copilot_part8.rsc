@@ -1,5 +1,15 @@
 :global AddressList
 /ip firewall address-list
+:do {add list=$AddressList comment=copilot address=2.22.245.209} on-error {}
+:do {add list=$AddressList comment=copilot address=2.22.245.210} on-error {}
+:do {add list=$AddressList comment=copilot address=2.22.245.211} on-error {}
+:do {add list=$AddressList comment=copilot address=2.22.245.216} on-error {}
+:do {add list=$AddressList comment=copilot address=2.22.245.217} on-error {}
+:do {add list=$AddressList comment=copilot address=2.22.245.218} on-error {}
+:do {add list=$AddressList comment=copilot address=2.22.245.219} on-error {}
+:do {add list=$AddressList comment=copilot address=2.22.245.224} on-error {}
+:do {add list=$AddressList comment=copilot address=2.22.245.225} on-error {}
+:do {add list=$AddressList comment=copilot address=2.22.245.226} on-error {}
 :do {add list=$AddressList comment=copilot address=2.22.245.227} on-error {}
 :do {add list=$AddressList comment=copilot address=2.22.245.232} on-error {}
 :do {add list=$AddressList comment=copilot address=2.22.245.233} on-error {}
@@ -340,13 +350,3 @@
 :do {add list=$AddressList comment=copilot address=20.50.201.203} on-error {}
 :do {add list=$AddressList comment=copilot address=20.50.201.204} on-error {}
 :do {add list=$AddressList comment=copilot address=20.50.201.205} on-error {}
-:do {add list=$AddressList comment=copilot address=20.50.201.206} on-error {}
-:do {add list=$AddressList comment=copilot address=20.50.73.10} on-error {}
-:do {add list=$AddressList comment=copilot address=20.50.73.11} on-error {}
-:do {add list=$AddressList comment=copilot address=20.50.73.12} on-error {}
-:do {add list=$AddressList comment=copilot address=20.50.73.13} on-error {}
-:do {add list=$AddressList comment=copilot address=20.50.73.4} on-error {}
-:do {add list=$AddressList comment=copilot address=20.50.73.8} on-error {}
-:do {add list=$AddressList comment=copilot address=20.50.73.9} on-error {}
-:do {add list=$AddressList comment=copilot address=20.50.80.209} on-error {}
-:do {add list=$AddressList comment=copilot address=20.50.80.210} on-error {}

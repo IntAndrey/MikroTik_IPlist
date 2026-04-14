@@ -2,6 +2,12 @@
 :global RouteTab
 :global GateWay
 /ip route
+:if ([:len [/ip/route/find dst-address=23.53.1.210 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=23.53.1.210 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=tiktok.com }
+:if ([:len [/ip/route/find dst-address=23.53.1.211 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=23.53.1.211 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=tiktok.com }
+:if ([:len [/ip/route/find dst-address=23.53.1.212 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=23.53.1.212 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=tiktok.com }
+:if ([:len [/ip/route/find dst-address=23.53.1.213 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=23.53.1.213 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=tiktok.com }
+:if ([:len [/ip/route/find dst-address=23.53.1.214 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=23.53.1.214 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=tiktok.com }
+:if ([:len [/ip/route/find dst-address=23.53.1.215 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=23.53.1.215 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=tiktok.com }
 :if ([:len [/ip/route/find dst-address=23.53.1.216 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=23.53.1.216 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=tiktok.com }
 :if ([:len [/ip/route/find dst-address=23.53.1.217 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=23.53.1.217 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=tiktok.com }
 :if ([:len [/ip/route/find dst-address=23.53.1.218 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=23.53.1.218 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=tiktok.com }
@@ -96,9 +102,3 @@
 :if ([:len [/ip/route/find dst-address=23.53.127.248 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=23.53.127.248 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=tiktok.com }
 :if ([:len [/ip/route/find dst-address=23.53.127.249 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=23.53.127.249 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=tiktok.com }
 :if ([:len [/ip/route/find dst-address=23.53.13.102 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=23.53.13.102 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=tiktok.com }
-:if ([:len [/ip/route/find dst-address=23.53.13.106 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=23.53.13.106 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=tiktok.com }
-:if ([:len [/ip/route/find dst-address=23.53.13.114 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=23.53.13.114 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=tiktok.com }
-:if ([:len [/ip/route/find dst-address=23.53.13.135 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=23.53.13.135 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=tiktok.com }
-:if ([:len [/ip/route/find dst-address=23.53.13.145 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=23.53.13.145 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=tiktok.com }
-:if ([:len [/ip/route/find dst-address=23.53.13.164 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=23.53.13.164 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=tiktok.com }
-:if ([:len [/ip/route/find dst-address=23.53.13.165 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=23.53.13.165 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=tiktok.com }

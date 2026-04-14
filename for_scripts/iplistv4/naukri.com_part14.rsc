@@ -1,16 +1,20 @@
 :global AddressList
 /ip firewall address-list
+:do {add list=$AddressList comment=naukri.com address=3.174.255.122} on-error {}
 :do {add list=$AddressList comment=naukri.com address=3.174.255.129} on-error {}
 :do {add list=$AddressList comment=naukri.com address=3.174.255.16} on-error {}
 :do {add list=$AddressList comment=naukri.com address=3.174.255.33} on-error {}
+:do {add list=$AddressList comment=naukri.com address=3.174.255.38} on-error {}
 :do {add list=$AddressList comment=naukri.com address=3.174.255.43} on-error {}
 :do {add list=$AddressList comment=naukri.com address=3.174.255.44} on-error {}
+:do {add list=$AddressList comment=naukri.com address=3.174.255.49} on-error {}
 :do {add list=$AddressList comment=naukri.com address=3.174.255.51} on-error {}
 :do {add list=$AddressList comment=naukri.com address=3.174.255.52} on-error {}
 :do {add list=$AddressList comment=naukri.com address=3.174.255.66} on-error {}
 :do {add list=$AddressList comment=naukri.com address=3.174.255.73} on-error {}
 :do {add list=$AddressList comment=naukri.com address=3.174.255.83} on-error {}
 :do {add list=$AddressList comment=naukri.com address=3.174.255.87} on-error {}
+:do {add list=$AddressList comment=naukri.com address=3.174.255.93} on-error {}
 :do {add list=$AddressList comment=naukri.com address=3.174.255.96} on-error {}
 :do {add list=$AddressList comment=naukri.com address=3.174.29.101} on-error {}
 :do {add list=$AddressList comment=naukri.com address=3.174.29.39} on-error {}
@@ -346,7 +350,3 @@
 :do {add list=$AddressList comment=naukri.com address=40.99.70.184} on-error {}
 :do {add list=$AddressList comment=naukri.com address=40.99.70.216} on-error {}
 :do {add list=$AddressList comment=naukri.com address=40.99.70.232} on-error {}
-:do {add list=$AddressList comment=naukri.com address=40.99.9.136} on-error {}
-:do {add list=$AddressList comment=naukri.com address=46.137.193.82} on-error {}
-:do {add list=$AddressList comment=naukri.com address=46.137.204.82} on-error {}
-:do {add list=$AddressList comment=naukri.com address=46.137.220.47} on-error {}

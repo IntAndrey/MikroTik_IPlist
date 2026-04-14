@@ -52,6 +52,8 @@
 :do {add list=$AddressList comment=soundcloud.com address=3.174.255.90} on-error {}
 :do {add list=$AddressList comment=soundcloud.com address=3.174.255.93} on-error {}
 :do {add list=$AddressList comment=soundcloud.com address=3.174.255.99} on-error {}
+:do {add list=$AddressList comment=soundcloud.com address=3.174.46.101} on-error {}
+:do {add list=$AddressList comment=soundcloud.com address=3.174.46.114} on-error {}
 :do {add list=$AddressList comment=soundcloud.com address=3.174.46.118} on-error {}
 :do {add list=$AddressList comment=soundcloud.com address=3.174.46.120} on-error {}
 :do {add list=$AddressList comment=soundcloud.com address=3.174.46.17} on-error {}
@@ -60,7 +62,9 @@
 :do {add list=$AddressList comment=soundcloud.com address=3.174.46.58} on-error {}
 :do {add list=$AddressList comment=soundcloud.com address=3.174.46.60} on-error {}
 :do {add list=$AddressList comment=soundcloud.com address=3.174.46.71} on-error {}
+:do {add list=$AddressList comment=soundcloud.com address=3.174.46.78} on-error {}
 :do {add list=$AddressList comment=soundcloud.com address=3.174.46.85} on-error {}
+:do {add list=$AddressList comment=soundcloud.com address=3.174.46.87} on-error {}
 :do {add list=$AddressList comment=soundcloud.com address=3.174.46.89} on-error {}
 :do {add list=$AddressList comment=soundcloud.com address=3.174.46.93} on-error {}
 :do {add list=$AddressList comment=soundcloud.com address=3.174.46.94} on-error {}
@@ -346,7 +350,3 @@
 :do {add list=$AddressList comment=soundcloud.com address=52.85.223.57} on-error {}
 :do {add list=$AddressList comment=soundcloud.com address=52.85.223.58} on-error {}
 :do {add list=$AddressList comment=soundcloud.com address=52.85.223.6} on-error {}
-:do {add list=$AddressList comment=soundcloud.com address=52.85.223.60} on-error {}
-:do {add list=$AddressList comment=soundcloud.com address=52.85.223.62} on-error {}
-:do {add list=$AddressList comment=soundcloud.com address=52.85.223.64} on-error {}
-:do {add list=$AddressList comment=soundcloud.com address=52.85.223.65} on-error {}

@@ -1,5 +1,10 @@
 :global AddressList
 /ip firewall address-list
+:do {add list=$AddressList comment=naukri.com address=52.98.178.232} on-error {}
+:do {add list=$AddressList comment=naukri.com address=52.98.178.248} on-error {}
+:do {add list=$AddressList comment=naukri.com address=52.98.179.104} on-error {}
+:do {add list=$AddressList comment=naukri.com address=52.98.179.120} on-error {}
+:do {add list=$AddressList comment=naukri.com address=52.98.179.136} on-error {}
 :do {add list=$AddressList comment=naukri.com address=52.98.179.152} on-error {}
 :do {add list=$AddressList comment=naukri.com address=52.98.179.168} on-error {}
 :do {add list=$AddressList comment=naukri.com address=52.98.179.184} on-error {}
@@ -197,6 +202,7 @@
 :do {add list=$AddressList comment=naukri.com address=54.169.135.65} on-error {}
 :do {add list=$AddressList comment=naukri.com address=54.169.156.196} on-error {}
 :do {add list=$AddressList comment=naukri.com address=54.169.168.195} on-error {}
+:do {add list=$AddressList comment=naukri.com address=54.169.171.223} on-error {}
 :do {add list=$AddressList comment=naukri.com address=54.169.189.102} on-error {}
 :do {add list=$AddressList comment=naukri.com address=54.169.190.240} on-error {}
 :do {add list=$AddressList comment=naukri.com address=54.169.194.221} on-error {}
@@ -344,9 +350,3 @@
 :do {add list=$AddressList comment=naukri.com address=54.251.10.2} on-error {}
 :do {add list=$AddressList comment=naukri.com address=54.251.103.25} on-error {}
 :do {add list=$AddressList comment=naukri.com address=54.251.114.135} on-error {}
-:do {add list=$AddressList comment=naukri.com address=54.251.127.134} on-error {}
-:do {add list=$AddressList comment=naukri.com address=54.251.127.222} on-error {}
-:do {add list=$AddressList comment=naukri.com address=54.251.142.64} on-error {}
-:do {add list=$AddressList comment=naukri.com address=54.251.144.176} on-error {}
-:do {add list=$AddressList comment=naukri.com address=54.251.154.63} on-error {}
-:do {add list=$AddressList comment=naukri.com address=54.251.156.53} on-error {}
