@@ -1,5 +1,13 @@
 :global AddressList
 /ip firewall address-list
+:do {add list=$AddressList comment=duolingo.com address=3.165.255.60} on-error {}
+:do {add list=$AddressList comment=duolingo.com address=3.165.255.71} on-error {}
+:do {add list=$AddressList comment=duolingo.com address=3.165.255.8} on-error {}
+:do {add list=$AddressList comment=duolingo.com address=3.165.255.84} on-error {}
+:do {add list=$AddressList comment=duolingo.com address=3.165.255.87} on-error {}
+:do {add list=$AddressList comment=duolingo.com address=3.165.255.93} on-error {}
+:do {add list=$AddressList comment=duolingo.com address=3.165.255.97} on-error {}
+:do {add list=$AddressList comment=duolingo.com address=3.166.14.101} on-error {}
 :do {add list=$AddressList comment=duolingo.com address=3.166.14.103} on-error {}
 :do {add list=$AddressList comment=duolingo.com address=3.166.14.109} on-error {}
 :do {add list=$AddressList comment=duolingo.com address=3.166.14.11} on-error {}
@@ -341,12 +349,4 @@
 :do {add list=$AddressList comment=duolingo.com address=3.208.236.226} on-error {}
 :do {add list=$AddressList comment=duolingo.com address=3.208.241.57} on-error {}
 :do {add list=$AddressList comment=duolingo.com address=3.208.243.30} on-error {}
-:do {add list=$AddressList comment=duolingo.com address=3.208.40.120} on-error {}
-:do {add list=$AddressList comment=duolingo.com address=3.208.48.197} on-error {}
-:do {add list=$AddressList comment=duolingo.com address=3.208.5.241} on-error {}
-:do {add list=$AddressList comment=duolingo.com address=3.208.57.246} on-error {}
-:do {add list=$AddressList comment=duolingo.com address=3.208.59.116} on-error {}
-:do {add list=$AddressList comment=duolingo.com address=3.208.62.154} on-error {}
-:do {add list=$AddressList comment=duolingo.com address=3.209.100.29} on-error {}
-:do {add list=$AddressList comment=duolingo.com address=3.209.101.238} on-error {}
-:do {add list=$AddressList comment=duolingo.com address=3.209.124.111} on-error {}
+:do {add list=$AddressList comment=duolingo.com address=3.208.4.94} on-error {}

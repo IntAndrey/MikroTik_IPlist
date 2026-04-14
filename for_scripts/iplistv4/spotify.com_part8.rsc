@@ -1,5 +1,6 @@
 :global AddressList
 /ip firewall address-list
+:do {add list=$AddressList comment=spotify.com address=92.122.244.33} on-error {}
 :do {add list=$AddressList comment=spotify.com address=92.122.244.34} on-error {}
 :do {add list=$AddressList comment=spotify.com address=92.122.244.35} on-error {}
 :do {add list=$AddressList comment=spotify.com address=92.122.244.40} on-error {}
@@ -349,4 +350,3 @@
 :do {add list=$AddressList comment=spotify.com address=95.101.74.206} on-error {}
 :do {add list=$AddressList comment=spotify.com address=95.101.74.207} on-error {}
 :do {add list=$AddressList comment=spotify.com address=95.101.74.208} on-error {}
-:do {add list=$AddressList comment=spotify.com address=95.101.74.209} on-error {}

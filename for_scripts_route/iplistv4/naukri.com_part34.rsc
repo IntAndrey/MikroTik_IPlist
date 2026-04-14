@@ -2,6 +2,8 @@
 :global RouteTab
 :global GateWay
 /ip route
+:if ([:len [/ip/route/find dst-address=23.3.75.90 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=23.3.75.90 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=naukri.com }
+:if ([:len [/ip/route/find dst-address=23.3.90.82 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=23.3.90.82 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=naukri.com }
 :if ([:len [/ip/route/find dst-address=23.3.90.90 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=23.3.90.90 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=naukri.com }
 :if ([:len [/ip/route/find dst-address=23.32.113.78 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=23.32.113.78 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=naukri.com }
 :if ([:len [/ip/route/find dst-address=23.32.212.5 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=23.32.212.5 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=naukri.com }
@@ -59,6 +61,7 @@
 :if ([:len [/ip/route/find dst-address=23.36.244.5 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=23.36.244.5 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=naukri.com }
 :if ([:len [/ip/route/find dst-address=23.36.248.5 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=23.36.248.5 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=naukri.com }
 :if ([:len [/ip/route/find dst-address=23.36.250.47 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=23.36.250.47 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=naukri.com }
+:if ([:len [/ip/route/find dst-address=23.36.70.107 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=23.36.70.107 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=naukri.com }
 :if ([:len [/ip/route/find dst-address=23.36.77.56 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=23.36.77.56 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=naukri.com }
 :if ([:len [/ip/route/find dst-address=23.36.77.88 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=23.36.77.88 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=naukri.com }
 :if ([:len [/ip/route/find dst-address=23.37.192.7 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=23.37.192.7 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=naukri.com }
@@ -99,6 +102,3 @@
 :if ([:len [/ip/route/find dst-address=23.43.85.148 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=23.43.85.148 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=naukri.com }
 :if ([:len [/ip/route/find dst-address=23.43.85.155 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=23.43.85.155 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=naukri.com }
 :if ([:len [/ip/route/find dst-address=23.43.85.201 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=23.43.85.201 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=naukri.com }
-:if ([:len [/ip/route/find dst-address=23.43.85.211 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=23.43.85.211 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=naukri.com }
-:if ([:len [/ip/route/find dst-address=23.43.85.217 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=23.43.85.217 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=naukri.com }
-:if ([:len [/ip/route/find dst-address=23.44.129.137 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=23.44.129.137 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=naukri.com }

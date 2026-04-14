@@ -1,5 +1,27 @@
 :global AddressList
 /ip firewall address-list
+:do {add list=$AddressList comment=jetbrains.com address=99.86.4.14} on-error {}
+:do {add list=$AddressList comment=jetbrains.com address=99.86.4.2} on-error {}
+:do {add list=$AddressList comment=jetbrains.com address=99.86.4.20} on-error {}
+:do {add list=$AddressList comment=jetbrains.com address=99.86.4.22} on-error {}
+:do {add list=$AddressList comment=jetbrains.com address=99.86.4.26} on-error {}
+:do {add list=$AddressList comment=jetbrains.com address=99.86.4.30} on-error {}
+:do {add list=$AddressList comment=jetbrains.com address=99.86.4.32} on-error {}
+:do {add list=$AddressList comment=jetbrains.com address=99.86.4.35} on-error {}
+:do {add list=$AddressList comment=jetbrains.com address=99.86.4.37} on-error {}
+:do {add list=$AddressList comment=jetbrains.com address=99.86.4.42} on-error {}
+:do {add list=$AddressList comment=jetbrains.com address=99.86.4.46} on-error {}
+:do {add list=$AddressList comment=jetbrains.com address=99.86.4.47} on-error {}
+:do {add list=$AddressList comment=jetbrains.com address=99.86.4.49} on-error {}
+:do {add list=$AddressList comment=jetbrains.com address=99.86.4.51} on-error {}
+:do {add list=$AddressList comment=jetbrains.com address=99.86.4.52} on-error {}
+:do {add list=$AddressList comment=jetbrains.com address=99.86.4.53} on-error {}
+:do {add list=$AddressList comment=jetbrains.com address=99.86.4.56} on-error {}
+:do {add list=$AddressList comment=jetbrains.com address=99.86.4.6} on-error {}
+:do {add list=$AddressList comment=jetbrains.com address=99.86.4.60} on-error {}
+:do {add list=$AddressList comment=jetbrains.com address=99.86.4.64} on-error {}
+:do {add list=$AddressList comment=jetbrains.com address=99.86.4.66} on-error {}
+:do {add list=$AddressList comment=jetbrains.com address=99.86.4.68} on-error {}
 :do {add list=$AddressList comment=jetbrains.com address=99.86.4.7} on-error {}
 :do {add list=$AddressList comment=jetbrains.com address=99.86.4.72} on-error {}
 :do {add list=$AddressList comment=jetbrains.com address=99.86.4.74} on-error {}
