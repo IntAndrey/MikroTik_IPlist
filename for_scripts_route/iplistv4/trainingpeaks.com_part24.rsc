@@ -2,6 +2,13 @@
 :global RouteTab
 :global GateWay
 /ip route
+:if ([:len [/ip/route/find dst-address=52.55.189.99 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=52.55.189.99 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=trainingpeaks.com }
+:if ([:len [/ip/route/find dst-address=52.55.200.182 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=52.55.200.182 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=trainingpeaks.com }
+:if ([:len [/ip/route/find dst-address=52.6.132.119 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=52.6.132.119 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=trainingpeaks.com }
+:if ([:len [/ip/route/find dst-address=52.6.214.129 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=52.6.214.129 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=trainingpeaks.com }
+:if ([:len [/ip/route/find dst-address=52.6.242.89 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=52.6.242.89 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=trainingpeaks.com }
+:if ([:len [/ip/route/find dst-address=52.6.99.93 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=52.6.99.93 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=trainingpeaks.com }
+:if ([:len [/ip/route/find dst-address=52.7.3.193 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=52.7.3.193 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=trainingpeaks.com }
 :if ([:len [/ip/route/find dst-address=52.7.48.225 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=52.7.48.225 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=trainingpeaks.com }
 :if ([:len [/ip/route/find dst-address=52.71.109.70 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=52.71.109.70 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=trainingpeaks.com }
 :if ([:len [/ip/route/find dst-address=52.72.137.13 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=52.72.137.13 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=trainingpeaks.com }
@@ -95,10 +102,3 @@
 :if ([:len [/ip/route/find dst-address=52.85.234.39 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=52.85.234.39 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=trainingpeaks.com }
 :if ([:len [/ip/route/find dst-address=52.85.25.25 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=52.85.25.25 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=trainingpeaks.com }
 :if ([:len [/ip/route/find dst-address=52.85.25.40 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=52.85.25.40 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=trainingpeaks.com }
-:if ([:len [/ip/route/find dst-address=52.85.25.44 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=52.85.25.44 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=trainingpeaks.com }
-:if ([:len [/ip/route/find dst-address=52.85.25.51 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=52.85.25.51 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=trainingpeaks.com }
-:if ([:len [/ip/route/find dst-address=52.85.49.11 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=52.85.49.11 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=trainingpeaks.com }
-:if ([:len [/ip/route/find dst-address=52.85.49.113 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=52.85.49.113 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=trainingpeaks.com }
-:if ([:len [/ip/route/find dst-address=52.85.49.116 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=52.85.49.116 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=trainingpeaks.com }
-:if ([:len [/ip/route/find dst-address=52.85.49.122 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=52.85.49.122 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=trainingpeaks.com }
-:if ([:len [/ip/route/find dst-address=52.85.49.123 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=52.85.49.123 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=trainingpeaks.com }

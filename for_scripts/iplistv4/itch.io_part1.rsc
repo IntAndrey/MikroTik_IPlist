@@ -3,6 +3,7 @@
 :do {add list=$AddressList comment=itch.io address=104.103.72.97} on-error {}
 :do {add list=$AddressList comment=itch.io address=104.104.54.16} on-error {}
 :do {add list=$AddressList comment=itch.io address=104.104.54.40} on-error {}
+:do {add list=$AddressList comment=itch.io address=104.109.128.113} on-error {}
 :do {add list=$AddressList comment=itch.io address=104.109.128.152} on-error {}
 :do {add list=$AddressList comment=itch.io address=104.109.128.154} on-error {}
 :do {add list=$AddressList comment=itch.io address=104.109.128.160} on-error {}
@@ -253,6 +254,7 @@
 :do {add list=$AddressList comment=itch.io address=2.19.51.179} on-error {}
 :do {add list=$AddressList comment=itch.io address=2.19.51.184} on-error {}
 :do {add list=$AddressList comment=itch.io address=2.19.51.186} on-error {}
+:do {add list=$AddressList comment=itch.io address=2.19.51.187} on-error {}
 :do {add list=$AddressList comment=itch.io address=2.19.54.115} on-error {}
 :do {add list=$AddressList comment=itch.io address=2.19.54.89} on-error {}
 :do {add list=$AddressList comment=itch.io address=2.20.12.82} on-error {}
@@ -342,11 +344,9 @@
 :do {add list=$AddressList comment=itch.io address=2.23.167.153} on-error {}
 :do {add list=$AddressList comment=itch.io address=2.23.167.17} on-error {}
 :do {add list=$AddressList comment=itch.io address=2.23.167.185} on-error {}
+:do {add list=$AddressList comment=itch.io address=2.23.167.211} on-error {}
 :do {add list=$AddressList comment=itch.io address=2.23.167.226} on-error {}
 :do {add list=$AddressList comment=itch.io address=2.23.167.42} on-error {}
 :do {add list=$AddressList comment=itch.io address=2.23.167.43} on-error {}
 :do {add list=$AddressList comment=itch.io address=2.23.167.50} on-error {}
 :do {add list=$AddressList comment=itch.io address=2.23.167.65} on-error {}
-:do {add list=$AddressList comment=itch.io address=2.23.167.81} on-error {}
-:do {add list=$AddressList comment=itch.io address=2.23.173.144} on-error {}
-:do {add list=$AddressList comment=itch.io address=2.23.176.23} on-error {}
