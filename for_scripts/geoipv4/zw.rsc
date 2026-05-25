@@ -203,6 +203,8 @@
 :do {add list=$AddressList comment=zw address=41.220.16.0/20} on-error {}
 :do {add list=$AddressList comment=zw address=41.221.144.0/20} on-error {}
 :do {add list=$AddressList comment=zw address=41.57.64.0/20} on-error {}
+:do {add list=$AddressList comment=zw address=41.60.192.0/22} on-error {}
+:do {add list=$AddressList comment=zw address=41.60.196.0/23} on-error {}
 :do {add list=$AddressList comment=zw address=41.60.200.0/21} on-error {}
 :do {add list=$AddressList comment=zw address=41.60.208.0/20} on-error {}
 :do {add list=$AddressList comment=zw address=41.60.32.0/19} on-error {}

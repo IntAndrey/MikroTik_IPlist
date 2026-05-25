@@ -1,5 +1,7 @@
 :global AddressList
 /ip firewall address-list
+:do {add list=$AddressList comment=ru address=45.129.200.0/21} on-error {}
+:do {add list=$AddressList comment=ru address=45.129.236.0/22} on-error {}
 :do {add list=$AddressList comment=ru address=45.129.4.0/22} on-error {}
 :do {add list=$AddressList comment=ru address=45.129.76.0/23} on-error {}
 :do {add list=$AddressList comment=ru address=45.129.79.0/24} on-error {}
@@ -58,6 +60,7 @@
 :do {add list=$AddressList comment=ru address=45.134.187.0/24} on-error {}
 :do {add list=$AddressList comment=ru address=45.134.24.0/23} on-error {}
 :do {add list=$AddressList comment=ru address=45.134.252.0/23} on-error {}
+:do {add list=$AddressList comment=ru address=45.134.255.0/24} on-error {}
 :do {add list=$AddressList comment=ru address=45.134.27.0/24} on-error {}
 :do {add list=$AddressList comment=ru address=45.134.52.0/22} on-error {}
 :do {add list=$AddressList comment=ru address=45.134.60.0/22} on-error {}
@@ -299,7 +302,7 @@
 :do {add list=$AddressList comment=ru address=45.158.188.0/22} on-error {}
 :do {add list=$AddressList comment=ru address=45.158.232.0/22} on-error {}
 :do {add list=$AddressList comment=ru address=45.158.45.0/24} on-error {}
-:do {add list=$AddressList comment=ru address=45.158.47.0/24} on-error {}
+:do {add list=$AddressList comment=ru address=45.158.46.0/23} on-error {}
 :do {add list=$AddressList comment=ru address=45.158.9.0/24} on-error {}
 :do {add list=$AddressList comment=ru address=45.159.0.0/22} on-error {}
 :do {add list=$AddressList comment=ru address=45.159.104.0/22} on-error {}
@@ -347,6 +350,3 @@
 :do {add list=$AddressList comment=ru address=45.202.125.0/24} on-error {}
 :do {add list=$AddressList comment=ru address=45.202.127.0/24} on-error {}
 :do {add list=$AddressList comment=ru address=45.39.104.0/24} on-error {}
-:do {add list=$AddressList comment=ru address=45.39.187.0/24} on-error {}
-:do {add list=$AddressList comment=ru address=45.66.116.0/22} on-error {}
-:do {add list=$AddressList comment=ru address=45.66.12.0/22} on-error {}

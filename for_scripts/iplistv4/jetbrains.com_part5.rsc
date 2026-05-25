@@ -1,5 +1,14 @@
 :global AddressList
 /ip firewall address-list
+:do {add list=$AddressList comment=jetbrains.com address=13.224.186.105} on-error {}
+:do {add list=$AddressList comment=jetbrains.com address=13.224.186.108} on-error {}
+:do {add list=$AddressList comment=jetbrains.com address=13.224.186.11} on-error {}
+:do {add list=$AddressList comment=jetbrains.com address=13.224.186.111} on-error {}
+:do {add list=$AddressList comment=jetbrains.com address=13.224.186.114} on-error {}
+:do {add list=$AddressList comment=jetbrains.com address=13.224.186.115} on-error {}
+:do {add list=$AddressList comment=jetbrains.com address=13.224.186.116} on-error {}
+:do {add list=$AddressList comment=jetbrains.com address=13.224.186.117} on-error {}
+:do {add list=$AddressList comment=jetbrains.com address=13.224.186.119} on-error {}
 :do {add list=$AddressList comment=jetbrains.com address=13.224.186.120} on-error {}
 :do {add list=$AddressList comment=jetbrains.com address=13.224.186.121} on-error {}
 :do {add list=$AddressList comment=jetbrains.com address=13.224.186.123} on-error {}
@@ -341,12 +350,3 @@
 :do {add list=$AddressList comment=jetbrains.com address=13.225.35.59} on-error {}
 :do {add list=$AddressList comment=jetbrains.com address=13.225.35.6} on-error {}
 :do {add list=$AddressList comment=jetbrains.com address=13.225.35.62} on-error {}
-:do {add list=$AddressList comment=jetbrains.com address=13.225.35.64} on-error {}
-:do {add list=$AddressList comment=jetbrains.com address=13.225.35.65} on-error {}
-:do {add list=$AddressList comment=jetbrains.com address=13.225.35.68} on-error {}
-:do {add list=$AddressList comment=jetbrains.com address=13.225.35.69} on-error {}
-:do {add list=$AddressList comment=jetbrains.com address=13.225.35.7} on-error {}
-:do {add list=$AddressList comment=jetbrains.com address=13.225.35.8} on-error {}
-:do {add list=$AddressList comment=jetbrains.com address=13.225.35.81} on-error {}
-:do {add list=$AddressList comment=jetbrains.com address=13.225.35.86} on-error {}
-:do {add list=$AddressList comment=jetbrains.com address=13.225.35.88} on-error {}

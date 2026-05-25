@@ -1,5 +1,8 @@
 :global AddressList
 /ip firewall address-list
+:do {add list=$AddressList comment=za address=208.127.39.248/30} on-error {}
+:do {add list=$AddressList comment=za address=208.127.39.252/31} on-error {}
+:do {add list=$AddressList comment=za address=208.127.39.254/32} on-error {}
 :do {add list=$AddressList comment=za address=208.127.4.1/32} on-error {}
 :do {add list=$AddressList comment=za address=208.127.4.112/29} on-error {}
 :do {add list=$AddressList comment=za address=208.127.4.120/30} on-error {}
@@ -112,7 +115,6 @@
 :do {add list=$AddressList comment=za address=213.225.236.0/24} on-error {}
 :do {add list=$AddressList comment=za address=213.227.178.0/24} on-error {}
 :do {add list=$AddressList comment=za address=213.228.213.8/29} on-error {}
-:do {add list=$AddressList comment=za address=213.251.27.152/29} on-error {}
 :do {add list=$AddressList comment=za address=213.39.85.156/30} on-error {}
 :do {add list=$AddressList comment=za address=216.107.41.0/24} on-error {}
 :do {add list=$AddressList comment=za address=216.198.232.0/24} on-error {}
@@ -138,7 +140,7 @@
 :do {add list=$AddressList comment=za address=23.207.16.0/20} on-error {}
 :do {add list=$AddressList comment=za address=23.213.48.0/22} on-error {}
 :do {add list=$AddressList comment=za address=23.214.120.0/22} on-error {}
-:do {add list=$AddressList comment=za address=23.214.216.0/21} on-error {}
+:do {add list=$AddressList comment=za address=23.214.220.0/22} on-error {}
 :do {add list=$AddressList comment=za address=23.219.12.0/22} on-error {}
 :do {add list=$AddressList comment=za address=23.235.45.0/24} on-error {}
 :do {add list=$AddressList comment=za address=23.248.183.0/24} on-error {}
@@ -348,5 +350,3 @@
 :do {add list=$AddressList comment=za address=41.194.83.64/26} on-error {}
 :do {add list=$AddressList comment=za address=41.194.84.0/22} on-error {}
 :do {add list=$AddressList comment=za address=41.194.88.0/21} on-error {}
-:do {add list=$AddressList comment=za address=41.194.96.0/19} on-error {}
-:do {add list=$AddressList comment=za address=41.195.0.0/16} on-error {}

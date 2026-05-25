@@ -1,5 +1,21 @@
 :global AddressList
 /ip firewall address-list
+:do {add list=$AddressList comment=jp address=203.189.32.0/19} on-error {}
+:do {add list=$AddressList comment=jp address=203.189.96.0/20} on-error {}
+:do {add list=$AddressList comment=jp address=203.190.0.0/22} on-error {}
+:do {add list=$AddressList comment=jp address=203.190.224.0/21} on-error {}
+:do {add list=$AddressList comment=jp address=203.190.236.0/22} on-error {}
+:do {add list=$AddressList comment=jp address=203.190.28.0/22} on-error {}
+:do {add list=$AddressList comment=jp address=203.191.136.0/21} on-error {}
+:do {add list=$AddressList comment=jp address=203.191.208.0/20} on-error {}
+:do {add list=$AddressList comment=jp address=203.191.224.0/19} on-error {}
+:do {add list=$AddressList comment=jp address=203.192.128.0/23} on-error {}
+:do {add list=$AddressList comment=jp address=203.192.130.0/27} on-error {}
+:do {add list=$AddressList comment=jp address=203.192.130.128/25} on-error {}
+:do {add list=$AddressList comment=jp address=203.192.130.32/28} on-error {}
+:do {add list=$AddressList comment=jp address=203.192.130.48/29} on-error {}
+:do {add list=$AddressList comment=jp address=203.192.130.56/30} on-error {}
+:do {add list=$AddressList comment=jp address=203.192.130.60/31} on-error {}
 :do {add list=$AddressList comment=jp address=203.192.130.63/32} on-error {}
 :do {add list=$AddressList comment=jp address=203.192.130.64/26} on-error {}
 :do {add list=$AddressList comment=jp address=203.192.131.0/24} on-error {}
@@ -215,7 +231,6 @@
 :do {add list=$AddressList comment=jp address=205.164.30.0/24} on-error {}
 :do {add list=$AddressList comment=jp address=205.177.85.0/24} on-error {}
 :do {add list=$AddressList comment=jp address=205.177.86.0/24} on-error {}
-:do {add list=$AddressList comment=jp address=205.178.183.0/25} on-error {}
 :do {add list=$AddressList comment=jp address=205.188.148.0/22} on-error {}
 :do {add list=$AddressList comment=jp address=205.188.152.0/22} on-error {}
 :do {add list=$AddressList comment=jp address=205.198.193.0/24} on-error {}
@@ -296,6 +311,7 @@
 :do {add list=$AddressList comment=jp address=207.56.240.0/20} on-error {}
 :do {add list=$AddressList comment=jp address=207.57.8.0/22} on-error {}
 :do {add list=$AddressList comment=jp address=207.65.128.0/17} on-error {}
+:do {add list=$AddressList comment=jp address=207.89.21.0/24} on-error {}
 :do {add list=$AddressList comment=jp address=208.111.48.0/21} on-error {}
 :do {add list=$AddressList comment=jp address=208.113.27.0/24} on-error {}
 :do {add list=$AddressList comment=jp address=208.127.111.1/32} on-error {}
@@ -334,19 +350,3 @@
 :do {add list=$AddressList comment=jp address=208.127.32.0/25} on-error {}
 :do {add list=$AddressList comment=jp address=208.127.32.128/26} on-error {}
 :do {add list=$AddressList comment=jp address=208.127.32.192/27} on-error {}
-:do {add list=$AddressList comment=jp address=208.127.32.224/28} on-error {}
-:do {add list=$AddressList comment=jp address=208.127.32.240/29} on-error {}
-:do {add list=$AddressList comment=jp address=208.127.32.248/30} on-error {}
-:do {add list=$AddressList comment=jp address=208.127.32.252/31} on-error {}
-:do {add list=$AddressList comment=jp address=208.127.32.254/32} on-error {}
-:do {add list=$AddressList comment=jp address=208.48.23.216/30} on-error {}
-:do {add list=$AddressList comment=jp address=208.52.181.0/24} on-error {}
-:do {add list=$AddressList comment=jp address=208.56.30.0/24} on-error {}
-:do {add list=$AddressList comment=jp address=208.68.182.0/24} on-error {}
-:do {add list=$AddressList comment=jp address=208.69.37.0/24} on-error {}
-:do {add list=$AddressList comment=jp address=208.75.13.0/24} on-error {}
-:do {add list=$AddressList comment=jp address=208.76.120.0/24} on-error {}
-:do {add list=$AddressList comment=jp address=208.76.127.0/24} on-error {}
-:do {add list=$AddressList comment=jp address=208.78.130.0/23} on-error {}
-:do {add list=$AddressList comment=jp address=208.78.211.0/24} on-error {}
-:do {add list=$AddressList comment=jp address=208.78.213.16/28} on-error {}

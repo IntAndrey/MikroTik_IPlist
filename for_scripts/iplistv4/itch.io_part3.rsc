@@ -1,5 +1,19 @@
 :global AddressList
 /ip firewall address-list
+:do {add list=$AddressList comment=itch.io address=23.55.161.21} on-error {}
+:do {add list=$AddressList comment=itch.io address=23.55.161.4} on-error {}
+:do {add list=$AddressList comment=itch.io address=23.55.161.40} on-error {}
+:do {add list=$AddressList comment=itch.io address=23.55.163.49} on-error {}
+:do {add list=$AddressList comment=itch.io address=23.55.163.63} on-error {}
+:do {add list=$AddressList comment=itch.io address=23.55.163.77} on-error {}
+:do {add list=$AddressList comment=itch.io address=23.55.236.132} on-error {}
+:do {add list=$AddressList comment=itch.io address=23.55.236.138} on-error {}
+:do {add list=$AddressList comment=itch.io address=23.55.236.67} on-error {}
+:do {add list=$AddressList comment=itch.io address=23.55.236.71} on-error {}
+:do {add list=$AddressList comment=itch.io address=23.55.236.76} on-error {}
+:do {add list=$AddressList comment=itch.io address=23.55.48.10} on-error {}
+:do {add list=$AddressList comment=itch.io address=23.55.48.105} on-error {}
+:do {add list=$AddressList comment=itch.io address=23.55.48.130} on-error {}
 :do {add list=$AddressList comment=itch.io address=23.55.48.153} on-error {}
 :do {add list=$AddressList comment=itch.io address=23.55.48.154} on-error {}
 :do {add list=$AddressList comment=itch.io address=23.55.48.155} on-error {}
@@ -65,12 +79,15 @@
 :do {add list=$AddressList comment=itch.io address=62.115.252.169} on-error {}
 :do {add list=$AddressList comment=itch.io address=62.115.252.170} on-error {}
 :do {add list=$AddressList comment=itch.io address=62.115.252.177} on-error {}
+:do {add list=$AddressList comment=itch.io address=62.115.252.185} on-error {}
 :do {add list=$AddressList comment=itch.io address=62.115.252.219} on-error {}
 :do {add list=$AddressList comment=itch.io address=62.115.252.80} on-error {}
 :do {add list=$AddressList comment=itch.io address=62.115.252.91} on-error {}
 :do {add list=$AddressList comment=itch.io address=62.115.253.16} on-error {}
 :do {add list=$AddressList comment=itch.io address=62.115.253.18} on-error {}
+:do {add list=$AddressList comment=itch.io address=62.115.253.19} on-error {}
 :do {add list=$AddressList comment=itch.io address=62.115.253.202} on-error {}
+:do {add list=$AddressList comment=itch.io address=62.115.253.26} on-error {}
 :do {add list=$AddressList comment=itch.io address=62.115.253.33} on-error {}
 :do {add list=$AddressList comment=itch.io address=62.115.253.41} on-error {}
 :do {add list=$AddressList comment=itch.io address=62.115.253.65} on-error {}
@@ -101,10 +118,15 @@
 :do {add list=$AddressList comment=itch.io address=84.53.172.233} on-error {}
 :do {add list=$AddressList comment=itch.io address=84.53.172.8} on-error {}
 :do {add list=$AddressList comment=itch.io address=84.53.172.80} on-error {}
+:do {add list=$AddressList comment=itch.io address=84.53.175.26} on-error {}
+:do {add list=$AddressList comment=itch.io address=84.53.175.50} on-error {}
 :do {add list=$AddressList comment=itch.io address=87.245.200.26} on-error {}
 :do {add list=$AddressList comment=itch.io address=87.245.200.32} on-error {}
 :do {add list=$AddressList comment=itch.io address=87.245.200.57} on-error {}
 :do {add list=$AddressList comment=itch.io address=87.245.200.59} on-error {}
+:do {add list=$AddressList comment=itch.io address=88.221.111.112} on-error {}
+:do {add list=$AddressList comment=itch.io address=88.221.111.115} on-error {}
+:do {add list=$AddressList comment=itch.io address=88.221.111.8} on-error {}
 :do {add list=$AddressList comment=itch.io address=88.221.132.105} on-error {}
 :do {add list=$AddressList comment=itch.io address=88.221.132.107} on-error {}
 :do {add list=$AddressList comment=itch.io address=88.221.132.115} on-error {}
@@ -265,3 +287,5 @@
 :do {add list=$AddressList comment=itch.io address=96.16.53.159} on-error {}
 :do {add list=$AddressList comment=itch.io address=96.17.178.163} on-error {}
 :do {add list=$AddressList comment=itch.io address=96.17.178.191} on-error {}
+:do {add list=$AddressList comment=itch.io address=96.17.207.136} on-error {}
+:do {add list=$AddressList comment=itch.io address=96.17.207.139} on-error {}
