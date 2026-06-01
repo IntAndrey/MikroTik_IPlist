@@ -1,5 +1,15 @@
 :global AddressList
 /ip firewall address-list
+:do {add list=$AddressList comment=se address=83.140.132.0/24} on-error {}
+:do {add list=$AddressList comment=se address=83.140.133.0/26} on-error {}
+:do {add list=$AddressList comment=se address=83.140.133.100/30} on-error {}
+:do {add list=$AddressList comment=se address=83.140.133.104/29} on-error {}
+:do {add list=$AddressList comment=se address=83.140.133.112/28} on-error {}
+:do {add list=$AddressList comment=se address=83.140.133.128/25} on-error {}
+:do {add list=$AddressList comment=se address=83.140.133.64/27} on-error {}
+:do {add list=$AddressList comment=se address=83.140.133.97/32} on-error {}
+:do {add list=$AddressList comment=se address=83.140.133.98/31} on-error {}
+:do {add list=$AddressList comment=se address=83.140.134.0/23} on-error {}
 :do {add list=$AddressList comment=se address=83.140.136.0/22} on-error {}
 :do {add list=$AddressList comment=se address=83.140.140.0/25} on-error {}
 :do {add list=$AddressList comment=se address=83.140.140.128/28} on-error {}
@@ -340,13 +350,3 @@
 :do {add list=$AddressList comment=se address=83.145.61.126/31} on-error {}
 :do {add list=$AddressList comment=se address=83.145.61.198/32} on-error {}
 :do {add list=$AddressList comment=se address=83.145.61.200/29} on-error {}
-:do {add list=$AddressList comment=se address=83.145.61.216/30} on-error {}
-:do {add list=$AddressList comment=se address=83.145.61.90/32} on-error {}
-:do {add list=$AddressList comment=se address=83.145.62.0/29} on-error {}
-:do {add list=$AddressList comment=se address=83.145.62.12/30} on-error {}
-:do {add list=$AddressList comment=se address=83.145.62.128/25} on-error {}
-:do {add list=$AddressList comment=se address=83.145.62.20/30} on-error {}
-:do {add list=$AddressList comment=se address=83.145.62.24/29} on-error {}
-:do {add list=$AddressList comment=se address=83.145.62.32/27} on-error {}
-:do {add list=$AddressList comment=se address=83.145.62.64/26} on-error {}
-:do {add list=$AddressList comment=se address=83.145.63.0/27} on-error {}

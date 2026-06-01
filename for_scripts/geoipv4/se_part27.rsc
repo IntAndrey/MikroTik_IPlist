@@ -1,5 +1,15 @@
 :global AddressList
 /ip firewall address-list
+:do {add list=$AddressList comment=se address=90.134.128.0/17} on-error {}
+:do {add list=$AddressList comment=se address=90.134.32.0/19} on-error {}
+:do {add list=$AddressList comment=se address=90.134.64.0/18} on-error {}
+:do {add list=$AddressList comment=se address=90.136.0.0/16} on-error {}
+:do {add list=$AddressList comment=se address=90.137.128.0/22} on-error {}
+:do {add list=$AddressList comment=se address=90.137.136.0/21} on-error {}
+:do {add list=$AddressList comment=se address=90.137.144.0/20} on-error {}
+:do {add list=$AddressList comment=se address=90.137.160.0/19} on-error {}
+:do {add list=$AddressList comment=se address=90.137.192.0/18} on-error {}
+:do {add list=$AddressList comment=se address=90.139.96.0/19} on-error {}
 :do {add list=$AddressList comment=se address=90.141.0.0/18} on-error {}
 :do {add list=$AddressList comment=se address=90.141.100.0/22} on-error {}
 :do {add list=$AddressList comment=se address=90.141.104.0/21} on-error {}
@@ -340,13 +350,3 @@
 :do {add list=$AddressList comment=se address=93.158.123.88/29} on-error {}
 :do {add list=$AddressList comment=se address=93.158.123.96/27} on-error {}
 :do {add list=$AddressList comment=se address=93.158.124.132/30} on-error {}
-:do {add list=$AddressList comment=se address=93.158.124.136/29} on-error {}
-:do {add list=$AddressList comment=se address=93.158.124.144/28} on-error {}
-:do {add list=$AddressList comment=se address=93.158.124.16/28} on-error {}
-:do {add list=$AddressList comment=se address=93.158.124.160/27} on-error {}
-:do {add list=$AddressList comment=se address=93.158.124.224/27} on-error {}
-:do {add list=$AddressList comment=se address=93.158.124.32/27} on-error {}
-:do {add list=$AddressList comment=se address=93.158.124.64/30} on-error {}
-:do {add list=$AddressList comment=se address=93.158.124.72/29} on-error {}
-:do {add list=$AddressList comment=se address=93.158.124.84/30} on-error {}
-:do {add list=$AddressList comment=se address=93.158.124.88/29} on-error {}

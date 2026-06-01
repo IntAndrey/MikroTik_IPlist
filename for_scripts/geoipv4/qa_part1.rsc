@@ -63,7 +63,7 @@
 :do {add list=$AddressList comment=qa address=13.107.195.64/30} on-error {}
 :do {add list=$AddressList comment=qa address=130.41.83.246/32} on-error {}
 :do {add list=$AddressList comment=qa address=130.49.107.0/24} on-error {}
-:do {add list=$AddressList comment=qa address=130.94.60.0/22} on-error {}
+:do {add list=$AddressList comment=qa address=130.94.60.0/24} on-error {}
 :do {add list=$AddressList comment=qa address=131.229.135.29/32} on-error {}
 :do {add list=$AddressList comment=qa address=131.229.135.62/32} on-error {}
 :do {add list=$AddressList comment=qa address=131.229.137.149/32} on-error {}
