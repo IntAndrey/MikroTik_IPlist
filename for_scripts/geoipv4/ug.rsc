@@ -30,8 +30,7 @@
 :do {add list=$AddressList comment=ug address=102.209.239.0/24} on-error {}
 :do {add list=$AddressList comment=ug address=102.210.108.0/22} on-error {}
 :do {add list=$AddressList comment=ug address=102.210.159.0/24} on-error {}
-:do {add list=$AddressList comment=ug address=102.211.168.0/23} on-error {}
-:do {add list=$AddressList comment=ug address=102.211.170.0/24} on-error {}
+:do {add list=$AddressList comment=ug address=102.211.169.0/24} on-error {}
 :do {add list=$AddressList comment=ug address=102.211.60.0/22} on-error {}
 :do {add list=$AddressList comment=ug address=102.213.192.0/22} on-error {}
 :do {add list=$AddressList comment=ug address=102.214.148.0/22} on-error {}
@@ -108,7 +107,6 @@
 :do {add list=$AddressList comment=ug address=154.0.128.0/20} on-error {}
 :do {add list=$AddressList comment=ug address=154.224.0.0/13} on-error {}
 :do {add list=$AddressList comment=ug address=154.66.216.0/22} on-error {}
-:do {add list=$AddressList comment=ug address=154.72.17.0/24} on-error {}
 :do {add list=$AddressList comment=ug address=154.72.18.0/24} on-error {}
 :do {add list=$AddressList comment=ug address=154.72.192.0/19} on-error {}
 :do {add list=$AddressList comment=ug address=155.117.49.0/24} on-error {}
@@ -175,7 +173,7 @@
 :do {add list=$AddressList comment=ug address=196.199.197.0/24} on-error {}
 :do {add list=$AddressList comment=ug address=196.216.176.0/22} on-error {}
 :do {add list=$AddressList comment=ug address=196.223.25.0/24} on-error {}
-:do {add list=$AddressList comment=ug address=196.250.64.0/20} on-error {}
+:do {add list=$AddressList comment=ug address=196.250.64.0/21} on-error {}
 :do {add list=$AddressList comment=ug address=196.43.128.0/18} on-error {}
 :do {add list=$AddressList comment=ug address=196.43.226.0/24} on-error {}
 :do {add list=$AddressList comment=ug address=196.48.197.0/24} on-error {}
@@ -230,4 +228,3 @@
 :do {add list=$AddressList comment=ug address=81.29.70.183/32} on-error {}
 :do {add list=$AddressList comment=ug address=84.254.178.0/24} on-error {}
 :do {add list=$AddressList comment=ug address=88.202.7.0/24} on-error {}
-:do {add list=$AddressList comment=ug address=88.202.78.0/24} on-error {}

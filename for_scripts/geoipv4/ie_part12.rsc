@@ -1,5 +1,8 @@
 :global AddressList
 /ip firewall address-list
+:do {add list=$AddressList comment=ie address=52.97.204.160/27} on-error {}
+:do {add list=$AddressList comment=ie address=52.97.204.192/27} on-error {}
+:do {add list=$AddressList comment=ie address=52.97.205.0/24} on-error {}
 :do {add list=$AddressList comment=ie address=52.97.210.160/28} on-error {}
 :do {add list=$AddressList comment=ie address=52.97.211.0/26} on-error {}
 :do {add list=$AddressList comment=ie address=52.97.212.48/28} on-error {}
@@ -175,7 +178,6 @@
 :do {add list=$AddressList comment=ie address=57.144.32.0/22} on-error {}
 :do {add list=$AddressList comment=ie address=57.144.36.0/23} on-error {}
 :do {add list=$AddressList comment=ie address=57.144.8.0/22} on-error {}
-:do {add list=$AddressList comment=ie address=57.144.82.0/23} on-error {}
 :do {add list=$AddressList comment=ie address=57.144.96.0/22} on-error {}
 :do {add list=$AddressList comment=ie address=57.145.128.0/17} on-error {}
 :do {add list=$AddressList comment=ie address=57.145.14.0/23} on-error {}
@@ -310,6 +312,7 @@
 :do {add list=$AddressList comment=ie address=62.254.161.0/25} on-error {}
 :do {add list=$AddressList comment=ie address=62.254.161.128/26} on-error {}
 :do {add list=$AddressList comment=ie address=62.254.161.224/27} on-error {}
+:do {add list=$AddressList comment=ie address=62.3.25.0/25} on-error {}
 :do {add list=$AddressList comment=ie address=62.3.54.0/24} on-error {}
 :do {add list=$AddressList comment=ie address=62.40.32.0/19} on-error {}
 :do {add list=$AddressList comment=ie address=62.77.160.0/19} on-error {}
@@ -347,6 +350,3 @@
 :do {add list=$AddressList comment=ie address=65.38.104.0/23} on-error {}
 :do {add list=$AddressList comment=ie address=65.52.224.0/21} on-error {}
 :do {add list=$AddressList comment=ie address=65.52.64.0/20} on-error {}
-:do {add list=$AddressList comment=ie address=65.54.162.96/28} on-error {}
-:do {add list=$AddressList comment=ie address=65.54.24.0/24} on-error {}
-:do {add list=$AddressList comment=ie address=65.54.26.0/25} on-error {}

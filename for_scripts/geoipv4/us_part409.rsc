@@ -1,5 +1,11 @@
 :global AddressList
 /ip firewall address-list
+:do {add list=$AddressList comment=us address=72.247.178.128/26} on-error {}
+:do {add list=$AddressList comment=us address=72.247.178.192/30} on-error {}
+:do {add list=$AddressList comment=us address=72.247.178.196/32} on-error {}
+:do {add list=$AddressList comment=us address=72.247.178.200/30} on-error {}
+:do {add list=$AddressList comment=us address=72.247.178.207/32} on-error {}
+:do {add list=$AddressList comment=us address=72.247.178.208/30} on-error {}
 :do {add list=$AddressList comment=us address=72.247.178.216/30} on-error {}
 :do {add list=$AddressList comment=us address=72.247.178.221/32} on-error {}
 :do {add list=$AddressList comment=us address=72.247.178.224/30} on-error {}
@@ -176,7 +182,7 @@
 :do {add list=$AddressList comment=us address=72.251.224.0/20} on-error {}
 :do {add list=$AddressList comment=us address=72.252.0.0/21} on-error {}
 :do {add list=$AddressList comment=us address=72.252.16.0/21} on-error {}
-:do {add list=$AddressList comment=us address=72.252.24.0/23} on-error {}
+:do {add list=$AddressList comment=us address=72.252.24.0/22} on-error {}
 :do {add list=$AddressList comment=us address=72.252.40.0/21} on-error {}
 :do {add list=$AddressList comment=us address=72.252.48.0/20} on-error {}
 :do {add list=$AddressList comment=us address=72.252.64.0/19} on-error {}
@@ -344,9 +350,3 @@
 :do {add list=$AddressList comment=us address=72.48.16.0/20} on-error {}
 :do {add list=$AddressList comment=us address=72.48.160.0/20} on-error {}
 :do {add list=$AddressList comment=us address=72.48.176.0/21} on-error {}
-:do {add list=$AddressList comment=us address=72.48.184.0/24} on-error {}
-:do {add list=$AddressList comment=us address=72.48.185.0/25} on-error {}
-:do {add list=$AddressList comment=us address=72.48.185.128/28} on-error {}
-:do {add list=$AddressList comment=us address=72.48.185.144/30} on-error {}
-:do {add list=$AddressList comment=us address=72.48.185.148/32} on-error {}
-:do {add list=$AddressList comment=us address=72.48.185.150/31} on-error {}

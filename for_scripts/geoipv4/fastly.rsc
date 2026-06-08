@@ -37,5 +37,7 @@
 :do {add list=$AddressList comment=fastly address=63.245.216.0/22} on-error {}
 :do {add list=$AddressList comment=fastly address=63.245.220.0/23} on-error {}
 :do {add list=$AddressList comment=fastly address=63.245.222.0/24} on-error {}
+:do {add list=$AddressList comment=fastly address=64.251.201.0/24} on-error {}
 :do {add list=$AddressList comment=fastly address=66.211.168.0/24} on-error {}
 :do {add list=$AddressList comment=fastly address=66.43.1.0/24} on-error {}
+:do {add list=$AddressList comment=fastly address=87.81.224.0/19} on-error {}

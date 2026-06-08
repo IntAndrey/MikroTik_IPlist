@@ -1,5 +1,6 @@
 :global AddressList
 /ip firewall address-list
+:do {add list=$AddressList comment=si address=193.105.22.0/24} on-error {}
 :do {add list=$AddressList comment=si address=193.105.67.0/24} on-error {}
 :do {add list=$AddressList comment=si address=193.109.124.0/24} on-error {}
 :do {add list=$AddressList comment=si address=193.109.227.0/24} on-error {}
@@ -177,6 +178,7 @@
 :do {add list=$AddressList comment=si address=198.203.198.0/23} on-error {}
 :do {add list=$AddressList comment=si address=198.244.235.217/32} on-error {}
 :do {add list=$AddressList comment=si address=199.116.172.160/27} on-error {}
+:do {add list=$AddressList comment=si address=199.33.70.0/24} on-error {}
 :do {add list=$AddressList comment=si address=2.58.48.0/25} on-error {}
 :do {add list=$AddressList comment=si address=2.58.48.128/27} on-error {}
 :do {add list=$AddressList comment=si address=2.58.48.160/31} on-error {}
@@ -311,13 +313,11 @@
 :do {add list=$AddressList comment=si address=213.229.192.0/18} on-error {}
 :do {add list=$AddressList comment=si address=213.235.29.8/29} on-error {}
 :do {add list=$AddressList comment=si address=213.250.0.0/18} on-error {}
-:do {add list=$AddressList comment=si address=213.253.104.0/22} on-error {}
-:do {add list=$AddressList comment=si address=213.253.108.0/24} on-error {}
-:do {add list=$AddressList comment=si address=213.253.110.0/23} on-error {}
+:do {add list=$AddressList comment=si address=213.253.100.0/23} on-error {}
 :do {add list=$AddressList comment=si address=213.253.125.0/24} on-error {}
 :do {add list=$AddressList comment=si address=213.253.126.0/24} on-error {}
 :do {add list=$AddressList comment=si address=213.253.80.0/20} on-error {}
-:do {add list=$AddressList comment=si address=213.253.96.0/21} on-error {}
+:do {add list=$AddressList comment=si address=213.253.98.0/24} on-error {}
 :do {add list=$AddressList comment=si address=213.5.112.0/21} on-error {}
 :do {add list=$AddressList comment=si address=217.199.128.0/20} on-error {}
 :do {add list=$AddressList comment=si address=217.61.252.0/24} on-error {}
