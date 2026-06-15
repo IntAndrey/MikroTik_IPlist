@@ -1,12 +1,5 @@
 :global AddressList
 /ip firewall address-list
-:do {add list=$AddressList comment=cn address=103.61.188.0/22} on-error {}
-:do {add list=$AddressList comment=cn address=103.61.60.0/22} on-error {}
-:do {add list=$AddressList comment=cn address=103.62.88.0/23} on-error {}
-:do {add list=$AddressList comment=cn address=103.63.160.0/20} on-error {}
-:do {add list=$AddressList comment=cn address=103.63.176.0/21} on-error {}
-:do {add list=$AddressList comment=cn address=103.63.244.0/22} on-error {}
-:do {add list=$AddressList comment=cn address=103.64.140.0/22} on-error {}
 :do {add list=$AddressList comment=cn address=103.64.144.0/22} on-error {}
 :do {add list=$AddressList comment=cn address=103.64.152.0/21} on-error {}
 :do {add list=$AddressList comment=cn address=103.64.208.0/21} on-error {}
@@ -104,6 +97,7 @@
 :do {add list=$AddressList comment=cn address=103.99.104.0/22} on-error {}
 :do {add list=$AddressList comment=cn address=104.192.108.0/23} on-error {}
 :do {add list=$AddressList comment=cn address=104.192.110.0/24} on-error {}
+:do {add list=$AddressList comment=cn address=104.234.102.0/24} on-error {}
 :do {add list=$AddressList comment=cn address=106.0.4.0/22} on-error {}
 :do {add list=$AddressList comment=cn address=106.108.0.0/14} on-error {}
 :do {add list=$AddressList comment=cn address=106.11.0.0/16} on-error {}
@@ -350,3 +344,9 @@
 :do {add list=$AddressList comment=cn address=113.47.216.0/21} on-error {}
 :do {add list=$AddressList comment=cn address=113.47.232.0/21} on-error {}
 :do {add list=$AddressList comment=cn address=113.47.240.0/20} on-error {}
+:do {add list=$AddressList comment=cn address=113.47.64.0/19} on-error {}
+:do {add list=$AddressList comment=cn address=113.47.96.0/21} on-error {}
+:do {add list=$AddressList comment=cn address=113.48.127.0/24} on-error {}
+:do {add list=$AddressList comment=cn address=113.48.224.0/20} on-error {}
+:do {add list=$AddressList comment=cn address=113.48.48.0/20} on-error {}
+:do {add list=$AddressList comment=cn address=113.49.0.0/19} on-error {}

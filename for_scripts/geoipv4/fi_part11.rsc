@@ -1,5 +1,29 @@
 :global AddressList
 /ip firewall address-list
+:do {add list=$AddressList comment=fi address=95.111.213.208/30} on-error {}
+:do {add list=$AddressList comment=fi address=95.111.213.212/32} on-error {}
+:do {add list=$AddressList comment=fi address=95.111.213.214/31} on-error {}
+:do {add list=$AddressList comment=fi address=95.111.213.217/32} on-error {}
+:do {add list=$AddressList comment=fi address=95.111.213.218/31} on-error {}
+:do {add list=$AddressList comment=fi address=95.111.213.220/30} on-error {}
+:do {add list=$AddressList comment=fi address=95.111.213.224/27} on-error {}
+:do {add list=$AddressList comment=fi address=95.111.214.0/24} on-error {}
+:do {add list=$AddressList comment=fi address=95.111.215.0/25} on-error {}
+:do {add list=$AddressList comment=fi address=95.111.215.128/27} on-error {}
+:do {add list=$AddressList comment=fi address=95.111.215.160/28} on-error {}
+:do {add list=$AddressList comment=fi address=95.111.215.176/32} on-error {}
+:do {add list=$AddressList comment=fi address=95.111.215.178/31} on-error {}
+:do {add list=$AddressList comment=fi address=95.111.215.180/30} on-error {}
+:do {add list=$AddressList comment=fi address=95.111.215.184/29} on-error {}
+:do {add list=$AddressList comment=fi address=95.111.215.192/27} on-error {}
+:do {add list=$AddressList comment=fi address=95.111.215.232/30} on-error {}
+:do {add list=$AddressList comment=fi address=95.111.215.236/31} on-error {}
+:do {add list=$AddressList comment=fi address=95.111.215.238/32} on-error {}
+:do {add list=$AddressList comment=fi address=95.111.215.240/28} on-error {}
+:do {add list=$AddressList comment=fi address=95.130.24.0/21} on-error {}
+:do {add list=$AddressList comment=fi address=95.133.252.0/22} on-error {}
+:do {add list=$AddressList comment=fi address=95.135.189.0/24} on-error {}
+:do {add list=$AddressList comment=fi address=95.140.83.0/24} on-error {}
 :do {add list=$AddressList comment=fi address=95.143.111.0/24} on-error {}
 :do {add list=$AddressList comment=fi address=95.161.252.0/24} on-error {}
 :do {add list=$AddressList comment=fi address=95.164.113.175/32} on-error {}

@@ -1,5 +1,16 @@
 :global AddressList
 /ip firewall address-list
+:do {add list=$AddressList comment=tor address=83.97.20.77/32} on-error {}
+:do {add list=$AddressList comment=tor address=84.16.224.227/32} on-error {}
+:do {add list=$AddressList comment=tor address=84.19.182.20/32} on-error {}
+:do {add list=$AddressList comment=tor address=84.239.46.144/32} on-error {}
+:do {add list=$AddressList comment=tor address=84.52.2.13/32} on-error {}
+:do {add list=$AddressList comment=tor address=84.52.48.254/32} on-error {}
+:do {add list=$AddressList comment=tor address=84.52.58.213/32} on-error {}
+:do {add list=$AddressList comment=tor address=85.137.57.19/32} on-error {}
+:do {add list=$AddressList comment=tor address=85.17.118.127/32} on-error {}
+:do {add list=$AddressList comment=tor address=85.90.207.185/32} on-error {}
+:do {add list=$AddressList comment=tor address=85.93.218.204/32} on-error {}
 :do {add list=$AddressList comment=tor address=86.54.28.49/32} on-error {}
 :do {add list=$AddressList comment=tor address=87.106.76.226/32} on-error {}
 :do {add list=$AddressList comment=tor address=87.118.110.27/32} on-error {}
@@ -57,6 +68,7 @@
 :do {add list=$AddressList comment=tor address=94.156.152.8/32} on-error {}
 :do {add list=$AddressList comment=tor address=94.16.115.121/32} on-error {}
 :do {add list=$AddressList comment=tor address=94.16.116.81/32} on-error {}
+:do {add list=$AddressList comment=tor address=94.23.204.164/32} on-error {}
 :do {add list=$AddressList comment=tor address=94.230.208.147/32} on-error {}
 :do {add list=$AddressList comment=tor address=94.230.208.148/32} on-error {}
 :do {add list=$AddressList comment=tor address=94.72.104.135/32} on-error {}

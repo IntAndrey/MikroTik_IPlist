@@ -129,6 +129,7 @@
 :do {add list=$AddressList comment=sk address=213.181.128.0/19} on-error {}
 :do {add list=$AddressList comment=sk address=213.198.107.24/29} on-error {}
 :do {add list=$AddressList comment=sk address=213.215.64.0/18} on-error {}
+:do {add list=$AddressList comment=sk address=213.228.217.232/29} on-error {}
 :do {add list=$AddressList comment=sk address=213.235.25.192/29} on-error {}
 :do {add list=$AddressList comment=sk address=213.251.0.190/32} on-error {}
 :do {add list=$AddressList comment=sk address=213.39.76.192/29} on-error {}
@@ -206,7 +207,7 @@
 :do {add list=$AddressList comment=sk address=44.61.15.16/28} on-error {}
 :do {add list=$AddressList comment=sk address=44.63.10.136/29} on-error {}
 :do {add list=$AddressList comment=sk address=44.63.3.20/30} on-error {}
-:do {add list=$AddressList comment=sk address=45.129.104.0/22} on-error {}
+:do {add list=$AddressList comment=sk address=45.129.107.0/24} on-error {}
 :do {add list=$AddressList comment=sk address=45.129.141.0/24} on-error {}
 :do {add list=$AddressList comment=sk address=45.13.137.0/24} on-error {}
 :do {add list=$AddressList comment=sk address=45.13.138.0/23} on-error {}
@@ -304,7 +305,7 @@
 :do {add list=$AddressList comment=sk address=78.143.10.144/29} on-error {}
 :do {add list=$AddressList comment=sk address=78.143.10.24/29} on-error {}
 :do {add list=$AddressList comment=sk address=78.143.8.128/29} on-error {}
-:do {add list=$AddressList comment=sk address=78.143.8.16/30} on-error {}
+:do {add list=$AddressList comment=sk address=78.143.8.16/31} on-error {}
 :do {add list=$AddressList comment=sk address=78.143.8.184/29} on-error {}
 :do {add list=$AddressList comment=sk address=78.143.8.200/31} on-error {}
 :do {add list=$AddressList comment=sk address=78.143.8.208/29} on-error {}
@@ -349,4 +350,3 @@
 :do {add list=$AddressList comment=sk address=82.26.237.0/24} on-error {}
 :do {add list=$AddressList comment=sk address=82.26.253.0/24} on-error {}
 :do {add list=$AddressList comment=sk address=82.27.225.0/24} on-error {}
-:do {add list=$AddressList comment=sk address=82.27.238.0/24} on-error {}
