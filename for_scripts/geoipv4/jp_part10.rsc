@@ -1,5 +1,7 @@
 :global AddressList
 /ip firewall address-list
+:do {add list=$AddressList comment=jp address=128.90.96.0/23} on-error {}
+:do {add list=$AddressList comment=jp address=128.90.98.0/24} on-error {}
 :do {add list=$AddressList comment=jp address=128.94.0.192/26} on-error {}
 :do {add list=$AddressList comment=jp address=128.94.14.192/26} on-error {}
 :do {add list=$AddressList comment=jp address=129.136.0.0/16} on-error {}
@@ -11,7 +13,7 @@
 :do {add list=$AddressList comment=jp address=129.227.248.0/23} on-error {}
 :do {add list=$AddressList comment=jp address=129.227.52.0/22} on-error {}
 :do {add list=$AddressList comment=jp address=129.249.0.0/16} on-error {}
-:do {add list=$AddressList comment=jp address=129.41.57.0/24} on-error {}
+:do {add list=$AddressList comment=jp address=129.41.56.0/23} on-error {}
 :do {add list=$AddressList comment=jp address=129.41.6.0/24} on-error {}
 :do {add list=$AddressList comment=jp address=129.60.0.0/16} on-error {}
 :do {add list=$AddressList comment=jp address=13.104.0.0/24} on-error {}
@@ -132,7 +134,7 @@
 :do {add list=$AddressList comment=jp address=130.176.190.128/26} on-error {}
 :do {add list=$AddressList comment=jp address=130.176.217.0/25} on-error {}
 :do {add list=$AddressList comment=jp address=130.176.217.128/26} on-error {}
-:do {add list=$AddressList comment=jp address=130.176.3.0/24} on-error {}
+:do {add list=$AddressList comment=jp address=130.176.3.128/25} on-error {}
 :do {add list=$AddressList comment=jp address=130.248.122.0/23} on-error {}
 :do {add list=$AddressList comment=jp address=130.254.99.0/24} on-error {}
 :do {add list=$AddressList comment=jp address=130.255.167.28/31} on-error {}
@@ -348,5 +350,3 @@
 :do {add list=$AddressList comment=jp address=134.185.128.0/22} on-error {}
 :do {add list=$AddressList comment=jp address=134.185.132.0/23} on-error {}
 :do {add list=$AddressList comment=jp address=134.185.136.0/21} on-error {}
-:do {add list=$AddressList comment=jp address=134.185.144.0/21} on-error {}
-:do {add list=$AddressList comment=jp address=134.185.192.0/22} on-error {}

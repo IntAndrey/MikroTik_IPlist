@@ -289,7 +289,7 @@
 :do {add list=$AddressList comment=ru address=109.120.160.0/20} on-error {}
 :do {add list=$AddressList comment=ru address=109.120.180.0/22} on-error {}
 :do {add list=$AddressList comment=ru address=109.120.188.0/22} on-error {}
-:do {add list=$AddressList comment=ru address=109.122.192.0/23} on-error {}
+:do {add list=$AddressList comment=ru address=109.122.192.0/22} on-error {}
 :do {add list=$AddressList comment=ru address=109.122.198.0/23} on-error {}
 :do {add list=$AddressList comment=ru address=109.123.128.0/18} on-error {}
 :do {add list=$AddressList comment=ru address=109.124.0.0/17} on-error {}
