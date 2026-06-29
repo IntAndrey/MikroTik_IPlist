@@ -1,5 +1,11 @@
 :global AddressList
 /ip firewall address-list
+:do {add list=$AddressList comment=ru address=193.162.143.0/24} on-error {}
+:do {add list=$AddressList comment=ru address=193.162.30.0/24} on-error {}
+:do {add list=$AddressList comment=ru address=193.163.175.0/24} on-error {}
+:do {add list=$AddressList comment=ru address=193.163.199.0/24} on-error {}
+:do {add list=$AddressList comment=ru address=193.163.203.68/32} on-error {}
+:do {add list=$AddressList comment=ru address=193.163.205.0/24} on-error {}
 :do {add list=$AddressList comment=ru address=193.163.3.0/24} on-error {}
 :do {add list=$AddressList comment=ru address=193.163.55.0/24} on-error {}
 :do {add list=$AddressList comment=ru address=193.163.94.0/24} on-error {}
@@ -224,6 +230,7 @@
 :do {add list=$AddressList comment=ru address=193.233.135.0/24} on-error {}
 :do {add list=$AddressList comment=ru address=193.233.140.0/22} on-error {}
 :do {add list=$AddressList comment=ru address=193.233.144.0/20} on-error {}
+:do {add list=$AddressList comment=ru address=193.233.16.0/24} on-error {}
 :do {add list=$AddressList comment=ru address=193.233.160.0/24} on-error {}
 :do {add list=$AddressList comment=ru address=193.233.162.0/23} on-error {}
 :do {add list=$AddressList comment=ru address=193.233.164.0/22} on-error {}
@@ -343,10 +350,3 @@
 :do {add list=$AddressList comment=ru address=193.25.210.0/23} on-error {}
 :do {add list=$AddressList comment=ru address=193.25.221.0/24} on-error {}
 :do {add list=$AddressList comment=ru address=193.25.8.0/21} on-error {}
-:do {add list=$AddressList comment=ru address=193.254.0.0/24} on-error {}
-:do {add list=$AddressList comment=ru address=193.254.208.0/23} on-error {}
-:do {add list=$AddressList comment=ru address=193.254.224.0/22} on-error {}
-:do {add list=$AddressList comment=ru address=193.254.248.0/23} on-error {}
-:do {add list=$AddressList comment=ru address=193.254.3.0/24} on-error {}
-:do {add list=$AddressList comment=ru address=193.26.122.0/24} on-error {}
-:do {add list=$AddressList comment=ru address=193.26.133.0/24} on-error {}

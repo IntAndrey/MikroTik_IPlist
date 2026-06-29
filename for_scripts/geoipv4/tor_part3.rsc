@@ -1,8 +1,30 @@
 :global AddressList
 /ip firewall address-list
+:do {add list=$AddressList comment=tor address=82.221.131.5/32} on-error {}
+:do {add list=$AddressList comment=tor address=82.221.131.71/32} on-error {}
+:do {add list=$AddressList comment=tor address=82.221.131.86/32} on-error {}
+:do {add list=$AddressList comment=tor address=82.221.139.190/32} on-error {}
+:do {add list=$AddressList comment=tor address=83.217.9.73/32} on-error {}
+:do {add list=$AddressList comment=tor address=83.97.20.77/32} on-error {}
+:do {add list=$AddressList comment=tor address=84.16.224.227/32} on-error {}
+:do {add list=$AddressList comment=tor address=84.19.182.20/32} on-error {}
+:do {add list=$AddressList comment=tor address=84.239.46.144/32} on-error {}
+:do {add list=$AddressList comment=tor address=85.137.57.19/32} on-error {}
+:do {add list=$AddressList comment=tor address=85.17.118.127/32} on-error {}
+:do {add list=$AddressList comment=tor address=85.93.218.204/32} on-error {}
+:do {add list=$AddressList comment=tor address=86.54.28.49/32} on-error {}
+:do {add list=$AddressList comment=tor address=87.106.76.226/32} on-error {}
+:do {add list=$AddressList comment=tor address=87.118.110.27/32} on-error {}
+:do {add list=$AddressList comment=tor address=87.118.116.103/32} on-error {}
+:do {add list=$AddressList comment=tor address=87.118.116.12/32} on-error {}
+:do {add list=$AddressList comment=tor address=87.118.116.90/32} on-error {}
+:do {add list=$AddressList comment=tor address=87.118.122.30/32} on-error {}
+:do {add list=$AddressList comment=tor address=87.118.122.51/32} on-error {}
+:do {add list=$AddressList comment=tor address=87.121.79.14/32} on-error {}
 :do {add list=$AddressList comment=tor address=88.80.20.86/32} on-error {}
 :do {add list=$AddressList comment=tor address=88.80.26.2/31} on-error {}
 :do {add list=$AddressList comment=tor address=88.80.26.4/32} on-error {}
+:do {add list=$AddressList comment=tor address=89.125.153.39/32} on-error {}
 :do {add list=$AddressList comment=tor address=89.147.108.90/32} on-error {}
 :do {add list=$AddressList comment=tor address=89.147.110.118/32} on-error {}
 :do {add list=$AddressList comment=tor address=89.147.110.154/32} on-error {}
@@ -55,6 +77,7 @@
 :do {add list=$AddressList comment=tor address=94.72.104.135/32} on-error {}
 :do {add list=$AddressList comment=tor address=94.75.225.81/32} on-error {}
 :do {add list=$AddressList comment=tor address=95.128.43.164/32} on-error {}
+:do {add list=$AddressList comment=tor address=95.135.208.24/32} on-error {}
 :do {add list=$AddressList comment=tor address=95.143.193.125/32} on-error {}
 :do {add list=$AddressList comment=tor address=95.155.151.200/32} on-error {}
 :do {add list=$AddressList comment=tor address=95.168.173.143/32} on-error {}

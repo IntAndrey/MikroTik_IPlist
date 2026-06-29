@@ -1,5 +1,7 @@
 :global AddressList
 /ip firewall address-list
+:do {add list=$AddressList comment=lv address=185.250.116.0/22} on-error {}
+:do {add list=$AddressList comment=lv address=185.253.61.0/24} on-error {}
 :do {add list=$AddressList comment=lv address=185.27.93.0/24} on-error {}
 :do {add list=$AddressList comment=lv address=185.28.47.0/24} on-error {}
 :do {add list=$AddressList comment=lv address=185.31.44.0/22} on-error {}
@@ -60,6 +62,7 @@
 :do {add list=$AddressList comment=lv address=188.190.11.0/24} on-error {}
 :do {add list=$AddressList comment=lv address=188.190.27.0/24} on-error {}
 :do {add list=$AddressList comment=lv address=188.214.39.0/24} on-error {}
+:do {add list=$AddressList comment=lv address=188.220.205.0/24} on-error {}
 :do {add list=$AddressList comment=lv address=188.253.16.0/21} on-error {}
 :do {add list=$AddressList comment=lv address=188.64.142.0/24} on-error {}
 :do {add list=$AddressList comment=lv address=188.64.178.0/24} on-error {}
@@ -234,6 +237,7 @@
 :do {add list=$AddressList comment=lv address=195.216.236.0/24} on-error {}
 :do {add list=$AddressList comment=lv address=195.234.131.0/24} on-error {}
 :do {add list=$AddressList comment=lv address=195.234.144.0/24} on-error {}
+:do {add list=$AddressList comment=lv address=195.242.147.0/24} on-error {}
 :do {add list=$AddressList comment=lv address=195.244.128.0/19} on-error {}
 :do {add list=$AddressList comment=lv address=195.245.194.0/24} on-error {}
 :do {add list=$AddressList comment=lv address=195.246.226.0/23} on-error {}
@@ -346,7 +350,3 @@
 :do {add list=$AddressList comment=lv address=213.110.80.0/20} on-error {}
 :do {add list=$AddressList comment=lv address=213.111.180.0/24} on-error {}
 :do {add list=$AddressList comment=lv address=213.139.16.72/29} on-error {}
-:do {add list=$AddressList comment=lv address=213.139.229.0/24} on-error {}
-:do {add list=$AddressList comment=lv address=213.155.10.0/24} on-error {}
-:do {add list=$AddressList comment=lv address=213.155.12.0/24} on-error {}
-:do {add list=$AddressList comment=lv address=213.155.15.0/24} on-error {}

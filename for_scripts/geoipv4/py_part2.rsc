@@ -104,6 +104,8 @@
 :do {add list=$AddressList comment=py address=57.75.64.0/20} on-error {}
 :do {add list=$AddressList comment=py address=64.145.65.0/25} on-error {}
 :do {add list=$AddressList comment=py address=66.102.32.128/26} on-error {}
+:do {add list=$AddressList comment=py address=75.125.144.0/24} on-error {}
+:do {add list=$AddressList comment=py address=78.105.177.0/24} on-error {}
 :do {add list=$AddressList comment=py address=83.137.198.88/29} on-error {}
 :do {add list=$AddressList comment=py address=83.137.199.88/29} on-error {}
 :do {add list=$AddressList comment=py address=96.126.162.0/23} on-error {}

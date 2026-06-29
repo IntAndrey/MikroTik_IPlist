@@ -1,5 +1,6 @@
 :global AddressList
 /ip firewall address-list
+:do {add list=$AddressList comment=ir address=185.142.232.0/22} on-error {}
 :do {add list=$AddressList comment=ir address=185.142.92.0/22} on-error {}
 :do {add list=$AddressList comment=ir address=185.143.204.0/22} on-error {}
 :do {add list=$AddressList comment=ir address=185.143.232.0/22} on-error {}
@@ -22,6 +23,7 @@
 :do {add list=$AddressList comment=ir address=185.155.236.0/22} on-error {}
 :do {add list=$AddressList comment=ir address=185.155.72.0/23} on-error {}
 :do {add list=$AddressList comment=ir address=185.155.8.0/21} on-error {}
+:do {add list=$AddressList comment=ir address=185.156.51.0/24} on-error {}
 :do {add list=$AddressList comment=ir address=185.157.8.0/22} on-error {}
 :do {add list=$AddressList comment=ir address=185.158.172.0/22} on-error {}
 :do {add list=$AddressList comment=ir address=185.159.152.0/22} on-error {}
@@ -130,6 +132,8 @@
 :do {add list=$AddressList comment=ir address=185.199.64.0/22} on-error {}
 :do {add list=$AddressList comment=ir address=185.2.12.0/22} on-error {}
 :do {add list=$AddressList comment=ir address=185.20.160.0/22} on-error {}
+:do {add list=$AddressList comment=ir address=185.201.221.0/24} on-error {}
+:do {add list=$AddressList comment=ir address=185.201.223.0/24} on-error {}
 :do {add list=$AddressList comment=ir address=185.201.48.0/22} on-error {}
 :do {add list=$AddressList comment=ir address=185.202.56.0/22} on-error {}
 :do {add list=$AddressList comment=ir address=185.203.160.0/22} on-error {}
@@ -346,7 +350,3 @@
 :do {add list=$AddressList comment=ir address=185.80.100.0/22} on-error {}
 :do {add list=$AddressList comment=ir address=185.80.198.0/23} on-error {}
 :do {add list=$AddressList comment=ir address=185.81.40.0/22} on-error {}
-:do {add list=$AddressList comment=ir address=185.81.96.0/22} on-error {}
-:do {add list=$AddressList comment=ir address=185.82.136.0/22} on-error {}
-:do {add list=$AddressList comment=ir address=185.82.164.0/22} on-error {}
-:do {add list=$AddressList comment=ir address=185.82.180.0/22} on-error {}
