@@ -1,7 +1,7 @@
 :global AddressList
 /ip firewall address-list
 :do {add list=$AddressList comment=twitter address=103.252.112.0/22} on-error {}
-:do {add list=$AddressList comment=twitter address=104.244.40.0/23} on-error {}
+:do {add list=$AddressList comment=twitter address=104.244.41.0/24} on-error {}
 :do {add list=$AddressList comment=twitter address=104.244.42.0/24} on-error {}
 :do {add list=$AddressList comment=twitter address=104.244.44.0/22} on-error {}
 :do {add list=$AddressList comment=twitter address=185.45.4.0/22} on-error {}

@@ -1,8 +1,5 @@
 :global AddressList
 /ip firewall address-list
-:do {add list=$AddressList comment=no address=146.19.161.64/26} on-error {}
-:do {add list=$AddressList comment=no address=146.19.210.0/24} on-error {}
-:do {add list=$AddressList comment=no address=146.19.60.0/24} on-error {}
 :do {add list=$AddressList comment=no address=146.192.0.0/16} on-error {}
 :do {add list=$AddressList comment=no address=146.2.0.0/16} on-error {}
 :do {add list=$AddressList comment=no address=146.213.0.0/16} on-error {}
@@ -343,10 +340,13 @@
 :do {add list=$AddressList comment=no address=161.0.27.0/24} on-error {}
 :do {add list=$AddressList comment=no address=161.123.223.0/24} on-error {}
 :do {add list=$AddressList comment=no address=161.4.0.0/16} on-error {}
-:do {add list=$AddressList comment=no address=162.120.169.30/31} on-error {}
-:do {add list=$AddressList comment=no address=162.120.169.32/30} on-error {}
-:do {add list=$AddressList comment=no address=162.120.172.30/31} on-error {}
-:do {add list=$AddressList comment=no address=162.120.172.32/30} on-error {}
-:do {add list=$AddressList comment=no address=162.120.174.211/32} on-error {}
-:do {add list=$AddressList comment=no address=162.120.174.212/30} on-error {}
-:do {add list=$AddressList comment=no address=162.120.174.216/31} on-error {}
+:do {add list=$AddressList comment=no address=162.120.187.118/32} on-error {}
+:do {add list=$AddressList comment=no address=162.120.187.246/32} on-error {}
+:do {add list=$AddressList comment=no address=162.120.188.118/32} on-error {}
+:do {add list=$AddressList comment=no address=162.120.188.246/32} on-error {}
+:do {add list=$AddressList comment=no address=162.120.205.171/32} on-error {}
+:do {add list=$AddressList comment=no address=162.120.205.172/32} on-error {}
+:do {add list=$AddressList comment=no address=162.120.205.220/30} on-error {}
+:do {add list=$AddressList comment=no address=162.120.205.224/31} on-error {}
+:do {add list=$AddressList comment=no address=162.120.205.8/32} on-error {}
+:do {add list=$AddressList comment=no address=162.120.207.147/32} on-error {}

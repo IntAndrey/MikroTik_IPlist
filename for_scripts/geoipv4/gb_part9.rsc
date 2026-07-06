@@ -1,8 +1,5 @@
 :global AddressList
 /ip firewall address-list
-:do {add list=$AddressList comment=gb address=141.228.252.0/22} on-error {}
-:do {add list=$AddressList comment=gb address=141.241.0.0/16} on-error {}
-:do {add list=$AddressList comment=gb address=141.245.0.0/16} on-error {}
 :do {add list=$AddressList comment=gb address=141.6.204.0/24} on-error {}
 :do {add list=$AddressList comment=gb address=141.8.216.0/21} on-error {}
 :do {add list=$AddressList comment=gb address=141.8.236.36/30} on-error {}
@@ -14,7 +11,7 @@
 :do {add list=$AddressList comment=gb address=141.98.210.0/24} on-error {}
 :do {add list=$AddressList comment=gb address=141.98.252.0/24} on-error {}
 :do {add list=$AddressList comment=gb address=141.98.60.0/22} on-error {}
-:do {add list=$AddressList comment=gb address=141.98.88.0/23} on-error {}
+:do {add list=$AddressList comment=gb address=141.98.88.0/24} on-error {}
 :do {add list=$AddressList comment=gb address=141.98.92.0/22} on-error {}
 :do {add list=$AddressList comment=gb address=142.111.129.0/24} on-error {}
 :do {add list=$AddressList comment=gb address=142.111.172.0/24} on-error {}
@@ -86,6 +83,8 @@
 :do {add list=$AddressList comment=gb address=144.178.11.32/27} on-error {}
 :do {add list=$AddressList comment=gb address=144.178.11.4/30} on-error {}
 :do {add list=$AddressList comment=gb address=144.178.11.64/26} on-error {}
+:do {add list=$AddressList comment=gb address=144.178.116.0/24} on-error {}
+:do {add list=$AddressList comment=gb address=144.178.118.0/23} on-error {}
 :do {add list=$AddressList comment=gb address=144.178.252.0/23} on-error {}
 :do {add list=$AddressList comment=gb address=144.178.255.0/24} on-error {}
 :do {add list=$AddressList comment=gb address=144.178.29.0/29} on-error {}
@@ -350,3 +349,4 @@
 :do {add list=$AddressList comment=gb address=146.188.104.160/28} on-error {}
 :do {add list=$AddressList comment=gb address=146.188.104.177/32} on-error {}
 :do {add list=$AddressList comment=gb address=146.188.104.178/31} on-error {}
+:do {add list=$AddressList comment=gb address=146.188.104.180/30} on-error {}
