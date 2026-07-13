@@ -1,17 +1,12 @@
 :global AddressList
 /ip firewall address-list
-:do {add list=$AddressList comment=pa address=195.5.250.155/32} on-error {}
-:do {add list=$AddressList comment=pa address=196.197.156.0/24} on-error {}
-:do {add list=$AddressList comment=pa address=196.198.156.0/24} on-error {}
-:do {add list=$AddressList comment=pa address=196.199.156.0/24} on-error {}
-:do {add list=$AddressList comment=pa address=196.48.156.0/24} on-error {}
 :do {add list=$AddressList comment=pa address=196.56.156.0/24} on-error {}
 :do {add list=$AddressList comment=pa address=196.57.156.0/24} on-error {}
 :do {add list=$AddressList comment=pa address=196.58.156.0/24} on-error {}
 :do {add list=$AddressList comment=pa address=198.145.156.0/24} on-error {}
 :do {add list=$AddressList comment=pa address=199.100.35.0/31} on-error {}
 :do {add list=$AddressList comment=pa address=199.100.35.12/30} on-error {}
-:do {add list=$AddressList comment=pa address=199.100.35.16/30} on-error {}
+:do {add list=$AddressList comment=pa address=199.100.35.18/31} on-error {}
 :do {add list=$AddressList comment=pa address=199.100.35.20/31} on-error {}
 :do {add list=$AddressList comment=pa address=199.100.35.4/30} on-error {}
 :do {add list=$AddressList comment=pa address=199.100.35.8/31} on-error {}
@@ -111,10 +106,6 @@
 :do {add list=$AddressList comment=pa address=38.104.94.72/31} on-error {}
 :do {add list=$AddressList comment=pa address=38.108.32.0/22} on-error {}
 :do {add list=$AddressList comment=pa address=38.131.12.0/22} on-error {}
-:do {add list=$AddressList comment=pa address=38.134.250.0/23} on-error {}
-:do {add list=$AddressList comment=pa address=38.134.252.0/24} on-error {}
-:do {add list=$AddressList comment=pa address=38.134.254.0/24} on-error {}
-:do {add list=$AddressList comment=pa address=38.134.255.128/26} on-error {}
 :do {add list=$AddressList comment=pa address=38.145.128.0/21} on-error {}
 :do {add list=$AddressList comment=pa address=38.156.248.0/22} on-error {}
 :do {add list=$AddressList comment=pa address=38.191.72.0/22} on-error {}

@@ -1,5 +1,8 @@
 :global AddressList
 /ip firewall address-list
+:do {add list=$AddressList comment=kz address=213.211.64.0/18} on-error {}
+:do {add list=$AddressList comment=kz address=213.232.196.0/23} on-error {}
+:do {add list=$AddressList comment=kz address=213.232.201.0/24} on-error {}
 :do {add list=$AddressList comment=kz address=213.232.206.0/24} on-error {}
 :do {add list=$AddressList comment=kz address=213.232.218.0/23} on-error {}
 :do {add list=$AddressList comment=kz address=213.232.220.0/22} on-error {}
@@ -249,7 +252,6 @@
 :do {add list=$AddressList comment=kz address=78.109.18.0/23} on-error {}
 :do {add list=$AddressList comment=kz address=78.140.223.0/24} on-error {}
 :do {add list=$AddressList comment=kz address=78.140.244.0/22} on-error {}
-:do {add list=$AddressList comment=kz address=78.142.238.0/24} on-error {}
 :do {add list=$AddressList comment=kz address=78.142.250.0/23} on-error {}
 :do {add list=$AddressList comment=kz address=78.40.108.0/23} on-error {}
 :do {add list=$AddressList comment=kz address=79.133.184.0/21} on-error {}
@@ -301,7 +303,7 @@
 :do {add list=$AddressList comment=kz address=83.97.77.0/24} on-error {}
 :do {add list=$AddressList comment=kz address=84.240.192.0/18} on-error {}
 :do {add list=$AddressList comment=kz address=84.252.156.0/22} on-error {}
-:do {add list=$AddressList comment=kz address=84.38.4.0/23} on-error {}
+:do {add list=$AddressList comment=kz address=84.38.4.0/24} on-error {}
 :do {add list=$AddressList comment=kz address=84.75.162.0/24} on-error {}
 :do {add list=$AddressList comment=kz address=85.116.176.0/20} on-error {}
 :do {add list=$AddressList comment=kz address=85.117.96.0/19} on-error {}
@@ -348,5 +350,3 @@
 :do {add list=$AddressList comment=kz address=89.219.4.0/22} on-error {}
 :do {add list=$AddressList comment=kz address=89.219.8.0/21} on-error {}
 :do {add list=$AddressList comment=kz address=89.223.0.0/24} on-error {}
-:do {add list=$AddressList comment=kz address=89.223.11.0/24} on-error {}
-:do {add list=$AddressList comment=kz address=89.223.112.0/21} on-error {}

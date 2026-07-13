@@ -7,8 +7,10 @@
 :do {add list=$AddressList comment=jm address=104.28.11.54/31} on-error {}
 :do {add list=$AddressList comment=jm address=104.28.126.97/32} on-error {}
 :do {add list=$AddressList comment=jm address=104.28.126.98/32} on-error {}
+:do {add list=$AddressList comment=jm address=104.28.137.133/32} on-error {}
 :do {add list=$AddressList comment=jm address=104.28.150.239/32} on-error {}
 :do {add list=$AddressList comment=jm address=104.28.158.239/32} on-error {}
+:do {add list=$AddressList comment=jm address=104.28.167.18/32} on-error {}
 :do {add list=$AddressList comment=jm address=104.28.178.216/30} on-error {}
 :do {add list=$AddressList comment=jm address=104.28.178.220/31} on-error {}
 :do {add list=$AddressList comment=jm address=104.28.178.222/32} on-error {}
@@ -119,6 +121,7 @@
 :do {add list=$AddressList comment=jm address=192.131.36.0/24} on-error {}
 :do {add list=$AddressList comment=jm address=192.131.37.0/25} on-error {}
 :do {add list=$AddressList comment=jm address=192.131.38.0/23} on-error {}
+:do {add list=$AddressList comment=jm address=192.30.203.0/24} on-error {}
 :do {add list=$AddressList comment=jm address=193.9.34.0/24} on-error {}
 :do {add list=$AddressList comment=jm address=194.50.99.113/32} on-error {}
 :do {add list=$AddressList comment=jm address=195.158.204.64/26} on-error {}
@@ -228,9 +231,7 @@
 :do {add list=$AddressList comment=jm address=69.79.100.96/28} on-error {}
 :do {add list=$AddressList comment=jm address=69.79.101.0/24} on-error {}
 :do {add list=$AddressList comment=jm address=69.79.102.0/23} on-error {}
-:do {add list=$AddressList comment=jm address=69.79.192.0/22} on-error {}
-:do {add list=$AddressList comment=jm address=69.79.197.0/24} on-error {}
-:do {add list=$AddressList comment=jm address=69.79.200.0/21} on-error {}
+:do {add list=$AddressList comment=jm address=69.79.192.0/20} on-error {}
 :do {add list=$AddressList comment=jm address=69.79.96.0/22} on-error {}
 :do {add list=$AddressList comment=jm address=72.252.104.0/21} on-error {}
 :do {add list=$AddressList comment=jm address=72.252.112.0/20} on-error {}

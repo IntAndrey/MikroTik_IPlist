@@ -1,5 +1,11 @@
 :global AddressList
 /ip firewall address-list
+:do {add list=$AddressList comment=ua address=185.209.241.0/24} on-error {}
+:do {add list=$AddressList comment=ua address=185.209.56.0/22} on-error {}
+:do {add list=$AddressList comment=ua address=185.21.128.0/24} on-error {}
+:do {add list=$AddressList comment=ua address=185.21.176.0/22} on-error {}
+:do {add list=$AddressList comment=ua address=185.21.51.0/24} on-error {}
+:do {add list=$AddressList comment=ua address=185.210.160.0/24} on-error {}
 :do {add list=$AddressList comment=ua address=185.210.84.0/22} on-error {}
 :do {add list=$AddressList comment=ua address=185.212.236.0/23} on-error {}
 :do {add list=$AddressList comment=ua address=185.212.248.0/24} on-error {}
@@ -152,6 +158,7 @@
 :do {add list=$AddressList comment=ua address=185.6.184.0/22} on-error {}
 :do {add list=$AddressList comment=ua address=185.61.137.0/24} on-error {}
 :do {add list=$AddressList comment=ua address=185.61.138.0/23} on-error {}
+:do {add list=$AddressList comment=ua address=185.62.96.0/22} on-error {}
 :do {add list=$AddressList comment=ua address=185.63.32.0/22} on-error {}
 :do {add list=$AddressList comment=ua address=185.64.7.0/24} on-error {}
 :do {add list=$AddressList comment=ua address=185.65.244.0/22} on-error {}
@@ -343,10 +350,3 @@
 :do {add list=$AddressList comment=ua address=193.108.162.0/23} on-error {}
 :do {add list=$AddressList comment=ua address=193.108.171.0/24} on-error {}
 :do {add list=$AddressList comment=ua address=193.108.183.0/24} on-error {}
-:do {add list=$AddressList comment=ua address=193.108.198.0/24} on-error {}
-:do {add list=$AddressList comment=ua address=193.108.208.0/23} on-error {}
-:do {add list=$AddressList comment=ua address=193.108.211.0/24} on-error {}
-:do {add list=$AddressList comment=ua address=193.108.226.0/23} on-error {}
-:do {add list=$AddressList comment=ua address=193.108.240.0/23} on-error {}
-:do {add list=$AddressList comment=ua address=193.108.248.0/22} on-error {}
-:do {add list=$AddressList comment=ua address=193.108.38.0/23} on-error {}

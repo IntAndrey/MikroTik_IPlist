@@ -309,12 +309,12 @@
 :do {add list=$AddressList comment=pt address=149.202.53.22/32} on-error {}
 :do {add list=$AddressList comment=pt address=149.202.98.88/30} on-error {}
 :do {add list=$AddressList comment=pt address=149.22.86.0/24} on-error {}
-:do {add list=$AddressList comment=pt address=149.6.144.12/31} on-error {}
+:do {add list=$AddressList comment=pt address=149.6.144.12/30} on-error {}
 :do {add list=$AddressList comment=pt address=149.6.144.126/31} on-error {}
 :do {add list=$AddressList comment=pt address=149.6.144.160/30} on-error {}
 :do {add list=$AddressList comment=pt address=149.6.144.28/31} on-error {}
 :do {add list=$AddressList comment=pt address=149.6.144.40/31} on-error {}
-:do {add list=$AddressList comment=pt address=149.6.144.60/30} on-error {}
+:do {add list=$AddressList comment=pt address=149.6.144.62/31} on-error {}
 :do {add list=$AddressList comment=pt address=149.6.145.104/29} on-error {}
 :do {add list=$AddressList comment=pt address=149.6.32.2/31} on-error {}
 :do {add list=$AddressList comment=pt address=149.62.42.0/24} on-error {}

@@ -12,7 +12,7 @@
 :do {add list=$AddressList comment=twitter address=199.59.148.0/22} on-error {}
 :do {add list=$AddressList comment=twitter address=199.96.56.0/23} on-error {}
 :do {add list=$AddressList comment=twitter address=202.160.128.0/22} on-error {}
-:do {add list=$AddressList comment=twitter address=209.237.192.0/19} on-error {}
+:do {add list=$AddressList comment=twitter address=209.237.208.0/24} on-error {}
 :do {add list=$AddressList comment=twitter address=64.63.0.0/18} on-error {}
 :do {add list=$AddressList comment=twitter address=69.12.56.0/21} on-error {}
 :do {add list=$AddressList comment=twitter address=69.195.160.0/19} on-error {}
