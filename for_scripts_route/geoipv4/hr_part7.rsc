@@ -2,6 +2,8 @@
 :global RouteTab
 :global GateWay
 /ip route
+:if ([:len [/ip/route/find dst-address=34.103.158.255/32 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=34.103.158.255/32 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=hr }
+:if ([:len [/ip/route/find dst-address=34.103.159.0/32 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=34.103.159.0/32 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=hr }
 :if ([:len [/ip/route/find dst-address=34.103.159.117/32 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=34.103.159.117/32 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=hr }
 :if ([:len [/ip/route/find dst-address=34.103.159.118/31 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=34.103.159.118/31 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=hr }
 :if ([:len [/ip/route/find dst-address=34.103.159.12/30 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=34.103.159.12/30 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=hr }
@@ -76,7 +78,7 @@
 :if ([:len [/ip/route/find dst-address=78.134.128.0/17 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=78.134.128.0/17 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=hr }
 :if ([:len [/ip/route/find dst-address=79.127.144.0/24 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=79.127.144.0/24 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=hr }
 :if ([:len [/ip/route/find dst-address=8.39.6.0/24 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=8.39.6.0/24 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=hr }
-:if ([:len [/ip/route/find dst-address=80.173.128.0/22 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=80.173.128.0/22 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=hr }
+:if ([:len [/ip/route/find dst-address=80.173.128.0/21 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=80.173.128.0/21 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=hr }
 :if ([:len [/ip/route/find dst-address=80.239.152.128/27 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=80.239.152.128/27 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=hr }
 :if ([:len [/ip/route/find dst-address=80.239.152.160/29 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=80.239.152.160/29 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=hr }
 :if ([:len [/ip/route/find dst-address=80.239.215.88/29 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=80.239.215.88/29 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=hr }
@@ -100,5 +102,3 @@
 :if ([:len [/ip/route/find dst-address=82.214.109.208/30 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=82.214.109.208/30 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=hr }
 :if ([:len [/ip/route/find dst-address=82.214.109.213/32 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=82.214.109.213/32 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=hr }
 :if ([:len [/ip/route/find dst-address=82.214.109.214/31 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=82.214.109.214/31 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=hr }
-:if ([:len [/ip/route/find dst-address=82.214.109.216/29 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=82.214.109.216/29 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=hr }
-:if ([:len [/ip/route/find dst-address=82.214.109.224/27 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=82.214.109.224/27 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=hr }

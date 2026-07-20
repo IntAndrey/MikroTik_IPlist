@@ -1,11 +1,5 @@
 :global AddressList
 /ip firewall address-list
-:do {add list=$AddressList comment=lu address=185.75.176.32/27} on-error {}
-:do {add list=$AddressList comment=lu address=185.80.124.0/24} on-error {}
-:do {add list=$AddressList comment=lu address=185.9.244.0/22} on-error {}
-:do {add list=$AddressList comment=lu address=185.91.34.176/28} on-error {}
-:do {add list=$AddressList comment=lu address=185.97.244.0/22} on-error {}
-:do {add list=$AddressList comment=lu address=185.99.186.184/29} on-error {}
 :do {add list=$AddressList comment=lu address=185.99.24.212/30} on-error {}
 :do {add list=$AddressList comment=lu address=185.99.26.212/30} on-error {}
 :do {add list=$AddressList comment=lu address=187.13.184.0/23} on-error {}
@@ -193,7 +187,6 @@
 :do {add list=$AddressList comment=lu address=202.78.165.0/24} on-error {}
 :do {add list=$AddressList comment=lu address=202.78.166.0/24} on-error {}
 :do {add list=$AddressList comment=lu address=202.78.169.0/24} on-error {}
-:do {add list=$AddressList comment=lu address=202.78.171.0/24} on-error {}
 :do {add list=$AddressList comment=lu address=204.217.150.0/23} on-error {}
 :do {add list=$AddressList comment=lu address=204.26.61.32/27} on-error {}
 :do {add list=$AddressList comment=lu address=205.147.26.0/24} on-error {}
@@ -350,3 +343,10 @@
 :do {add list=$AddressList comment=lu address=212.35.113.32/27} on-error {}
 :do {add list=$AddressList comment=lu address=212.35.113.72/30} on-error {}
 :do {add list=$AddressList comment=lu address=212.35.113.8/30} on-error {}
+:do {add list=$AddressList comment=lu address=212.35.113.80/31} on-error {}
+:do {add list=$AddressList comment=lu address=212.35.113.84/30} on-error {}
+:do {add list=$AddressList comment=lu address=212.35.117.32/29} on-error {}
+:do {add list=$AddressList comment=lu address=212.35.118.112/29} on-error {}
+:do {add list=$AddressList comment=lu address=212.35.118.196/30} on-error {}
+:do {add list=$AddressList comment=lu address=212.35.118.216/29} on-error {}
+:do {add list=$AddressList comment=lu address=212.35.118.80/29} on-error {}

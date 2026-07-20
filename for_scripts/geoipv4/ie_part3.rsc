@@ -1,5 +1,9 @@
 :global AddressList
 /ip firewall address-list
+:do {add list=$AddressList comment=ie address=139.45.166.0/23} on-error {}
+:do {add list=$AddressList comment=ie address=139.45.176.0/24} on-error {}
+:do {add list=$AddressList comment=ie address=139.45.179.0/24} on-error {}
+:do {add list=$AddressList comment=ie address=139.45.182.0/23} on-error {}
 :do {add list=$AddressList comment=ie address=139.45.184.0/21} on-error {}
 :do {add list=$AddressList comment=ie address=139.92.122.0/24} on-error {}
 :do {add list=$AddressList comment=ie address=140.150.99.0/24} on-error {}
@@ -249,10 +253,10 @@
 :do {add list=$AddressList comment=ie address=151.206.90.0/23} on-error {}
 :do {add list=$AddressList comment=ie address=152.233.55.0/24} on-error {}
 :do {add list=$AddressList comment=ie address=152.236.128.0/23} on-error {}
-:do {add list=$AddressList comment=ie address=152.236.136.0/24} on-error {}
 :do {add list=$AddressList comment=ie address=152.236.139.0/24} on-error {}
 :do {add list=$AddressList comment=ie address=152.236.142.0/23} on-error {}
-:do {add list=$AddressList comment=ie address=152.236.144.0/20} on-error {}
+:do {add list=$AddressList comment=ie address=152.236.148.0/22} on-error {}
+:do {add list=$AddressList comment=ie address=152.236.152.0/21} on-error {}
 :do {add list=$AddressList comment=ie address=152.236.160.0/19} on-error {}
 :do {add list=$AddressList comment=ie address=152.236.192.0/18} on-error {}
 :do {add list=$AddressList comment=ie address=152.236.21.0/24} on-error {}
@@ -346,7 +350,3 @@
 :do {add list=$AddressList comment=ie address=154.14.52.36/30} on-error {}
 :do {add list=$AddressList comment=ie address=154.14.54.80/28} on-error {}
 :do {add list=$AddressList comment=ie address=154.14.59.168/30} on-error {}
-:do {add list=$AddressList comment=ie address=154.14.63.32/29} on-error {}
-:do {add list=$AddressList comment=ie address=154.14.80.144/29} on-error {}
-:do {add list=$AddressList comment=ie address=154.14.81.56/29} on-error {}
-:do {add list=$AddressList comment=ie address=154.14.81.64/29} on-error {}

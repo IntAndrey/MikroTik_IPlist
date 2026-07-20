@@ -135,6 +135,7 @@
 :do {add list=$AddressList comment=vi address=45.62.191.16/28} on-error {}
 :do {add list=$AddressList comment=vi address=5.175.190.0/28} on-error {}
 :do {add list=$AddressList comment=vi address=5.175.190.144/29} on-error {}
+:do {add list=$AddressList comment=vi address=5.175.190.168/29} on-error {}
 :do {add list=$AddressList comment=vi address=5.175.190.224/29} on-error {}
 :do {add list=$AddressList comment=vi address=5.175.190.248/29} on-error {}
 :do {add list=$AddressList comment=vi address=5.175.190.80/29} on-error {}

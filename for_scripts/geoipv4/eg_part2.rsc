@@ -1,11 +1,5 @@
 :global AddressList
 /ip firewall address-list
-:do {add list=$AddressList comment=eg address=166.1.228.0/24} on-error {}
-:do {add list=$AddressList comment=eg address=167.103.148.0/24} on-error {}
-:do {add list=$AddressList comment=eg address=169.239.36.0/22} on-error {}
-:do {add list=$AddressList comment=eg address=170.168.123.0/24} on-error {}
-:do {add list=$AddressList comment=eg address=170.168.211.0/24} on-error {}
-:do {add list=$AddressList comment=eg address=170.168.35.0/24} on-error {}
 :do {add list=$AddressList comment=eg address=172.225.120.32/27} on-error {}
 :do {add list=$AddressList comment=eg address=172.225.144.96/27} on-error {}
 :do {add list=$AddressList comment=eg address=172.225.160.128/28} on-error {}
@@ -118,6 +112,7 @@
 :do {add list=$AddressList comment=eg address=197.32.0.0/11} on-error {}
 :do {add list=$AddressList comment=eg address=198.251.88.16/29} on-error {}
 :do {add list=$AddressList comment=eg address=2.21.128.0/22} on-error {}
+:do {add list=$AddressList comment=eg address=201.67.28.0/24} on-error {}
 :do {add list=$AddressList comment=eg address=202.181.128.24/30} on-error {}
 :do {add list=$AddressList comment=eg address=202.181.128.28/31} on-error {}
 :do {add list=$AddressList comment=eg address=203.167.22.0/24} on-error {}
@@ -349,4 +344,9 @@
 :do {add list=$AddressList comment=eg address=82.129.216.0/22} on-error {}
 :do {add list=$AddressList comment=eg address=82.129.221.0/24} on-error {}
 :do {add list=$AddressList comment=eg address=82.129.222.0/23} on-error {}
-:do {add list=$AddressList comment=eg address=82.129.228.48/28} on-error {}
+:do {add list=$AddressList comment=eg address=82.129.224.0/19} on-error {}
+:do {add list=$AddressList comment=eg address=82.139.195.0/25} on-error {}
+:do {add list=$AddressList comment=eg address=82.201.128.0/17} on-error {}
+:do {add list=$AddressList comment=eg address=82.24.194.0/24} on-error {}
+:do {add list=$AddressList comment=eg address=82.41.142.0/24} on-error {}
+:do {add list=$AddressList comment=eg address=82.41.247.0/24} on-error {}
