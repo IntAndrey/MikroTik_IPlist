@@ -1,5 +1,7 @@
 :global AddressList
 /ip firewall address-list
+:do {add list=$AddressList comment=co address=200.24.8.0/23} on-error {}
+:do {add list=$AddressList comment=co address=200.25.0.0/21} on-error {}
 :do {add list=$AddressList comment=co address=200.25.100.0/24} on-error {}
 :do {add list=$AddressList comment=co address=200.25.103.0/24} on-error {}
 :do {add list=$AddressList comment=co address=200.25.104.0/21} on-error {}
@@ -155,7 +157,6 @@
 :do {add list=$AddressList comment=co address=205.220.60.0/22} on-error {}
 :do {add list=$AddressList comment=co address=205.220.64.0/22} on-error {}
 :do {add list=$AddressList comment=co address=205.220.68.0/24} on-error {}
-:do {add list=$AddressList comment=co address=206.0.128.0/22} on-error {}
 :do {add list=$AddressList comment=co address=206.0.24.0/24} on-error {}
 :do {add list=$AddressList comment=co address=206.1.80.0/22} on-error {}
 :do {add list=$AddressList comment=co address=206.1.86.0/23} on-error {}
@@ -278,6 +279,8 @@
 :do {add list=$AddressList comment=co address=32.59.147.48/28} on-error {}
 :do {add list=$AddressList comment=co address=32.59.147.64/26} on-error {}
 :do {add list=$AddressList comment=co address=32.59.147.8/29} on-error {}
+:do {add list=$AddressList comment=co address=32.59.74.194/32} on-error {}
+:do {add list=$AddressList comment=co address=32.59.74.202/32} on-error {}
 :do {add list=$AddressList comment=co address=34.100.24.0/24} on-error {}
 :do {add list=$AddressList comment=co address=34.100.25.0/25} on-error {}
 :do {add list=$AddressList comment=co address=34.100.25.128/27} on-error {}
@@ -347,6 +350,3 @@
 :do {add list=$AddressList comment=co address=34.99.120.40/31} on-error {}
 :do {add list=$AddressList comment=co address=34.99.120.79/32} on-error {}
 :do {add list=$AddressList comment=co address=34.99.120.8/32} on-error {}
-:do {add list=$AddressList comment=co address=34.99.121.113/32} on-error {}
-:do {add list=$AddressList comment=co address=34.99.121.114/32} on-error {}
-:do {add list=$AddressList comment=co address=34.99.121.48/31} on-error {}

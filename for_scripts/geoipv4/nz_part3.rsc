@@ -178,7 +178,6 @@
 :do {add list=$AddressList comment=nz address=131.229.208.19/32} on-error {}
 :do {add list=$AddressList comment=nz address=131.229.209.147/32} on-error {}
 :do {add list=$AddressList comment=nz address=131.229.209.19/32} on-error {}
-:do {add list=$AddressList comment=nz address=131.229.210.0/23} on-error {}
 :do {add list=$AddressList comment=nz address=131.229.214.147/32} on-error {}
 :do {add list=$AddressList comment=nz address=131.229.214.19/32} on-error {}
 :do {add list=$AddressList comment=nz address=131.229.215.147/32} on-error {}
@@ -281,7 +280,8 @@
 :do {add list=$AddressList comment=nz address=146.75.190.10/31} on-error {}
 :do {add list=$AddressList comment=nz address=146.75.190.12/30} on-error {}
 :do {add list=$AddressList comment=nz address=146.75.190.16/30} on-error {}
-:do {add list=$AddressList comment=nz address=146.75.216.0/24} on-error {}
+:do {add list=$AddressList comment=nz address=146.75.216.0/29} on-error {}
+:do {add list=$AddressList comment=nz address=146.75.216.8/31} on-error {}
 :do {add list=$AddressList comment=nz address=146.75.219.0/29} on-error {}
 :do {add list=$AddressList comment=nz address=146.75.219.8/31} on-error {}
 :do {add list=$AddressList comment=nz address=146.88.146.0/23} on-error {}
@@ -311,12 +311,11 @@
 :do {add list=$AddressList comment=nz address=151.158.12.0/23} on-error {}
 :do {add list=$AddressList comment=nz address=151.186.179.24/31} on-error {}
 :do {add list=$AddressList comment=nz address=151.186.179.26/32} on-error {}
-:do {add list=$AddressList comment=nz address=151.186.35.0/24} on-error {}
 :do {add list=$AddressList comment=nz address=151.206.154.0/24} on-error {}
 :do {add list=$AddressList comment=nz address=151.206.180.0/24} on-error {}
 :do {add list=$AddressList comment=nz address=151.210.128.0/17} on-error {}
 :do {add list=$AddressList comment=nz address=151.241.28.0/24} on-error {}
-:do {add list=$AddressList comment=nz address=151.241.37.0/24} on-error {}
+:do {add list=$AddressList comment=nz address=151.241.36.0/23} on-error {}
 :do {add list=$AddressList comment=nz address=152.153.0.0/16} on-error {}
 :do {add list=$AddressList comment=nz address=152.65.192.0/23} on-error {}
 :do {add list=$AddressList comment=nz address=153.111.0.0/16} on-error {}
@@ -334,6 +333,7 @@
 :do {add list=$AddressList comment=nz address=154.18.104.38/31} on-error {}
 :do {add list=$AddressList comment=nz address=154.18.104.56/29} on-error {}
 :do {add list=$AddressList comment=nz address=154.18.104.64/28} on-error {}
+:do {add list=$AddressList comment=nz address=154.18.104.8/31} on-error {}
 :do {add list=$AddressList comment=nz address=154.18.104.88/29} on-error {}
 :do {add list=$AddressList comment=nz address=154.18.104.96/29} on-error {}
 :do {add list=$AddressList comment=nz address=154.50.208.44/32} on-error {}
