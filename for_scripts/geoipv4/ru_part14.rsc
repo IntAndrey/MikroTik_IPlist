@@ -1,15 +1,5 @@
 :global AddressList
 /ip firewall address-list
-:do {add list=$AddressList comment=ru address=193.233.85.164/30} on-error {}
-:do {add list=$AddressList comment=ru address=193.233.85.168/29} on-error {}
-:do {add list=$AddressList comment=ru address=193.233.85.176/28} on-error {}
-:do {add list=$AddressList comment=ru address=193.233.85.192/26} on-error {}
-:do {add list=$AddressList comment=ru address=193.233.86.0/25} on-error {}
-:do {add list=$AddressList comment=ru address=193.233.86.128/27} on-error {}
-:do {add list=$AddressList comment=ru address=193.233.86.160/29} on-error {}
-:do {add list=$AddressList comment=ru address=193.233.86.168/30} on-error {}
-:do {add list=$AddressList comment=ru address=193.233.86.173/32} on-error {}
-:do {add list=$AddressList comment=ru address=193.233.86.174/31} on-error {}
 :do {add list=$AddressList comment=ru address=193.233.86.176/28} on-error {}
 :do {add list=$AddressList comment=ru address=193.233.86.192/26} on-error {}
 :do {add list=$AddressList comment=ru address=193.233.88.0/21} on-error {}
@@ -350,3 +340,13 @@
 :do {add list=$AddressList comment=ru address=194.113.104.0/22} on-error {}
 :do {add list=$AddressList comment=ru address=194.113.139.0/24} on-error {}
 :do {add list=$AddressList comment=ru address=194.113.140.0/24} on-error {}
+:do {add list=$AddressList comment=ru address=194.113.142.0/24} on-error {}
+:do {add list=$AddressList comment=ru address=194.113.151.0/24} on-error {}
+:do {add list=$AddressList comment=ru address=194.113.152.0/24} on-error {}
+:do {add list=$AddressList comment=ru address=194.113.155.0/24} on-error {}
+:do {add list=$AddressList comment=ru address=194.113.219.0/24} on-error {}
+:do {add list=$AddressList comment=ru address=194.113.232.0/24} on-error {}
+:do {add list=$AddressList comment=ru address=194.113.234.0/24} on-error {}
+:do {add list=$AddressList comment=ru address=194.113.235.0/26} on-error {}
+:do {add list=$AddressList comment=ru address=194.113.235.112/29} on-error {}
+:do {add list=$AddressList comment=ru address=194.113.235.120/30} on-error {}

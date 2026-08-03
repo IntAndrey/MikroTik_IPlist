@@ -1,7 +1,6 @@
 :global AddressList
 /ip firewall address-list
 :do {add list=$AddressList comment=dk address=103.204.121.0/24} on-error {}
-:do {add list=$AddressList comment=dk address=103.221.233.0/24} on-error {}
 :do {add list=$AddressList comment=dk address=103.37.180.0/22} on-error {}
 :do {add list=$AddressList comment=dk address=103.57.75.0/24} on-error {}
 :do {add list=$AddressList comment=dk address=104.128.30.0/24} on-error {}
@@ -289,8 +288,8 @@
 :do {add list=$AddressList comment=dk address=147.29.96.0/20} on-error {}
 :do {add list=$AddressList comment=dk address=147.78.28.0/22} on-error {}
 :do {add list=$AddressList comment=dk address=147.78.72.0/22} on-error {}
-:do {add list=$AddressList comment=dk address=149.12.32.0/27} on-error {}
 :do {add list=$AddressList comment=dk address=149.12.32.128/28} on-error {}
+:do {add list=$AddressList comment=dk address=149.12.32.16/28} on-error {}
 :do {add list=$AddressList comment=dk address=149.12.32.42/31} on-error {}
 :do {add list=$AddressList comment=dk address=149.12.32.44/31} on-error {}
 :do {add list=$AddressList comment=dk address=149.12.32.46/32} on-error {}
@@ -309,7 +308,7 @@
 :do {add list=$AddressList comment=dk address=149.6.136.208/28} on-error {}
 :do {add list=$AddressList comment=dk address=149.6.136.248/29} on-error {}
 :do {add list=$AddressList comment=dk address=149.6.136.32/28} on-error {}
-:do {add list=$AddressList comment=dk address=149.6.136.4/30} on-error {}
+:do {add list=$AddressList comment=dk address=149.6.136.4/31} on-error {}
 :do {add list=$AddressList comment=dk address=149.6.136.48/29} on-error {}
 :do {add list=$AddressList comment=dk address=149.6.136.64/29} on-error {}
 :do {add list=$AddressList comment=dk address=149.6.136.72/30} on-error {}
@@ -350,3 +349,4 @@
 :do {add list=$AddressList comment=dk address=151.241.96.0/24} on-error {}
 :do {add list=$AddressList comment=dk address=152.115.0.0/16} on-error {}
 :do {add list=$AddressList comment=dk address=152.73.0.0/16} on-error {}
+:do {add list=$AddressList comment=dk address=152.95.0.0/16} on-error {}

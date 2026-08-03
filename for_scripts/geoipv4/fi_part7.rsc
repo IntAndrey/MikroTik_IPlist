@@ -1,5 +1,11 @@
 :global AddressList
 /ip firewall address-list
+:do {add list=$AddressList comment=fi address=31.25.144.0/21} on-error {}
+:do {add list=$AddressList comment=fi address=31.41.254.0/24} on-error {}
+:do {add list=$AddressList comment=fi address=31.47.64.0/21} on-error {}
+:do {add list=$AddressList comment=fi address=31.56.108.0/23} on-error {}
+:do {add list=$AddressList comment=fi address=31.7.16.0/20} on-error {}
+:do {add list=$AddressList comment=fi address=31.76.102.0/23} on-error {}
 :do {add list=$AddressList comment=fi address=31.76.117.0/24} on-error {}
 :do {add list=$AddressList comment=fi address=31.76.120.0/23} on-error {}
 :do {add list=$AddressList comment=fi address=31.76.21.0/24} on-error {}
@@ -25,6 +31,7 @@
 :do {add list=$AddressList comment=fi address=32.112.191.204/30} on-error {}
 :do {add list=$AddressList comment=fi address=34.104.96.0/21} on-error {}
 :do {add list=$AddressList comment=fi address=34.124.32.0/21} on-error {}
+:do {add list=$AddressList comment=fi address=34.34.240.0/24} on-error {}
 :do {add list=$AddressList comment=fi address=34.88.0.0/16} on-error {}
 :do {add list=$AddressList comment=fi address=34.99.36.0/22} on-error {}
 :do {add list=$AddressList comment=fi address=34.99.60.0/23} on-error {}
@@ -343,10 +350,3 @@
 :do {add list=$AddressList comment=fi address=5.22.209.224/29} on-error {}
 :do {add list=$AddressList comment=fi address=5.22.209.232/31} on-error {}
 :do {add list=$AddressList comment=fi address=5.22.209.234/32} on-error {}
-:do {add list=$AddressList comment=fi address=5.22.209.236/30} on-error {}
-:do {add list=$AddressList comment=fi address=5.22.209.240/28} on-error {}
-:do {add list=$AddressList comment=fi address=5.22.209.64/27} on-error {}
-:do {add list=$AddressList comment=fi address=5.22.209.96/28} on-error {}
-:do {add list=$AddressList comment=fi address=5.22.210.0/26} on-error {}
-:do {add list=$AddressList comment=fi address=5.22.210.112/29} on-error {}
-:do {add list=$AddressList comment=fi address=5.22.210.120/30} on-error {}

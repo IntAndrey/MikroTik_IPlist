@@ -1,5 +1,9 @@
 :global AddressList
 /ip firewall address-list
+:do {add list=$AddressList comment=gb address=104.30.132.19/32} on-error {}
+:do {add list=$AddressList comment=gb address=104.30.132.210/32} on-error {}
+:do {add list=$AddressList comment=gb address=104.30.132.22/32} on-error {}
+:do {add list=$AddressList comment=gb address=104.30.132.224/32} on-error {}
 :do {add list=$AddressList comment=gb address=104.30.132.227/32} on-error {}
 :do {add list=$AddressList comment=gb address=104.30.132.232/32} on-error {}
 :do {add list=$AddressList comment=gb address=104.30.132.241/32} on-error {}
@@ -263,6 +267,9 @@
 :do {add list=$AddressList comment=gb address=104.30.174.25/32} on-error {}
 :do {add list=$AddressList comment=gb address=104.30.175.1/32} on-error {}
 :do {add list=$AddressList comment=gb address=104.30.175.2/32} on-error {}
+:do {add list=$AddressList comment=gb address=104.30.175.43/32} on-error {}
+:do {add list=$AddressList comment=gb address=104.30.175.47/32} on-error {}
+:do {add list=$AddressList comment=gb address=104.30.175.52/32} on-error {}
 :do {add list=$AddressList comment=gb address=104.30.176.11/32} on-error {}
 :do {add list=$AddressList comment=gb address=104.30.176.119/32} on-error {}
 :do {add list=$AddressList comment=gb address=104.30.176.122/32} on-error {}
@@ -343,10 +350,3 @@
 :do {add list=$AddressList comment=gb address=104.31.0.160/27} on-error {}
 :do {add list=$AddressList comment=gb address=104.31.1.64/26} on-error {}
 :do {add list=$AddressList comment=gb address=104.44.64.0/24} on-error {}
-:do {add list=$AddressList comment=gb address=104.44.89.224/27} on-error {}
-:do {add list=$AddressList comment=gb address=104.44.90.0/27} on-error {}
-:do {add list=$AddressList comment=gb address=104.47.85.0/25} on-error {}
-:do {add list=$AddressList comment=gb address=104.77.160.0/23} on-error {}
-:do {add list=$AddressList comment=gb address=104.78.160.0/20} on-error {}
-:do {add list=$AddressList comment=gb address=104.78.67.0/24} on-error {}
-:do {add list=$AddressList comment=gb address=104.79.92.0/23} on-error {}
