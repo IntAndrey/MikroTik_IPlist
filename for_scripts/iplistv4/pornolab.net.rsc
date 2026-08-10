@@ -26,6 +26,8 @@
 :do {add list=$AddressList comment=pornolab.net address=18.141.222.153} on-error {}
 :do {add list=$AddressList comment=pornolab.net address=185.110.92.40} on-error {}
 :do {add list=$AddressList comment=pornolab.net address=185.110.92.41} on-error {}
+:do {add list=$AddressList comment=pornolab.net address=185.110.92.46} on-error {}
+:do {add list=$AddressList comment=pornolab.net address=185.110.92.48} on-error {}
 :do {add list=$AddressList comment=pornolab.net address=185.61.148.21} on-error {}
 :do {add list=$AddressList comment=pornolab.net address=199.59.243.228} on-error {}
 :do {add list=$AddressList comment=pornolab.net address=54.169.253.230} on-error {}

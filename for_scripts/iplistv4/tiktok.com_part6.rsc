@@ -211,14 +211,18 @@
 :do {add list=$AddressList comment=tiktok.com address=104.22.123.225} on-error {}
 :do {add list=$AddressList comment=tiktok.com address=104.22.123.227} on-error {}
 :do {add list=$AddressList comment=tiktok.com address=104.22.123.228} on-error {}
+:do {add list=$AddressList comment=tiktok.com address=104.22.123.229} on-error {}
 :do {add list=$AddressList comment=tiktok.com address=104.22.123.230} on-error {}
 :do {add list=$AddressList comment=tiktok.com address=104.22.123.234} on-error {}
+:do {add list=$AddressList comment=tiktok.com address=104.22.123.237} on-error {}
 :do {add list=$AddressList comment=tiktok.com address=104.23.125.189} on-error {}
 :do {add list=$AddressList comment=tiktok.com address=104.23.163.40} on-error {}
+:do {add list=$AddressList comment=tiktok.com address=104.23.163.43} on-error {}
 :do {add list=$AddressList comment=tiktok.com address=104.23.240.37} on-error {}
 :do {add list=$AddressList comment=tiktok.com address=104.23.240.38} on-error {}
 :do {add list=$AddressList comment=tiktok.com address=104.23.240.39} on-error {}
 :do {add list=$AddressList comment=tiktok.com address=104.23.240.41} on-error {}
+:do {add list=$AddressList comment=tiktok.com address=104.23.240.42} on-error {}
 :do {add list=$AddressList comment=tiktok.com address=104.244.43.104} on-error {}
 :do {add list=$AddressList comment=tiktok.com address=104.244.43.128} on-error {}
 :do {add list=$AddressList comment=tiktok.com address=104.244.43.136} on-error {}
@@ -346,7 +350,3 @@
 :do {add list=$AddressList comment=tiktok.com address=104.69.222.98} on-error {}
 :do {add list=$AddressList comment=tiktok.com address=104.69.222.99} on-error {}
 :do {add list=$AddressList comment=tiktok.com address=104.70.121.10} on-error {}
-:do {add list=$AddressList comment=tiktok.com address=104.70.121.11} on-error {}
-:do {add list=$AddressList comment=tiktok.com address=104.70.121.137} on-error {}
-:do {add list=$AddressList comment=tiktok.com address=104.70.121.138} on-error {}
-:do {add list=$AddressList comment=tiktok.com address=104.70.121.144} on-error {}

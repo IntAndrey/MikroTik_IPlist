@@ -2,6 +2,8 @@
 :global RouteTab
 :global GateWay
 /ip route
+:if ([:len [/ip/route/find dst-address=209.14.104.0/24 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=209.14.104.0/24 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=co }
+:if ([:len [/ip/route/find dst-address=209.14.106.0/23 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=209.14.106.0/23 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=co }
 :if ([:len [/ip/route/find dst-address=209.14.112.0/21 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=209.14.112.0/21 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=co }
 :if ([:len [/ip/route/find dst-address=209.14.120.0/24 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=209.14.120.0/24 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=co }
 :if ([:len [/ip/route/find dst-address=209.14.96.0/24 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=209.14.96.0/24 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=co }
@@ -80,6 +82,7 @@
 :if ([:len [/ip/route/find dst-address=32.115.1.128/28 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=32.115.1.128/28 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=co }
 :if ([:len [/ip/route/find dst-address=32.118.74.138/32 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=32.118.74.138/32 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=co }
 :if ([:len [/ip/route/find dst-address=32.118.74.198/32 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=32.118.74.198/32 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=co }
+:if ([:len [/ip/route/find dst-address=32.59.144.90/32 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=32.59.144.90/32 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=co }
 :if ([:len [/ip/route/find dst-address=32.59.147.16/28 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=32.59.147.16/28 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=co }
 :if ([:len [/ip/route/find dst-address=32.59.147.40/29 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=32.59.147.40/29 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=co }
 :if ([:len [/ip/route/find dst-address=32.59.147.48/28 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=32.59.147.48/28 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=co }
@@ -99,6 +102,3 @@
 :if ([:len [/ip/route/find dst-address=34.100.26.0/24 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=34.100.26.0/24 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=co }
 :if ([:len [/ip/route/find dst-address=34.100.27.0/25 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=34.100.27.0/25 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=co }
 :if ([:len [/ip/route/find dst-address=34.100.27.128/28 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=34.100.27.128/28 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=co }
-:if ([:len [/ip/route/find dst-address=34.100.27.144/29 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=34.100.27.144/29 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=co }
-:if ([:len [/ip/route/find dst-address=34.100.27.152/30 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=34.100.27.152/30 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=co }
-:if ([:len [/ip/route/find dst-address=34.100.27.156/31 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=34.100.27.156/31 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=co }

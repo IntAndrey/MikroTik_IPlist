@@ -1,6 +1,5 @@
 :global AddressList
 /ip firewall address-list
-:do {add list=$AddressList comment=hk address=32.114.117.30/32} on-error {}
 :do {add list=$AddressList comment=hk address=32.114.118.194/32} on-error {}
 :do {add list=$AddressList comment=hk address=32.114.124.34/32} on-error {}
 :do {add list=$AddressList comment=hk address=32.114.15.128/29} on-error {}
@@ -127,6 +126,8 @@
 :do {add list=$AddressList comment=hk address=38.180.94.0/23} on-error {}
 :do {add list=$AddressList comment=hk address=38.181.0.0/19} on-error {}
 :do {add list=$AddressList comment=hk address=38.181.32.0/21} on-error {}
+:do {add list=$AddressList comment=hk address=38.181.48.0/23} on-error {}
+:do {add list=$AddressList comment=hk address=38.181.52.0/22} on-error {}
 :do {add list=$AddressList comment=hk address=38.182.102.0/23} on-error {}
 :do {add list=$AddressList comment=hk address=38.207.132.0/22} on-error {}
 :do {add list=$AddressList comment=hk address=38.207.140.0/22} on-error {}
@@ -179,6 +180,8 @@
 :do {add list=$AddressList comment=hk address=38.47.196.0/23} on-error {}
 :do {add list=$AddressList comment=hk address=38.47.200.0/21} on-error {}
 :do {add list=$AddressList comment=hk address=38.47.208.0/20} on-error {}
+:do {add list=$AddressList comment=hk address=38.47.224.0/23} on-error {}
+:do {add list=$AddressList comment=hk address=38.47.227.0/24} on-error {}
 :do {add list=$AddressList comment=hk address=38.47.228.0/22} on-error {}
 :do {add list=$AddressList comment=hk address=38.47.232.0/22} on-error {}
 :do {add list=$AddressList comment=hk address=38.47.240.0/21} on-error {}
@@ -347,6 +350,3 @@
 :do {add list=$AddressList comment=hk address=43.129.110.0/24} on-error {}
 :do {add list=$AddressList comment=hk address=43.129.111.245/32} on-error {}
 :do {add list=$AddressList comment=hk address=43.129.112.0/23} on-error {}
-:do {add list=$AddressList comment=hk address=43.129.114.0/24} on-error {}
-:do {add list=$AddressList comment=hk address=43.129.116.0/22} on-error {}
-:do {add list=$AddressList comment=hk address=43.129.120.0/21} on-error {}

@@ -1,7 +1,5 @@
 :global AddressList
 /ip firewall address-list
-:do {add list=$AddressList comment=cz address=193.17.47.0/24} on-error {}
-:do {add list=$AddressList comment=cz address=193.176.32.0/24} on-error {}
 :do {add list=$AddressList comment=cz address=193.179.0.0/16} on-error {}
 :do {add list=$AddressList comment=cz address=193.186.4.109/32} on-error {}
 :do {add list=$AddressList comment=cz address=193.19.176.0/22} on-error {}
@@ -207,7 +205,6 @@
 :do {add list=$AddressList comment=cz address=194.87.200.0/24} on-error {}
 :do {add list=$AddressList comment=cz address=194.87.202.0/24} on-error {}
 :do {add list=$AddressList comment=cz address=194.87.204.0/24} on-error {}
-:do {add list=$AddressList comment=cz address=194.87.208.0/24} on-error {}
 :do {add list=$AddressList comment=cz address=194.87.21.128/26} on-error {}
 :do {add list=$AddressList comment=cz address=194.87.21.32/27} on-error {}
 :do {add list=$AddressList comment=cz address=194.87.211.0/24} on-error {}
@@ -231,7 +228,7 @@
 :do {add list=$AddressList comment=cz address=194.87.54.0/24} on-error {}
 :do {add list=$AddressList comment=cz address=194.87.59.0/24} on-error {}
 :do {add list=$AddressList comment=cz address=194.87.6.0/23} on-error {}
-:do {add list=$AddressList comment=cz address=194.87.60.0/23} on-error {}
+:do {add list=$AddressList comment=cz address=194.87.61.0/24} on-error {}
 :do {add list=$AddressList comment=cz address=194.87.65.0/24} on-error {}
 :do {add list=$AddressList comment=cz address=194.87.66.0/23} on-error {}
 :do {add list=$AddressList comment=cz address=194.87.70.0/24} on-error {}
@@ -350,3 +347,6 @@
 :do {add list=$AddressList comment=cz address=195.212.197.128/28} on-error {}
 :do {add list=$AddressList comment=cz address=195.212.197.176/30} on-error {}
 :do {add list=$AddressList comment=cz address=195.212.197.184/29} on-error {}
+:do {add list=$AddressList comment=cz address=195.212.197.192/29} on-error {}
+:do {add list=$AddressList comment=cz address=195.212.199.224/30} on-error {}
+:do {add list=$AddressList comment=cz address=195.212.199.232/29} on-error {}

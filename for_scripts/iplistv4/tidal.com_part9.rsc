@@ -1,5 +1,15 @@
 :global AddressList
 /ip firewall address-list
+:do {add list=$AddressList comment=tidal.com address=54.173.158.4} on-error {}
+:do {add list=$AddressList comment=tidal.com address=54.174.13.222} on-error {}
+:do {add list=$AddressList comment=tidal.com address=54.192.100.100} on-error {}
+:do {add list=$AddressList comment=tidal.com address=54.192.100.101} on-error {}
+:do {add list=$AddressList comment=tidal.com address=54.192.100.11} on-error {}
+:do {add list=$AddressList comment=tidal.com address=54.192.100.243} on-error {}
+:do {add list=$AddressList comment=tidal.com address=54.192.100.35} on-error {}
+:do {add list=$AddressList comment=tidal.com address=54.192.100.43} on-error {}
+:do {add list=$AddressList comment=tidal.com address=54.192.100.48} on-error {}
+:do {add list=$AddressList comment=tidal.com address=54.192.100.49} on-error {}
 :do {add list=$AddressList comment=tidal.com address=54.192.100.56} on-error {}
 :do {add list=$AddressList comment=tidal.com address=54.192.100.57} on-error {}
 :do {add list=$AddressList comment=tidal.com address=54.192.100.6} on-error {}
@@ -340,13 +350,3 @@
 :do {add list=$AddressList comment=tidal.com address=99.84.91.94} on-error {}
 :do {add list=$AddressList comment=tidal.com address=99.84.91.95} on-error {}
 :do {add list=$AddressList comment=tidal.com address=99.86.109.104} on-error {}
-:do {add list=$AddressList comment=tidal.com address=99.86.109.119} on-error {}
-:do {add list=$AddressList comment=tidal.com address=99.86.109.30} on-error {}
-:do {add list=$AddressList comment=tidal.com address=99.86.109.55} on-error {}
-:do {add list=$AddressList comment=tidal.com address=99.86.112.242} on-error {}
-:do {add list=$AddressList comment=tidal.com address=99.86.171.11} on-error {}
-:do {add list=$AddressList comment=tidal.com address=99.86.171.111} on-error {}
-:do {add list=$AddressList comment=tidal.com address=99.86.171.19} on-error {}
-:do {add list=$AddressList comment=tidal.com address=99.86.171.3} on-error {}
-:do {add list=$AddressList comment=tidal.com address=99.86.171.33} on-error {}
-:do {add list=$AddressList comment=tidal.com address=99.86.171.35} on-error {}

@@ -125,7 +125,13 @@
 :do {add list=$AddressList comment=redtube.com address=67.22.48.1} on-error {}
 :do {add list=$AddressList comment=redtube.com address=67.22.48.16} on-error {}
 :do {add list=$AddressList comment=redtube.com address=67.22.48.17} on-error {}
+:do {add list=$AddressList comment=redtube.com address=67.22.48.18} on-error {}
+:do {add list=$AddressList comment=redtube.com address=67.22.48.19} on-error {}
 :do {add list=$AddressList comment=redtube.com address=67.22.48.2} on-error {}
+:do {add list=$AddressList comment=redtube.com address=67.22.48.20} on-error {}
+:do {add list=$AddressList comment=redtube.com address=67.22.48.21} on-error {}
+:do {add list=$AddressList comment=redtube.com address=67.22.48.22} on-error {}
+:do {add list=$AddressList comment=redtube.com address=67.22.48.23} on-error {}
 :do {add list=$AddressList comment=redtube.com address=67.22.48.3} on-error {}
 :do {add list=$AddressList comment=redtube.com address=67.22.48.4} on-error {}
 :do {add list=$AddressList comment=redtube.com address=67.22.48.5} on-error {}

@@ -1,5 +1,9 @@
 :global AddressList
 /ip firewall address-list
+:do {add list=$AddressList comment=jp address=104.238.160.0/23} on-error {}
+:do {add list=$AddressList comment=jp address=104.245.9.0/24} on-error {}
+:do {add list=$AddressList comment=jp address=104.249.160.0/24} on-error {}
+:do {add list=$AddressList comment=jp address=104.251.144.0/20} on-error {}
 :do {add list=$AddressList comment=jp address=104.251.228.0/22} on-error {}
 :do {add list=$AddressList comment=jp address=104.251.238.0/23} on-error {}
 :do {add list=$AddressList comment=jp address=104.252.202.0/24} on-error {}
@@ -8,6 +12,7 @@
 :do {add list=$AddressList comment=jp address=104.254.120.56/29} on-error {}
 :do {add list=$AddressList comment=jp address=104.254.120.8/29} on-error {}
 :do {add list=$AddressList comment=jp address=104.254.120.96/28} on-error {}
+:do {add list=$AddressList comment=jp address=104.254.121.16/28} on-error {}
 :do {add list=$AddressList comment=jp address=104.255.59.114/31} on-error {}
 :do {add list=$AddressList comment=jp address=104.255.59.136/31} on-error {}
 :do {add list=$AddressList comment=jp address=104.255.59.81/32} on-error {}
@@ -345,8 +350,3 @@
 :do {add list=$AddressList comment=jp address=104.28.202.140/30} on-error {}
 :do {add list=$AddressList comment=jp address=104.28.202.144/31} on-error {}
 :do {add list=$AddressList comment=jp address=104.28.202.146/32} on-error {}
-:do {add list=$AddressList comment=jp address=104.28.204.107/32} on-error {}
-:do {add list=$AddressList comment=jp address=104.28.204.108/30} on-error {}
-:do {add list=$AddressList comment=jp address=104.28.204.112/31} on-error {}
-:do {add list=$AddressList comment=jp address=104.28.204.114/32} on-error {}
-:do {add list=$AddressList comment=jp address=104.28.204.124/30} on-error {}

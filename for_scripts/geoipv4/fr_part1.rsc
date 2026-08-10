@@ -63,6 +63,7 @@
 :do {add list=$AddressList comment=fr address=104.132.161.0/24} on-error {}
 :do {add list=$AddressList comment=fr address=104.133.142.0/24} on-error {}
 :do {add list=$AddressList comment=fr address=104.134.152.0/24} on-error {}
+:do {add list=$AddressList comment=fr address=104.134.230.128/26} on-error {}
 :do {add list=$AddressList comment=fr address=104.135.184.20/30} on-error {}
 :do {add list=$AddressList comment=fr address=104.135.184.72/29} on-error {}
 :do {add list=$AddressList comment=fr address=104.135.184.88/30} on-error {}
@@ -318,12 +319,13 @@
 :do {add list=$AddressList comment=fr address=104.28.157.182/31} on-error {}
 :do {add list=$AddressList comment=fr address=104.28.157.188/32} on-error {}
 :do {add list=$AddressList comment=fr address=104.28.157.254/31} on-error {}
-:do {add list=$AddressList comment=fr address=104.28.158.0/30} on-error {}
+:do {add list=$AddressList comment=fr address=104.28.158.1/32} on-error {}
 :do {add list=$AddressList comment=fr address=104.28.158.11/32} on-error {}
 :do {add list=$AddressList comment=fr address=104.28.158.12/30} on-error {}
 :do {add list=$AddressList comment=fr address=104.28.158.140/31} on-error {}
 :do {add list=$AddressList comment=fr address=104.28.158.16/32} on-error {}
 :do {add list=$AddressList comment=fr address=104.28.158.173/32} on-error {}
+:do {add list=$AddressList comment=fr address=104.28.158.2/31} on-error {}
 :do {add list=$AddressList comment=fr address=104.28.158.207/32} on-error {}
 :do {add list=$AddressList comment=fr address=104.28.158.208/31} on-error {}
 :do {add list=$AddressList comment=fr address=104.28.158.4/32} on-error {}
@@ -348,5 +350,3 @@
 :do {add list=$AddressList comment=fr address=104.28.161.192/32} on-error {}
 :do {add list=$AddressList comment=fr address=104.28.161.44/30} on-error {}
 :do {add list=$AddressList comment=fr address=104.28.161.48/32} on-error {}
-:do {add list=$AddressList comment=fr address=104.28.161.55/32} on-error {}
-:do {add list=$AddressList comment=fr address=104.28.161.56/31} on-error {}

@@ -11,7 +11,8 @@
 :do {add list=$AddressList comment=AS19318 address=108.186.206.0/24} on-error {}
 :do {add list=$AddressList comment=AS19318 address=109.205.213.0/24} on-error {}
 :do {add list=$AddressList comment=AS19318 address=130.250.190.0/24} on-error {}
-:do {add list=$AddressList comment=AS19318 address=131.143.136.0/22} on-error {}
+:do {add list=$AddressList comment=AS19318 address=131.143.136.0/23} on-error {}
+:do {add list=$AddressList comment=AS19318 address=131.143.138.0/24} on-error {}
 :do {add list=$AddressList comment=AS19318 address=136.0.213.0/24} on-error {}
 :do {add list=$AddressList comment=AS19318 address=142.252.116.0/24} on-error {}
 :do {add list=$AddressList comment=AS19318 address=142.252.45.0/24} on-error {}
@@ -94,8 +95,7 @@
 :do {add list=$AddressList comment=AS19318 address=216.225.153.0/24} on-error {}
 :do {add list=$AddressList comment=AS19318 address=216.225.154.0/23} on-error {}
 :do {add list=$AddressList comment=AS19318 address=216.225.156.0/22} on-error {}
-:do {add list=$AddressList comment=AS19318 address=217.216.209.0/24} on-error {}
-:do {add list=$AddressList comment=AS19318 address=217.216.210.0/23} on-error {}
+:do {add list=$AddressList comment=AS19318 address=217.216.208.0/22} on-error {}
 :do {add list=$AddressList comment=AS19318 address=217.216.212.0/23} on-error {}
 :do {add list=$AddressList comment=AS19318 address=217.216.214.0/24} on-error {}
 :do {add list=$AddressList comment=AS19318 address=217.216.216.0/24} on-error {}
@@ -103,7 +103,6 @@
 :do {add list=$AddressList comment=AS19318 address=217.216.220.0/22} on-error {}
 :do {add list=$AddressList comment=AS19318 address=38.156.12.0/24} on-error {}
 :do {add list=$AddressList comment=AS19318 address=45.12.61.0/24} on-error {}
-:do {add list=$AddressList comment=AS19318 address=45.135.128.0/24} on-error {}
 :do {add list=$AddressList comment=AS19318 address=45.202.120.0/22} on-error {}
 :do {add list=$AddressList comment=AS19318 address=45.85.160.0/24} on-error {}
 :do {add list=$AddressList comment=AS19318 address=45.86.12.0/24} on-error {}

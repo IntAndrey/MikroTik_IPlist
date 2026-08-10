@@ -85,6 +85,7 @@
 :do {add list=$AddressList comment=sentry.io address=74.125.205.121/32} on-error {}
 :do {add list=$AddressList comment=sentry.io address=74.125.206.121/32} on-error {}
 :do {add list=$AddressList comment=sentry.io address=74.125.29.121/32} on-error {}
+:do {add list=$AddressList comment=sentry.io address=74.125.71.121/32} on-error {}
 :do {add list=$AddressList comment=sentry.io address=76.76.21.123/32} on-error {}
 :do {add list=$AddressList comment=sentry.io address=76.76.21.142/32} on-error {}
 :do {add list=$AddressList comment=sentry.io address=76.76.21.164/32} on-error {}

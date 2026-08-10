@@ -6,10 +6,14 @@
 :do {add list=$AddressList comment=paperpaper.ru address=172.67.162.191} on-error {}
 :do {add list=$AddressList comment=paperpaper.ru address=172.67.75.189} on-error {}
 :do {add list=$AddressList comment=paperpaper.ru address=185.215.4.19} on-error {}
+:do {add list=$AddressList comment=paperpaper.ru address=188.114.96.10} on-error {}
 :do {add list=$AddressList comment=paperpaper.ru address=188.114.96.12} on-error {}
+:do {add list=$AddressList comment=paperpaper.ru address=188.114.96.2} on-error {}
 :do {add list=$AddressList comment=paperpaper.ru address=188.114.96.3} on-error {}
 :do {add list=$AddressList comment=paperpaper.ru address=188.114.96.4} on-error {}
+:do {add list=$AddressList comment=paperpaper.ru address=188.114.97.10} on-error {}
 :do {add list=$AddressList comment=paperpaper.ru address=188.114.97.12} on-error {}
+:do {add list=$AddressList comment=paperpaper.ru address=188.114.97.2} on-error {}
 :do {add list=$AddressList comment=paperpaper.ru address=188.114.97.3} on-error {}
 :do {add list=$AddressList comment=paperpaper.ru address=188.114.97.4} on-error {}
 :do {add list=$AddressList comment=paperpaper.ru address=194.67.71.107} on-error {}

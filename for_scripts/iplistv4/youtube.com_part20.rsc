@@ -302,6 +302,7 @@
 :do {add list=$AddressList comment=youtube.com address=142.251.143.234} on-error {}
 :do {add list=$AddressList comment=youtube.com address=142.251.143.236} on-error {}
 :do {add list=$AddressList comment=youtube.com address=142.251.143.238} on-error {}
+:do {add list=$AddressList comment=youtube.com address=142.251.143.239} on-error {}
 :do {add list=$AddressList comment=youtube.com address=142.251.143.246} on-error {}
 :do {add list=$AddressList comment=youtube.com address=142.251.143.3} on-error {}
 :do {add list=$AddressList comment=youtube.com address=142.251.143.35} on-error {}
@@ -349,4 +350,3 @@
 :do {add list=$AddressList comment=youtube.com address=142.251.152.4} on-error {}
 :do {add list=$AddressList comment=youtube.com address=142.251.152.6} on-error {}
 :do {add list=$AddressList comment=youtube.com address=142.251.153.4} on-error {}
-:do {add list=$AddressList comment=youtube.com address=142.251.153.6} on-error {}

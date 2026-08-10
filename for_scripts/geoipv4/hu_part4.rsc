@@ -1,6 +1,5 @@
 :global AddressList
 /ip firewall address-list
-:do {add list=$AddressList comment=hu address=212.51.64.0/18} on-error {}
 :do {add list=$AddressList comment=hu address=212.52.160.0/19} on-error {}
 :do {add list=$AddressList comment=hu address=212.56.12.160/29} on-error {}
 :do {add list=$AddressList comment=hu address=212.56.12.200/29} on-error {}
@@ -57,6 +56,8 @@
 :do {add list=$AddressList comment=hu address=213.228.219.144/29} on-error {}
 :do {add list=$AddressList comment=hu address=213.228.222.24/29} on-error {}
 :do {add list=$AddressList comment=hu address=213.228.225.112/29} on-error {}
+:do {add list=$AddressList comment=hu address=213.228.232.164/32} on-error {}
+:do {add list=$AddressList comment=hu address=213.228.233.80/29} on-error {}
 :do {add list=$AddressList comment=hu address=213.235.10.64/28} on-error {}
 :do {add list=$AddressList comment=hu address=213.235.11.112/29} on-error {}
 :do {add list=$AddressList comment=hu address=213.235.24.64/29} on-error {}
@@ -299,9 +300,6 @@
 :do {add list=$AddressList comment=hu address=5.180.120.0/22} on-error {}
 :do {add list=$AddressList comment=hu address=5.181.77.0/24} on-error {}
 :do {add list=$AddressList comment=hu address=5.182.112.0/24} on-error {}
-:do {add list=$AddressList comment=hu address=5.182.129.22/31} on-error {}
-:do {add list=$AddressList comment=hu address=5.182.130.52/30} on-error {}
-:do {add list=$AddressList comment=hu address=5.182.131.22/31} on-error {}
 :do {add list=$AddressList comment=hu address=5.182.38.0/24} on-error {}
 :do {add list=$AddressList comment=hu address=5.187.128.0/17} on-error {}
 :do {add list=$AddressList comment=hu address=5.204.0.0/16} on-error {}
@@ -350,3 +348,5 @@
 :do {add list=$AddressList comment=hu address=77.111.119.0/24} on-error {}
 :do {add list=$AddressList comment=hu address=77.111.124.0/22} on-error {}
 :do {add list=$AddressList comment=hu address=77.111.128.0/18} on-error {}
+:do {add list=$AddressList comment=hu address=77.111.88.0/21} on-error {}
+:do {add list=$AddressList comment=hu address=77.221.32.0/19} on-error {}

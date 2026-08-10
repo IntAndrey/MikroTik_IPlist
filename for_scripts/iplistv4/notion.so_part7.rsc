@@ -1,5 +1,8 @@
 :global AddressList
 /ip firewall address-list
+:do {add list=$AddressList comment=notion.so address=3.5.87.168} on-error {}
+:do {add list=$AddressList comment=notion.so address=3.5.87.169} on-error {}
+:do {add list=$AddressList comment=notion.so address=3.5.87.17} on-error {}
 :do {add list=$AddressList comment=notion.so address=3.5.87.170} on-error {}
 :do {add list=$AddressList comment=notion.so address=3.5.87.173} on-error {}
 :do {add list=$AddressList comment=notion.so address=3.5.87.174} on-error {}
@@ -177,6 +180,7 @@
 :do {add list=$AddressList comment=notion.so address=52.218.137.241} on-error {}
 :do {add list=$AddressList comment=notion.so address=52.218.137.249} on-error {}
 :do {add list=$AddressList comment=notion.so address=52.218.137.25} on-error {}
+:do {add list=$AddressList comment=notion.so address=52.218.137.33} on-error {}
 :do {add list=$AddressList comment=notion.so address=52.218.137.41} on-error {}
 :do {add list=$AddressList comment=notion.so address=52.218.137.49} on-error {}
 :do {add list=$AddressList comment=notion.so address=52.218.137.57} on-error {}
@@ -346,7 +350,3 @@
 :do {add list=$AddressList comment=notion.so address=52.218.170.18} on-error {}
 :do {add list=$AddressList comment=notion.so address=52.218.170.26} on-error {}
 :do {add list=$AddressList comment=notion.so address=52.218.170.34} on-error {}
-:do {add list=$AddressList comment=notion.so address=52.218.170.42} on-error {}
-:do {add list=$AddressList comment=notion.so address=52.218.170.50} on-error {}
-:do {add list=$AddressList comment=notion.so address=52.218.170.58} on-error {}
-:do {add list=$AddressList comment=notion.so address=52.218.170.66} on-error {}

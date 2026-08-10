@@ -1,6 +1,8 @@
 :global AddressList
 /ip firewall address-list
+:do {add list=$AddressList comment=zello.com address=3.209.233.168} on-error {}
 :do {add list=$AddressList comment=zello.com address=3.210.126.139} on-error {}
+:do {add list=$AddressList comment=zello.com address=3.210.148.61} on-error {}
 :do {add list=$AddressList comment=zello.com address=3.210.160.92} on-error {}
 :do {add list=$AddressList comment=zello.com address=3.210.187.246} on-error {}
 :do {add list=$AddressList comment=zello.com address=3.210.193.226} on-error {}
@@ -9,6 +11,7 @@
 :do {add list=$AddressList comment=zello.com address=3.210.52.50} on-error {}
 :do {add list=$AddressList comment=zello.com address=3.211.112.41} on-error {}
 :do {add list=$AddressList comment=zello.com address=3.212.46.110} on-error {}
+:do {add list=$AddressList comment=zello.com address=3.213.28.133} on-error {}
 :do {add list=$AddressList comment=zello.com address=3.213.54.23} on-error {}
 :do {add list=$AddressList comment=zello.com address=3.213.77.253} on-error {}
 :do {add list=$AddressList comment=zello.com address=3.214.202.206} on-error {}
@@ -163,9 +166,12 @@
 :do {add list=$AddressList comment=zello.com address=44.218.21.91} on-error {}
 :do {add list=$AddressList comment=zello.com address=44.218.61.197} on-error {}
 :do {add list=$AddressList comment=zello.com address=44.218.9.203} on-error {}
+:do {add list=$AddressList comment=zello.com address=44.219.213.232} on-error {}
+:do {add list=$AddressList comment=zello.com address=44.220.100.217} on-error {}
 :do {add list=$AddressList comment=zello.com address=44.222.48.60} on-error {}
 :do {add list=$AddressList comment=zello.com address=44.223.197.131} on-error {}
 :do {add list=$AddressList comment=zello.com address=44.223.221.31} on-error {}
+:do {add list=$AddressList comment=zello.com address=50.16.117.238} on-error {}
 :do {add list=$AddressList comment=zello.com address=50.16.227.30} on-error {}
 :do {add list=$AddressList comment=zello.com address=50.16.36.232} on-error {}
 :do {add list=$AddressList comment=zello.com address=50.19.215.169} on-error {}
@@ -214,6 +220,7 @@
 :do {add list=$AddressList comment=zello.com address=52.85.185.124} on-error {}
 :do {add list=$AddressList comment=zello.com address=52.85.185.25} on-error {}
 :do {add list=$AddressList comment=zello.com address=52.85.185.53} on-error {}
+:do {add list=$AddressList comment=zello.com address=52.86.232.249} on-error {}
 :do {add list=$AddressList comment=zello.com address=54.152.215.228} on-error {}
 :do {add list=$AddressList comment=zello.com address=54.156.195.45} on-error {}
 :do {add list=$AddressList comment=zello.com address=54.156.232.110} on-error {}
@@ -224,6 +231,10 @@
 :do {add list=$AddressList comment=zello.com address=54.161.121.70} on-error {}
 :do {add list=$AddressList comment=zello.com address=54.161.215.210} on-error {}
 :do {add list=$AddressList comment=zello.com address=54.165.169.106} on-error {}
+:do {add list=$AddressList comment=zello.com address=54.192.100.100} on-error {}
+:do {add list=$AddressList comment=zello.com address=54.192.100.119} on-error {}
+:do {add list=$AddressList comment=zello.com address=54.192.100.125} on-error {}
+:do {add list=$AddressList comment=zello.com address=54.192.100.44} on-error {}
 :do {add list=$AddressList comment=zello.com address=54.196.142.94} on-error {}
 :do {add list=$AddressList comment=zello.com address=54.204.34.199} on-error {}
 :do {add list=$AddressList comment=zello.com address=54.208.173.5} on-error {}
@@ -237,6 +248,7 @@
 :do {add list=$AddressList comment=zello.com address=54.230.183.99} on-error {}
 :do {add list=$AddressList comment=zello.com address=54.235.9.165} on-error {}
 :do {add list=$AddressList comment=zello.com address=54.236.184.231} on-error {}
+:do {add list=$AddressList comment=zello.com address=54.236.80.63} on-error {}
 :do {add list=$AddressList comment=zello.com address=54.240.174.11} on-error {}
 :do {add list=$AddressList comment=zello.com address=54.240.174.14} on-error {}
 :do {add list=$AddressList comment=zello.com address=54.240.174.60} on-error {}

@@ -1,5 +1,26 @@
 :global AddressList
 /ip firewall address-list
+:do {add list=$AddressList comment=facebook.com address=95.101.35.49} on-error {}
+:do {add list=$AddressList comment=facebook.com address=95.101.35.57} on-error {}
+:do {add list=$AddressList comment=facebook.com address=95.101.35.83} on-error {}
+:do {add list=$AddressList comment=facebook.com address=95.101.74.199} on-error {}
+:do {add list=$AddressList comment=facebook.com address=95.101.74.227} on-error {}
+:do {add list=$AddressList comment=facebook.com address=95.101.75.110} on-error {}
+:do {add list=$AddressList comment=facebook.com address=95.101.75.112} on-error {}
+:do {add list=$AddressList comment=facebook.com address=95.101.75.115} on-error {}
+:do {add list=$AddressList comment=facebook.com address=95.101.75.118} on-error {}
+:do {add list=$AddressList comment=facebook.com address=95.101.75.36} on-error {}
+:do {add list=$AddressList comment=facebook.com address=95.101.75.37} on-error {}
+:do {add list=$AddressList comment=facebook.com address=95.101.75.38} on-error {}
+:do {add list=$AddressList comment=facebook.com address=95.101.75.40} on-error {}
+:do {add list=$AddressList comment=facebook.com address=95.101.75.41} on-error {}
+:do {add list=$AddressList comment=facebook.com address=95.101.75.42} on-error {}
+:do {add list=$AddressList comment=facebook.com address=95.101.75.43} on-error {}
+:do {add list=$AddressList comment=facebook.com address=95.101.75.44} on-error {}
+:do {add list=$AddressList comment=facebook.com address=95.101.75.45} on-error {}
+:do {add list=$AddressList comment=facebook.com address=95.101.75.46} on-error {}
+:do {add list=$AddressList comment=facebook.com address=95.101.75.47} on-error {}
+:do {add list=$AddressList comment=facebook.com address=95.101.75.49} on-error {}
 :do {add list=$AddressList comment=facebook.com address=95.101.75.51} on-error {}
 :do {add list=$AddressList comment=facebook.com address=95.101.75.66} on-error {}
 :do {add list=$AddressList comment=facebook.com address=95.101.75.76} on-error {}
