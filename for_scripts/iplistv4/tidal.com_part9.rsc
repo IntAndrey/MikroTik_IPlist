@@ -1,18 +1,26 @@
 :global AddressList
 /ip firewall address-list
+:do {add list=$AddressList comment=tidal.com address=54.156.186.21} on-error {}
+:do {add list=$AddressList comment=tidal.com address=54.157.179.35} on-error {}
+:do {add list=$AddressList comment=tidal.com address=54.157.48.113} on-error {}
+:do {add list=$AddressList comment=tidal.com address=54.166.236.201} on-error {}
 :do {add list=$AddressList comment=tidal.com address=54.173.158.4} on-error {}
 :do {add list=$AddressList comment=tidal.com address=54.174.13.222} on-error {}
 :do {add list=$AddressList comment=tidal.com address=54.192.100.100} on-error {}
 :do {add list=$AddressList comment=tidal.com address=54.192.100.101} on-error {}
+:do {add list=$AddressList comment=tidal.com address=54.192.100.103} on-error {}
 :do {add list=$AddressList comment=tidal.com address=54.192.100.11} on-error {}
 :do {add list=$AddressList comment=tidal.com address=54.192.100.243} on-error {}
+:do {add list=$AddressList comment=tidal.com address=54.192.100.31} on-error {}
 :do {add list=$AddressList comment=tidal.com address=54.192.100.35} on-error {}
+:do {add list=$AddressList comment=tidal.com address=54.192.100.41} on-error {}
 :do {add list=$AddressList comment=tidal.com address=54.192.100.43} on-error {}
 :do {add list=$AddressList comment=tidal.com address=54.192.100.48} on-error {}
 :do {add list=$AddressList comment=tidal.com address=54.192.100.49} on-error {}
 :do {add list=$AddressList comment=tidal.com address=54.192.100.56} on-error {}
 :do {add list=$AddressList comment=tidal.com address=54.192.100.57} on-error {}
 :do {add list=$AddressList comment=tidal.com address=54.192.100.6} on-error {}
+:do {add list=$AddressList comment=tidal.com address=54.192.100.61} on-error {}
 :do {add list=$AddressList comment=tidal.com address=54.192.100.8} on-error {}
 :do {add list=$AddressList comment=tidal.com address=54.192.100.93} on-error {}
 :do {add list=$AddressList comment=tidal.com address=54.192.137.247} on-error {}
@@ -23,7 +31,11 @@
 :do {add list=$AddressList comment=tidal.com address=54.192.35.102} on-error {}
 :do {add list=$AddressList comment=tidal.com address=54.192.35.115} on-error {}
 :do {add list=$AddressList comment=tidal.com address=54.192.35.20} on-error {}
+:do {add list=$AddressList comment=tidal.com address=54.192.35.30} on-error {}
+:do {add list=$AddressList comment=tidal.com address=54.192.35.36} on-error {}
+:do {add list=$AddressList comment=tidal.com address=54.192.35.71} on-error {}
 :do {add list=$AddressList comment=tidal.com address=54.192.35.79} on-error {}
+:do {add list=$AddressList comment=tidal.com address=54.192.35.80} on-error {}
 :do {add list=$AddressList comment=tidal.com address=54.192.49.240} on-error {}
 :do {add list=$AddressList comment=tidal.com address=54.192.51.10} on-error {}
 :do {add list=$AddressList comment=tidal.com address=54.192.51.100} on-error {}
@@ -338,15 +350,3 @@
 :do {add list=$AddressList comment=tidal.com address=99.84.91.53} on-error {}
 :do {add list=$AddressList comment=tidal.com address=99.84.91.55} on-error {}
 :do {add list=$AddressList comment=tidal.com address=99.84.91.58} on-error {}
-:do {add list=$AddressList comment=tidal.com address=99.84.91.59} on-error {}
-:do {add list=$AddressList comment=tidal.com address=99.84.91.61} on-error {}
-:do {add list=$AddressList comment=tidal.com address=99.84.91.62} on-error {}
-:do {add list=$AddressList comment=tidal.com address=99.84.91.64} on-error {}
-:do {add list=$AddressList comment=tidal.com address=99.84.91.65} on-error {}
-:do {add list=$AddressList comment=tidal.com address=99.84.91.72} on-error {}
-:do {add list=$AddressList comment=tidal.com address=99.84.91.75} on-error {}
-:do {add list=$AddressList comment=tidal.com address=99.84.91.79} on-error {}
-:do {add list=$AddressList comment=tidal.com address=99.84.91.84} on-error {}
-:do {add list=$AddressList comment=tidal.com address=99.84.91.94} on-error {}
-:do {add list=$AddressList comment=tidal.com address=99.84.91.95} on-error {}
-:do {add list=$AddressList comment=tidal.com address=99.86.109.104} on-error {}

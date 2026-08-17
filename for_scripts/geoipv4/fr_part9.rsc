@@ -1,15 +1,5 @@
 :global AddressList
 /ip firewall address-list
-:do {add list=$AddressList comment=fr address=145.239.233.48/28} on-error {}
-:do {add list=$AddressList comment=fr address=145.239.233.64/26} on-error {}
-:do {add list=$AddressList comment=fr address=145.239.234.128/25} on-error {}
-:do {add list=$AddressList comment=fr address=145.239.234.16/28} on-error {}
-:do {add list=$AddressList comment=fr address=145.239.234.32/27} on-error {}
-:do {add list=$AddressList comment=fr address=145.239.234.64/26} on-error {}
-:do {add list=$AddressList comment=fr address=145.239.235.0/25} on-error {}
-:do {add list=$AddressList comment=fr address=145.239.235.128/27} on-error {}
-:do {add list=$AddressList comment=fr address=145.239.235.160/28} on-error {}
-:do {add list=$AddressList comment=fr address=145.239.235.176/29} on-error {}
 :do {add list=$AddressList comment=fr address=145.239.235.184/31} on-error {}
 :do {add list=$AddressList comment=fr address=145.239.235.186/32} on-error {}
 :do {add list=$AddressList comment=fr address=145.239.235.188/30} on-error {}
@@ -350,3 +340,13 @@
 :do {add list=$AddressList comment=fr address=146.59.14.144/28} on-error {}
 :do {add list=$AddressList comment=fr address=146.59.14.16/28} on-error {}
 :do {add list=$AddressList comment=fr address=146.59.14.160/27} on-error {}
+:do {add list=$AddressList comment=fr address=146.59.14.192/26} on-error {}
+:do {add list=$AddressList comment=fr address=146.59.14.2/32} on-error {}
+:do {add list=$AddressList comment=fr address=146.59.14.32/31} on-error {}
+:do {add list=$AddressList comment=fr address=146.59.14.35/32} on-error {}
+:do {add list=$AddressList comment=fr address=146.59.14.36/30} on-error {}
+:do {add list=$AddressList comment=fr address=146.59.14.4/30} on-error {}
+:do {add list=$AddressList comment=fr address=146.59.14.40/29} on-error {}
+:do {add list=$AddressList comment=fr address=146.59.14.48/28} on-error {}
+:do {add list=$AddressList comment=fr address=146.59.14.64/26} on-error {}
+:do {add list=$AddressList comment=fr address=146.59.14.8/29} on-error {}

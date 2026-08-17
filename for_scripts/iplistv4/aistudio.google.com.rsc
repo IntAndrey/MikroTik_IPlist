@@ -99,6 +99,7 @@
 :do {add list=$AddressList comment=aistudio.google.com address=172.217.20.202} on-error {}
 :do {add list=$AddressList comment=aistudio.google.com address=172.217.20.42} on-error {}
 :do {add list=$AddressList comment=aistudio.google.com address=172.217.20.74} on-error {}
+:do {add list=$AddressList comment=aistudio.google.com address=172.217.208.95} on-error {}
 :do {add list=$AddressList comment=aistudio.google.com address=172.217.21.170} on-error {}
 :do {add list=$AddressList comment=aistudio.google.com address=172.217.21.202} on-error {}
 :do {add list=$AddressList comment=aistudio.google.com address=172.217.21.234} on-error {}

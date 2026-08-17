@@ -215,6 +215,7 @@
 :do {add list=$AddressList comment=tidal.com address=172.29.211.218} on-error {}
 :do {add list=$AddressList comment=tidal.com address=172.29.211.238} on-error {}
 :do {add list=$AddressList comment=tidal.com address=172.29.211.244} on-error {}
+:do {add list=$AddressList comment=tidal.com address=172.29.211.245} on-error {}
 :do {add list=$AddressList comment=tidal.com address=172.29.211.28} on-error {}
 :do {add list=$AddressList comment=tidal.com address=172.29.211.52} on-error {}
 :do {add list=$AddressList comment=tidal.com address=172.29.211.6} on-error {}
@@ -233,6 +234,7 @@
 :do {add list=$AddressList comment=tidal.com address=172.29.216.14} on-error {}
 :do {add list=$AddressList comment=tidal.com address=172.29.216.141} on-error {}
 :do {add list=$AddressList comment=tidal.com address=172.29.216.165} on-error {}
+:do {add list=$AddressList comment=tidal.com address=172.29.216.167} on-error {}
 :do {add list=$AddressList comment=tidal.com address=172.29.216.170} on-error {}
 :do {add list=$AddressList comment=tidal.com address=172.29.216.171} on-error {}
 :do {add list=$AddressList comment=tidal.com address=172.29.216.176} on-error {}
@@ -348,5 +350,3 @@
 :do {add list=$AddressList comment=tidal.com address=172.29.72.198} on-error {}
 :do {add list=$AddressList comment=tidal.com address=172.29.72.254} on-error {}
 :do {add list=$AddressList comment=tidal.com address=172.29.72.27} on-error {}
-:do {add list=$AddressList comment=tidal.com address=172.29.72.7} on-error {}
-:do {add list=$AddressList comment=tidal.com address=172.29.73.11} on-error {}

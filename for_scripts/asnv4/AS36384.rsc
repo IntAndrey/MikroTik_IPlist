@@ -47,7 +47,8 @@
 :do {add list=$AddressList comment=AS36384 address=104.133.208.0/20} on-error {}
 :do {add list=$AddressList comment=AS36384 address=104.133.224.0/19} on-error {}
 :do {add list=$AddressList comment=AS36384 address=104.133.32.0/19} on-error {}
-:do {add list=$AddressList comment=AS36384 address=104.133.4.0/24} on-error {}
+:do {add list=$AddressList comment=AS36384 address=104.133.4.0/23} on-error {}
+:do {add list=$AddressList comment=AS36384 address=104.133.6.0/24} on-error {}
 :do {add list=$AddressList comment=AS36384 address=104.133.64.0/18} on-error {}
 :do {add list=$AddressList comment=AS36384 address=104.133.8.0/21} on-error {}
 :do {add list=$AddressList comment=AS36384 address=104.134.0.0/19} on-error {}
@@ -69,6 +70,7 @@
 :do {add list=$AddressList comment=AS36384 address=104.134.164.0/23} on-error {}
 :do {add list=$AddressList comment=AS36384 address=104.134.166.0/24} on-error {}
 :do {add list=$AddressList comment=AS36384 address=104.134.168.0/24} on-error {}
+:do {add list=$AddressList comment=AS36384 address=104.134.171.0/24} on-error {}
 :do {add list=$AddressList comment=AS36384 address=104.134.173.0/24} on-error {}
 :do {add list=$AddressList comment=AS36384 address=104.134.174.0/23} on-error {}
 :do {add list=$AddressList comment=AS36384 address=104.134.176.0/21} on-error {}
@@ -100,8 +102,7 @@
 :do {add list=$AddressList comment=AS36384 address=104.134.245.0/24} on-error {}
 :do {add list=$AddressList comment=AS36384 address=104.134.246.0/23} on-error {}
 :do {add list=$AddressList comment=AS36384 address=104.134.248.0/21} on-error {}
-:do {add list=$AddressList comment=AS36384 address=104.134.32.0/24} on-error {}
-:do {add list=$AddressList comment=AS36384 address=104.134.34.0/23} on-error {}
+:do {add list=$AddressList comment=AS36384 address=104.134.32.0/22} on-error {}
 :do {add list=$AddressList comment=AS36384 address=104.134.37.0/24} on-error {}
 :do {add list=$AddressList comment=AS36384 address=104.134.41.0/24} on-error {}
 :do {add list=$AddressList comment=AS36384 address=104.134.42.0/23} on-error {}

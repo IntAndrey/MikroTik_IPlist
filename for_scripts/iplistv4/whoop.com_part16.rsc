@@ -1,5 +1,9 @@
 :global AddressList
 /ip firewall address-list
+:do {add list=$AddressList comment=whoop.com address=95.101.123.90} on-error {}
+:do {add list=$AddressList comment=whoop.com address=95.101.133.136} on-error {}
+:do {add list=$AddressList comment=whoop.com address=95.101.133.155} on-error {}
+:do {add list=$AddressList comment=whoop.com address=95.101.133.16} on-error {}
 :do {add list=$AddressList comment=whoop.com address=95.101.133.49} on-error {}
 :do {add list=$AddressList comment=whoop.com address=95.101.133.51} on-error {}
 :do {add list=$AddressList comment=whoop.com address=95.101.133.59} on-error {}

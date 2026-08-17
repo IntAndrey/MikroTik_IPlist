@@ -153,6 +153,7 @@
 :do {add list=$AddressList comment=chatgpt.com address=13.32.110.17} on-error {}
 :do {add list=$AddressList comment=chatgpt.com address=13.32.110.35} on-error {}
 :do {add list=$AddressList comment=chatgpt.com address=13.32.110.69} on-error {}
+:do {add list=$AddressList comment=chatgpt.com address=13.32.46.190} on-error {}
 :do {add list=$AddressList comment=chatgpt.com address=13.32.99.102} on-error {}
 :do {add list=$AddressList comment=chatgpt.com address=13.32.99.15} on-error {}
 :do {add list=$AddressList comment=chatgpt.com address=13.32.99.28} on-error {}
@@ -349,4 +350,3 @@
 :do {add list=$AddressList comment=chatgpt.com address=18.66.27.120} on-error {}
 :do {add list=$AddressList comment=chatgpt.com address=18.66.27.42} on-error {}
 :do {add list=$AddressList comment=chatgpt.com address=18.66.27.76} on-error {}
-:do {add list=$AddressList comment=chatgpt.com address=18.66.27.91} on-error {}

@@ -1,5 +1,9 @@
 :global AddressList
 /ip firewall address-list
+:do {add list=$AddressList comment=soundcloud.com address=13.33.235.78} on-error {}
+:do {add list=$AddressList comment=soundcloud.com address=13.33.235.79} on-error {}
+:do {add list=$AddressList comment=soundcloud.com address=13.33.235.8} on-error {}
+:do {add list=$AddressList comment=soundcloud.com address=13.33.235.80} on-error {}
 :do {add list=$AddressList comment=soundcloud.com address=13.33.235.81} on-error {}
 :do {add list=$AddressList comment=soundcloud.com address=13.33.235.82} on-error {}
 :do {add list=$AddressList comment=soundcloud.com address=13.33.235.83} on-error {}
@@ -346,7 +350,3 @@
 :do {add list=$AddressList comment=soundcloud.com address=18.155.153.86} on-error {}
 :do {add list=$AddressList comment=soundcloud.com address=18.155.153.87} on-error {}
 :do {add list=$AddressList comment=soundcloud.com address=18.155.153.90} on-error {}
-:do {add list=$AddressList comment=soundcloud.com address=18.155.153.97} on-error {}
-:do {add list=$AddressList comment=soundcloud.com address=18.155.202.103} on-error {}
-:do {add list=$AddressList comment=soundcloud.com address=18.155.202.108} on-error {}
-:do {add list=$AddressList comment=soundcloud.com address=18.155.202.14} on-error {}

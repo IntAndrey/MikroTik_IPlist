@@ -44,6 +44,7 @@
 :do {add list=$AddressList comment=telegram.org address=18.185.199.31/32} on-error {}
 :do {add list=$AddressList comment=telegram.org address=18.193.171.24/32} on-error {}
 :do {add list=$AddressList comment=telegram.org address=18.197.213.146/32} on-error {}
+:do {add list=$AddressList comment=telegram.org address=18.198.227.74/32} on-error {}
 :do {add list=$AddressList comment=telegram.org address=18.199.117.139/32} on-error {}
 :do {add list=$AddressList comment=telegram.org address=18.239.0.0/16} on-error {}
 :do {add list=$AddressList comment=telegram.org address=18.244.0.0/16} on-error {}

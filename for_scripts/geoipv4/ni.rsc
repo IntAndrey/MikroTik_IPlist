@@ -141,7 +141,6 @@
 :do {add list=$AddressList comment=ni address=200.10.205.0/24} on-error {}
 :do {add list=$AddressList comment=ni address=200.106.247.0/24} on-error {}
 :do {add list=$AddressList comment=ni address=200.11.30.0/24} on-error {}
-:do {add list=$AddressList comment=ni address=200.30.128.0/24} on-error {}
 :do {add list=$AddressList comment=ni address=200.30.130.0/24} on-error {}
 :do {add list=$AddressList comment=ni address=200.30.132.0/24} on-error {}
 :do {add list=$AddressList comment=ni address=200.30.165.0/24} on-error {}

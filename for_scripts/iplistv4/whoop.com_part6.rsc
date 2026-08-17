@@ -178,7 +178,9 @@
 :do {add list=$AddressList comment=whoop.com address=2.16.56.139} on-error {}
 :do {add list=$AddressList comment=whoop.com address=2.16.56.153} on-error {}
 :do {add list=$AddressList comment=whoop.com address=2.16.56.156} on-error {}
+:do {add list=$AddressList comment=whoop.com address=2.16.6.196} on-error {}
 :do {add list=$AddressList comment=whoop.com address=2.16.6.20} on-error {}
+:do {add list=$AddressList comment=whoop.com address=2.16.6.226} on-error {}
 :do {add list=$AddressList comment=whoop.com address=2.16.6.28} on-error {}
 :do {add list=$AddressList comment=whoop.com address=2.16.6.31} on-error {}
 :do {add list=$AddressList comment=whoop.com address=2.16.6.84} on-error {}
@@ -348,5 +350,3 @@
 :do {add list=$AddressList comment=whoop.com address=2.19.51.54} on-error {}
 :do {add list=$AddressList comment=whoop.com address=2.19.51.62} on-error {}
 :do {add list=$AddressList comment=whoop.com address=2.19.51.70} on-error {}
-:do {add list=$AddressList comment=whoop.com address=2.19.51.78} on-error {}
-:do {add list=$AddressList comment=whoop.com address=2.19.54.17} on-error {}

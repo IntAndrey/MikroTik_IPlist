@@ -14,6 +14,8 @@
 :do {add list=$AddressList comment=yummyanime.tv address=176.58.39.251} on-error {}
 :do {add list=$AddressList comment=yummyanime.tv address=176.58.39.99} on-error {}
 :do {add list=$AddressList comment=yummyanime.tv address=176.58.48.48} on-error {}
+:do {add list=$AddressList comment=yummyanime.tv address=176.58.48.50} on-error {}
+:do {add list=$AddressList comment=yummyanime.tv address=176.58.48.8} on-error {}
 :do {add list=$AddressList comment=yummyanime.tv address=176.58.56.43} on-error {}
 :do {add list=$AddressList comment=yummyanime.tv address=186.2.165.177} on-error {}
 :do {add list=$AddressList comment=yummyanime.tv address=188.114.98.229} on-error {}

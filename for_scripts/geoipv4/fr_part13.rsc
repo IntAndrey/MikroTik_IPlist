@@ -1,15 +1,5 @@
 :global AddressList
 /ip firewall address-list
-:do {add list=$AddressList comment=fr address=149.11.4.64/26} on-error {}
-:do {add list=$AddressList comment=fr address=149.11.40.0/23} on-error {}
-:do {add list=$AddressList comment=fr address=149.11.42.112/29} on-error {}
-:do {add list=$AddressList comment=fr address=149.11.42.136/29} on-error {}
-:do {add list=$AddressList comment=fr address=149.11.42.152/29} on-error {}
-:do {add list=$AddressList comment=fr address=149.11.42.168/29} on-error {}
-:do {add list=$AddressList comment=fr address=149.11.42.176/28} on-error {}
-:do {add list=$AddressList comment=fr address=149.11.42.192/29} on-error {}
-:do {add list=$AddressList comment=fr address=149.11.42.208/28} on-error {}
-:do {add list=$AddressList comment=fr address=149.11.42.22/31} on-error {}
 :do {add list=$AddressList comment=fr address=149.11.42.232/29} on-error {}
 :do {add list=$AddressList comment=fr address=149.11.42.248/29} on-error {}
 :do {add list=$AddressList comment=fr address=149.11.42.48/28} on-error {}
@@ -350,3 +340,13 @@
 :do {add list=$AddressList comment=fr address=149.202.136.64/27} on-error {}
 :do {add list=$AddressList comment=fr address=149.202.137.0/25} on-error {}
 :do {add list=$AddressList comment=fr address=149.202.137.128/27} on-error {}
+:do {add list=$AddressList comment=fr address=149.202.137.164/30} on-error {}
+:do {add list=$AddressList comment=fr address=149.202.137.168/29} on-error {}
+:do {add list=$AddressList comment=fr address=149.202.137.176/28} on-error {}
+:do {add list=$AddressList comment=fr address=149.202.137.192/26} on-error {}
+:do {add list=$AddressList comment=fr address=149.202.138.0/24} on-error {}
+:do {add list=$AddressList comment=fr address=149.202.139.0/25} on-error {}
+:do {add list=$AddressList comment=fr address=149.202.139.128/26} on-error {}
+:do {add list=$AddressList comment=fr address=149.202.139.192/28} on-error {}
+:do {add list=$AddressList comment=fr address=149.202.139.208/31} on-error {}
+:do {add list=$AddressList comment=fr address=149.202.139.210/32} on-error {}
