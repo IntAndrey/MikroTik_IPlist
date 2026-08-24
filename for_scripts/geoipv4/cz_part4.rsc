@@ -1,5 +1,11 @@
 :global AddressList
 /ip firewall address-list
+:do {add list=$AddressList comment=cz address=185.255.116.0/22} on-error {}
+:do {add list=$AddressList comment=cz address=185.255.240.0/22} on-error {}
+:do {add list=$AddressList comment=cz address=185.255.96.0/23} on-error {}
+:do {add list=$AddressList comment=cz address=185.28.100.0/22} on-error {}
+:do {add list=$AddressList comment=cz address=185.28.192.0/22} on-error {}
+:do {add list=$AddressList comment=cz address=185.3.156.0/22} on-error {}
 :do {add list=$AddressList comment=cz address=185.3.8.0/22} on-error {}
 :do {add list=$AddressList comment=cz address=185.30.160.0/23} on-error {}
 :do {add list=$AddressList comment=cz address=185.31.203.0/24} on-error {}
@@ -281,7 +287,7 @@
 :do {add list=$AddressList comment=cz address=193.118.250.224/28} on-error {}
 :do {add list=$AddressList comment=cz address=193.118.250.64/28} on-error {}
 :do {add list=$AddressList comment=cz address=193.118.250.88/29} on-error {}
-:do {add list=$AddressList comment=cz address=193.118.250.96/27} on-error {}
+:do {add list=$AddressList comment=cz address=193.118.250.96/28} on-error {}
 :do {add list=$AddressList comment=cz address=193.118.251.0/26} on-error {}
 :do {add list=$AddressList comment=cz address=193.118.251.128/27} on-error {}
 :do {add list=$AddressList comment=cz address=193.118.251.168/29} on-error {}
@@ -344,9 +350,3 @@
 :do {add list=$AddressList comment=cz address=193.164.218.0/23} on-error {}
 :do {add list=$AddressList comment=cz address=193.164.32.0/19} on-error {}
 :do {add list=$AddressList comment=cz address=193.164.64.0/20} on-error {}
-:do {add list=$AddressList comment=cz address=193.165.0.0/16} on-error {}
-:do {add list=$AddressList comment=cz address=193.168.244.0/22} on-error {}
-:do {add list=$AddressList comment=cz address=193.169.182.0/23} on-error {}
-:do {add list=$AddressList comment=cz address=193.169.212.0/24} on-error {}
-:do {add list=$AddressList comment=cz address=193.17.13.0/24} on-error {}
-:do {add list=$AddressList comment=cz address=193.17.248.0/22} on-error {}

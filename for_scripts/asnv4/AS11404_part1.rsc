@@ -131,7 +131,14 @@
 :do {add list=$AddressList comment=AS11404 address=104.220.153.216/29} on-error {}
 :do {add list=$AddressList comment=AS11404 address=104.220.153.224/27} on-error {}
 :do {add list=$AddressList comment=AS11404 address=104.220.154.0/23} on-error {}
-:do {add list=$AddressList comment=AS11404 address=104.220.156.0/24} on-error {}
+:do {add list=$AddressList comment=AS11404 address=104.220.156.0/26} on-error {}
+:do {add list=$AddressList comment=AS11404 address=104.220.156.100/30} on-error {}
+:do {add list=$AddressList comment=AS11404 address=104.220.156.104/29} on-error {}
+:do {add list=$AddressList comment=AS11404 address=104.220.156.112/28} on-error {}
+:do {add list=$AddressList comment=AS11404 address=104.220.156.128/25} on-error {}
+:do {add list=$AddressList comment=AS11404 address=104.220.156.64/27} on-error {}
+:do {add list=$AddressList comment=AS11404 address=104.220.156.96/31} on-error {}
+:do {add list=$AddressList comment=AS11404 address=104.220.156.98/32} on-error {}
 :do {add list=$AddressList comment=AS11404 address=104.220.157.0/27} on-error {}
 :do {add list=$AddressList comment=AS11404 address=104.220.157.128/25} on-error {}
 :do {add list=$AddressList comment=AS11404 address=104.220.157.32/28} on-error {}
@@ -343,10 +350,3 @@
 :do {add list=$AddressList comment=AS11404 address=13.143.80.0/22} on-error {}
 :do {add list=$AddressList comment=AS11404 address=134.202.120.0/21} on-error {}
 :do {add list=$AddressList comment=AS11404 address=136.0.100.0/24} on-error {}
-:do {add list=$AddressList comment=AS11404 address=136.0.104.0/24} on-error {}
-:do {add list=$AddressList comment=AS11404 address=136.0.187.0/24} on-error {}
-:do {add list=$AddressList comment=AS11404 address=136.0.205.0/24} on-error {}
-:do {add list=$AddressList comment=AS11404 address=136.143.244.0/24} on-error {}
-:do {add list=$AddressList comment=AS11404 address=136.143.251.0/24} on-error {}
-:do {add list=$AddressList comment=AS11404 address=136.143.253.0/24} on-error {}
-:do {add list=$AddressList comment=AS11404 address=136.143.255.0/24} on-error {}

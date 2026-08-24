@@ -1,15 +1,5 @@
 :global AddressList
 /ip firewall address-list
-:do {add list=$AddressList comment=ru address=185.202.109.0/24} on-error {}
-:do {add list=$AddressList comment=ru address=185.202.111.0/24} on-error {}
-:do {add list=$AddressList comment=ru address=185.202.12.0/22} on-error {}
-:do {add list=$AddressList comment=ru address=185.202.2.0/23} on-error {}
-:do {add list=$AddressList comment=ru address=185.202.212.0/22} on-error {}
-:do {add list=$AddressList comment=ru address=185.203.144.0/22} on-error {}
-:do {add list=$AddressList comment=ru address=185.203.72.111/32} on-error {}
-:do {add list=$AddressList comment=ru address=185.203.72.13/32} on-error {}
-:do {add list=$AddressList comment=ru address=185.203.73.0/24} on-error {}
-:do {add list=$AddressList comment=ru address=185.203.74.0/23} on-error {}
 :do {add list=$AddressList comment=ru address=185.203.96.0/22} on-error {}
 :do {add list=$AddressList comment=ru address=185.204.0.0/24} on-error {}
 :do {add list=$AddressList comment=ru address=185.204.110.0/24} on-error {}
@@ -350,3 +340,13 @@
 :do {add list=$AddressList comment=ru address=185.27.192.0/22} on-error {}
 :do {add list=$AddressList comment=ru address=185.27.208.0/22} on-error {}
 :do {add list=$AddressList comment=ru address=185.27.48.0/22} on-error {}
+:do {add list=$AddressList comment=ru address=185.27.80.0/22} on-error {}
+:do {add list=$AddressList comment=ru address=185.28.108.0/22} on-error {}
+:do {add list=$AddressList comment=ru address=185.28.85.0/24} on-error {}
+:do {add list=$AddressList comment=ru address=185.29.124.0/22} on-error {}
+:do {add list=$AddressList comment=ru address=185.29.128.0/22} on-error {}
+:do {add list=$AddressList comment=ru address=185.29.52.0/22} on-error {}
+:do {add list=$AddressList comment=ru address=185.29.56.0/22} on-error {}
+:do {add list=$AddressList comment=ru address=185.3.140.0/22} on-error {}
+:do {add list=$AddressList comment=ru address=185.3.16.0/22} on-error {}
+:do {add list=$AddressList comment=ru address=185.3.172.0/22} on-error {}

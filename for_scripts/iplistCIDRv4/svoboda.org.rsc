@@ -161,7 +161,7 @@
 :do {add list=$AddressList comment=svoboda.org address=23.60.34.56/32} on-error {}
 :do {add list=$AddressList comment=svoboda.org address=23.61.0.0/16} on-error {}
 :do {add list=$AddressList comment=svoboda.org address=23.63.0.0/16} on-error {}
-:do {add list=$AddressList comment=svoboda.org address=23.64.0.0/16} on-error {}
+:do {add list=$AddressList comment=svoboda.org address=23.64.0.0/15} on-error {}
 :do {add list=$AddressList comment=svoboda.org address=23.72.0.0/15} on-error {}
 :do {add list=$AddressList comment=svoboda.org address=3.160.0.0/13} on-error {}
 :do {add list=$AddressList comment=svoboda.org address=3.168.0.0/14} on-error {}

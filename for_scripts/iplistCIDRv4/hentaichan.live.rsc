@@ -23,7 +23,7 @@
 :do {add list=$AddressList comment=hentaichan.live address=148.163.0.0/17} on-error {}
 :do {add list=$AddressList comment=hentaichan.live address=154.64.0.0/10} on-error {}
 :do {add list=$AddressList comment=hentaichan.live address=157.240.0.0/16} on-error {}
-:do {add list=$AddressList comment=hentaichan.live address=159.138.0.0/16} on-error {}
+:do {add list=$AddressList comment=hentaichan.live address=159.138.20.20/32} on-error {}
 :do {add list=$AddressList comment=hentaichan.live address=162.125.0.0/16} on-error {}
 :do {add list=$AddressList comment=hentaichan.live address=162.220.8.0/21} on-error {}
 :do {add list=$AddressList comment=hentaichan.live address=168.143.0.0/16} on-error {}

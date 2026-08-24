@@ -86,6 +86,8 @@
 :do {add list=$AddressList comment=spotify.com address=104.109.128.99} on-error {}
 :do {add list=$AddressList comment=spotify.com address=104.109.143.23} on-error {}
 :do {add list=$AddressList comment=spotify.com address=104.109.143.9} on-error {}
+:do {add list=$AddressList comment=spotify.com address=104.109.250.10} on-error {}
+:do {add list=$AddressList comment=spotify.com address=104.109.250.99} on-error {}
 :do {add list=$AddressList comment=spotify.com address=104.110.191.172} on-error {}
 :do {add list=$AddressList comment=spotify.com address=104.110.191.173} on-error {}
 :do {add list=$AddressList comment=spotify.com address=104.110.191.176} on-error {}
@@ -348,5 +350,3 @@
 :do {add list=$AddressList comment=spotify.com address=184.24.77.194} on-error {}
 :do {add list=$AddressList comment=spotify.com address=184.24.77.195} on-error {}
 :do {add list=$AddressList comment=spotify.com address=184.24.77.196} on-error {}
-:do {add list=$AddressList comment=spotify.com address=184.24.77.197} on-error {}
-:do {add list=$AddressList comment=spotify.com address=184.24.77.198} on-error {}

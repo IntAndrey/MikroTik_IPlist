@@ -1,5 +1,13 @@
 :global AddressList
 /ip firewall address-list
+:do {add list=$AddressList comment=quora.com address=52.45.28.54} on-error {}
+:do {add list=$AddressList comment=quora.com address=52.45.59.223} on-error {}
+:do {add list=$AddressList comment=quora.com address=52.45.6.223} on-error {}
+:do {add list=$AddressList comment=quora.com address=52.45.78.195} on-error {}
+:do {add list=$AddressList comment=quora.com address=52.45.8.112} on-error {}
+:do {add list=$AddressList comment=quora.com address=52.45.91.68} on-error {}
+:do {add list=$AddressList comment=quora.com address=52.5.104.144} on-error {}
+:do {add list=$AddressList comment=quora.com address=52.5.158.4} on-error {}
 :do {add list=$AddressList comment=quora.com address=52.5.187.37} on-error {}
 :do {add list=$AddressList comment=quora.com address=52.5.20.68} on-error {}
 :do {add list=$AddressList comment=quora.com address=52.5.219.46} on-error {}
@@ -256,6 +264,7 @@
 :do {add list=$AddressList comment=quora.com address=54.237.190.148} on-error {}
 :do {add list=$AddressList comment=quora.com address=54.237.206.245} on-error {}
 :do {add list=$AddressList comment=quora.com address=54.237.71.232} on-error {}
+:do {add list=$AddressList comment=quora.com address=54.242.119.124} on-error {}
 :do {add list=$AddressList comment=quora.com address=54.242.72.177} on-error {}
 :do {add list=$AddressList comment=quora.com address=54.243.109.55} on-error {}
 :do {add list=$AddressList comment=quora.com address=54.243.143.59} on-error {}
@@ -275,6 +284,7 @@
 :do {add list=$AddressList comment=quora.com address=54.83.198.8} on-error {}
 :do {add list=$AddressList comment=quora.com address=54.83.234.81} on-error {}
 :do {add list=$AddressList comment=quora.com address=54.83.62.82} on-error {}
+:do {add list=$AddressList comment=quora.com address=54.84.119.58} on-error {}
 :do {add list=$AddressList comment=quora.com address=54.84.167.111} on-error {}
 :do {add list=$AddressList comment=quora.com address=54.84.209.19} on-error {}
 :do {add list=$AddressList comment=quora.com address=54.84.67.118} on-error {}

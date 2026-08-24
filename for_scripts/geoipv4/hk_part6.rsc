@@ -1,5 +1,12 @@
 :global AddressList
 /ip firewall address-list
+:do {add list=$AddressList comment=hk address=104.47.26.128/25} on-error {}
+:do {add list=$AddressList comment=hk address=104.47.27.0/26} on-error {}
+:do {add list=$AddressList comment=hk address=104.47.66.128/26} on-error {}
+:do {add list=$AddressList comment=hk address=104.70.181.0/24} on-error {}
+:do {add list=$AddressList comment=hk address=104.76.128.0/20} on-error {}
+:do {add list=$AddressList comment=hk address=104.84.150.0/24} on-error {}
+:do {add list=$AddressList comment=hk address=104.89.100.0/22} on-error {}
 :do {add list=$AddressList comment=hk address=104.89.104.0/23} on-error {}
 :do {add list=$AddressList comment=hk address=104.89.96.0/23} on-error {}
 :do {add list=$AddressList comment=hk address=104.91.80.0/21} on-error {}
@@ -72,7 +79,6 @@
 :do {add list=$AddressList comment=hk address=109.106.14.0/24} on-error {}
 :do {add list=$AddressList comment=hk address=109.110.162.0/24} on-error {}
 :do {add list=$AddressList comment=hk address=109.121.54.0/24} on-error {}
-:do {add list=$AddressList comment=hk address=109.122.10.0/24} on-error {}
 :do {add list=$AddressList comment=hk address=109.122.19.0/24} on-error {}
 :do {add list=$AddressList comment=hk address=109.122.3.0/24} on-error {}
 :do {add list=$AddressList comment=hk address=109.122.42.0/24} on-error {}
@@ -344,9 +350,3 @@
 :do {add list=$AddressList comment=hk address=118.143.0.0/17} on-error {}
 :do {add list=$AddressList comment=hk address=118.143.128.0/18} on-error {}
 :do {add list=$AddressList comment=hk address=118.143.192.0/21} on-error {}
-:do {add list=$AddressList comment=hk address=118.143.200.0/24} on-error {}
-:do {add list=$AddressList comment=hk address=118.143.201.0/29} on-error {}
-:do {add list=$AddressList comment=hk address=118.143.201.10/32} on-error {}
-:do {add list=$AddressList comment=hk address=118.143.201.12/30} on-error {}
-:do {add list=$AddressList comment=hk address=118.143.201.128/26} on-error {}
-:do {add list=$AddressList comment=hk address=118.143.201.16/28} on-error {}

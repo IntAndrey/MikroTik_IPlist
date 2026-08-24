@@ -95,6 +95,8 @@
 :do {add list=$AddressList comment=fmhy.net address=52.38.196.63} on-error {}
 :do {add list=$AddressList comment=fmhy.net address=64.120.31.120} on-error {}
 :do {add list=$AddressList comment=fmhy.net address=64.120.31.121} on-error {}
+:do {add list=$AddressList comment=fmhy.net address=64.31.3.227} on-error {}
+:do {add list=$AddressList comment=fmhy.net address=64.31.3.229} on-error {}
 :do {add list=$AddressList comment=fmhy.net address=64.31.3.234} on-error {}
 :do {add list=$AddressList comment=fmhy.net address=64.31.3.235} on-error {}
 :do {add list=$AddressList comment=fmhy.net address=64.31.3.236} on-error {}

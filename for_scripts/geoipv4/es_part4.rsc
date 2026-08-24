@@ -1,11 +1,5 @@
 :global AddressList
 /ip firewall address-list
-:do {add list=$AddressList comment=es address=148.56.0.0/16} on-error {}
-:do {add list=$AddressList comment=es address=149.100.10.0/23} on-error {}
-:do {add list=$AddressList comment=es address=149.100.12.0/22} on-error {}
-:do {add list=$AddressList comment=es address=149.100.19.0/24} on-error {}
-:do {add list=$AddressList comment=es address=149.100.20.0/24} on-error {}
-:do {add list=$AddressList comment=es address=149.100.23.0/24} on-error {}
 :do {add list=$AddressList comment=es address=149.100.4.0/22} on-error {}
 :do {add list=$AddressList comment=es address=149.102.236.0/24} on-error {}
 :do {add list=$AddressList comment=es address=149.11.118.8/29} on-error {}
@@ -283,7 +277,6 @@
 :do {add list=$AddressList comment=es address=149.6.128.208/29} on-error {}
 :do {add list=$AddressList comment=es address=149.6.128.22/31} on-error {}
 :do {add list=$AddressList comment=es address=149.6.128.224/29} on-error {}
-:do {add list=$AddressList comment=es address=149.6.128.4/30} on-error {}
 :do {add list=$AddressList comment=es address=149.6.129.124/31} on-error {}
 :do {add list=$AddressList comment=es address=149.6.129.136/29} on-error {}
 :do {add list=$AddressList comment=es address=149.6.129.144/29} on-error {}
@@ -350,3 +343,10 @@
 :do {add list=$AddressList comment=es address=149.6.139.0/28} on-error {}
 :do {add list=$AddressList comment=es address=149.6.139.120/29} on-error {}
 :do {add list=$AddressList comment=es address=149.6.139.128/29} on-error {}
+:do {add list=$AddressList comment=es address=149.6.139.168/29} on-error {}
+:do {add list=$AddressList comment=es address=149.6.139.176/28} on-error {}
+:do {add list=$AddressList comment=es address=149.6.139.200/29} on-error {}
+:do {add list=$AddressList comment=es address=149.6.139.224/29} on-error {}
+:do {add list=$AddressList comment=es address=149.6.139.32/27} on-error {}
+:do {add list=$AddressList comment=es address=149.6.139.64/28} on-error {}
+:do {add list=$AddressList comment=es address=149.6.140.0/30} on-error {}
