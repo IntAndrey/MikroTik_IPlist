@@ -113,3 +113,7 @@
 :do {add list=$AddressList comment=fmhy.net address=77.247.183.154} on-error {}
 :do {add list=$AddressList comment=fmhy.net address=77.247.183.155} on-error {}
 :do {add list=$AddressList comment=fmhy.net address=78.157.209.173} on-error {}
+:do {add list=$AddressList comment=fmhy.net address=85.17.5.65} on-error {}
+:do {add list=$AddressList comment=fmhy.net address=85.17.5.66} on-error {}
+:do {add list=$AddressList comment=fmhy.net address=85.17.5.67} on-error {}
+:do {add list=$AddressList comment=fmhy.net address=85.17.5.76} on-error {}

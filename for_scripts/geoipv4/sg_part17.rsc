@@ -1,12 +1,5 @@
 :global AddressList
 /ip firewall address-list
-:do {add list=$AddressList comment=sg address=202.21.158.0/23} on-error {}
-:do {add list=$AddressList comment=sg address=202.21.192.0/23} on-error {}
-:do {add list=$AddressList comment=sg address=202.21.195.0/24} on-error {}
-:do {add list=$AddressList comment=sg address=202.21.196.0/22} on-error {}
-:do {add list=$AddressList comment=sg address=202.21.200.0/21} on-error {}
-:do {add list=$AddressList comment=sg address=202.21.208.0/20} on-error {}
-:do {add list=$AddressList comment=sg address=202.21.224.0/19} on-error {}
 :do {add list=$AddressList comment=sg address=202.27.130.0/23} on-error {}
 :do {add list=$AddressList comment=sg address=202.27.16.0/20} on-error {}
 :do {add list=$AddressList comment=sg address=202.27.96.0/24} on-error {}
@@ -46,6 +39,9 @@
 :do {add list=$AddressList comment=sg address=202.42.170.0/23} on-error {}
 :do {add list=$AddressList comment=sg address=202.42.173.0/24} on-error {}
 :do {add list=$AddressList comment=sg address=202.42.175.0/24} on-error {}
+:do {add list=$AddressList comment=sg address=202.42.176.0/24} on-error {}
+:do {add list=$AddressList comment=sg address=202.42.182.0/24} on-error {}
+:do {add list=$AddressList comment=sg address=202.42.190.0/23} on-error {}
 :do {add list=$AddressList comment=sg address=202.42.192.0/21} on-error {}
 :do {add list=$AddressList comment=sg address=202.42.200.0/23} on-error {}
 :do {add list=$AddressList comment=sg address=202.42.203.0/24} on-error {}
@@ -350,3 +346,7 @@
 :do {add list=$AddressList comment=sg address=203.168.192.0/20} on-error {}
 :do {add list=$AddressList comment=sg address=203.169.64.0/18} on-error {}
 :do {add list=$AddressList comment=sg address=203.17.180.0/22} on-error {}
+:do {add list=$AddressList comment=sg address=203.17.34.26/32} on-error {}
+:do {add list=$AddressList comment=sg address=203.171.30.16/28} on-error {}
+:do {add list=$AddressList comment=sg address=203.174.28.0/23} on-error {}
+:do {add list=$AddressList comment=sg address=203.174.80.0/21} on-error {}

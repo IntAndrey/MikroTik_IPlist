@@ -1,5 +1,11 @@
 :global AddressList
 /ip firewall address-list
+:do {add list=$AddressList comment=ch address=79.134.226.0/25} on-error {}
+:do {add list=$AddressList comment=ch address=79.134.226.128/26} on-error {}
+:do {add list=$AddressList comment=ch address=79.134.226.192/28} on-error {}
+:do {add list=$AddressList comment=ch address=79.134.226.216/29} on-error {}
+:do {add list=$AddressList comment=ch address=79.134.226.224/27} on-error {}
+:do {add list=$AddressList comment=ch address=79.134.227.0/24} on-error {}
 :do {add list=$AddressList comment=ch address=79.134.228.0/23} on-error {}
 :do {add list=$AddressList comment=ch address=79.134.232.0/24} on-error {}
 :do {add list=$AddressList comment=ch address=79.134.233.128/26} on-error {}
@@ -152,6 +158,7 @@
 :do {add list=$AddressList comment=ch address=82.140.158.0/24} on-error {}
 :do {add list=$AddressList comment=ch address=82.140.169.0/24} on-error {}
 :do {add list=$AddressList comment=ch address=82.146.192.0/19} on-error {}
+:do {add list=$AddressList comment=ch address=82.163.7.0/24} on-error {}
 :do {add list=$AddressList comment=ch address=82.192.224.0/19} on-error {}
 :do {add list=$AddressList comment=ch address=82.195.224.0/19} on-error {}
 :do {add list=$AddressList comment=ch address=82.197.160.0/20} on-error {}
@@ -343,10 +350,3 @@
 :do {add list=$AddressList comment=ch address=85.119.232.201/32} on-error {}
 :do {add list=$AddressList comment=ch address=85.119.232.202/31} on-error {}
 :do {add list=$AddressList comment=ch address=85.119.232.204/30} on-error {}
-:do {add list=$AddressList comment=ch address=85.119.232.208/28} on-error {}
-:do {add list=$AddressList comment=ch address=85.119.232.224/27} on-error {}
-:do {add list=$AddressList comment=ch address=85.119.233.0/24} on-error {}
-:do {add list=$AddressList comment=ch address=85.119.234.0/23} on-error {}
-:do {add list=$AddressList comment=ch address=85.119.236.0/22} on-error {}
-:do {add list=$AddressList comment=ch address=85.121.235.0/24} on-error {}
-:do {add list=$AddressList comment=ch address=85.122.172.0/23} on-error {}

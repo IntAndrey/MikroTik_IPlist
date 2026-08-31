@@ -246,7 +246,6 @@
 :do {add list=$AddressList comment=gp address=90.15.10.0/23} on-error {}
 :do {add list=$AddressList comment=gp address=90.15.12.0/22} on-error {}
 :do {add list=$AddressList comment=gp address=90.15.128.0/17} on-error {}
-:do {add list=$AddressList comment=gp address=90.15.16.0/20} on-error {}
 :do {add list=$AddressList comment=gp address=90.15.32.0/20} on-error {}
 :do {add list=$AddressList comment=gp address=90.15.48.0/21} on-error {}
 :do {add list=$AddressList comment=gp address=90.15.56.0/23} on-error {}

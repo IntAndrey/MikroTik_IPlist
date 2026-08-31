@@ -1,5 +1,12 @@
 :global AddressList
 /ip firewall address-list
+:do {add list=$AddressList comment=nl address=185.152.129.0/24} on-error {}
+:do {add list=$AddressList comment=nl address=185.152.212.0/24} on-error {}
+:do {add list=$AddressList comment=nl address=185.152.214.0/23} on-error {}
+:do {add list=$AddressList comment=nl address=185.152.84.0/22} on-error {}
+:do {add list=$AddressList comment=nl address=185.153.200.0/24} on-error {}
+:do {add list=$AddressList comment=nl address=185.153.60.0/22} on-error {}
+:do {add list=$AddressList comment=nl address=185.154.12.0/22} on-error {}
 :do {add list=$AddressList comment=nl address=185.154.224.0/22} on-error {}
 :do {add list=$AddressList comment=nl address=185.155.143.0/24} on-error {}
 :do {add list=$AddressList comment=nl address=185.155.168.0/22} on-error {}
@@ -127,8 +134,6 @@
 :do {add list=$AddressList comment=nl address=185.171.40.0/22} on-error {}
 :do {add list=$AddressList comment=nl address=185.171.48.0/22} on-error {}
 :do {add list=$AddressList comment=nl address=185.171.80.0/24} on-error {}
-:do {add list=$AddressList comment=nl address=185.171.89.0/24} on-error {}
-:do {add list=$AddressList comment=nl address=185.171.90.0/24} on-error {}
 :do {add list=$AddressList comment=nl address=185.172.132.0/22} on-error {}
 :do {add list=$AddressList comment=nl address=185.172.149.0/24} on-error {}
 :do {add list=$AddressList comment=nl address=185.172.160.0/22} on-error {}
@@ -345,8 +350,3 @@
 :do {add list=$AddressList comment=nl address=185.201.252.0/24} on-error {}
 :do {add list=$AddressList comment=nl address=185.201.28.0/24} on-error {}
 :do {add list=$AddressList comment=nl address=185.201.68.0/22} on-error {}
-:do {add list=$AddressList comment=nl address=185.202.0.0/24} on-error {}
-:do {add list=$AddressList comment=nl address=185.202.152.0/22} on-error {}
-:do {add list=$AddressList comment=nl address=185.202.200.0/22} on-error {}
-:do {add list=$AddressList comment=nl address=185.202.252.0/22} on-error {}
-:do {add list=$AddressList comment=nl address=185.203.149.0/24} on-error {}

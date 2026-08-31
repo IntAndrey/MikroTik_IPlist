@@ -1,5 +1,15 @@
 :global AddressList
 /ip firewall address-list
+:do {add list=$AddressList comment=bbc.com address=23.32.24.29} on-error {}
+:do {add list=$AddressList comment=bbc.com address=23.32.32.156} on-error {}
+:do {add list=$AddressList comment=bbc.com address=23.32.52.112} on-error {}
+:do {add list=$AddressList comment=bbc.com address=23.32.52.21} on-error {}
+:do {add list=$AddressList comment=bbc.com address=23.32.84.28} on-error {}
+:do {add list=$AddressList comment=bbc.com address=23.32.96.151} on-error {}
+:do {add list=$AddressList comment=bbc.com address=23.33.108.149} on-error {}
+:do {add list=$AddressList comment=bbc.com address=23.33.108.31} on-error {}
+:do {add list=$AddressList comment=bbc.com address=23.33.188.154} on-error {}
+:do {add list=$AddressList comment=bbc.com address=23.33.208.112} on-error {}
 :do {add list=$AddressList comment=bbc.com address=23.34.0.154} on-error {}
 :do {add list=$AddressList comment=bbc.com address=23.34.124.171} on-error {}
 :do {add list=$AddressList comment=bbc.com address=23.34.164.138} on-error {}
@@ -340,13 +350,3 @@
 :do {add list=$AddressList comment=bbc.com address=3.168.236.90} on-error {}
 :do {add list=$AddressList comment=bbc.com address=3.168.73.18} on-error {}
 :do {add list=$AddressList comment=bbc.com address=3.168.73.28} on-error {}
-:do {add list=$AddressList comment=bbc.com address=3.168.73.31} on-error {}
-:do {add list=$AddressList comment=bbc.com address=3.168.73.46} on-error {}
-:do {add list=$AddressList comment=bbc.com address=3.169.100.83} on-error {}
-:do {add list=$AddressList comment=bbc.com address=3.169.85.120} on-error {}
-:do {add list=$AddressList comment=bbc.com address=3.169.85.16} on-error {}
-:do {add list=$AddressList comment=bbc.com address=3.169.85.18} on-error {}
-:do {add list=$AddressList comment=bbc.com address=3.169.85.62} on-error {}
-:do {add list=$AddressList comment=bbc.com address=3.170.26.79} on-error {}
-:do {add list=$AddressList comment=bbc.com address=3.170.36.55} on-error {}
-:do {add list=$AddressList comment=bbc.com address=3.171.139.126} on-error {}

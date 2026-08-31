@@ -1,5 +1,11 @@
 :global AddressList
 /ip firewall address-list
+:do {add list=$AddressList comment=cz address=85.160.247.49/32} on-error {}
+:do {add list=$AddressList comment=cz address=85.160.247.50/31} on-error {}
+:do {add list=$AddressList comment=cz address=85.160.247.52/30} on-error {}
+:do {add list=$AddressList comment=cz address=85.160.247.56/29} on-error {}
+:do {add list=$AddressList comment=cz address=85.160.247.64/26} on-error {}
+:do {add list=$AddressList comment=cz address=85.160.248.0/21} on-error {}
 :do {add list=$AddressList comment=cz address=85.161.0.0/16} on-error {}
 :do {add list=$AddressList comment=cz address=85.162.0.0/15} on-error {}
 :do {add list=$AddressList comment=cz address=85.184.16.0/20} on-error {}
@@ -264,6 +270,7 @@
 :do {add list=$AddressList comment=cz address=91.235.200.0/23} on-error {}
 :do {add list=$AddressList comment=cz address=91.236.40.0/22} on-error {}
 :do {add list=$AddressList comment=cz address=91.237.236.0/22} on-error {}
+:do {add list=$AddressList comment=cz address=91.237.87.0/24} on-error {}
 :do {add list=$AddressList comment=cz address=91.239.120.0/24} on-error {}
 :do {add list=$AddressList comment=cz address=91.239.187.0/24} on-error {}
 :do {add list=$AddressList comment=cz address=91.239.200.0/22} on-error {}
@@ -343,10 +350,3 @@
 :do {add list=$AddressList comment=cz address=93.170.226.180/30} on-error {}
 :do {add list=$AddressList comment=cz address=93.170.226.184/29} on-error {}
 :do {add list=$AddressList comment=cz address=93.170.226.192/26} on-error {}
-:do {add list=$AddressList comment=cz address=93.170.226.64/28} on-error {}
-:do {add list=$AddressList comment=cz address=93.170.226.80/31} on-error {}
-:do {add list=$AddressList comment=cz address=93.170.226.83/32} on-error {}
-:do {add list=$AddressList comment=cz address=93.170.226.84/30} on-error {}
-:do {add list=$AddressList comment=cz address=93.170.226.88/29} on-error {}
-:do {add list=$AddressList comment=cz address=93.170.226.96/27} on-error {}
-:do {add list=$AddressList comment=cz address=93.170.227.0/24} on-error {}

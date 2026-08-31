@@ -1,11 +1,5 @@
 :global AddressList
 /ip firewall address-list
-:do {add list=$AddressList comment=sg address=210.10.64.0/20} on-error {}
-:do {add list=$AddressList comment=sg address=210.16.120.0/23} on-error {}
-:do {add list=$AddressList comment=sg address=210.16.64.0/22} on-error {}
-:do {add list=$AddressList comment=sg address=210.176.138.0/25} on-error {}
-:do {add list=$AddressList comment=sg address=210.176.138.128/26} on-error {}
-:do {add list=$AddressList comment=sg address=210.176.138.192/28} on-error {}
 :do {add list=$AddressList comment=sg address=210.176.138.208/29} on-error {}
 :do {add list=$AddressList comment=sg address=210.176.138.216/30} on-error {}
 :do {add list=$AddressList comment=sg address=210.176.138.224/27} on-error {}
@@ -226,10 +220,21 @@
 :do {add list=$AddressList comment=sg address=216.195.194.0/23} on-error {}
 :do {add list=$AddressList comment=sg address=216.195.196.0/22} on-error {}
 :do {add list=$AddressList comment=sg address=216.198.233.0/24} on-error {}
+:do {add list=$AddressList comment=sg address=216.200.188.0/28} on-error {}
+:do {add list=$AddressList comment=sg address=216.200.188.104/29} on-error {}
+:do {add list=$AddressList comment=sg address=216.200.188.112/28} on-error {}
+:do {add list=$AddressList comment=sg address=216.200.188.128/27} on-error {}
+:do {add list=$AddressList comment=sg address=216.200.188.16/29} on-error {}
+:do {add list=$AddressList comment=sg address=216.200.188.192/26} on-error {}
+:do {add list=$AddressList comment=sg address=216.200.188.24/30} on-error {}
+:do {add list=$AddressList comment=sg address=216.200.188.28/31} on-error {}
+:do {add list=$AddressList comment=sg address=216.200.188.32/27} on-error {}
+:do {add list=$AddressList comment=sg address=216.200.188.64/27} on-error {}
 :do {add list=$AddressList comment=sg address=216.200.191.80/30} on-error {}
 :do {add list=$AddressList comment=sg address=216.225.161.0/24} on-error {}
 :do {add list=$AddressList comment=sg address=216.23.64.0/21} on-error {}
 :do {add list=$AddressList comment=sg address=216.23.80.0/24} on-error {}
+:do {add list=$AddressList comment=sg address=216.23.96.0/22} on-error {}
 :do {add list=$AddressList comment=sg address=216.230.192.0/19} on-error {}
 :do {add list=$AddressList comment=sg address=216.236.2.0/24} on-error {}
 :do {add list=$AddressList comment=sg address=216.254.2.0/24} on-error {}
@@ -239,6 +244,7 @@
 :do {add list=$AddressList comment=sg address=216.6.5.0/24} on-error {}
 :do {add list=$AddressList comment=sg address=216.6.91.0/24} on-error {}
 :do {add list=$AddressList comment=sg address=216.67.230.0/24} on-error {}
+:do {add list=$AddressList comment=sg address=216.99.86.192/26} on-error {}
 :do {add list=$AddressList comment=sg address=217.10.229.0/24} on-error {}
 :do {add list=$AddressList comment=sg address=217.10.231.0/24} on-error {}
 :do {add list=$AddressList comment=sg address=217.116.168.0/21} on-error {}
@@ -311,7 +317,6 @@
 :do {add list=$AddressList comment=sg address=23.103.190.224/27} on-error {}
 :do {add list=$AddressList comment=sg address=23.103.232.128/25} on-error {}
 :do {add list=$AddressList comment=sg address=23.106.120.0/21} on-error {}
-:do {add list=$AddressList comment=sg address=23.106.144.0/22} on-error {}
 :do {add list=$AddressList comment=sg address=23.106.248.251/32} on-error {}
 :do {add list=$AddressList comment=sg address=23.106.249.0/24} on-error {}
 :do {add list=$AddressList comment=sg address=23.106.252.0/23} on-error {}
@@ -345,8 +350,3 @@
 :do {add list=$AddressList comment=sg address=23.158.132.0/24} on-error {}
 :do {add list=$AddressList comment=sg address=23.158.20.184/30} on-error {}
 :do {add list=$AddressList comment=sg address=23.160.152.152/29} on-error {}
-:do {add list=$AddressList comment=sg address=23.161.104.131/32} on-error {}
-:do {add list=$AddressList comment=sg address=23.177.152.0/24} on-error {}
-:do {add list=$AddressList comment=sg address=23.177.56.0/24} on-error {}
-:do {add list=$AddressList comment=sg address=23.183.245.224/32} on-error {}
-:do {add list=$AddressList comment=sg address=23.183.246.128/25} on-error {}
