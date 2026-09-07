@@ -123,6 +123,7 @@
 :do {add list=$AddressList comment=telegram.org address=173.194.222.121} on-error {}
 :do {add list=$AddressList comment=telegram.org address=173.194.73.121} on-error {}
 :do {add list=$AddressList comment=telegram.org address=178.128.255.27} on-error {}
+:do {add list=$AddressList comment=telegram.org address=18.159.155.234} on-error {}
 :do {add list=$AddressList comment=telegram.org address=18.164.52.102} on-error {}
 :do {add list=$AddressList comment=telegram.org address=18.164.52.112} on-error {}
 :do {add list=$AddressList comment=telegram.org address=18.164.52.6} on-error {}
@@ -238,6 +239,7 @@
 :do {add list=$AddressList comment=telegram.org address=3.121.7.66} on-error {}
 :do {add list=$AddressList comment=telegram.org address=3.122.165.131} on-error {}
 :do {add list=$AddressList comment=telegram.org address=3.122.43.86} on-error {}
+:do {add list=$AddressList comment=telegram.org address=3.123.214.200} on-error {}
 :do {add list=$AddressList comment=telegram.org address=3.124.144.119} on-error {}
 :do {add list=$AddressList comment=telegram.org address=3.125.225.3} on-error {}
 :do {add list=$AddressList comment=telegram.org address=3.160.39.10} on-error {}
@@ -266,6 +268,7 @@
 :do {add list=$AddressList comment=telegram.org address=3.175.86.85} on-error {}
 :do {add list=$AddressList comment=telegram.org address=3.222.67.212} on-error {}
 :do {add list=$AddressList comment=telegram.org address=3.33.238.178} on-error {}
+:do {add list=$AddressList comment=telegram.org address=3.66.185.112} on-error {}
 :do {add list=$AddressList comment=telegram.org address=3.67.231.136} on-error {}
 :do {add list=$AddressList comment=telegram.org address=3.68.55.200} on-error {}
 :do {add list=$AddressList comment=telegram.org address=3.72.148.84} on-error {}
@@ -298,9 +301,11 @@
 :do {add list=$AddressList comment=telegram.org address=54.230.228.122} on-error {}
 :do {add list=$AddressList comment=telegram.org address=54.230.228.5} on-error {}
 :do {add list=$AddressList comment=telegram.org address=54.230.228.67} on-error {}
+:do {add list=$AddressList comment=telegram.org address=63.176.154.11} on-error {}
 :do {add list=$AddressList comment=telegram.org address=63.177.131.49} on-error {}
 :do {add list=$AddressList comment=telegram.org address=63.177.159.128} on-error {}
 :do {add list=$AddressList comment=telegram.org address=63.181.11.156} on-error {}
+:do {add list=$AddressList comment=telegram.org address=63.181.122.202} on-error {}
 :do {add list=$AddressList comment=telegram.org address=63.181.136.187} on-error {}
 :do {add list=$AddressList comment=telegram.org address=63.181.84.68} on-error {}
 :do {add list=$AddressList comment=telegram.org address=63.182.128.88} on-error {}
@@ -323,6 +328,7 @@
 :do {add list=$AddressList comment=telegram.org address=63.186.122.108} on-error {}
 :do {add list=$AddressList comment=telegram.org address=63.186.18.177} on-error {}
 :do {add list=$AddressList comment=telegram.org address=63.186.45.32} on-error {}
+:do {add list=$AddressList comment=telegram.org address=63.188.127.134} on-error {}
 :do {add list=$AddressList comment=telegram.org address=64.233.161.121} on-error {}
 :do {add list=$AddressList comment=telegram.org address=64.233.162.121} on-error {}
 :do {add list=$AddressList comment=telegram.org address=64.233.163.121} on-error {}
@@ -344,9 +350,3 @@
 :do {add list=$AddressList comment=telegram.org address=95.161.64.16} on-error {}
 :do {add list=$AddressList comment=telegram.org address=95.161.64.99} on-error {}
 :do {add list=$AddressList comment=telegram.org address=99.84.91.14} on-error {}
-:do {add list=$AddressList comment=telegram.org address=99.84.91.18} on-error {}
-:do {add list=$AddressList comment=telegram.org address=99.84.91.21} on-error {}
-:do {add list=$AddressList comment=telegram.org address=99.84.91.26} on-error {}
-:do {add list=$AddressList comment=telegram.org address=99.84.91.34} on-error {}
-:do {add list=$AddressList comment=telegram.org address=99.84.91.37} on-error {}
-:do {add list=$AddressList comment=telegram.org address=99.84.91.56} on-error {}

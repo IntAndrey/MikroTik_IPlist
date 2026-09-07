@@ -1,5 +1,16 @@
 :global AddressList
 /ip firewall address-list
+:do {add list=$AddressList comment=fi address=135.136.64.0/24} on-error {}
+:do {add list=$AddressList comment=fi address=135.181.0.0/16} on-error {}
+:do {add list=$AddressList comment=fi address=135.245.192.0/18} on-error {}
+:do {add list=$AddressList comment=fi address=135.87.38.0/23} on-error {}
+:do {add list=$AddressList comment=fi address=136.22.122.112/29} on-error {}
+:do {add list=$AddressList comment=fi address=136.22.123.112/29} on-error {}
+:do {add list=$AddressList comment=fi address=136.227.140.214/31} on-error {}
+:do {add list=$AddressList comment=fi address=136.227.140.216/30} on-error {}
+:do {add list=$AddressList comment=fi address=136.228.197.0/25} on-error {}
+:do {add list=$AddressList comment=fi address=136.228.197.128/26} on-error {}
+:do {add list=$AddressList comment=fi address=136.228.197.192/27} on-error {}
 :do {add list=$AddressList comment=fi address=136.228.197.224/28} on-error {}
 :do {add list=$AddressList comment=fi address=136.228.197.240/32} on-error {}
 :do {add list=$AddressList comment=fi address=136.228.197.244/30} on-error {}
@@ -209,6 +220,7 @@
 :do {add list=$AddressList comment=fi address=151.241.221.0/24} on-error {}
 :do {add list=$AddressList comment=fi address=151.241.229.0/24} on-error {}
 :do {add list=$AddressList comment=fi address=151.241.234.0/24} on-error {}
+:do {add list=$AddressList comment=fi address=151.242.236.0/24} on-error {}
 :do {add list=$AddressList comment=fi address=151.245.139.0/24} on-error {}
 :do {add list=$AddressList comment=fi address=151.245.140.0/24} on-error {}
 :do {add list=$AddressList comment=fi address=151.252.29.224/28} on-error {}
@@ -223,6 +235,7 @@
 :do {add list=$AddressList comment=fi address=153.72.174.64/26} on-error {}
 :do {add list=$AddressList comment=fi address=153.72.185.0/25} on-error {}
 :do {add list=$AddressList comment=fi address=153.72.59.0/25} on-error {}
+:do {add list=$AddressList comment=fi address=153.75.51.0/24} on-error {}
 :do {add list=$AddressList comment=fi address=153.76.194.0/24} on-error {}
 :do {add list=$AddressList comment=fi address=153.76.214.0/23} on-error {}
 :do {add list=$AddressList comment=fi address=153.76.216.0/23} on-error {}
@@ -291,6 +304,7 @@
 :do {add list=$AddressList comment=fi address=157.129.0.0/16} on-error {}
 :do {add list=$AddressList comment=fi address=157.144.0.0/17} on-error {}
 :do {add list=$AddressList comment=fi address=157.144.128.0/20} on-error {}
+:do {add list=$AddressList comment=fi address=157.144.144.0/23} on-error {}
 :do {add list=$AddressList comment=fi address=157.144.148.0/22} on-error {}
 :do {add list=$AddressList comment=fi address=157.144.152.0/21} on-error {}
 :do {add list=$AddressList comment=fi address=157.144.160.0/19} on-error {}
@@ -336,17 +350,3 @@
 :do {add list=$AddressList comment=fi address=157.56.208.136/29} on-error {}
 :do {add list=$AddressList comment=fi address=157.56.208.24/29} on-error {}
 :do {add list=$AddressList comment=fi address=157.56.208.72/29} on-error {}
-:do {add list=$AddressList comment=fi address=157.94.0.0/16} on-error {}
-:do {add list=$AddressList comment=fi address=158.127.0.0/17} on-error {}
-:do {add list=$AddressList comment=fi address=158.127.128.0/19} on-error {}
-:do {add list=$AddressList comment=fi address=158.127.164.0/22} on-error {}
-:do {add list=$AddressList comment=fi address=158.127.168.0/21} on-error {}
-:do {add list=$AddressList comment=fi address=158.127.176.0/20} on-error {}
-:do {add list=$AddressList comment=fi address=158.127.192.0/18} on-error {}
-:do {add list=$AddressList comment=fi address=158.131.0.0/16} on-error {}
-:do {add list=$AddressList comment=fi address=158.173.102.0/23} on-error {}
-:do {add list=$AddressList comment=fi address=158.174.219.0/26} on-error {}
-:do {add list=$AddressList comment=fi address=158.233.0.0/17} on-error {}
-:do {add list=$AddressList comment=fi address=158.233.128.0/18} on-error {}
-:do {add list=$AddressList comment=fi address=158.233.192.0/19} on-error {}
-:do {add list=$AddressList comment=fi address=158.233.224.0/20} on-error {}

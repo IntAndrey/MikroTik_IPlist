@@ -15,7 +15,10 @@
 :do {add list=$AddressList comment=younettranslate.com address=172.237.146.38} on-error {}
 :do {add list=$AddressList comment=younettranslate.com address=172.237.146.49} on-error {}
 :do {add list=$AddressList comment=younettranslate.com address=172.237.146.8} on-error {}
+:do {add list=$AddressList comment=younettranslate.com address=172.238.172.228} on-error {}
+:do {add list=$AddressList comment=younettranslate.com address=172.238.176.31} on-error {}
 :do {add list=$AddressList comment=younettranslate.com address=172.239.193.161} on-error {}
+:do {add list=$AddressList comment=younettranslate.com address=172.239.57.230} on-error {}
 :do {add list=$AddressList comment=younettranslate.com address=3.222.75.253} on-error {}
 :do {add list=$AddressList comment=younettranslate.com address=35.173.156.155} on-error {}
 :do {add list=$AddressList comment=younettranslate.com address=44.193.132.243} on-error {}

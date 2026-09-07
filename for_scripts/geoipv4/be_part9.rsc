@@ -1,5 +1,15 @@
 :global AddressList
 /ip firewall address-list
+:do {add list=$AddressList comment=be address=212.222.250.212/30} on-error {}
+:do {add list=$AddressList comment=be address=212.222.250.224/29} on-error {}
+:do {add list=$AddressList comment=be address=212.222.250.240/29} on-error {}
+:do {add list=$AddressList comment=be address=212.222.250.40/29} on-error {}
+:do {add list=$AddressList comment=be address=212.222.250.48/28} on-error {}
+:do {add list=$AddressList comment=be address=212.222.250.72/29} on-error {}
+:do {add list=$AddressList comment=be address=212.222.251.120/29} on-error {}
+:do {add list=$AddressList comment=be address=212.222.251.144/29} on-error {}
+:do {add list=$AddressList comment=be address=212.222.32.112/29} on-error {}
+:do {add list=$AddressList comment=be address=212.222.32.152/29} on-error {}
 :do {add list=$AddressList comment=be address=212.222.32.160/29} on-error {}
 :do {add list=$AddressList comment=be address=212.222.32.216/29} on-error {}
 :do {add list=$AddressList comment=be address=212.222.32.8/29} on-error {}
@@ -340,13 +350,3 @@
 :do {add list=$AddressList comment=be address=212.78.185.32/29} on-error {}
 :do {add list=$AddressList comment=be address=212.79.64.0/19} on-error {}
 :do {add list=$AddressList comment=be address=212.8.176.28/32} on-error {}
-:do {add list=$AddressList comment=be address=212.81.104.128/28} on-error {}
-:do {add list=$AddressList comment=be address=212.81.104.192/26} on-error {}
-:do {add list=$AddressList comment=be address=212.81.105.120/29} on-error {}
-:do {add list=$AddressList comment=be address=212.81.105.176/29} on-error {}
-:do {add list=$AddressList comment=be address=212.81.105.200/29} on-error {}
-:do {add list=$AddressList comment=be address=212.81.105.224/29} on-error {}
-:do {add list=$AddressList comment=be address=212.81.105.36/30} on-error {}
-:do {add list=$AddressList comment=be address=212.81.105.40/29} on-error {}
-:do {add list=$AddressList comment=be address=212.81.106.72/29} on-error {}
-:do {add list=$AddressList comment=be address=212.81.106.84/30} on-error {}

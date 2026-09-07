@@ -104,6 +104,7 @@
 :do {add list=$AddressList comment=netflix.com address=207.45.72.0/22} on-error {}
 :do {add list=$AddressList comment=netflix.com address=23.0.23.232/32} on-error {}
 :do {add list=$AddressList comment=netflix.com address=23.10.11.98/32} on-error {}
+:do {add list=$AddressList comment=netflix.com address=23.10.216.94/32} on-error {}
 :do {add list=$AddressList comment=netflix.com address=23.10.78.3/32} on-error {}
 :do {add list=$AddressList comment=netflix.com address=23.12.110.45/32} on-error {}
 :do {add list=$AddressList comment=netflix.com address=23.12.143.201/32} on-error {}
@@ -140,9 +141,7 @@
 :do {add list=$AddressList comment=netflix.com address=23.43.184.249/32} on-error {}
 :do {add list=$AddressList comment=netflix.com address=23.43.64.146/32} on-error {}
 :do {add list=$AddressList comment=netflix.com address=23.49.0.0/16} on-error {}
-:do {add list=$AddressList comment=netflix.com address=23.50.153.19/32} on-error {}
-:do {add list=$AddressList comment=netflix.com address=23.50.198.236/32} on-error {}
-:do {add list=$AddressList comment=netflix.com address=23.50.65.66/32} on-error {}
+:do {add list=$AddressList comment=netflix.com address=23.50.0.0/16} on-error {}
 :do {add list=$AddressList comment=netflix.com address=23.51.145.137/32} on-error {}
 :do {add list=$AddressList comment=netflix.com address=23.51.241.128/32} on-error {}
 :do {add list=$AddressList comment=netflix.com address=23.51.65.181/32} on-error {}
@@ -165,6 +164,7 @@
 :do {add list=$AddressList comment=netflix.com address=23.7.38.240/32} on-error {}
 :do {add list=$AddressList comment=netflix.com address=23.76.42.43/32} on-error {}
 :do {add list=$AddressList comment=netflix.com address=23.79.95.95/32} on-error {}
+:do {add list=$AddressList comment=netflix.com address=23.9.209.59/32} on-error {}
 :do {add list=$AddressList comment=netflix.com address=3.12.3.40/32} on-error {}
 :do {add list=$AddressList comment=netflix.com address=3.129.173.176/32} on-error {}
 :do {add list=$AddressList comment=netflix.com address=3.129.196.255/32} on-error {}

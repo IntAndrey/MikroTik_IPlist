@@ -63,7 +63,6 @@
 :do {add list=$AddressList comment=ne address=197.214.51.0/24} on-error {}
 :do {add list=$AddressList comment=ne address=197.214.52.0/22} on-error {}
 :do {add list=$AddressList comment=ne address=197.214.57.0/24} on-error {}
-:do {add list=$AddressList comment=ne address=197.214.59.0/24} on-error {}
 :do {add list=$AddressList comment=ne address=197.214.60.0/22} on-error {}
 :do {add list=$AddressList comment=ne address=216.234.218.0/23} on-error {}
 :do {add list=$AddressList comment=ne address=41.138.32.0/19} on-error {}

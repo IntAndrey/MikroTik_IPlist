@@ -1,5 +1,6 @@
 :global AddressList
 /ip firewall address-list
+:do {add list=$AddressList comment=spotify.com address=184.24.77.192} on-error {}
 :do {add list=$AddressList comment=spotify.com address=184.24.77.193} on-error {}
 :do {add list=$AddressList comment=spotify.com address=184.24.77.194} on-error {}
 :do {add list=$AddressList comment=spotify.com address=184.24.77.195} on-error {}
@@ -61,10 +62,13 @@
 :do {add list=$AddressList comment=spotify.com address=184.25.51.49} on-error {}
 :do {add list=$AddressList comment=spotify.com address=184.25.51.83} on-error {}
 :do {add list=$AddressList comment=spotify.com address=184.26.136.18} on-error {}
+:do {add list=$AddressList comment=spotify.com address=184.26.136.8} on-error {}
 :do {add list=$AddressList comment=spotify.com address=184.28.224.27} on-error {}
 :do {add list=$AddressList comment=spotify.com address=184.28.224.40} on-error {}
 :do {add list=$AddressList comment=spotify.com address=184.29.14.26} on-error {}
 :do {add list=$AddressList comment=spotify.com address=184.29.14.50} on-error {}
+:do {add list=$AddressList comment=spotify.com address=184.30.150.38} on-error {}
+:do {add list=$AddressList comment=spotify.com address=184.30.150.39} on-error {}
 :do {add list=$AddressList comment=spotify.com address=184.31.10.35} on-error {}
 :do {add list=$AddressList comment=spotify.com address=184.50.112.232} on-error {}
 :do {add list=$AddressList comment=spotify.com address=184.50.113.128} on-error {}
@@ -346,7 +350,3 @@
 :do {add list=$AddressList comment=spotify.com address=2.16.164.42} on-error {}
 :do {add list=$AddressList comment=spotify.com address=2.16.164.43} on-error {}
 :do {add list=$AddressList comment=spotify.com address=2.16.164.48} on-error {}
-:do {add list=$AddressList comment=spotify.com address=2.16.164.56} on-error {}
-:do {add list=$AddressList comment=spotify.com address=2.16.164.58} on-error {}
-:do {add list=$AddressList comment=spotify.com address=2.16.164.59} on-error {}
-:do {add list=$AddressList comment=spotify.com address=2.16.164.64} on-error {}

@@ -1,6 +1,5 @@
 :global AddressList
 /ip firewall address-list
-:do {add list=$AddressList comment=au address=110.36.232.0/23} on-error {}
 :do {add list=$AddressList comment=au address=110.36.57.0/24} on-error {}
 :do {add list=$AddressList comment=au address=110.44.24.0/21} on-error {}
 :do {add list=$AddressList comment=au address=110.5.116.0/22} on-error {}
@@ -67,9 +66,10 @@
 :do {add list=$AddressList comment=au address=113.29.120.0/22} on-error {}
 :do {add list=$AddressList comment=au address=113.29.124.0/23} on-error {}
 :do {add list=$AddressList comment=au address=113.29.127.0/24} on-error {}
-:do {add list=$AddressList comment=au address=113.29.16.0/20} on-error {}
+:do {add list=$AddressList comment=au address=113.29.18.0/24} on-error {}
 :do {add list=$AddressList comment=au address=113.29.208.0/21} on-error {}
 :do {add list=$AddressList comment=au address=113.29.240.0/21} on-error {}
+:do {add list=$AddressList comment=au address=113.29.31.112/29} on-error {}
 :do {add list=$AddressList comment=au address=113.29.64.0/25} on-error {}
 :do {add list=$AddressList comment=au address=113.29.64.128/27} on-error {}
 :do {add list=$AddressList comment=au address=113.29.64.160/29} on-error {}
@@ -243,7 +243,6 @@
 :do {add list=$AddressList comment=au address=116.193.184.0/22} on-error {}
 :do {add list=$AddressList comment=au address=116.193.208.0/21} on-error {}
 :do {add list=$AddressList comment=au address=116.197.144.0/21} on-error {}
-:do {add list=$AddressList comment=au address=116.197.190.0/24} on-error {}
 :do {add list=$AddressList comment=au address=116.199.202.0/23} on-error {}
 :do {add list=$AddressList comment=au address=116.199.205.0/24} on-error {}
 :do {add list=$AddressList comment=au address=116.204.144.0/22} on-error {}
@@ -350,3 +349,4 @@
 :do {add list=$AddressList comment=au address=119.42.32.0/23} on-error {}
 :do {add list=$AddressList comment=au address=119.42.34.0/24} on-error {}
 :do {add list=$AddressList comment=au address=119.42.52.0/22} on-error {}
+:do {add list=$AddressList comment=au address=119.47.112.0/22} on-error {}

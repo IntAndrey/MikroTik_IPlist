@@ -11,8 +11,10 @@
 :do {add list=$AddressList comment=elevenlabs.io address=216.198.51.3} on-error {}
 :do {add list=$AddressList comment=elevenlabs.io address=216.198.52.3} on-error {}
 :do {add list=$AddressList comment=elevenlabs.io address=216.198.53.1} on-error {}
+:do {add list=$AddressList comment=elevenlabs.io address=216.198.53.2} on-error {}
 :do {add list=$AddressList comment=elevenlabs.io address=216.198.53.6} on-error {}
 :do {add list=$AddressList comment=elevenlabs.io address=216.198.54.1} on-error {}
+:do {add list=$AddressList comment=elevenlabs.io address=216.198.54.2} on-error {}
 :do {add list=$AddressList comment=elevenlabs.io address=216.198.54.6} on-error {}
 :do {add list=$AddressList comment=elevenlabs.io address=216.239.36.54} on-error {}
 :do {add list=$AddressList comment=elevenlabs.io address=34.160.99.201} on-error {}

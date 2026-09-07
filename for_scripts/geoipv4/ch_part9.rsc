@@ -1,5 +1,15 @@
 :global AddressList
 /ip firewall address-list
+:do {add list=$AddressList comment=ch address=193.202.60.0/23} on-error {}
+:do {add list=$AddressList comment=ch address=193.203.120.0/23} on-error {}
+:do {add list=$AddressList comment=ch address=193.203.253.0/24} on-error {}
+:do {add list=$AddressList comment=ch address=193.218.100.0/22} on-error {}
+:do {add list=$AddressList comment=ch address=193.218.104.0/24} on-error {}
+:do {add list=$AddressList comment=ch address=193.218.205.0/26} on-error {}
+:do {add list=$AddressList comment=ch address=193.218.207.16/28} on-error {}
+:do {add list=$AddressList comment=ch address=193.218.207.32/27} on-error {}
+:do {add list=$AddressList comment=ch address=193.22.142.0/24} on-error {}
+:do {add list=$AddressList comment=ch address=193.22.171.0/24} on-error {}
 :do {add list=$AddressList comment=ch address=193.221.116.0/24} on-error {}
 :do {add list=$AddressList comment=ch address=193.222.0.0/19} on-error {}
 :do {add list=$AddressList comment=ch address=193.222.104.0/22} on-error {}
@@ -340,13 +350,3 @@
 :do {add list=$AddressList comment=ch address=194.11.176.0/21} on-error {}
 :do {add list=$AddressList comment=ch address=194.11.184.0/22} on-error {}
 :do {add list=$AddressList comment=ch address=194.11.202.0/24} on-error {}
-:do {add list=$AddressList comment=ch address=194.11.204.0/22} on-error {}
-:do {add list=$AddressList comment=ch address=194.11.208.0/22} on-error {}
-:do {add list=$AddressList comment=ch address=194.11.212.0/23} on-error {}
-:do {add list=$AddressList comment=ch address=194.11.217.0/24} on-error {}
-:do {add list=$AddressList comment=ch address=194.11.218.0/23} on-error {}
-:do {add list=$AddressList comment=ch address=194.11.221.0/24} on-error {}
-:do {add list=$AddressList comment=ch address=194.11.222.0/23} on-error {}
-:do {add list=$AddressList comment=ch address=194.11.232.0/23} on-error {}
-:do {add list=$AddressList comment=ch address=194.11.236.0/23} on-error {}
-:do {add list=$AddressList comment=ch address=194.11.238.0/24} on-error {}

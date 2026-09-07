@@ -1,5 +1,6 @@
 :global AddressList
 /ip firewall address-list
+:do {add list=$AddressList comment=netflix.com address=23.217.253.72} on-error {}
 :do {add list=$AddressList comment=netflix.com address=23.217.253.73} on-error {}
 :do {add list=$AddressList comment=netflix.com address=23.218.165.59} on-error {}
 :do {add list=$AddressList comment=netflix.com address=23.219.225.186} on-error {}
@@ -36,6 +37,7 @@
 :do {add list=$AddressList comment=netflix.com address=23.50.153.19} on-error {}
 :do {add list=$AddressList comment=netflix.com address=23.50.198.236} on-error {}
 :do {add list=$AddressList comment=netflix.com address=23.50.65.66} on-error {}
+:do {add list=$AddressList comment=netflix.com address=23.50.98.36} on-error {}
 :do {add list=$AddressList comment=netflix.com address=23.51.145.137} on-error {}
 :do {add list=$AddressList comment=netflix.com address=23.51.241.128} on-error {}
 :do {add list=$AddressList comment=netflix.com address=23.51.65.181} on-error {}
@@ -58,6 +60,7 @@
 :do {add list=$AddressList comment=netflix.com address=23.7.38.240} on-error {}
 :do {add list=$AddressList comment=netflix.com address=23.76.42.43} on-error {}
 :do {add list=$AddressList comment=netflix.com address=23.79.95.95} on-error {}
+:do {add list=$AddressList comment=netflix.com address=23.9.209.59} on-error {}
 :do {add list=$AddressList comment=netflix.com address=3.12.3.40} on-error {}
 :do {add list=$AddressList comment=netflix.com address=3.129.173.176} on-error {}
 :do {add list=$AddressList comment=netflix.com address=3.129.196.255} on-error {}
@@ -347,6 +350,3 @@
 :do {add list=$AddressList comment=netflix.com address=54.216.227.219} on-error {}
 :do {add list=$AddressList comment=netflix.com address=54.217.127.99} on-error {}
 :do {add list=$AddressList comment=netflix.com address=54.217.21.108} on-error {}
-:do {add list=$AddressList comment=netflix.com address=54.217.229.70} on-error {}
-:do {add list=$AddressList comment=netflix.com address=54.217.35.13} on-error {}
-:do {add list=$AddressList comment=netflix.com address=54.220.241.189} on-error {}

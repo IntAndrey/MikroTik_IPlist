@@ -1,5 +1,7 @@
 :global AddressList
 /ip firewall address-list
+:do {add list=$AddressList comment=zello.com address=3.208.209.91} on-error {}
+:do {add list=$AddressList comment=zello.com address=3.209.131.182} on-error {}
 :do {add list=$AddressList comment=zello.com address=3.209.188.162} on-error {}
 :do {add list=$AddressList comment=zello.com address=3.209.20.52} on-error {}
 :do {add list=$AddressList comment=zello.com address=3.209.233.168} on-error {}
@@ -89,6 +91,7 @@
 :do {add list=$AddressList comment=zello.com address=34.194.48.107} on-error {}
 :do {add list=$AddressList comment=zello.com address=34.195.171.246} on-error {}
 :do {add list=$AddressList comment=zello.com address=34.195.20.227} on-error {}
+:do {add list=$AddressList comment=zello.com address=34.195.30.36} on-error {}
 :do {add list=$AddressList comment=zello.com address=34.195.63.213} on-error {}
 :do {add list=$AddressList comment=zello.com address=34.196.48.228} on-error {}
 :do {add list=$AddressList comment=zello.com address=34.198.97.131} on-error {}
@@ -179,6 +182,7 @@
 :do {add list=$AddressList comment=zello.com address=44.223.197.131} on-error {}
 :do {add list=$AddressList comment=zello.com address=44.223.221.31} on-error {}
 :do {add list=$AddressList comment=zello.com address=50.16.117.238} on-error {}
+:do {add list=$AddressList comment=zello.com address=50.16.220.221} on-error {}
 :do {add list=$AddressList comment=zello.com address=50.16.227.30} on-error {}
 :do {add list=$AddressList comment=zello.com address=50.16.36.232} on-error {}
 :do {add list=$AddressList comment=zello.com address=50.19.215.169} on-error {}
