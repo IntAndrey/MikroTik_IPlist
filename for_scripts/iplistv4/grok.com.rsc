@@ -93,9 +93,11 @@
 :do {add list=$AddressList comment=grok.com address=54.193.159.113} on-error {}
 :do {add list=$AddressList comment=grok.com address=54.193.23.39} on-error {}
 :do {add list=$AddressList comment=grok.com address=54.193.32.209} on-error {}
+:do {add list=$AddressList comment=grok.com address=54.215.0.81} on-error {}
 :do {add list=$AddressList comment=grok.com address=54.215.109.13} on-error {}
 :do {add list=$AddressList comment=grok.com address=54.215.202.237} on-error {}
 :do {add list=$AddressList comment=grok.com address=54.215.21.45} on-error {}
+:do {add list=$AddressList comment=grok.com address=54.215.72.153} on-error {}
 :do {add list=$AddressList comment=grok.com address=54.219.109.88} on-error {}
 :do {add list=$AddressList comment=grok.com address=54.219.141.125} on-error {}
 :do {add list=$AddressList comment=grok.com address=54.219.152.218} on-error {}

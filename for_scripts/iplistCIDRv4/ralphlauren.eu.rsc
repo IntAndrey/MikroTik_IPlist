@@ -24,6 +24,7 @@
 :do {add list=$AddressList comment=ralphlauren.eu address=184.51.0.0/16} on-error {}
 :do {add list=$AddressList comment=ralphlauren.eu address=184.86.0.0/16} on-error {}
 :do {add list=$AddressList comment=ralphlauren.eu address=188.114.96.0/22} on-error {}
+:do {add list=$AddressList comment=ralphlauren.eu address=190.96.0.0/14} on-error {}
 :do {add list=$AddressList comment=ralphlauren.eu address=199.232.0.0/16} on-error {}
 :do {add list=$AddressList comment=ralphlauren.eu address=2.16.0.0/23} on-error {}
 :do {add list=$AddressList comment=ralphlauren.eu address=2.16.110.0/23} on-error {}
@@ -51,6 +52,7 @@
 :do {add list=$AddressList comment=ralphlauren.eu address=2.21.32.0/20} on-error {}
 :do {add list=$AddressList comment=ralphlauren.eu address=2.21.64.0/20} on-error {}
 :do {add list=$AddressList comment=ralphlauren.eu address=2.22.224.0/23} on-error {}
+:do {add list=$AddressList comment=ralphlauren.eu address=2.22.250.0/23} on-error {}
 :do {add list=$AddressList comment=ralphlauren.eu address=2.22.80.0/20} on-error {}
 :do {add list=$AddressList comment=ralphlauren.eu address=2.23.0.0/20} on-error {}
 :do {add list=$AddressList comment=ralphlauren.eu address=2.23.160.0/20} on-error {}
@@ -95,10 +97,13 @@
 :do {add list=$AddressList comment=ralphlauren.eu address=8.6.112.0/32} on-error {}
 :do {add list=$AddressList comment=ralphlauren.eu address=80.239.150.25/32} on-error {}
 :do {add list=$AddressList comment=ralphlauren.eu address=80.239.150.34/32} on-error {}
+:do {add list=$AddressList comment=ralphlauren.eu address=80.239.150.42/32} on-error {}
 :do {add list=$AddressList comment=ralphlauren.eu address=80.239.150.89/32} on-error {}
 :do {add list=$AddressList comment=ralphlauren.eu address=80.239.254.23/32} on-error {}
 :do {add list=$AddressList comment=ralphlauren.eu address=80.239.254.26/32} on-error {}
+:do {add list=$AddressList comment=ralphlauren.eu address=80.239.254.3/32} on-error {}
 :do {add list=$AddressList comment=ralphlauren.eu address=80.239.254.38/32} on-error {}
+:do {add list=$AddressList comment=ralphlauren.eu address=80.239.254.44/32} on-error {}
 :do {add list=$AddressList comment=ralphlauren.eu address=88.221.0.0/16} on-error {}
 :do {add list=$AddressList comment=ralphlauren.eu address=92.122.0.0/15} on-error {}
 :do {add list=$AddressList comment=ralphlauren.eu address=95.100.0.0/15} on-error {}

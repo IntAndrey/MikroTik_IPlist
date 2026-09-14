@@ -1,5 +1,27 @@
 :global AddressList
 /ip firewall address-list
+:do {add list=$AddressList comment=AS33588 address=98.127.224.0/22} on-error {}
+:do {add list=$AddressList comment=AS33588 address=98.127.228.0/26} on-error {}
+:do {add list=$AddressList comment=AS33588 address=98.127.228.128/25} on-error {}
+:do {add list=$AddressList comment=AS33588 address=98.127.228.64/31} on-error {}
+:do {add list=$AddressList comment=AS33588 address=98.127.228.66/32} on-error {}
+:do {add list=$AddressList comment=AS33588 address=98.127.228.68/30} on-error {}
+:do {add list=$AddressList comment=AS33588 address=98.127.228.72/29} on-error {}
+:do {add list=$AddressList comment=AS33588 address=98.127.228.80/28} on-error {}
+:do {add list=$AddressList comment=AS33588 address=98.127.228.96/27} on-error {}
+:do {add list=$AddressList comment=AS33588 address=98.127.229.0/24} on-error {}
+:do {add list=$AddressList comment=AS33588 address=98.127.230.0/23} on-error {}
+:do {add list=$AddressList comment=AS33588 address=98.127.232.0/21} on-error {}
+:do {add list=$AddressList comment=AS33588 address=98.127.24.0/23} on-error {}
+:do {add list=$AddressList comment=AS33588 address=98.127.240.0/20} on-error {}
+:do {add list=$AddressList comment=AS33588 address=98.127.26.0/24} on-error {}
+:do {add list=$AddressList comment=AS33588 address=98.127.27.0/26} on-error {}
+:do {add list=$AddressList comment=AS33588 address=98.127.27.104/31} on-error {}
+:do {add list=$AddressList comment=AS33588 address=98.127.27.106/32} on-error {}
+:do {add list=$AddressList comment=AS33588 address=98.127.27.108/30} on-error {}
+:do {add list=$AddressList comment=AS33588 address=98.127.27.112/28} on-error {}
+:do {add list=$AddressList comment=AS33588 address=98.127.27.128/25} on-error {}
+:do {add list=$AddressList comment=AS33588 address=98.127.27.64/27} on-error {}
 :do {add list=$AddressList comment=AS33588 address=98.127.27.96/29} on-error {}
 :do {add list=$AddressList comment=AS33588 address=98.127.28.0/22} on-error {}
 :do {add list=$AddressList comment=AS33588 address=98.127.32.0/19} on-error {}

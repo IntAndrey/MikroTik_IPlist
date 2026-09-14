@@ -1,12 +1,5 @@
 :global AddressList
 /ip firewall address-list
-:do {add list=$AddressList comment=hk address=202.74.50.0/24} on-error {}
-:do {add list=$AddressList comment=hk address=202.74.96.0/24} on-error {}
-:do {add list=$AddressList comment=hk address=202.74.98.0/24} on-error {}
-:do {add list=$AddressList comment=hk address=202.74.99.0/28} on-error {}
-:do {add list=$AddressList comment=hk address=202.74.99.112/28} on-error {}
-:do {add list=$AddressList comment=hk address=202.74.99.128/25} on-error {}
-:do {add list=$AddressList comment=hk address=202.74.99.17/32} on-error {}
 :do {add list=$AddressList comment=hk address=202.74.99.18/31} on-error {}
 :do {add list=$AddressList comment=hk address=202.74.99.20/30} on-error {}
 :do {add list=$AddressList comment=hk address=202.74.99.24/29} on-error {}
@@ -191,6 +184,7 @@
 :do {add list=$AddressList comment=hk address=203.112.248.0/21} on-error {}
 :do {add list=$AddressList comment=hk address=203.112.82.0/24} on-error {}
 :do {add list=$AddressList comment=hk address=203.112.86.0/23} on-error {}
+:do {add list=$AddressList comment=hk address=203.112.88.0/21} on-error {}
 :do {add list=$AddressList comment=hk address=203.114.252.0/22} on-error {}
 :do {add list=$AddressList comment=hk address=203.119.2.0/24} on-error {}
 :do {add list=$AddressList comment=hk address=203.119.87.0/24} on-error {}
@@ -350,3 +344,9 @@
 :do {add list=$AddressList comment=hk address=203.78.132.0/22} on-error {}
 :do {add list=$AddressList comment=hk address=203.78.136.0/21} on-error {}
 :do {add list=$AddressList comment=hk address=203.78.32.0/20} on-error {}
+:do {add list=$AddressList comment=hk address=203.78.5.0/24} on-error {}
+:do {add list=$AddressList comment=hk address=203.78.6.0/23} on-error {}
+:do {add list=$AddressList comment=hk address=203.78.64.0/19} on-error {}
+:do {add list=$AddressList comment=hk address=203.79.35.0/24} on-error {}
+:do {add list=$AddressList comment=hk address=203.79.36.0/23} on-error {}
+:do {add list=$AddressList comment=hk address=203.79.39.64/26} on-error {}

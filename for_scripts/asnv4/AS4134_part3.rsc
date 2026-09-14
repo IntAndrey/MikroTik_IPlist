@@ -1,5 +1,19 @@
 :global AddressList
 /ip firewall address-list
+:do {add list=$AddressList comment=AS4134 address=113.250.192.0/18} on-error {}
+:do {add list=$AddressList comment=AS4134 address=113.250.26.0/23} on-error {}
+:do {add list=$AddressList comment=AS4134 address=113.250.28.0/22} on-error {}
+:do {add list=$AddressList comment=AS4134 address=113.250.32.0/20} on-error {}
+:do {add list=$AddressList comment=AS4134 address=113.250.64.0/20} on-error {}
+:do {add list=$AddressList comment=AS4134 address=113.250.88.0/21} on-error {}
+:do {add list=$AddressList comment=AS4134 address=113.250.96.0/19} on-error {}
+:do {add list=$AddressList comment=AS4134 address=113.251.0.0/17} on-error {}
+:do {add list=$AddressList comment=AS4134 address=113.251.128.0/18} on-error {}
+:do {add list=$AddressList comment=AS4134 address=113.251.192.0/20} on-error {}
+:do {add list=$AddressList comment=AS4134 address=113.251.216.0/21} on-error {}
+:do {add list=$AddressList comment=AS4134 address=113.251.232.0/21} on-error {}
+:do {add list=$AddressList comment=AS4134 address=113.251.240.0/21} on-error {}
+:do {add list=$AddressList comment=AS4134 address=113.26.0.0/15} on-error {}
 :do {add list=$AddressList comment=AS4134 address=113.62.0.0/15} on-error {}
 :do {add list=$AddressList comment=AS4134 address=113.64.192.0/20} on-error {}
 :do {add list=$AddressList comment=AS4134 address=113.64.216.0/21} on-error {}
@@ -223,10 +237,10 @@
 :do {add list=$AddressList comment=AS4134 address=114.219.252.0/23} on-error {}
 :do {add list=$AddressList comment=AS4134 address=114.219.34.0/23} on-error {}
 :do {add list=$AddressList comment=AS4134 address=114.219.38.0/23} on-error {}
+:do {add list=$AddressList comment=AS4134 address=114.219.4.0/23} on-error {}
 :do {add list=$AddressList comment=AS4134 address=114.219.40.0/23} on-error {}
 :do {add list=$AddressList comment=AS4134 address=114.219.47.0/24} on-error {}
 :do {add list=$AddressList comment=AS4134 address=114.219.49.0/24} on-error {}
-:do {add list=$AddressList comment=AS4134 address=114.219.5.0/24} on-error {}
 :do {add list=$AddressList comment=AS4134 address=114.219.50.0/24} on-error {}
 :do {add list=$AddressList comment=AS4134 address=114.219.54.0/23} on-error {}
 :do {add list=$AddressList comment=AS4134 address=114.219.56.0/24} on-error {}
@@ -333,20 +347,6 @@
 :do {add list=$AddressList comment=AS4134 address=114.228.92.0/24} on-error {}
 :do {add list=$AddressList comment=AS4134 address=114.228.94.0/24} on-error {}
 :do {add list=$AddressList comment=AS4134 address=114.229.0.0/16} on-error {}
-:do {add list=$AddressList comment=AS4134 address=114.230.0.0/18} on-error {}
+:do {add list=$AddressList comment=AS4134 address=114.230.0.0/21} on-error {}
 :do {add list=$AddressList comment=AS4134 address=114.230.128.0/21} on-error {}
-:do {add list=$AddressList comment=AS4134 address=114.230.140.0/22} on-error {}
-:do {add list=$AddressList comment=AS4134 address=114.230.144.0/21} on-error {}
-:do {add list=$AddressList comment=AS4134 address=114.230.156.0/22} on-error {}
-:do {add list=$AddressList comment=AS4134 address=114.230.160.0/21} on-error {}
-:do {add list=$AddressList comment=AS4134 address=114.230.168.0/22} on-error {}
-:do {add list=$AddressList comment=AS4134 address=114.230.176.0/20} on-error {}
-:do {add list=$AddressList comment=AS4134 address=114.230.192.0/22} on-error {}
-:do {add list=$AddressList comment=AS4134 address=114.230.200.0/22} on-error {}
-:do {add list=$AddressList comment=AS4134 address=114.230.208.0/22} on-error {}
-:do {add list=$AddressList comment=AS4134 address=114.230.216.0/22} on-error {}
-:do {add list=$AddressList comment=AS4134 address=114.230.224.0/22} on-error {}
-:do {add list=$AddressList comment=AS4134 address=114.230.240.0/20} on-error {}
-:do {add list=$AddressList comment=AS4134 address=114.230.64.0/20} on-error {}
-:do {add list=$AddressList comment=AS4134 address=114.230.80.0/22} on-error {}
-:do {add list=$AddressList comment=AS4134 address=114.230.84.0/24} on-error {}
+:do {add list=$AddressList comment=AS4134 address=114.230.13.0/24} on-error {}

@@ -167,7 +167,9 @@
 :do {add list=$AddressList comment=copilot address=104.117.76.97} on-error {}
 :do {add list=$AddressList comment=copilot address=104.117.76.98} on-error {}
 :do {add list=$AddressList comment=copilot address=104.117.76.99} on-error {}
+:do {add list=$AddressList comment=copilot address=104.119.189.160} on-error {}
 :do {add list=$AddressList comment=copilot address=104.119.189.17} on-error {}
+:do {add list=$AddressList comment=copilot address=104.119.189.184} on-error {}
 :do {add list=$AddressList comment=copilot address=104.119.189.187} on-error {}
 :do {add list=$AddressList comment=copilot address=104.119.189.193} on-error {}
 :do {add list=$AddressList comment=copilot address=104.119.189.194} on-error {}
@@ -183,6 +185,7 @@
 :do {add list=$AddressList comment=copilot address=104.119.189.227} on-error {}
 :do {add list=$AddressList comment=copilot address=104.119.189.232} on-error {}
 :do {add list=$AddressList comment=copilot address=104.119.189.235} on-error {}
+:do {add list=$AddressList comment=copilot address=104.119.189.240} on-error {}
 :do {add list=$AddressList comment=copilot address=104.119.189.58} on-error {}
 :do {add list=$AddressList comment=copilot address=104.119.189.65} on-error {}
 :do {add list=$AddressList comment=copilot address=104.119.189.66} on-error {}
@@ -347,6 +350,3 @@
 :do {add list=$AddressList comment=copilot address=104.83.4.48} on-error {}
 :do {add list=$AddressList comment=copilot address=104.83.4.49} on-error {}
 :do {add list=$AddressList comment=copilot address=104.83.4.50} on-error {}
-:do {add list=$AddressList comment=copilot address=104.83.4.51} on-error {}
-:do {add list=$AddressList comment=copilot address=104.83.4.56} on-error {}
-:do {add list=$AddressList comment=copilot address=104.83.4.57} on-error {}

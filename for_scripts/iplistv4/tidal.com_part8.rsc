@@ -1,5 +1,8 @@
 :global AddressList
 /ip firewall address-list
+:do {add list=$AddressList comment=tidal.com address=3.174.193.119} on-error {}
+:do {add list=$AddressList comment=tidal.com address=3.174.193.121} on-error {}
+:do {add list=$AddressList comment=tidal.com address=3.174.193.17} on-error {}
 :do {add list=$AddressList comment=tidal.com address=3.174.193.28} on-error {}
 :do {add list=$AddressList comment=tidal.com address=3.174.193.3} on-error {}
 :do {add list=$AddressList comment=tidal.com address=3.174.193.5} on-error {}
@@ -54,6 +57,14 @@
 :do {add list=$AddressList comment=tidal.com address=3.175.179.65} on-error {}
 :do {add list=$AddressList comment=tidal.com address=3.175.179.87} on-error {}
 :do {add list=$AddressList comment=tidal.com address=3.175.179.88} on-error {}
+:do {add list=$AddressList comment=tidal.com address=3.175.246.104} on-error {}
+:do {add list=$AddressList comment=tidal.com address=3.175.246.127} on-error {}
+:do {add list=$AddressList comment=tidal.com address=3.175.246.18} on-error {}
+:do {add list=$AddressList comment=tidal.com address=3.175.246.21} on-error {}
+:do {add list=$AddressList comment=tidal.com address=3.175.246.31} on-error {}
+:do {add list=$AddressList comment=tidal.com address=3.175.246.38} on-error {}
+:do {add list=$AddressList comment=tidal.com address=3.175.246.74} on-error {}
+:do {add list=$AddressList comment=tidal.com address=3.175.246.93} on-error {}
 :do {add list=$AddressList comment=tidal.com address=3.175.34.101} on-error {}
 :do {add list=$AddressList comment=tidal.com address=3.175.34.108} on-error {}
 :do {add list=$AddressList comment=tidal.com address=3.175.34.25} on-error {}
@@ -83,6 +94,7 @@
 :do {add list=$AddressList comment=tidal.com address=3.216.245.11} on-error {}
 :do {add list=$AddressList comment=tidal.com address=3.217.132.161} on-error {}
 :do {add list=$AddressList comment=tidal.com address=3.217.92.10} on-error {}
+:do {add list=$AddressList comment=tidal.com address=3.219.91.128} on-error {}
 :do {add list=$AddressList comment=tidal.com address=3.220.98.241} on-error {}
 :do {add list=$AddressList comment=tidal.com address=3.221.89.160} on-error {}
 :do {add list=$AddressList comment=tidal.com address=3.223.56.66} on-error {}
@@ -106,6 +118,7 @@
 :do {add list=$AddressList comment=tidal.com address=34.202.85.255} on-error {}
 :do {add list=$AddressList comment=tidal.com address=34.204.153.180} on-error {}
 :do {add list=$AddressList comment=tidal.com address=34.205.254.1} on-error {}
+:do {add list=$AddressList comment=tidal.com address=34.206.66.139} on-error {}
 :do {add list=$AddressList comment=tidal.com address=34.225.239.102} on-error {}
 :do {add list=$AddressList comment=tidal.com address=34.228.127.30} on-error {}
 :do {add list=$AddressList comment=tidal.com address=34.228.205.35} on-error {}
@@ -337,16 +350,3 @@
 :do {add list=$AddressList comment=tidal.com address=52.85.49.88} on-error {}
 :do {add list=$AddressList comment=tidal.com address=52.85.49.89} on-error {}
 :do {add list=$AddressList comment=tidal.com address=52.85.49.90} on-error {}
-:do {add list=$AddressList comment=tidal.com address=52.85.5.109} on-error {}
-:do {add list=$AddressList comment=tidal.com address=52.85.5.110} on-error {}
-:do {add list=$AddressList comment=tidal.com address=52.85.5.13} on-error {}
-:do {add list=$AddressList comment=tidal.com address=52.85.5.15} on-error {}
-:do {add list=$AddressList comment=tidal.com address=52.85.5.20} on-error {}
-:do {add list=$AddressList comment=tidal.com address=52.85.5.21} on-error {}
-:do {add list=$AddressList comment=tidal.com address=52.85.5.34} on-error {}
-:do {add list=$AddressList comment=tidal.com address=52.85.5.42} on-error {}
-:do {add list=$AddressList comment=tidal.com address=52.85.5.43} on-error {}
-:do {add list=$AddressList comment=tidal.com address=52.85.5.79} on-error {}
-:do {add list=$AddressList comment=tidal.com address=52.85.5.84} on-error {}
-:do {add list=$AddressList comment=tidal.com address=52.85.5.9} on-error {}
-:do {add list=$AddressList comment=tidal.com address=52.85.65.108} on-error {}

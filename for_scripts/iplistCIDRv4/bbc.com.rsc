@@ -62,6 +62,7 @@
 :do {add list=$AddressList comment=bbc.com address=18.202.0.0/15} on-error {}
 :do {add list=$AddressList comment=bbc.com address=18.238.0.0/15} on-error {}
 :do {add list=$AddressList comment=bbc.com address=18.244.0.0/15} on-error {}
+:do {add list=$AddressList comment=bbc.com address=18.64.98.227/32} on-error {}
 :do {add list=$AddressList comment=bbc.com address=18.64.99.172/32} on-error {}
 :do {add list=$AddressList comment=bbc.com address=18.65.0.0/16} on-error {}
 :do {add list=$AddressList comment=bbc.com address=18.66.0.0/15} on-error {}

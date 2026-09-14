@@ -102,6 +102,7 @@
 :do {add list=$AddressList comment=qa address=87.84.9.0/24} on-error {}
 :do {add list=$AddressList comment=qa address=89.106.3.0/24} on-error {}
 :do {add list=$AddressList comment=qa address=89.211.0.0/16} on-error {}
+:do {add list=$AddressList comment=qa address=9.246.172.0/23} on-error {}
 :do {add list=$AddressList comment=qa address=91.102.181.0/24} on-error {}
 :do {add list=$AddressList comment=qa address=91.228.176.0/24} on-error {}
 :do {add list=$AddressList comment=qa address=92.42.103.0/24} on-error {}

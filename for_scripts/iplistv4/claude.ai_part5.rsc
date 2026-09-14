@@ -1,5 +1,14 @@
 :global AddressList
 /ip firewall address-list
+:do {add list=$AddressList comment=claude.ai address=18.244.146.6} on-error {}
+:do {add list=$AddressList comment=claude.ai address=18.244.146.62} on-error {}
+:do {add list=$AddressList comment=claude.ai address=18.244.146.68} on-error {}
+:do {add list=$AddressList comment=claude.ai address=18.244.146.7} on-error {}
+:do {add list=$AddressList comment=claude.ai address=18.244.146.84} on-error {}
+:do {add list=$AddressList comment=claude.ai address=18.244.146.89} on-error {}
+:do {add list=$AddressList comment=claude.ai address=18.244.146.93} on-error {}
+:do {add list=$AddressList comment=claude.ai address=18.244.18.10} on-error {}
+:do {add list=$AddressList comment=claude.ai address=18.244.18.102} on-error {}
 :do {add list=$AddressList comment=claude.ai address=18.244.18.24} on-error {}
 :do {add list=$AddressList comment=claude.ai address=18.244.18.53} on-error {}
 :do {add list=$AddressList comment=claude.ai address=18.244.18.54} on-error {}
@@ -308,6 +317,8 @@
 :do {add list=$AddressList comment=claude.ai address=18.97.36.79} on-error {}
 :do {add list=$AddressList comment=claude.ai address=18.97.36.8} on-error {}
 :do {add list=$AddressList comment=claude.ai address=18.97.36.9} on-error {}
+:do {add list=$AddressList comment=claude.ai address=184.192.166.54} on-error {}
+:do {add list=$AddressList comment=claude.ai address=184.192.37.137} on-error {}
 :do {add list=$AddressList comment=claude.ai address=184.192.77.199} on-error {}
 :do {add list=$AddressList comment=claude.ai address=184.72.84.106} on-error {}
 :do {add list=$AddressList comment=claude.ai address=184.73.253.30} on-error {}
@@ -329,6 +340,7 @@
 :do {add list=$AddressList comment=claude.ai address=192.178.25.243} on-error {}
 :do {add list=$AddressList comment=claude.ai address=192.178.25.83} on-error {}
 :do {add list=$AddressList comment=claude.ai address=198.202.211.1} on-error {}
+:do {add list=$AddressList comment=claude.ai address=204.236.219.191} on-error {}
 :do {add list=$AddressList comment=claude.ai address=209.85.233.121} on-error {}
 :do {add list=$AddressList comment=claude.ai address=216.137.44.20} on-error {}
 :do {add list=$AddressList comment=claude.ai address=216.137.44.3} on-error {}
@@ -338,15 +350,3 @@
 :do {add list=$AddressList comment=claude.ai address=216.137.52.55} on-error {}
 :do {add list=$AddressList comment=claude.ai address=216.137.52.71} on-error {}
 :do {add list=$AddressList comment=claude.ai address=216.137.52.95} on-error {}
-:do {add list=$AddressList comment=claude.ai address=216.58.198.115} on-error {}
-:do {add list=$AddressList comment=claude.ai address=216.58.198.179} on-error {}
-:do {add list=$AddressList comment=claude.ai address=216.58.198.19} on-error {}
-:do {add list=$AddressList comment=claude.ai address=216.58.198.211} on-error {}
-:do {add list=$AddressList comment=claude.ai address=216.58.198.51} on-error {}
-:do {add list=$AddressList comment=claude.ai address=216.58.201.179} on-error {}
-:do {add list=$AddressList comment=claude.ai address=216.58.201.211} on-error {}
-:do {add list=$AddressList comment=claude.ai address=216.58.201.243} on-error {}
-:do {add list=$AddressList comment=claude.ai address=216.58.204.115} on-error {}
-:do {add list=$AddressList comment=claude.ai address=216.58.205.147} on-error {}
-:do {add list=$AddressList comment=claude.ai address=216.58.207.115} on-error {}
-:do {add list=$AddressList comment=claude.ai address=216.58.207.51} on-error {}
