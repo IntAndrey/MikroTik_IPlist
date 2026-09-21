@@ -1,5 +1,8 @@
 :global AddressList
 /ip firewall address-list
+:do {add list=$AddressList comment=quora.com address=34.232.173.198} on-error {}
+:do {add list=$AddressList comment=quora.com address=34.232.238.170} on-error {}
+:do {add list=$AddressList comment=quora.com address=34.232.42.59} on-error {}
 :do {add list=$AddressList comment=quora.com address=34.232.89.21} on-error {}
 :do {add list=$AddressList comment=quora.com address=34.232.97.156} on-error {}
 :do {add list=$AddressList comment=quora.com address=34.233.106.160} on-error {}
@@ -57,6 +60,7 @@
 :do {add list=$AddressList comment=quora.com address=34.239.229.52} on-error {}
 :do {add list=$AddressList comment=quora.com address=34.239.31.133} on-error {}
 :do {add list=$AddressList comment=quora.com address=34.239.33.117} on-error {}
+:do {add list=$AddressList comment=quora.com address=34.239.37.216} on-error {}
 :do {add list=$AddressList comment=quora.com address=34.239.47.223} on-error {}
 :do {add list=$AddressList comment=quora.com address=34.239.58.58} on-error {}
 :do {add list=$AddressList comment=quora.com address=34.239.7.197} on-error {}
@@ -222,6 +226,7 @@
 :do {add list=$AddressList comment=quora.com address=44.220.103.178} on-error {}
 :do {add list=$AddressList comment=quora.com address=44.220.104.120} on-error {}
 :do {add list=$AddressList comment=quora.com address=44.220.120.53} on-error {}
+:do {add list=$AddressList comment=quora.com address=44.220.2.71} on-error {}
 :do {add list=$AddressList comment=quora.com address=44.221.10.245} on-error {}
 :do {add list=$AddressList comment=quora.com address=44.221.189.16} on-error {}
 :do {add list=$AddressList comment=quora.com address=44.221.36.238} on-error {}
@@ -318,6 +323,7 @@
 :do {add list=$AddressList comment=quora.com address=52.207.156.232} on-error {}
 :do {add list=$AddressList comment=quora.com address=52.207.188.249} on-error {}
 :do {add list=$AddressList comment=quora.com address=52.207.85.21} on-error {}
+:do {add list=$AddressList comment=quora.com address=52.21.187.202} on-error {}
 :do {add list=$AddressList comment=quora.com address=52.21.196.54} on-error {}
 :do {add list=$AddressList comment=quora.com address=52.21.202.90} on-error {}
 :do {add list=$AddressList comment=quora.com address=52.21.21.120} on-error {}
@@ -344,9 +350,3 @@
 :do {add list=$AddressList comment=quora.com address=52.23.77.212} on-error {}
 :do {add list=$AddressList comment=quora.com address=52.3.126.75} on-error {}
 :do {add list=$AddressList comment=quora.com address=52.3.21.224} on-error {}
-:do {add list=$AddressList comment=quora.com address=52.4.108.228} on-error {}
-:do {add list=$AddressList comment=quora.com address=52.4.113.233} on-error {}
-:do {add list=$AddressList comment=quora.com address=52.4.15.198} on-error {}
-:do {add list=$AddressList comment=quora.com address=52.4.153.54} on-error {}
-:do {add list=$AddressList comment=quora.com address=52.4.227.120} on-error {}
-:do {add list=$AddressList comment=quora.com address=52.4.233.228} on-error {}

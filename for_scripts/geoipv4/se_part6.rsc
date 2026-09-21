@@ -1,5 +1,10 @@
 :global AddressList
 /ip firewall address-list
+:do {add list=$AddressList comment=se address=162.120.233.112/29} on-error {}
+:do {add list=$AddressList comment=se address=162.120.234.122/31} on-error {}
+:do {add list=$AddressList comment=se address=162.120.234.154/31} on-error {}
+:do {add list=$AddressList comment=se address=162.120.234.206/31} on-error {}
+:do {add list=$AddressList comment=se address=162.120.235.124/32} on-error {}
 :do {add list=$AddressList comment=se address=162.120.235.247/32} on-error {}
 :do {add list=$AddressList comment=se address=162.120.243.136/30} on-error {}
 :do {add list=$AddressList comment=se address=162.120.243.200/31} on-error {}
@@ -187,6 +192,8 @@
 :do {add list=$AddressList comment=se address=172.103.88.0/21} on-error {}
 :do {add list=$AddressList comment=se address=172.111.147.0/24} on-error {}
 :do {add list=$AddressList comment=se address=172.111.212.0/23} on-error {}
+:do {add list=$AddressList comment=se address=172.130.0.0/16} on-error {}
+:do {add list=$AddressList comment=se address=172.135.0.0/17} on-error {}
 :do {add list=$AddressList comment=se address=172.160.0.0/16} on-error {}
 :do {add list=$AddressList comment=se address=172.224.190.0/24} on-error {}
 :do {add list=$AddressList comment=se address=172.224.94.0/24} on-error {}
@@ -343,10 +350,3 @@
 :do {add list=$AddressList comment=se address=184.84.234.0/23} on-error {}
 :do {add list=$AddressList comment=se address=184.86.0.0/20} on-error {}
 :do {add list=$AddressList comment=se address=184.86.224.0/22} on-error {}
-:do {add list=$AddressList comment=se address=185.1.107.0/24} on-error {}
-:do {add list=$AddressList comment=se address=185.1.142.0/24} on-error {}
-:do {add list=$AddressList comment=se address=185.1.157.0/24} on-error {}
-:do {add list=$AddressList comment=se address=185.1.181.0/24} on-error {}
-:do {add list=$AddressList comment=se address=185.1.215.0/24} on-error {}
-:do {add list=$AddressList comment=se address=185.1.230.0/24} on-error {}
-:do {add list=$AddressList comment=se address=185.1.233.0/24} on-error {}

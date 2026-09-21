@@ -1,5 +1,13 @@
 :global AddressList
 /ip firewall address-list
+:do {add list=$AddressList comment=svoboda.org address=18.165.72.35} on-error {}
+:do {add list=$AddressList comment=svoboda.org address=18.165.72.47} on-error {}
+:do {add list=$AddressList comment=svoboda.org address=18.165.98.105} on-error {}
+:do {add list=$AddressList comment=svoboda.org address=18.165.98.14} on-error {}
+:do {add list=$AddressList comment=svoboda.org address=18.165.98.20} on-error {}
+:do {add list=$AddressList comment=svoboda.org address=18.165.98.6} on-error {}
+:do {add list=$AddressList comment=svoboda.org address=18.172.112.11} on-error {}
+:do {add list=$AddressList comment=svoboda.org address=18.172.112.21} on-error {}
 :do {add list=$AddressList comment=svoboda.org address=18.172.112.42} on-error {}
 :do {add list=$AddressList comment=svoboda.org address=18.172.112.52} on-error {}
 :do {add list=$AddressList comment=svoboda.org address=18.172.213.114} on-error {}
@@ -266,6 +274,7 @@
 :do {add list=$AddressList comment=svoboda.org address=2.16.1.208} on-error {}
 :do {add list=$AddressList comment=svoboda.org address=2.16.1.216} on-error {}
 :do {add list=$AddressList comment=svoboda.org address=2.16.1.219} on-error {}
+:do {add list=$AddressList comment=svoboda.org address=2.16.101.25} on-error {}
 :do {add list=$AddressList comment=svoboda.org address=2.16.110.112} on-error {}
 :do {add list=$AddressList comment=svoboda.org address=2.16.110.178} on-error {}
 :do {add list=$AddressList comment=svoboda.org address=2.16.110.40} on-error {}
@@ -341,12 +350,3 @@
 :do {add list=$AddressList comment=svoboda.org address=2.16.6.11} on-error {}
 :do {add list=$AddressList comment=svoboda.org address=2.16.6.137} on-error {}
 :do {add list=$AddressList comment=svoboda.org address=2.16.6.140} on-error {}
-:do {add list=$AddressList comment=svoboda.org address=2.16.6.197} on-error {}
-:do {add list=$AddressList comment=svoboda.org address=2.16.6.20} on-error {}
-:do {add list=$AddressList comment=svoboda.org address=2.16.6.200} on-error {}
-:do {add list=$AddressList comment=svoboda.org address=2.16.6.204} on-error {}
-:do {add list=$AddressList comment=svoboda.org address=2.16.6.205} on-error {}
-:do {add list=$AddressList comment=svoboda.org address=2.16.6.221} on-error {}
-:do {add list=$AddressList comment=svoboda.org address=2.16.6.25} on-error {}
-:do {add list=$AddressList comment=svoboda.org address=2.16.6.33} on-error {}
-:do {add list=$AddressList comment=svoboda.org address=2.16.6.7} on-error {}

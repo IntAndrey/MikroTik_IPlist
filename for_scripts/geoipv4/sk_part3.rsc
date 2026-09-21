@@ -1,5 +1,6 @@
 :global AddressList
 /ip firewall address-list
+:do {add list=$AddressList comment=sk address=208.127.101.190/31} on-error {}
 :do {add list=$AddressList comment=sk address=208.127.101.192/30} on-error {}
 :do {add list=$AddressList comment=sk address=208.127.101.196/32} on-error {}
 :do {add list=$AddressList comment=sk address=208.127.104.190/31} on-error {}
@@ -230,7 +231,6 @@
 :do {add list=$AddressList comment=sk address=45.74.63.0/24} on-error {}
 :do {add list=$AddressList comment=sk address=45.81.40.0/22} on-error {}
 :do {add list=$AddressList comment=sk address=45.81.59.0/24} on-error {}
-:do {add list=$AddressList comment=sk address=45.89.54.133/32} on-error {}
 :do {add list=$AddressList comment=sk address=46.150.192.0/19} on-error {}
 :do {add list=$AddressList comment=sk address=46.151.198.0/24} on-error {}
 :do {add list=$AddressList comment=sk address=46.151.56.0/21} on-error {}
@@ -250,10 +250,8 @@
 :do {add list=$AddressList comment=sk address=5.134.208.128/31} on-error {}
 :do {add list=$AddressList comment=sk address=5.134.208.145/32} on-error {}
 :do {add list=$AddressList comment=sk address=5.178.48.0/20} on-error {}
-:do {add list=$AddressList comment=sk address=5.180.55.0/24} on-error {}
 :do {add list=$AddressList comment=sk address=5.181.15.0/24} on-error {}
 :do {add list=$AddressList comment=sk address=5.22.154.0/24} on-error {}
-:do {add list=$AddressList comment=sk address=5.252.23.8/32} on-error {}
 :do {add list=$AddressList comment=sk address=5.252.32.0/23} on-error {}
 :do {add list=$AddressList comment=sk address=5.252.34.0/24} on-error {}
 :do {add list=$AddressList comment=sk address=5.252.35.0/25} on-error {}
@@ -350,3 +348,5 @@
 :do {add list=$AddressList comment=sk address=82.23.243.0/24} on-error {}
 :do {add list=$AddressList comment=sk address=82.24.239.0/24} on-error {}
 :do {add list=$AddressList comment=sk address=82.24.253.0/24} on-error {}
+:do {add list=$AddressList comment=sk address=82.25.253.0/24} on-error {}
+:do {add list=$AddressList comment=sk address=82.26.237.0/24} on-error {}

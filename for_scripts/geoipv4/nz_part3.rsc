@@ -1,8 +1,5 @@
 :global AddressList
 /ip firewall address-list
-:do {add list=$AddressList comment=nz address=119.47.125.0/24} on-error {}
-:do {add list=$AddressList comment=nz address=119.47.126.0/23} on-error {}
-:do {add list=$AddressList comment=nz address=120.136.0.0/21} on-error {}
 :do {add list=$AddressList comment=nz address=120.136.48.0/20} on-error {}
 :do {add list=$AddressList comment=nz address=120.138.16.0/20} on-error {}
 :do {add list=$AddressList comment=nz address=120.89.80.0/21} on-error {}
@@ -233,7 +230,7 @@
 :do {add list=$AddressList comment=nz address=146.92.96.0/24} on-error {}
 :do {add list=$AddressList comment=nz address=147.161.216.0/23} on-error {}
 :do {add list=$AddressList comment=nz address=147.243.13.160/27} on-error {}
-:do {add list=$AddressList comment=nz address=147.243.220.0/26} on-error {}
+:do {add list=$AddressList comment=nz address=147.243.220.32/27} on-error {}
 :do {add list=$AddressList comment=nz address=147.243.48.0/27} on-error {}
 :do {add list=$AddressList comment=nz address=147.75.157.0/24} on-error {}
 :do {add list=$AddressList comment=nz address=149.174.88.0/23} on-error {}
@@ -257,6 +254,7 @@
 :do {add list=$AddressList comment=nz address=151.158.12.0/23} on-error {}
 :do {add list=$AddressList comment=nz address=151.186.179.24/31} on-error {}
 :do {add list=$AddressList comment=nz address=151.186.179.26/32} on-error {}
+:do {add list=$AddressList comment=nz address=151.206.122.0/24} on-error {}
 :do {add list=$AddressList comment=nz address=151.206.154.0/24} on-error {}
 :do {add list=$AddressList comment=nz address=151.206.180.0/24} on-error {}
 :do {add list=$AddressList comment=nz address=151.210.128.0/17} on-error {}
@@ -350,3 +348,5 @@
 :do {add list=$AddressList comment=nz address=159.255.146.0/24} on-error {}
 :do {add list=$AddressList comment=nz address=159.48.189.0/25} on-error {}
 :do {add list=$AddressList comment=nz address=16.12.81.0/24} on-error {}
+:do {add list=$AddressList comment=nz address=16.12.82.0/23} on-error {}
+:do {add list=$AddressList comment=nz address=16.15.8.0/22} on-error {}

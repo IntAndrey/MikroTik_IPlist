@@ -1,5 +1,17 @@
 :global AddressList
 /ip firewall address-list
+:do {add list=$AddressList comment=linkedin.com address=2.18.24.24} on-error {}
+:do {add list=$AddressList comment=linkedin.com address=2.18.24.9} on-error {}
+:do {add list=$AddressList comment=linkedin.com address=2.18.244.206} on-error {}
+:do {add list=$AddressList comment=linkedin.com address=2.18.244.211} on-error {}
+:do {add list=$AddressList comment=linkedin.com address=2.18.244.219} on-error {}
+:do {add list=$AddressList comment=linkedin.com address=2.18.244.227} on-error {}
+:do {add list=$AddressList comment=linkedin.com address=2.18.31.18} on-error {}
+:do {add list=$AddressList comment=linkedin.com address=2.18.31.26} on-error {}
+:do {add list=$AddressList comment=linkedin.com address=2.18.31.27} on-error {}
+:do {add list=$AddressList comment=linkedin.com address=2.18.31.90} on-error {}
+:do {add list=$AddressList comment=linkedin.com address=2.18.31.96} on-error {}
+:do {add list=$AddressList comment=linkedin.com address=2.18.31.98} on-error {}
 :do {add list=$AddressList comment=linkedin.com address=2.18.64.202} on-error {}
 :do {add list=$AddressList comment=linkedin.com address=2.18.64.203} on-error {}
 :do {add list=$AddressList comment=linkedin.com address=2.18.64.204} on-error {}
@@ -91,6 +103,8 @@
 :do {add list=$AddressList comment=linkedin.com address=2.19.117.136} on-error {}
 :do {add list=$AddressList comment=linkedin.com address=2.19.117.137} on-error {}
 :do {add list=$AddressList comment=linkedin.com address=2.19.117.161} on-error {}
+:do {add list=$AddressList comment=linkedin.com address=2.19.117.68} on-error {}
+:do {add list=$AddressList comment=linkedin.com address=2.19.117.94} on-error {}
 :do {add list=$AddressList comment=linkedin.com address=2.19.126.135} on-error {}
 :do {add list=$AddressList comment=linkedin.com address=2.19.126.143} on-error {}
 :do {add list=$AddressList comment=linkedin.com address=2.19.126.199} on-error {}
@@ -239,6 +253,7 @@
 :do {add list=$AddressList comment=linkedin.com address=2.21.245.174} on-error {}
 :do {add list=$AddressList comment=linkedin.com address=2.21.245.182} on-error {}
 :do {add list=$AddressList comment=linkedin.com address=2.21.245.184} on-error {}
+:do {add list=$AddressList comment=linkedin.com address=2.21.245.185} on-error {}
 :do {add list=$AddressList comment=linkedin.com address=2.21.33.138} on-error {}
 :do {add list=$AddressList comment=linkedin.com address=2.21.33.161} on-error {}
 :do {add list=$AddressList comment=linkedin.com address=2.21.74.105} on-error {}
@@ -281,6 +296,7 @@
 :do {add list=$AddressList comment=linkedin.com address=2.23.154.58} on-error {}
 :do {add list=$AddressList comment=linkedin.com address=2.23.154.74} on-error {}
 :do {add list=$AddressList comment=linkedin.com address=2.23.154.75} on-error {}
+:do {add list=$AddressList comment=linkedin.com address=2.23.154.8} on-error {}
 :do {add list=$AddressList comment=linkedin.com address=2.23.154.9} on-error {}
 :do {add list=$AddressList comment=linkedin.com address=2.23.154.97} on-error {}
 :do {add list=$AddressList comment=linkedin.com address=2.23.154.98} on-error {}
@@ -334,19 +350,3 @@
 :do {add list=$AddressList comment=linkedin.com address=212.95.165.8} on-error {}
 :do {add list=$AddressList comment=linkedin.com address=212.95.165.9} on-error {}
 :do {add list=$AddressList comment=linkedin.com address=213.155.157.104} on-error {}
-:do {add list=$AddressList comment=linkedin.com address=213.155.157.105} on-error {}
-:do {add list=$AddressList comment=linkedin.com address=213.155.157.113} on-error {}
-:do {add list=$AddressList comment=linkedin.com address=213.155.157.122} on-error {}
-:do {add list=$AddressList comment=linkedin.com address=213.155.157.123} on-error {}
-:do {add list=$AddressList comment=linkedin.com address=213.155.157.128} on-error {}
-:do {add list=$AddressList comment=linkedin.com address=213.155.157.129} on-error {}
-:do {add list=$AddressList comment=linkedin.com address=213.155.157.137} on-error {}
-:do {add list=$AddressList comment=linkedin.com address=213.155.157.145} on-error {}
-:do {add list=$AddressList comment=linkedin.com address=213.155.157.19} on-error {}
-:do {add list=$AddressList comment=linkedin.com address=213.155.157.34} on-error {}
-:do {add list=$AddressList comment=linkedin.com address=213.155.157.40} on-error {}
-:do {add list=$AddressList comment=linkedin.com address=213.155.157.50} on-error {}
-:do {add list=$AddressList comment=linkedin.com address=213.155.157.59} on-error {}
-:do {add list=$AddressList comment=linkedin.com address=213.155.157.8} on-error {}
-:do {add list=$AddressList comment=linkedin.com address=213.155.157.90} on-error {}
-:do {add list=$AddressList comment=linkedin.com address=213.155.157.91} on-error {}

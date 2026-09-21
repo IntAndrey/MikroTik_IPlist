@@ -38,7 +38,8 @@
 :do {add list=$AddressList comment=AS54994 address=119.31.252.0/24} on-error {}
 :do {add list=$AddressList comment=AS54994 address=119.31.254.0/23} on-error {}
 :do {add list=$AddressList comment=AS54994 address=134.49.232.0/22} on-error {}
-:do {add list=$AddressList comment=AS54994 address=134.49.236.0/24} on-error {}
+:do {add list=$AddressList comment=AS54994 address=134.49.236.0/23} on-error {}
+:do {add list=$AddressList comment=AS54994 address=134.49.238.0/24} on-error {}
 :do {add list=$AddressList comment=AS54994 address=138.113.0.0/21} on-error {}
 :do {add list=$AddressList comment=AS54994 address=138.113.100.0/23} on-error {}
 :do {add list=$AddressList comment=AS54994 address=138.113.102.0/24} on-error {}
@@ -145,8 +146,7 @@
 :do {add list=$AddressList comment=AS54994 address=153.43.103.0/24} on-error {}
 :do {add list=$AddressList comment=AS54994 address=153.43.105.0/24} on-error {}
 :do {add list=$AddressList comment=AS54994 address=153.43.106.0/24} on-error {}
-:do {add list=$AddressList comment=AS54994 address=153.43.109.0/24} on-error {}
-:do {add list=$AddressList comment=AS54994 address=153.43.110.0/23} on-error {}
+:do {add list=$AddressList comment=AS54994 address=153.43.108.0/22} on-error {}
 :do {add list=$AddressList comment=AS54994 address=153.43.112.0/20} on-error {}
 :do {add list=$AddressList comment=AS54994 address=153.43.12.0/22} on-error {}
 :do {add list=$AddressList comment=AS54994 address=153.43.128.0/22} on-error {}
@@ -279,6 +279,7 @@
 :do {add list=$AddressList comment=AS54994 address=174.35.92.0/22} on-error {}
 :do {add list=$AddressList comment=AS54994 address=174.35.96.0/22} on-error {}
 :do {add list=$AddressList comment=AS54994 address=175.41.0.0/22} on-error {}
+:do {add list=$AddressList comment=AS54994 address=175.41.10.0/24} on-error {}
 :do {add list=$AddressList comment=AS54994 address=175.41.14.0/24} on-error {}
 :do {add list=$AddressList comment=AS54994 address=175.41.4.0/24} on-error {}
 :do {add list=$AddressList comment=AS54994 address=175.41.6.0/23} on-error {}

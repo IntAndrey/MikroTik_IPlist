@@ -1,5 +1,11 @@
 :global AddressList
 /ip firewall address-list
+:do {add list=$AddressList comment=pl address=185.240.96.0/22} on-error {}
+:do {add list=$AddressList comment=pl address=185.241.104.0/22} on-error {}
+:do {add list=$AddressList comment=pl address=185.241.196.0/22} on-error {}
+:do {add list=$AddressList comment=pl address=185.241.208.0/24} on-error {}
+:do {add list=$AddressList comment=pl address=185.241.232.0/22} on-error {}
+:do {add list=$AddressList comment=pl address=185.241.252.0/22} on-error {}
 :do {add list=$AddressList comment=pl address=185.242.124.0/24} on-error {}
 :do {add list=$AddressList comment=pl address=185.242.126.0/23} on-error {}
 :do {add list=$AddressList comment=pl address=185.242.132.0/22} on-error {}
@@ -200,6 +206,7 @@
 :do {add list=$AddressList comment=pl address=185.72.184.0/22} on-error {}
 :do {add list=$AddressList comment=pl address=185.72.196.0/22} on-error {}
 :do {add list=$AddressList comment=pl address=185.72.32.0/22} on-error {}
+:do {add list=$AddressList comment=pl address=185.73.124.237/32} on-error {}
 :do {add list=$AddressList comment=pl address=185.73.209.0/24} on-error {}
 :do {add list=$AddressList comment=pl address=185.73.210.0/23} on-error {}
 :do {add list=$AddressList comment=pl address=185.73.228.0/23} on-error {}
@@ -343,10 +350,3 @@
 :do {add list=$AddressList comment=pl address=188.68.224.0/19} on-error {}
 :do {add list=$AddressList comment=pl address=188.93.160.0/21} on-error {}
 :do {add list=$AddressList comment=pl address=188.95.24.0/21} on-error {}
-:do {add list=$AddressList comment=pl address=189.104.112.0/23} on-error {}
-:do {add list=$AddressList comment=pl address=189.104.116.0/23} on-error {}
-:do {add list=$AddressList comment=pl address=189.104.12.0/23} on-error {}
-:do {add list=$AddressList comment=pl address=189.104.124.0/23} on-error {}
-:do {add list=$AddressList comment=pl address=189.104.136.0/23} on-error {}
-:do {add list=$AddressList comment=pl address=189.104.142.0/23} on-error {}
-:do {add list=$AddressList comment=pl address=189.104.152.0/23} on-error {}

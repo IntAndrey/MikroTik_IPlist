@@ -1,5 +1,13 @@
 :global AddressList
 /ip firewall address-list
+:do {add list=$AddressList comment=trainingpeaks.com address=3.175.130.27} on-error {}
+:do {add list=$AddressList comment=trainingpeaks.com address=3.175.130.51} on-error {}
+:do {add list=$AddressList comment=trainingpeaks.com address=3.175.130.65} on-error {}
+:do {add list=$AddressList comment=trainingpeaks.com address=3.175.164.47} on-error {}
+:do {add list=$AddressList comment=trainingpeaks.com address=3.175.164.58} on-error {}
+:do {add list=$AddressList comment=trainingpeaks.com address=3.175.164.76} on-error {}
+:do {add list=$AddressList comment=trainingpeaks.com address=3.175.164.84} on-error {}
+:do {add list=$AddressList comment=trainingpeaks.com address=3.175.179.107} on-error {}
 :do {add list=$AddressList comment=trainingpeaks.com address=3.175.179.16} on-error {}
 :do {add list=$AddressList comment=trainingpeaks.com address=3.175.179.88} on-error {}
 :do {add list=$AddressList comment=trainingpeaks.com address=3.175.179.93} on-error {}
@@ -43,6 +51,7 @@
 :do {add list=$AddressList comment=trainingpeaks.com address=3.210.149.19} on-error {}
 :do {add list=$AddressList comment=trainingpeaks.com address=3.210.234.6} on-error {}
 :do {add list=$AddressList comment=trainingpeaks.com address=3.211.170.38} on-error {}
+:do {add list=$AddressList comment=trainingpeaks.com address=3.211.179.10} on-error {}
 :do {add list=$AddressList comment=trainingpeaks.com address=3.211.20.221} on-error {}
 :do {add list=$AddressList comment=trainingpeaks.com address=3.212.142.101} on-error {}
 :do {add list=$AddressList comment=trainingpeaks.com address=3.212.186.72} on-error {}
@@ -135,6 +144,7 @@
 :do {add list=$AddressList comment=trainingpeaks.com address=32.195.149.60} on-error {}
 :do {add list=$AddressList comment=trainingpeaks.com address=32.196.156.144} on-error {}
 :do {add list=$AddressList comment=trainingpeaks.com address=32.198.252.251} on-error {}
+:do {add list=$AddressList comment=trainingpeaks.com address=32.199.100.135} on-error {}
 :do {add list=$AddressList comment=trainingpeaks.com address=34.192.143.67} on-error {}
 :do {add list=$AddressList comment=trainingpeaks.com address=34.192.150.199} on-error {}
 :do {add list=$AddressList comment=trainingpeaks.com address=34.192.189.116} on-error {}
@@ -177,6 +187,7 @@
 :do {add list=$AddressList comment=trainingpeaks.com address=34.204.62.100} on-error {}
 :do {add list=$AddressList comment=trainingpeaks.com address=34.205.151.131} on-error {}
 :do {add list=$AddressList comment=trainingpeaks.com address=34.205.195.232} on-error {}
+:do {add list=$AddressList comment=trainingpeaks.com address=34.205.6.1} on-error {}
 :do {add list=$AddressList comment=trainingpeaks.com address=34.206.124.207} on-error {}
 :do {add list=$AddressList comment=trainingpeaks.com address=34.206.209.5} on-error {}
 :do {add list=$AddressList comment=trainingpeaks.com address=34.206.213.137} on-error {}
@@ -339,14 +350,3 @@
 :do {add list=$AddressList comment=trainingpeaks.com address=52.207.193.123} on-error {}
 :do {add list=$AddressList comment=trainingpeaks.com address=52.207.93.136} on-error {}
 :do {add list=$AddressList comment=trainingpeaks.com address=52.21.195.50} on-error {}
-:do {add list=$AddressList comment=trainingpeaks.com address=52.21.71.150} on-error {}
-:do {add list=$AddressList comment=trainingpeaks.com address=52.22.107.230} on-error {}
-:do {add list=$AddressList comment=trainingpeaks.com address=52.22.115.101} on-error {}
-:do {add list=$AddressList comment=trainingpeaks.com address=52.22.15.157} on-error {}
-:do {add list=$AddressList comment=trainingpeaks.com address=52.22.204.66} on-error {}
-:do {add list=$AddressList comment=trainingpeaks.com address=52.22.229.85} on-error {}
-:do {add list=$AddressList comment=trainingpeaks.com address=52.22.231.215} on-error {}
-:do {add list=$AddressList comment=trainingpeaks.com address=52.22.99.137} on-error {}
-:do {add list=$AddressList comment=trainingpeaks.com address=52.222.132.41} on-error {}
-:do {add list=$AddressList comment=trainingpeaks.com address=52.222.132.44} on-error {}
-:do {add list=$AddressList comment=trainingpeaks.com address=52.222.132.58} on-error {}

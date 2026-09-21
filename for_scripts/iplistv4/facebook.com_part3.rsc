@@ -334,7 +334,9 @@
 :do {add list=$AddressList comment=facebook.com address=2.16.106.29} on-error {}
 :do {add list=$AddressList comment=facebook.com address=2.16.106.8} on-error {}
 :do {add list=$AddressList comment=facebook.com address=2.16.154.107} on-error {}
+:do {add list=$AddressList comment=facebook.com address=2.16.154.114} on-error {}
 :do {add list=$AddressList comment=facebook.com address=2.16.154.120} on-error {}
+:do {add list=$AddressList comment=facebook.com address=2.16.154.131} on-error {}
 :do {add list=$AddressList comment=facebook.com address=2.16.154.160} on-error {}
 :do {add list=$AddressList comment=facebook.com address=2.16.154.179} on-error {}
 :do {add list=$AddressList comment=facebook.com address=2.16.154.186} on-error {}
@@ -348,5 +350,3 @@
 :do {add list=$AddressList comment=facebook.com address=2.16.16.151} on-error {}
 :do {add list=$AddressList comment=facebook.com address=2.16.16.152} on-error {}
 :do {add list=$AddressList comment=facebook.com address=2.16.16.153} on-error {}
-:do {add list=$AddressList comment=facebook.com address=2.16.16.154} on-error {}
-:do {add list=$AddressList comment=facebook.com address=2.16.16.155} on-error {}

@@ -1,5 +1,10 @@
 :global AddressList
 /ip firewall address-list
+:do {add list=$AddressList comment=krymr.com address=3.170.131.99} on-error {}
+:do {add list=$AddressList comment=krymr.com address=3.170.185.108} on-error {}
+:do {add list=$AddressList comment=krymr.com address=3.170.185.120} on-error {}
+:do {add list=$AddressList comment=krymr.com address=3.170.185.128} on-error {}
+:do {add list=$AddressList comment=krymr.com address=3.170.185.5} on-error {}
 :do {add list=$AddressList comment=krymr.com address=3.171.153.106} on-error {}
 :do {add list=$AddressList comment=krymr.com address=3.171.153.13} on-error {}
 :do {add list=$AddressList comment=krymr.com address=3.171.153.6} on-error {}
@@ -237,7 +242,9 @@
 :do {add list=$AddressList comment=krymr.com address=63.140.37.45} on-error {}
 :do {add list=$AddressList comment=krymr.com address=63.140.37.53} on-error {}
 :do {add list=$AddressList comment=krymr.com address=63.140.62.120} on-error {}
+:do {add list=$AddressList comment=krymr.com address=63.140.62.128} on-error {}
 :do {add list=$AddressList comment=krymr.com address=63.140.62.139} on-error {}
+:do {add list=$AddressList comment=krymr.com address=63.140.62.166} on-error {}
 :do {add list=$AddressList comment=krymr.com address=63.140.62.17} on-error {}
 :do {add list=$AddressList comment=krymr.com address=63.140.62.172} on-error {}
 :do {add list=$AddressList comment=krymr.com address=63.140.62.200} on-error {}
@@ -245,6 +252,7 @@
 :do {add list=$AddressList comment=krymr.com address=63.140.62.222} on-error {}
 :do {add list=$AddressList comment=krymr.com address=63.140.62.236} on-error {}
 :do {add list=$AddressList comment=krymr.com address=63.140.62.27} on-error {}
+:do {add list=$AddressList comment=krymr.com address=63.140.62.34} on-error {}
 :do {add list=$AddressList comment=krymr.com address=65.8.140.103} on-error {}
 :do {add list=$AddressList comment=krymr.com address=65.8.140.31} on-error {}
 :do {add list=$AddressList comment=krymr.com address=65.8.140.42} on-error {}
@@ -342,11 +350,3 @@
 :do {add list=$AddressList comment=krymr.com address=92.122.203.164} on-error {}
 :do {add list=$AddressList comment=krymr.com address=92.122.203.167} on-error {}
 :do {add list=$AddressList comment=krymr.com address=92.122.215.18} on-error {}
-:do {add list=$AddressList comment=krymr.com address=92.122.215.49} on-error {}
-:do {add list=$AddressList comment=krymr.com address=92.122.215.96} on-error {}
-:do {add list=$AddressList comment=krymr.com address=92.122.219.35} on-error {}
-:do {add list=$AddressList comment=krymr.com address=92.122.219.51} on-error {}
-:do {add list=$AddressList comment=krymr.com address=92.122.68.157} on-error {}
-:do {add list=$AddressList comment=krymr.com address=92.122.71.209} on-error {}
-:do {add list=$AddressList comment=krymr.com address=92.123.102.178} on-error {}
-:do {add list=$AddressList comment=krymr.com address=92.123.102.179} on-error {}

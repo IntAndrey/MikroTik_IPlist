@@ -251,7 +251,6 @@
 :do {add list=$AddressList comment=AS3257 address=149.235.248.0/22} on-error {}
 :do {add list=$AddressList comment=AS3257 address=149.235.252.0/23} on-error {}
 :do {add list=$AddressList comment=AS3257 address=149.235.255.0/24} on-error {}
-:do {add list=$AddressList comment=AS3257 address=149.235.36.0/22} on-error {}
 :do {add list=$AddressList comment=AS3257 address=149.235.56.0/21} on-error {}
 :do {add list=$AddressList comment=AS3257 address=149.235.64.0/18} on-error {}
 :do {add list=$AddressList comment=AS3257 address=149.62.43.0/24} on-error {}
@@ -267,11 +266,13 @@
 :do {add list=$AddressList comment=AS3257 address=154.14.254.0/23} on-error {}
 :do {add list=$AddressList comment=AS3257 address=154.206.240.0/20} on-error {}
 :do {add list=$AddressList comment=AS3257 address=154.208.113.0/24} on-error {}
+:do {add list=$AddressList comment=AS3257 address=154.208.116.0/24} on-error {}
 :do {add list=$AddressList comment=AS3257 address=154.208.66.0/23} on-error {}
 :do {add list=$AddressList comment=AS3257 address=154.81.50.0/24} on-error {}
 :do {add list=$AddressList comment=AS3257 address=155.117.162.0/24} on-error {}
-:do {add list=$AddressList comment=AS3257 address=155.229.1.0/24} on-error {}
+:do {add list=$AddressList comment=AS3257 address=155.229.0.0/23} on-error {}
 :do {add list=$AddressList comment=AS3257 address=155.229.100.0/22} on-error {}
+:do {add list=$AddressList comment=AS3257 address=155.229.16.0/24} on-error {}
 :do {add list=$AddressList comment=AS3257 address=155.229.19.0/24} on-error {}
 :do {add list=$AddressList comment=AS3257 address=155.229.192.0/22} on-error {}
 :do {add list=$AddressList comment=AS3257 address=155.229.198.0/23} on-error {}
@@ -349,4 +350,3 @@
 :do {add list=$AddressList comment=AS3257 address=167.148.102.0/24} on-error {}
 :do {add list=$AddressList comment=AS3257 address=167.148.106.0/24} on-error {}
 :do {add list=$AddressList comment=AS3257 address=167.148.127.0/24} on-error {}
-:do {add list=$AddressList comment=AS3257 address=167.148.14.0/24} on-error {}

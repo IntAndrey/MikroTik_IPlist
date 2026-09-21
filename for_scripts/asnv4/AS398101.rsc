@@ -108,7 +108,6 @@
 :do {add list=$AddressList comment=AS398101 address=216.69.152.0/23} on-error {}
 :do {add list=$AddressList comment=AS398101 address=216.69.154.0/24} on-error {}
 :do {add list=$AddressList comment=AS398101 address=216.69.159.0/24} on-error {}
-:do {add list=$AddressList comment=AS398101 address=216.69.160.0/20} on-error {}
 :do {add list=$AddressList comment=AS398101 address=216.69.176.0/21} on-error {}
 :do {add list=$AddressList comment=AS398101 address=216.70.112.0/21} on-error {}
 :do {add list=$AddressList comment=AS398101 address=216.70.68.0/22} on-error {}
@@ -116,6 +115,11 @@
 :do {add list=$AddressList comment=AS398101 address=216.70.80.0/20} on-error {}
 :do {add list=$AddressList comment=AS398101 address=216.70.96.0/20} on-error {}
 :do {add list=$AddressList comment=AS398101 address=23.229.128.0/17} on-error {}
+:do {add list=$AddressList comment=AS398101 address=45.40.131.0/24} on-error {}
+:do {add list=$AddressList comment=AS398101 address=45.40.132.0/22} on-error {}
+:do {add list=$AddressList comment=AS398101 address=45.40.136.0/22} on-error {}
+:do {add list=$AddressList comment=AS398101 address=45.40.140.0/24} on-error {}
+:do {add list=$AddressList comment=AS398101 address=45.40.142.0/23} on-error {}
 :do {add list=$AddressList comment=AS398101 address=45.40.156.0/22} on-error {}
 :do {add list=$AddressList comment=AS398101 address=45.40.160.0/19} on-error {}
 :do {add list=$AddressList comment=AS398101 address=50.62.133.0/24} on-error {}
@@ -198,7 +202,6 @@
 :do {add list=$AddressList comment=AS398101 address=97.74.112.0/22} on-error {}
 :do {add list=$AddressList comment=AS398101 address=97.74.12.0/23} on-error {}
 :do {add list=$AddressList comment=AS398101 address=97.74.134.0/23} on-error {}
-:do {add list=$AddressList comment=AS398101 address=97.74.151.0/24} on-error {}
 :do {add list=$AddressList comment=AS398101 address=97.74.184.0/21} on-error {}
 :do {add list=$AddressList comment=AS398101 address=97.74.200.0/21} on-error {}
 :do {add list=$AddressList comment=AS398101 address=97.74.208.0/22} on-error {}

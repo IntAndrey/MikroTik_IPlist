@@ -1,10 +1,5 @@
 :global AddressList
 /ip firewall address-list
-:do {add list=$AddressList comment=mx address=163.129.128.0/24} on-error {}
-:do {add list=$AddressList comment=mx address=163.171.126.0/24} on-error {}
-:do {add list=$AddressList comment=mx address=163.171.227.0/24} on-error {}
-:do {add list=$AddressList comment=mx address=163.192.128.0/19} on-error {}
-:do {add list=$AddressList comment=mx address=163.227.196.0/24} on-error {}
 :do {add list=$AddressList comment=mx address=163.7.160.0/23} on-error {}
 :do {add list=$AddressList comment=mx address=164.163.188.0/22} on-error {}
 :do {add list=$AddressList comment=mx address=164.18.164.0/23} on-error {}
@@ -284,8 +279,6 @@
 :do {add list=$AddressList comment=mx address=178.239.197.0/24} on-error {}
 :do {add list=$AddressList comment=mx address=178.92.131.0/24} on-error {}
 :do {add list=$AddressList comment=mx address=178.93.225.0/24} on-error {}
-:do {add list=$AddressList comment=mx address=178.93.226.0/24} on-error {}
-:do {add list=$AddressList comment=mx address=178.93.229.0/24} on-error {}
 :do {add list=$AddressList comment=mx address=178.93.230.0/23} on-error {}
 :do {add list=$AddressList comment=mx address=178.93.232.0/24} on-error {}
 :do {add list=$AddressList comment=mx address=178.93.30.0/24} on-error {}
@@ -350,3 +343,10 @@
 :do {add list=$AddressList comment=mx address=185.12.7.0/24} on-error {}
 :do {add list=$AddressList comment=mx address=185.153.177.0/24} on-error {}
 :do {add list=$AddressList comment=mx address=185.161.78.0/24} on-error {}
+:do {add list=$AddressList comment=mx address=185.163.1.0/24} on-error {}
+:do {add list=$AddressList comment=mx address=185.171.166.0/24} on-error {}
+:do {add list=$AddressList comment=mx address=185.216.128.0/23} on-error {}
+:do {add list=$AddressList comment=mx address=185.218.156.0/23} on-error {}
+:do {add list=$AddressList comment=mx address=185.225.246.0/23} on-error {}
+:do {add list=$AddressList comment=mx address=185.226.192.0/24} on-error {}
+:do {add list=$AddressList comment=mx address=185.227.35.0/24} on-error {}

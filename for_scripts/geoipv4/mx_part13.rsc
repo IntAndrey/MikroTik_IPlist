@@ -1,13 +1,29 @@
 :global AddressList
 /ip firewall address-list
+:do {add list=$AddressList comment=mx address=93.113.103.64/29} on-error {}
+:do {add list=$AddressList comment=mx address=93.115.107.0/24} on-error {}
+:do {add list=$AddressList comment=mx address=93.115.109.0/24} on-error {}
+:do {add list=$AddressList comment=mx address=93.152.102.0/23} on-error {}
+:do {add list=$AddressList comment=mx address=93.152.124.0/23} on-error {}
+:do {add list=$AddressList comment=mx address=93.152.30.0/23} on-error {}
+:do {add list=$AddressList comment=mx address=93.152.38.0/23} on-error {}
+:do {add list=$AddressList comment=mx address=93.152.46.0/23} on-error {}
+:do {add list=$AddressList comment=mx address=93.152.52.0/23} on-error {}
+:do {add list=$AddressList comment=mx address=93.152.56.0/23} on-error {}
+:do {add list=$AddressList comment=mx address=93.152.62.0/23} on-error {}
+:do {add list=$AddressList comment=mx address=93.152.76.0/23} on-error {}
+:do {add list=$AddressList comment=mx address=93.152.80.0/23} on-error {}
 :do {add list=$AddressList comment=mx address=93.152.84.0/23} on-error {}
 :do {add list=$AddressList comment=mx address=93.152.94.0/23} on-error {}
 :do {add list=$AddressList comment=mx address=93.152.98.0/23} on-error {}
 :do {add list=$AddressList comment=mx address=93.185.170.0/23} on-error {}
 :do {add list=$AddressList comment=mx address=93.189.39.0/24} on-error {}
+:do {add list=$AddressList comment=mx address=94.116.172.0/22} on-error {}
 :do {add list=$AddressList comment=mx address=94.116.208.0/21} on-error {}
+:do {add list=$AddressList comment=mx address=94.116.96.0/21} on-error {}
 :do {add list=$AddressList comment=mx address=94.125.136.0/24} on-error {}
 :do {add list=$AddressList comment=mx address=94.125.142.0/24} on-error {}
+:do {add list=$AddressList comment=mx address=94.194.164.0/22} on-error {}
 :do {add list=$AddressList comment=mx address=94.74.64.0/20} on-error {}
 :do {add list=$AddressList comment=mx address=95.135.126.0/24} on-error {}
 :do {add list=$AddressList comment=mx address=95.135.133.0/24} on-error {}

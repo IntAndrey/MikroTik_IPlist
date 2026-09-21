@@ -1,8 +1,5 @@
 :global AddressList
 /ip firewall address-list
-:do {add list=$AddressList comment=tr address=67.220.140.160/29} on-error {}
-:do {add list=$AddressList comment=tr address=67.220.140.172/30} on-error {}
-:do {add list=$AddressList comment=tr address=67.220.140.176/30} on-error {}
 :do {add list=$AddressList comment=tr address=67.220.140.192/27} on-error {}
 :do {add list=$AddressList comment=tr address=67.220.140.224/28} on-error {}
 :do {add list=$AddressList comment=tr address=67.220.140.48/29} on-error {}
@@ -134,6 +131,7 @@
 :do {add list=$AddressList comment=tr address=78.168.0.0/13} on-error {}
 :do {add list=$AddressList comment=tr address=78.176.0.0/12} on-error {}
 :do {add list=$AddressList comment=tr address=78.24.203.0/24} on-error {}
+:do {add list=$AddressList comment=tr address=78.40.208.0/24} on-error {}
 :do {add list=$AddressList comment=tr address=78.40.224.0/21} on-error {}
 :do {add list=$AddressList comment=tr address=79.110.233.0/24} on-error {}
 :do {add list=$AddressList comment=tr address=79.110.234.0/24} on-error {}
@@ -145,22 +143,22 @@
 :do {add list=$AddressList comment=tr address=79.170.168.0/21} on-error {}
 :do {add list=$AddressList comment=tr address=79.171.16.0/21} on-error {}
 :do {add list=$AddressList comment=tr address=79.98.128.0/21} on-error {}
+:do {add list=$AddressList comment=tr address=79.98.32.0/23} on-error {}
 :do {add list=$AddressList comment=tr address=79.99.176.0/21} on-error {}
 :do {add list=$AddressList comment=tr address=8.18.196.0/24} on-error {}
 :do {add list=$AddressList comment=tr address=8.25.249.0/24} on-error {}
 :do {add list=$AddressList comment=tr address=8.29.228.112/32} on-error {}
 :do {add list=$AddressList comment=tr address=8.29.228.225/32} on-error {}
 :do {add list=$AddressList comment=tr address=80.173.204.0/22} on-error {}
-:do {add list=$AddressList comment=tr address=80.231.203.32/29} on-error {}
-:do {add list=$AddressList comment=tr address=80.231.203.42/31} on-error {}
-:do {add list=$AddressList comment=tr address=80.231.203.44/31} on-error {}
+:do {add list=$AddressList comment=tr address=80.231.203.32/28} on-error {}
+:do {add list=$AddressList comment=tr address=80.231.203.48/29} on-error {}
+:do {add list=$AddressList comment=tr address=80.231.203.56/30} on-error {}
 :do {add list=$AddressList comment=tr address=80.231.211.0/29} on-error {}
 :do {add list=$AddressList comment=tr address=80.231.222.0/31} on-error {}
 :do {add list=$AddressList comment=tr address=80.231.222.4/30} on-error {}
 :do {add list=$AddressList comment=tr address=80.231.6.0/24} on-error {}
 :do {add list=$AddressList comment=tr address=80.231.7.0/28} on-error {}
-:do {add list=$AddressList comment=tr address=80.231.7.16/30} on-error {}
-:do {add list=$AddressList comment=tr address=80.231.7.20/31} on-error {}
+:do {add list=$AddressList comment=tr address=80.231.7.16/31} on-error {}
 :do {add list=$AddressList comment=tr address=80.231.7.24/29} on-error {}
 :do {add list=$AddressList comment=tr address=80.231.7.32/29} on-error {}
 :do {add list=$AddressList comment=tr address=80.231.7.40/30} on-error {}
@@ -314,7 +312,7 @@
 :do {add list=$AddressList comment=tr address=85.209.166.0/23} on-error {}
 :do {add list=$AddressList comment=tr address=85.235.72.0/22} on-error {}
 :do {add list=$AddressList comment=tr address=85.29.0.0/18} on-error {}
-:do {add list=$AddressList comment=tr address=85.8.146.0/23} on-error {}
+:do {add list=$AddressList comment=tr address=85.8.144.0/22} on-error {}
 :do {add list=$AddressList comment=tr address=85.8.156.0/22} on-error {}
 :do {add list=$AddressList comment=tr address=85.8.160.0/22} on-error {}
 :do {add list=$AddressList comment=tr address=85.8.209.0/24} on-error {}
@@ -350,3 +348,5 @@
 :do {add list=$AddressList comment=tr address=87.250.244.128/25} on-error {}
 :do {add list=$AddressList comment=tr address=87.250.255.11/32} on-error {}
 :do {add list=$AddressList comment=tr address=87.251.22.0/23} on-error {}
+:do {add list=$AddressList comment=tr address=87.76.130.0/24} on-error {}
+:do {add list=$AddressList comment=tr address=87.76.135.0/24} on-error {}
