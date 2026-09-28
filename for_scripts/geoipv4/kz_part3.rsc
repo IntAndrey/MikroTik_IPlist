@@ -1,5 +1,8 @@
 :global AddressList
 /ip firewall address-list
+:do {add list=$AddressList comment=kz address=212.23.218.0/24} on-error {}
+:do {add list=$AddressList comment=kz address=212.247.225.124/32} on-error {}
+:do {add list=$AddressList comment=kz address=212.45.80.0/20} on-error {}
 :do {add list=$AddressList comment=kz address=212.46.53.0/24} on-error {}
 :do {add list=$AddressList comment=kz address=212.46.56.0/24} on-error {}
 :do {add list=$AddressList comment=kz address=212.76.0.0/19} on-error {}
@@ -68,7 +71,6 @@
 :do {add list=$AddressList comment=kz address=31.31.216.0/21} on-error {}
 :do {add list=$AddressList comment=kz address=31.43.179.0/24} on-error {}
 :do {add list=$AddressList comment=kz address=31.56.240.0/24} on-error {}
-:do {add list=$AddressList comment=kz address=31.58.93.0/24} on-error {}
 :do {add list=$AddressList comment=kz address=37.140.243.0/24} on-error {}
 :do {add list=$AddressList comment=kz address=37.150.0.0/15} on-error {}
 :do {add list=$AddressList comment=kz address=37.17.176.0/21} on-error {}
@@ -348,5 +350,3 @@
 :do {add list=$AddressList comment=kz address=86.54.107.0/24} on-error {}
 :do {add list=$AddressList comment=kz address=86.54.184.0/24} on-error {}
 :do {add list=$AddressList comment=kz address=87.121.124.0/23} on-error {}
-:do {add list=$AddressList comment=kz address=87.199.128.0/21} on-error {}
-:do {add list=$AddressList comment=kz address=87.229.52.0/24} on-error {}

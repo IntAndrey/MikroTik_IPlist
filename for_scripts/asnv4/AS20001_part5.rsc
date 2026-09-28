@@ -1,14 +1,5 @@
 :global AddressList
 /ip firewall address-list
-:do {add list=$AddressList comment=AS20001 address=172.115.99.236/30} on-error {}
-:do {add list=$AddressList comment=AS20001 address=172.115.99.240/28} on-error {}
-:do {add list=$AddressList comment=AS20001 address=172.116.0.0/18} on-error {}
-:do {add list=$AddressList comment=AS20001 address=172.116.100.0/24} on-error {}
-:do {add list=$AddressList comment=AS20001 address=172.116.101.0/25} on-error {}
-:do {add list=$AddressList comment=AS20001 address=172.116.101.128/26} on-error {}
-:do {add list=$AddressList comment=AS20001 address=172.116.101.192/28} on-error {}
-:do {add list=$AddressList comment=AS20001 address=172.116.101.208/29} on-error {}
-:do {add list=$AddressList comment=AS20001 address=172.116.101.216/31} on-error {}
 :do {add list=$AddressList comment=AS20001 address=172.116.101.219/32} on-error {}
 :do {add list=$AddressList comment=AS20001 address=172.116.101.220/30} on-error {}
 :do {add list=$AddressList comment=AS20001 address=172.116.101.224/27} on-error {}
@@ -350,3 +341,12 @@
 :do {add list=$AddressList comment=AS20001 address=172.119.129.96/28} on-error {}
 :do {add list=$AddressList comment=AS20001 address=172.119.130.0/23} on-error {}
 :do {add list=$AddressList comment=AS20001 address=172.119.132.0/22} on-error {}
+:do {add list=$AddressList comment=AS20001 address=172.119.136.0/21} on-error {}
+:do {add list=$AddressList comment=AS20001 address=172.119.144.0/20} on-error {}
+:do {add list=$AddressList comment=AS20001 address=172.119.16.0/22} on-error {}
+:do {add list=$AddressList comment=AS20001 address=172.119.160.0/19} on-error {}
+:do {add list=$AddressList comment=AS20001 address=172.119.192.0/19} on-error {}
+:do {add list=$AddressList comment=AS20001 address=172.119.20.0/23} on-error {}
+:do {add list=$AddressList comment=AS20001 address=172.119.22.0/25} on-error {}
+:do {add list=$AddressList comment=AS20001 address=172.119.22.128/26} on-error {}
+:do {add list=$AddressList comment=AS20001 address=172.119.22.192/27} on-error {}

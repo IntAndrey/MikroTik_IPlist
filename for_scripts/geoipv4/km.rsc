@@ -44,6 +44,7 @@
 :do {add list=$AddressList comment=km address=172.225.220.208/28} on-error {}
 :do {add list=$AddressList comment=km address=187.13.245.0/24} on-error {}
 :do {add list=$AddressList comment=km address=194.50.99.120/32} on-error {}
+:do {add list=$AddressList comment=km address=195.123.237.93/32} on-error {}
 :do {add list=$AddressList comment=km address=196.197.69.0/24} on-error {}
 :do {add list=$AddressList comment=km address=196.198.69.0/24} on-error {}
 :do {add list=$AddressList comment=km address=196.199.69.0/24} on-error {}

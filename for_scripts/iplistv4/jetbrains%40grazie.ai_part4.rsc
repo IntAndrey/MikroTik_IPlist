@@ -1,5 +1,10 @@
 :global AddressList
 /ip firewall address-list
+:do {add list=$AddressList comment=jetbrains%40grazie.ai address=34.252.225.31} on-error {}
+:do {add list=$AddressList comment=jetbrains%40grazie.ai address=34.252.225.4} on-error {}
+:do {add list=$AddressList comment=jetbrains%40grazie.ai address=34.252.227.244} on-error {}
+:do {add list=$AddressList comment=jetbrains%40grazie.ai address=34.252.31.171} on-error {}
+:do {add list=$AddressList comment=jetbrains%40grazie.ai address=34.252.48.193} on-error {}
 :do {add list=$AddressList comment=jetbrains%40grazie.ai address=34.253.126.172} on-error {}
 :do {add list=$AddressList comment=jetbrains%40grazie.ai address=34.253.127.109} on-error {}
 :do {add list=$AddressList comment=jetbrains%40grazie.ai address=34.253.133.228} on-error {}
@@ -335,6 +340,7 @@
 :do {add list=$AddressList comment=jetbrains%40grazie.ai address=54.220.250.32} on-error {}
 :do {add list=$AddressList comment=jetbrains%40grazie.ai address=54.220.94.180} on-error {}
 :do {add list=$AddressList comment=jetbrains%40grazie.ai address=54.228.178.108} on-error {}
+:do {add list=$AddressList comment=jetbrains%40grazie.ai address=54.228.184.132} on-error {}
 :do {add list=$AddressList comment=jetbrains%40grazie.ai address=54.228.64.207} on-error {}
 :do {add list=$AddressList comment=jetbrains%40grazie.ai address=54.229.123.164} on-error {}
 :do {add list=$AddressList comment=jetbrains%40grazie.ai address=54.229.235.26} on-error {}
@@ -344,9 +350,3 @@
 :do {add list=$AddressList comment=jetbrains%40grazie.ai address=54.230.112.2} on-error {}
 :do {add list=$AddressList comment=jetbrains%40grazie.ai address=54.230.112.3} on-error {}
 :do {add list=$AddressList comment=jetbrains%40grazie.ai address=54.230.112.45} on-error {}
-:do {add list=$AddressList comment=jetbrains%40grazie.ai address=54.230.114.100} on-error {}
-:do {add list=$AddressList comment=jetbrains%40grazie.ai address=54.230.114.121} on-error {}
-:do {add list=$AddressList comment=jetbrains%40grazie.ai address=54.230.114.21} on-error {}
-:do {add list=$AddressList comment=jetbrains%40grazie.ai address=54.230.114.24} on-error {}
-:do {add list=$AddressList comment=jetbrains%40grazie.ai address=54.230.114.30} on-error {}
-:do {add list=$AddressList comment=jetbrains%40grazie.ai address=54.230.114.32} on-error {}

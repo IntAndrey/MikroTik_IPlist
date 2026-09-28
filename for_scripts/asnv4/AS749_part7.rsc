@@ -1,5 +1,7 @@
 :global AddressList
 /ip firewall address-list
+:do {add list=$AddressList comment=AS749 address=198.49.253.0/24} on-error {}
+:do {add list=$AddressList comment=AS749 address=198.49.254.0/24} on-error {}
 :do {add list=$AddressList comment=AS749 address=198.52.64.0/20} on-error {}
 :do {add list=$AddressList comment=AS749 address=198.52.80.0/21} on-error {}
 :do {add list=$AddressList comment=AS749 address=198.52.88.0/24} on-error {}
@@ -337,16 +339,14 @@
 :do {add list=$AddressList comment=AS749 address=28.4.61.0/24} on-error {}
 :do {add list=$AddressList comment=AS749 address=28.4.62.0/23} on-error {}
 :do {add list=$AddressList comment=AS749 address=28.4.64.0/18} on-error {}
-:do {add list=$AddressList comment=AS749 address=28.5.128.0/23} on-error {}
-:do {add list=$AddressList comment=AS749 address=28.5.134.0/23} on-error {}
-:do {add list=$AddressList comment=AS749 address=28.5.136.0/21} on-error {}
-:do {add list=$AddressList comment=AS749 address=28.5.144.0/20} on-error {}
-:do {add list=$AddressList comment=AS749 address=28.5.160.0/19} on-error {}
-:do {add list=$AddressList comment=AS749 address=28.5.192.0/18} on-error {}
-:do {add list=$AddressList comment=AS749 address=28.5.2.0/24} on-error {}
-:do {add list=$AddressList comment=AS749 address=28.5.30.0/23} on-error {}
-:do {add list=$AddressList comment=AS749 address=28.5.32.0/20} on-error {}
-:do {add list=$AddressList comment=AS749 address=28.5.4.0/24} on-error {}
-:do {add list=$AddressList comment=AS749 address=28.5.48.0/21} on-error {}
-:do {add list=$AddressList comment=AS749 address=28.5.57.0/24} on-error {}
-:do {add list=$AddressList comment=AS749 address=28.5.58.0/23} on-error {}
+:do {add list=$AddressList comment=AS749 address=28.6.0.0/15} on-error {}
+:do {add list=$AddressList comment=AS749 address=28.64.0.0/10} on-error {}
+:do {add list=$AddressList comment=AS749 address=28.8.0.0/13} on-error {}
+:do {add list=$AddressList comment=AS749 address=29.0.0.0/8} on-error {}
+:do {add list=$AddressList comment=AS749 address=30.0.0.0/8} on-error {}
+:do {add list=$AddressList comment=AS749 address=33.0.0.0/8} on-error {}
+:do {add list=$AddressList comment=AS749 address=6.1.0.0/16} on-error {}
+:do {add list=$AddressList comment=AS749 address=6.112.0.0/13} on-error {}
+:do {add list=$AddressList comment=AS749 address=6.120.0.0/14} on-error {}
+:do {add list=$AddressList comment=AS749 address=6.124.129.0/24} on-error {}
+:do {add list=$AddressList comment=AS749 address=6.124.130.0/23} on-error {}

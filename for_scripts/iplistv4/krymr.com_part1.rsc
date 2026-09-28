@@ -176,6 +176,7 @@
 :do {add list=$AddressList comment=krymr.com address=104.96.139.55} on-error {}
 :do {add list=$AddressList comment=krymr.com address=104.96.151.75} on-error {}
 :do {add list=$AddressList comment=krymr.com address=104.96.160.249} on-error {}
+:do {add list=$AddressList comment=krymr.com address=104.97.14.163} on-error {}
 :do {add list=$AddressList comment=krymr.com address=104.97.14.185} on-error {}
 :do {add list=$AddressList comment=krymr.com address=104.99.5.105} on-error {}
 :do {add list=$AddressList comment=krymr.com address=108.138.199.108} on-error {}
@@ -332,6 +333,10 @@
 :do {add list=$AddressList comment=krymr.com address=13.224.236.22} on-error {}
 :do {add list=$AddressList comment=krymr.com address=13.224.236.64} on-error {}
 :do {add list=$AddressList comment=krymr.com address=13.224.236.98} on-error {}
+:do {add list=$AddressList comment=krymr.com address=13.224.252.117} on-error {}
+:do {add list=$AddressList comment=krymr.com address=13.224.252.42} on-error {}
+:do {add list=$AddressList comment=krymr.com address=13.224.252.61} on-error {}
+:do {add list=$AddressList comment=krymr.com address=13.224.252.63} on-error {}
 :do {add list=$AddressList comment=krymr.com address=13.224.81.29} on-error {}
 :do {add list=$AddressList comment=krymr.com address=13.224.81.46} on-error {}
 :do {add list=$AddressList comment=krymr.com address=13.224.81.51} on-error {}
@@ -345,8 +350,3 @@
 :do {add list=$AddressList comment=krymr.com address=13.225.103.105} on-error {}
 :do {add list=$AddressList comment=krymr.com address=13.225.103.65} on-error {}
 :do {add list=$AddressList comment=krymr.com address=13.225.103.71} on-error {}
-:do {add list=$AddressList comment=krymr.com address=13.225.103.83} on-error {}
-:do {add list=$AddressList comment=krymr.com address=13.225.103.86} on-error {}
-:do {add list=$AddressList comment=krymr.com address=13.225.103.93} on-error {}
-:do {add list=$AddressList comment=krymr.com address=13.225.107.5} on-error {}
-:do {add list=$AddressList comment=krymr.com address=13.225.107.52} on-error {}

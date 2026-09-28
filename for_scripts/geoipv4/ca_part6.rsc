@@ -1,11 +1,5 @@
 :global AddressList
 /ip firewall address-list
-:do {add list=$AddressList comment=ca address=138.113.141.0/24} on-error {}
-:do {add list=$AddressList comment=ca address=138.113.142.0/23} on-error {}
-:do {add list=$AddressList comment=ca address=138.113.144.0/23} on-error {}
-:do {add list=$AddressList comment=ca address=138.113.147.0/24} on-error {}
-:do {add list=$AddressList comment=ca address=138.113.148.0/23} on-error {}
-:do {add list=$AddressList comment=ca address=138.113.151.0/24} on-error {}
 :do {add list=$AddressList comment=ca address=138.113.154.0/23} on-error {}
 :do {add list=$AddressList comment=ca address=138.113.156.0/24} on-error {}
 :do {add list=$AddressList comment=ca address=138.113.160.0/24} on-error {}
@@ -127,7 +121,7 @@
 :do {add list=$AddressList comment=ca address=139.180.28.0/23} on-error {}
 :do {add list=$AddressList comment=ca address=139.28.160.0/22} on-error {}
 :do {add list=$AddressList comment=ca address=139.28.218.0/24} on-error {}
-:do {add list=$AddressList comment=ca address=139.45.174.0/23} on-error {}
+:do {add list=$AddressList comment=ca address=139.45.175.0/24} on-error {}
 :do {add list=$AddressList comment=ca address=139.48.0.0/16} on-error {}
 :do {add list=$AddressList comment=ca address=139.57.0.0/16} on-error {}
 :do {add list=$AddressList comment=ca address=139.60.116.0/22} on-error {}
@@ -350,3 +344,9 @@
 :do {add list=$AddressList comment=ca address=142.202.91.120/29} on-error {}
 :do {add list=$AddressList comment=ca address=142.202.91.128/25} on-error {}
 :do {add list=$AddressList comment=ca address=142.202.91.64/27} on-error {}
+:do {add list=$AddressList comment=ca address=142.202.91.96/28} on-error {}
+:do {add list=$AddressList comment=ca address=142.202.96.0/22} on-error {}
+:do {add list=$AddressList comment=ca address=142.203.0.0/16} on-error {}
+:do {add list=$AddressList comment=ca address=142.204.0.0/18} on-error {}
+:do {add list=$AddressList comment=ca address=142.205.0.0/17} on-error {}
+:do {add list=$AddressList comment=ca address=142.205.128.0/19} on-error {}

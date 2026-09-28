@@ -1,11 +1,5 @@
 :global AddressList
 /ip firewall address-list
-:do {add list=$AddressList comment=id address=20.20.66.192/27} on-error {}
-:do {add list=$AddressList comment=id address=20.20.66.224/28} on-error {}
-:do {add list=$AddressList comment=id address=20.20.66.240/30} on-error {}
-:do {add list=$AddressList comment=id address=20.201.154.0/24} on-error {}
-:do {add list=$AddressList comment=id address=20.201.156.0/23} on-error {}
-:do {add list=$AddressList comment=id address=20.231.136.128/26} on-error {}
 :do {add list=$AddressList comment=id address=20.231.136.192/27} on-error {}
 :do {add list=$AddressList comment=id address=20.231.146.0/24} on-error {}
 :do {add list=$AddressList comment=id address=20.33.210.0/24} on-error {}
@@ -15,7 +9,7 @@
 :do {add list=$AddressList comment=id address=20.60.124.0/22} on-error {}
 :do {add list=$AddressList comment=id address=201.3.124.0/23} on-error {}
 :do {add list=$AddressList comment=id address=201.3.126.0/24} on-error {}
-:do {add list=$AddressList comment=id address=201.3.231.0/24} on-error {}
+:do {add list=$AddressList comment=id address=201.3.231.6/32} on-error {}
 :do {add list=$AddressList comment=id address=201.3.234.0/24} on-error {}
 :do {add list=$AddressList comment=id address=201.3.236.0/24} on-error {}
 :do {add list=$AddressList comment=id address=201.50.101.0/24} on-error {}
@@ -350,3 +344,9 @@
 :do {add list=$AddressList comment=id address=203.145.58.0/23} on-error {}
 :do {add list=$AddressList comment=id address=203.145.60.0/22} on-error {}
 :do {add list=$AddressList comment=id address=203.148.84.0/23} on-error {}
+:do {add list=$AddressList comment=id address=203.153.20.0/22} on-error {}
+:do {add list=$AddressList comment=id address=203.153.212.0/22} on-error {}
+:do {add list=$AddressList comment=id address=203.153.216.0/22} on-error {}
+:do {add list=$AddressList comment=id address=203.153.24.0/21} on-error {}
+:do {add list=$AddressList comment=id address=203.153.49.0/24} on-error {}
+:do {add list=$AddressList comment=id address=203.153.96.0/19} on-error {}

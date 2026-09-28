@@ -202,6 +202,7 @@
 :do {add list=$AddressList comment=zello.com address=44.218.61.197/32} on-error {}
 :do {add list=$AddressList comment=zello.com address=44.218.9.203/32} on-error {}
 :do {add list=$AddressList comment=zello.com address=44.219.213.232/32} on-error {}
+:do {add list=$AddressList comment=zello.com address=44.219.224.205/32} on-error {}
 :do {add list=$AddressList comment=zello.com address=44.220.100.217/32} on-error {}
 :do {add list=$AddressList comment=zello.com address=44.222.48.60/32} on-error {}
 :do {add list=$AddressList comment=zello.com address=44.223.197.131/32} on-error {}

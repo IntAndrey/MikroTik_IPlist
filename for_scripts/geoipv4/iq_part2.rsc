@@ -71,6 +71,7 @@
 :do {add list=$AddressList comment=iq address=185.56.192.0/22} on-error {}
 :do {add list=$AddressList comment=iq address=185.58.12.0/22} on-error {}
 :do {add list=$AddressList comment=iq address=185.65.252.0/22} on-error {}
+:do {add list=$AddressList comment=iq address=185.65.62.0/24} on-error {}
 :do {add list=$AddressList comment=iq address=185.69.4.0/22} on-error {}
 :do {add list=$AddressList comment=iq address=185.72.252.0/22} on-error {}
 :do {add list=$AddressList comment=iq address=185.75.224.0/22} on-error {}

@@ -24,8 +24,10 @@
 :do {add list=$AddressList comment=strava.com address=3.94.139.247} on-error {}
 :do {add list=$AddressList comment=strava.com address=32.192.122.255} on-error {}
 :do {add list=$AddressList comment=strava.com address=32.192.170.100} on-error {}
+:do {add list=$AddressList comment=strava.com address=32.193.181.114} on-error {}
 :do {add list=$AddressList comment=strava.com address=32.194.213.187} on-error {}
 :do {add list=$AddressList comment=strava.com address=32.195.126.15} on-error {}
+:do {add list=$AddressList comment=strava.com address=32.196.175.243} on-error {}
 :do {add list=$AddressList comment=strava.com address=32.199.150.76} on-error {}
 :do {add list=$AddressList comment=strava.com address=32.199.56.139} on-error {}
 :do {add list=$AddressList comment=strava.com address=34.172.190.222} on-error {}
@@ -348,5 +350,3 @@
 :do {add list=$AddressList comment=strava.com address=44.232.108.132} on-error {}
 :do {add list=$AddressList comment=strava.com address=44.232.111.143} on-error {}
 :do {add list=$AddressList comment=strava.com address=44.232.121.20} on-error {}
-:do {add list=$AddressList comment=strava.com address=44.232.123.16} on-error {}
-:do {add list=$AddressList comment=strava.com address=44.232.128.87} on-error {}

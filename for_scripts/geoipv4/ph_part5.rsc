@@ -1,5 +1,7 @@
 :global AddressList
 /ip firewall address-list
+:do {add list=$AddressList comment=ph address=188.214.125.0/24} on-error {}
+:do {add list=$AddressList comment=ph address=188.220.176.0/21} on-error {}
 :do {add list=$AddressList comment=ph address=191.44.51.0/24} on-error {}
 :do {add list=$AddressList comment=ph address=191.44.55.0/24} on-error {}
 :do {add list=$AddressList comment=ph address=191.44.59.0/24} on-error {}
@@ -240,7 +242,7 @@
 :do {add list=$AddressList comment=ph address=203.82.32.0/20} on-error {}
 :do {add list=$AddressList comment=ph address=203.84.160.0/19} on-error {}
 :do {add list=$AddressList comment=ph address=203.87.128.0/17} on-error {}
-:do {add list=$AddressList comment=ph address=203.9.192.0/20} on-error {}
+:do {add list=$AddressList comment=ph address=203.9.195.0/24} on-error {}
 :do {add list=$AddressList comment=ph address=203.9.208.0/24} on-error {}
 :do {add list=$AddressList comment=ph address=203.90.242.222/32} on-error {}
 :do {add list=$AddressList comment=ph address=203.96.180.0/22} on-error {}
@@ -298,6 +300,7 @@
 :do {add list=$AddressList comment=ph address=209.101.85.0/24} on-error {}
 :do {add list=$AddressList comment=ph address=209.101.94.0/24} on-error {}
 :do {add list=$AddressList comment=ph address=209.141.0.0/20} on-error {}
+:do {add list=$AddressList comment=ph address=209.146.1.64/29} on-error {}
 :do {add list=$AddressList comment=ph address=209.146.106.0/24} on-error {}
 :do {add list=$AddressList comment=ph address=209.35.160.0/20} on-error {}
 :do {add list=$AddressList comment=ph address=209.8.113.32/28} on-error {}
@@ -347,6 +350,3 @@
 :do {add list=$AddressList comment=ph address=216.133.103.0/24} on-error {}
 :do {add list=$AddressList comment=ph address=216.150.191.0/24} on-error {}
 :do {add list=$AddressList comment=ph address=216.200.188.30/31} on-error {}
-:do {add list=$AddressList comment=ph address=216.247.0.0/18} on-error {}
-:do {add list=$AddressList comment=ph address=216.247.80.0/20} on-error {}
-:do {add list=$AddressList comment=ph address=216.247.99.0/24} on-error {}
