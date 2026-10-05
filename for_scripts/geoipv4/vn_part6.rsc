@@ -1,7 +1,5 @@
 :global AddressList
 /ip firewall address-list
-:do {add list=$AddressList comment=vn address=185.24.232.40/29} on-error {}
-:do {add list=$AddressList comment=vn address=185.24.234.144/29} on-error {}
 :do {add list=$AddressList comment=vn address=185.24.235.144/29} on-error {}
 :do {add list=$AddressList comment=vn address=186.243.158.0/24} on-error {}
 :do {add list=$AddressList comment=vn address=186.243.232.0/24} on-error {}
@@ -27,7 +25,6 @@
 :do {add list=$AddressList comment=vn address=194.110.138.0/24} on-error {}
 :do {add list=$AddressList comment=vn address=194.26.233.0/24} on-error {}
 :do {add list=$AddressList comment=vn address=194.34.253.0/24} on-error {}
-:do {add list=$AddressList comment=vn address=194.50.99.242/32} on-error {}
 :do {add list=$AddressList comment=vn address=194.56.180.0/24} on-error {}
 :do {add list=$AddressList comment=vn address=194.59.222.0/24} on-error {}
 :do {add list=$AddressList comment=vn address=194.77.217.0/24} on-error {}
@@ -307,7 +304,6 @@
 :do {add list=$AddressList comment=vn address=36.50.52.0/22} on-error {}
 :do {add list=$AddressList comment=vn address=36.50.60.0/22} on-error {}
 :do {add list=$AddressList comment=vn address=37.202.219.0/24} on-error {}
-:do {add list=$AddressList comment=vn address=38.123.174.0/24} on-error {}
 :do {add list=$AddressList comment=vn address=38.126.124.0/24} on-error {}
 :do {add list=$AddressList comment=vn address=38.54.115.0/24} on-error {}
 :do {add list=$AddressList comment=vn address=38.54.14.0/23} on-error {}
@@ -350,3 +346,7 @@
 :do {add list=$AddressList comment=vn address=45.121.24.0/22} on-error {}
 :do {add list=$AddressList comment=vn address=45.122.220.0/22} on-error {}
 :do {add list=$AddressList comment=vn address=45.122.232.0/21} on-error {}
+:do {add list=$AddressList comment=vn address=45.122.240.0/20} on-error {}
+:do {add list=$AddressList comment=vn address=45.123.96.0/22} on-error {}
+:do {add list=$AddressList comment=vn address=45.124.255.0/24} on-error {}
+:do {add list=$AddressList comment=vn address=45.124.84.0/22} on-error {}

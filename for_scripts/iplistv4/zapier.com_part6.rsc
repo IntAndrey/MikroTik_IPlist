@@ -1,5 +1,21 @@
 :global AddressList
 /ip firewall address-list
+:do {add list=$AddressList comment=zapier.com address=52.85.223.49} on-error {}
+:do {add list=$AddressList comment=zapier.com address=52.85.223.60} on-error {}
+:do {add list=$AddressList comment=zapier.com address=52.85.223.70} on-error {}
+:do {add list=$AddressList comment=zapier.com address=52.85.223.80} on-error {}
+:do {add list=$AddressList comment=zapier.com address=52.85.223.96} on-error {}
+:do {add list=$AddressList comment=zapier.com address=52.85.31.37} on-error {}
+:do {add list=$AddressList comment=zapier.com address=52.85.31.50} on-error {}
+:do {add list=$AddressList comment=zapier.com address=52.85.31.89} on-error {}
+:do {add list=$AddressList comment=zapier.com address=52.85.31.90} on-error {}
+:do {add list=$AddressList comment=zapier.com address=52.85.47.114} on-error {}
+:do {add list=$AddressList comment=zapier.com address=52.85.47.23} on-error {}
+:do {add list=$AddressList comment=zapier.com address=52.85.47.25} on-error {}
+:do {add list=$AddressList comment=zapier.com address=52.85.47.3} on-error {}
+:do {add list=$AddressList comment=zapier.com address=52.85.47.45} on-error {}
+:do {add list=$AddressList comment=zapier.com address=52.85.47.53} on-error {}
+:do {add list=$AddressList comment=zapier.com address=52.85.47.62} on-error {}
 :do {add list=$AddressList comment=zapier.com address=52.85.47.71} on-error {}
 :do {add list=$AddressList comment=zapier.com address=52.85.49.103} on-error {}
 :do {add list=$AddressList comment=zapier.com address=52.85.49.118} on-error {}
@@ -334,6 +350,3 @@
 :do {add list=$AddressList comment=zapier.com address=99.86.4.40} on-error {}
 :do {add list=$AddressList comment=zapier.com address=99.86.4.5} on-error {}
 :do {add list=$AddressList comment=zapier.com address=99.86.4.53} on-error {}
-:do {add list=$AddressList comment=zapier.com address=99.86.4.79} on-error {}
-:do {add list=$AddressList comment=zapier.com address=99.86.4.84} on-error {}
-:do {add list=$AddressList comment=zapier.com address=99.86.4.88} on-error {}

@@ -1,5 +1,9 @@
 :global AddressList
 /ip firewall address-list
+:do {add list=$AddressList comment=svoboda.org address=2.22.248.119} on-error {}
+:do {add list=$AddressList comment=svoboda.org address=2.22.248.13} on-error {}
+:do {add list=$AddressList comment=svoboda.org address=2.22.248.159} on-error {}
+:do {add list=$AddressList comment=svoboda.org address=2.22.248.16} on-error {}
 :do {add list=$AddressList comment=svoboda.org address=2.22.248.183} on-error {}
 :do {add list=$AddressList comment=svoboda.org address=2.22.248.76} on-error {}
 :do {add list=$AddressList comment=svoboda.org address=2.22.248.87} on-error {}
@@ -297,6 +301,8 @@
 :do {add list=$AddressList comment=svoboda.org address=23.218.92.121} on-error {}
 :do {add list=$AddressList comment=svoboda.org address=23.218.92.18} on-error {}
 :do {add list=$AddressList comment=svoboda.org address=23.218.92.51} on-error {}
+:do {add list=$AddressList comment=svoboda.org address=23.219.160.174} on-error {}
+:do {add list=$AddressList comment=svoboda.org address=23.219.160.177} on-error {}
 :do {add list=$AddressList comment=svoboda.org address=23.219.160.19} on-error {}
 :do {add list=$AddressList comment=svoboda.org address=23.219.160.208} on-error {}
 :do {add list=$AddressList comment=svoboda.org address=23.219.160.211} on-error {}
@@ -344,9 +350,3 @@
 :do {add list=$AddressList comment=svoboda.org address=23.3.88.24} on-error {}
 :do {add list=$AddressList comment=svoboda.org address=23.3.90.16} on-error {}
 :do {add list=$AddressList comment=svoboda.org address=23.3.90.18} on-error {}
-:do {add list=$AddressList comment=svoboda.org address=23.3.90.32} on-error {}
-:do {add list=$AddressList comment=svoboda.org address=23.3.90.43} on-error {}
-:do {add list=$AddressList comment=svoboda.org address=23.32.110.49} on-error {}
-:do {add list=$AddressList comment=svoboda.org address=23.33.119.49} on-error {}
-:do {add list=$AddressList comment=svoboda.org address=23.33.119.82} on-error {}
-:do {add list=$AddressList comment=svoboda.org address=23.33.119.83} on-error {}

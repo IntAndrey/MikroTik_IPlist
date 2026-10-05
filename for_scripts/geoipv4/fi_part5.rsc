@@ -1,5 +1,8 @@
 :global AddressList
 /ip firewall address-list
+:do {add list=$AddressList comment=fi address=193.111.93.0/24} on-error {}
+:do {add list=$AddressList comment=fi address=193.118.232.0/28} on-error {}
+:do {add list=$AddressList comment=fi address=193.118.232.128/30} on-error {}
 :do {add list=$AddressList comment=fi address=193.118.232.136/29} on-error {}
 :do {add list=$AddressList comment=fi address=193.118.232.144/28} on-error {}
 :do {add list=$AddressList comment=fi address=193.118.232.168/29} on-error {}
@@ -177,6 +180,7 @@
 :do {add list=$AddressList comment=fi address=193.56.123.0/24} on-error {}
 :do {add list=$AddressList comment=fi address=193.56.196.0/22} on-error {}
 :do {add list=$AddressList comment=fi address=193.57.6.0/24} on-error {}
+:do {add list=$AddressList comment=fi address=193.58.108.0/24} on-error {}
 :do {add list=$AddressList comment=fi address=193.64.0.0/15} on-error {}
 :do {add list=$AddressList comment=fi address=193.66.0.0/16} on-error {}
 :do {add list=$AddressList comment=fi address=193.68.88.0/24} on-error {}
@@ -187,7 +191,6 @@
 :do {add list=$AddressList comment=fi address=193.93.136.0/22} on-error {}
 :do {add list=$AddressList comment=fi address=193.94.0.0/16} on-error {}
 :do {add list=$AddressList comment=fi address=194.0.80.0/22} on-error {}
-:do {add list=$AddressList comment=fi address=194.1.133.0/24} on-error {}
 :do {add list=$AddressList comment=fi address=194.100.0.0/16} on-error {}
 :do {add list=$AddressList comment=fi address=194.103.248.0/24} on-error {}
 :do {add list=$AddressList comment=fi address=194.107.113.0/24} on-error {}
@@ -347,6 +350,3 @@
 :do {add list=$AddressList comment=fi address=195.8.54.0/23} on-error {}
 :do {add list=$AddressList comment=fi address=195.8.60.0/23} on-error {}
 :do {add list=$AddressList comment=fi address=195.8.63.0/24} on-error {}
-:do {add list=$AddressList comment=fi address=195.82.146.0/24} on-error {}
-:do {add list=$AddressList comment=fi address=195.94.104.0/22} on-error {}
-:do {add list=$AddressList comment=fi address=195.94.96.0/21} on-error {}

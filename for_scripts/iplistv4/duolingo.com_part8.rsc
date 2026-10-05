@@ -1,5 +1,18 @@
 :global AddressList
 /ip firewall address-list
+:do {add list=$AddressList comment=duolingo.com address=18.211.226.102} on-error {}
+:do {add list=$AddressList comment=duolingo.com address=18.211.23.225} on-error {}
+:do {add list=$AddressList comment=duolingo.com address=18.211.235.62} on-error {}
+:do {add list=$AddressList comment=duolingo.com address=18.211.236.47} on-error {}
+:do {add list=$AddressList comment=duolingo.com address=18.211.242.11} on-error {}
+:do {add list=$AddressList comment=duolingo.com address=18.211.244.72} on-error {}
+:do {add list=$AddressList comment=duolingo.com address=18.211.248.140} on-error {}
+:do {add list=$AddressList comment=duolingo.com address=18.211.32.140} on-error {}
+:do {add list=$AddressList comment=duolingo.com address=18.211.34.69} on-error {}
+:do {add list=$AddressList comment=duolingo.com address=18.211.65.244} on-error {}
+:do {add list=$AddressList comment=duolingo.com address=18.211.69.123} on-error {}
+:do {add list=$AddressList comment=duolingo.com address=18.211.69.22} on-error {}
+:do {add list=$AddressList comment=duolingo.com address=18.211.73.128} on-error {}
 :do {add list=$AddressList comment=duolingo.com address=18.211.73.209} on-error {}
 :do {add list=$AddressList comment=duolingo.com address=18.211.74.65} on-error {}
 :do {add list=$AddressList comment=duolingo.com address=18.211.74.84} on-error {}
@@ -222,8 +235,12 @@
 :do {add list=$AddressList comment=duolingo.com address=18.239.18.35} on-error {}
 :do {add list=$AddressList comment=duolingo.com address=18.239.18.4} on-error {}
 :do {add list=$AddressList comment=duolingo.com address=18.239.18.44} on-error {}
+:do {add list=$AddressList comment=duolingo.com address=18.239.18.47} on-error {}
+:do {add list=$AddressList comment=duolingo.com address=18.239.18.6} on-error {}
 :do {add list=$AddressList comment=duolingo.com address=18.239.18.60} on-error {}
 :do {add list=$AddressList comment=duolingo.com address=18.239.18.64} on-error {}
+:do {add list=$AddressList comment=duolingo.com address=18.239.18.65} on-error {}
+:do {add list=$AddressList comment=duolingo.com address=18.239.18.7} on-error {}
 :do {add list=$AddressList comment=duolingo.com address=18.239.18.84} on-error {}
 :do {add list=$AddressList comment=duolingo.com address=18.239.18.99} on-error {}
 :do {add list=$AddressList comment=duolingo.com address=18.239.208.10} on-error {}
@@ -333,20 +350,3 @@
 :do {add list=$AddressList comment=duolingo.com address=18.239.69.48} on-error {}
 :do {add list=$AddressList comment=duolingo.com address=18.239.69.56} on-error {}
 :do {add list=$AddressList comment=duolingo.com address=18.239.69.58} on-error {}
-:do {add list=$AddressList comment=duolingo.com address=18.239.69.6} on-error {}
-:do {add list=$AddressList comment=duolingo.com address=18.239.69.60} on-error {}
-:do {add list=$AddressList comment=duolingo.com address=18.239.69.62} on-error {}
-:do {add list=$AddressList comment=duolingo.com address=18.239.69.79} on-error {}
-:do {add list=$AddressList comment=duolingo.com address=18.239.69.85} on-error {}
-:do {add list=$AddressList comment=duolingo.com address=18.239.69.88} on-error {}
-:do {add list=$AddressList comment=duolingo.com address=18.239.69.92} on-error {}
-:do {add list=$AddressList comment=duolingo.com address=18.239.69.95} on-error {}
-:do {add list=$AddressList comment=duolingo.com address=18.239.83.110} on-error {}
-:do {add list=$AddressList comment=duolingo.com address=18.239.83.123} on-error {}
-:do {add list=$AddressList comment=duolingo.com address=18.239.83.13} on-error {}
-:do {add list=$AddressList comment=duolingo.com address=18.239.83.15} on-error {}
-:do {add list=$AddressList comment=duolingo.com address=18.239.83.2} on-error {}
-:do {add list=$AddressList comment=duolingo.com address=18.239.83.28} on-error {}
-:do {add list=$AddressList comment=duolingo.com address=18.239.83.40} on-error {}
-:do {add list=$AddressList comment=duolingo.com address=18.239.83.51} on-error {}
-:do {add list=$AddressList comment=duolingo.com address=18.239.83.52} on-error {}

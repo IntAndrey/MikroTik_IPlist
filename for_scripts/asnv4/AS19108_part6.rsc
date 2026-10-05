@@ -1,16 +1,16 @@
 :global AddressList
 /ip firewall address-list
-:do {add list=$AddressList comment=AS19108 address=50.24.157.0/25} on-error {}
-:do {add list=$AddressList comment=AS19108 address=50.24.157.128/26} on-error {}
-:do {add list=$AddressList comment=AS19108 address=50.24.157.192/28} on-error {}
-:do {add list=$AddressList comment=AS19108 address=50.24.157.208/29} on-error {}
-:do {add list=$AddressList comment=AS19108 address=50.24.157.216/30} on-error {}
-:do {add list=$AddressList comment=AS19108 address=50.24.157.221/32} on-error {}
-:do {add list=$AddressList comment=AS19108 address=50.24.157.222/31} on-error {}
-:do {add list=$AddressList comment=AS19108 address=50.24.157.224/27} on-error {}
-:do {add list=$AddressList comment=AS19108 address=50.24.158.0/23} on-error {}
-:do {add list=$AddressList comment=AS19108 address=50.24.16.0/21} on-error {}
-:do {add list=$AddressList comment=AS19108 address=50.24.160.0/21} on-error {}
+:do {add list=$AddressList comment=AS19108 address=50.24.160.0/23} on-error {}
+:do {add list=$AddressList comment=AS19108 address=50.24.162.0/24} on-error {}
+:do {add list=$AddressList comment=AS19108 address=50.24.163.0/27} on-error {}
+:do {add list=$AddressList comment=AS19108 address=50.24.163.128/25} on-error {}
+:do {add list=$AddressList comment=AS19108 address=50.24.163.32/30} on-error {}
+:do {add list=$AddressList comment=AS19108 address=50.24.163.36/31} on-error {}
+:do {add list=$AddressList comment=AS19108 address=50.24.163.38/32} on-error {}
+:do {add list=$AddressList comment=AS19108 address=50.24.163.40/29} on-error {}
+:do {add list=$AddressList comment=AS19108 address=50.24.163.48/28} on-error {}
+:do {add list=$AddressList comment=AS19108 address=50.24.163.64/26} on-error {}
+:do {add list=$AddressList comment=AS19108 address=50.24.164.0/22} on-error {}
 :do {add list=$AddressList comment=AS19108 address=50.24.168.0/26} on-error {}
 :do {add list=$AddressList comment=AS19108 address=50.24.168.100/31} on-error {}
 :do {add list=$AddressList comment=AS19108 address=50.24.168.102/32} on-error {}

@@ -1,5 +1,9 @@
 :global AddressList
 /ip firewall address-list
+:do {add list=$AddressList comment=thetruestory.news address=3.164.68.127} on-error {}
+:do {add list=$AddressList comment=thetruestory.news address=3.164.68.13} on-error {}
+:do {add list=$AddressList comment=thetruestory.news address=3.164.68.16} on-error {}
+:do {add list=$AddressList comment=thetruestory.news address=3.164.68.2} on-error {}
 :do {add list=$AddressList comment=thetruestory.news address=3.164.68.22} on-error {}
 :do {add list=$AddressList comment=thetruestory.news address=3.164.68.26} on-error {}
 :do {add list=$AddressList comment=thetruestory.news address=3.164.68.29} on-error {}
@@ -346,7 +350,3 @@
 :do {add list=$AddressList comment=thetruestory.news address=52.85.92.21} on-error {}
 :do {add list=$AddressList comment=thetruestory.news address=52.85.92.36} on-error {}
 :do {add list=$AddressList comment=thetruestory.news address=52.85.92.48} on-error {}
-:do {add list=$AddressList comment=thetruestory.news address=52.85.92.56} on-error {}
-:do {add list=$AddressList comment=thetruestory.news address=54.192.100.117} on-error {}
-:do {add list=$AddressList comment=thetruestory.news address=54.192.100.126} on-error {}
-:do {add list=$AddressList comment=thetruestory.news address=54.192.100.19} on-error {}

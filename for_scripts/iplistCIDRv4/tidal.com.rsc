@@ -105,6 +105,7 @@
 :do {add list=$AddressList comment=tidal.com address=52.21.155.123/32} on-error {}
 :do {add list=$AddressList comment=tidal.com address=52.22.203.36/32} on-error {}
 :do {add list=$AddressList comment=tidal.com address=52.222.0.0/16} on-error {}
+:do {add list=$AddressList comment=tidal.com address=52.44.199.126/32} on-error {}
 :do {add list=$AddressList comment=tidal.com address=52.45.224.193/32} on-error {}
 :do {add list=$AddressList comment=tidal.com address=52.45.23.127/32} on-error {}
 :do {add list=$AddressList comment=tidal.com address=52.45.83.39/32} on-error {}

@@ -1,5 +1,6 @@
 :global AddressList
 /ip firewall address-list
+:do {add list=$AddressList comment=naukri.com address=143.204.98.72} on-error {}
 :do {add list=$AddressList comment=naukri.com address=143.204.98.76} on-error {}
 :do {add list=$AddressList comment=naukri.com address=143.204.98.89} on-error {}
 :do {add list=$AddressList comment=naukri.com address=143.204.98.99} on-error {}
@@ -156,6 +157,7 @@
 :do {add list=$AddressList comment=naukri.com address=18.139.82.107} on-error {}
 :do {add list=$AddressList comment=naukri.com address=18.139.91.66} on-error {}
 :do {add list=$AddressList comment=naukri.com address=18.139.92.63} on-error {}
+:do {add list=$AddressList comment=naukri.com address=18.140.103.199} on-error {}
 :do {add list=$AddressList comment=naukri.com address=18.140.108.117} on-error {}
 :do {add list=$AddressList comment=naukri.com address=18.140.126.27} on-error {}
 :do {add list=$AddressList comment=naukri.com address=18.140.127.224} on-error {}
@@ -214,6 +216,7 @@
 :do {add list=$AddressList comment=naukri.com address=18.142.201.82} on-error {}
 :do {add list=$AddressList comment=naukri.com address=18.142.205.55} on-error {}
 :do {add list=$AddressList comment=naukri.com address=18.142.21.124} on-error {}
+:do {add list=$AddressList comment=naukri.com address=18.142.224.96} on-error {}
 :do {add list=$AddressList comment=naukri.com address=18.142.234.114} on-error {}
 :do {add list=$AddressList comment=naukri.com address=18.142.25.164} on-error {}
 :do {add list=$AddressList comment=naukri.com address=18.142.30.205} on-error {}
@@ -347,6 +350,3 @@
 :do {add list=$AddressList comment=naukri.com address=18.161.111.36} on-error {}
 :do {add list=$AddressList comment=naukri.com address=18.161.111.67} on-error {}
 :do {add list=$AddressList comment=naukri.com address=18.161.111.75} on-error {}
-:do {add list=$AddressList comment=naukri.com address=18.161.111.76} on-error {}
-:do {add list=$AddressList comment=naukri.com address=18.161.21.102} on-error {}
-:do {add list=$AddressList comment=naukri.com address=18.161.21.26} on-error {}

@@ -1,5 +1,14 @@
 :global AddressList
 /ip firewall address-list
+:do {add list=$AddressList comment=naukri.com address=23.206.251.107} on-error {}
+:do {add list=$AddressList comment=naukri.com address=23.206.251.90} on-error {}
+:do {add list=$AddressList comment=naukri.com address=23.206.8.5} on-error {}
+:do {add list=$AddressList comment=naukri.com address=23.207.202.47} on-error {}
+:do {add list=$AddressList comment=naukri.com address=23.207.202.51} on-error {}
+:do {add list=$AddressList comment=naukri.com address=23.207.202.54} on-error {}
+:do {add list=$AddressList comment=naukri.com address=23.207.202.55} on-error {}
+:do {add list=$AddressList comment=naukri.com address=23.207.202.58} on-error {}
+:do {add list=$AddressList comment=naukri.com address=23.207.202.59} on-error {}
 :do {add list=$AddressList comment=naukri.com address=23.207.202.61} on-error {}
 :do {add list=$AddressList comment=naukri.com address=23.207.202.62} on-error {}
 :do {add list=$AddressList comment=naukri.com address=23.207.202.63} on-error {}
@@ -341,12 +350,3 @@
 :do {add list=$AddressList comment=naukri.com address=23.221.241.157} on-error {}
 :do {add list=$AddressList comment=naukri.com address=23.221.253.115} on-error {}
 :do {add list=$AddressList comment=naukri.com address=23.221.85.128} on-error {}
-:do {add list=$AddressList comment=naukri.com address=23.222.196.7} on-error {}
-:do {add list=$AddressList comment=naukri.com address=23.222.201.115} on-error {}
-:do {add list=$AddressList comment=naukri.com address=23.222.236.23} on-error {}
-:do {add list=$AddressList comment=naukri.com address=23.222.236.39} on-error {}
-:do {add list=$AddressList comment=naukri.com address=23.222.236.42} on-error {}
-:do {add list=$AddressList comment=naukri.com address=23.222.236.6} on-error {}
-:do {add list=$AddressList comment=naukri.com address=23.222.236.70} on-error {}
-:do {add list=$AddressList comment=naukri.com address=23.222.236.80} on-error {}
-:do {add list=$AddressList comment=naukri.com address=23.222.236.81} on-error {}

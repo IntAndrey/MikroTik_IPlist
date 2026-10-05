@@ -47,7 +47,7 @@
 :do {add list=$AddressList comment=hk address=103.94.103.0/24} on-error {}
 :do {add list=$AddressList comment=hk address=103.94.148.0/22} on-error {}
 :do {add list=$AddressList comment=hk address=103.94.184.0/24} on-error {}
-:do {add list=$AddressList comment=hk address=103.94.214.0/24} on-error {}
+:do {add list=$AddressList comment=hk address=103.94.214.0/23} on-error {}
 :do {add list=$AddressList comment=hk address=103.94.76.0/23} on-error {}
 :do {add list=$AddressList comment=hk address=103.95.103.0/24} on-error {}
 :do {add list=$AddressList comment=hk address=103.95.176.0/22} on-error {}
@@ -78,10 +78,10 @@
 :do {add list=$AddressList comment=hk address=104.111.192.0/20} on-error {}
 :do {add list=$AddressList comment=hk address=104.132.17.28/30} on-error {}
 :do {add list=$AddressList comment=hk address=104.132.17.40/30} on-error {}
-:do {add list=$AddressList comment=hk address=104.135.192.56/29} on-error {}
+:do {add list=$AddressList comment=hk address=104.135.192.60/30} on-error {}
 :do {add list=$AddressList comment=hk address=104.135.194.28/30} on-error {}
 :do {add list=$AddressList comment=hk address=104.135.194.40/30} on-error {}
-:do {add list=$AddressList comment=hk address=104.135.208.56/29} on-error {}
+:do {add list=$AddressList comment=hk address=104.135.208.60/30} on-error {}
 :do {add list=$AddressList comment=hk address=104.143.32.0/21} on-error {}
 :do {add list=$AddressList comment=hk address=104.143.40.0/22} on-error {}
 :do {add list=$AddressList comment=hk address=104.143.46.0/23} on-error {}
@@ -101,14 +101,11 @@
 :do {add list=$AddressList comment=hk address=104.233.220.0/23} on-error {}
 :do {add list=$AddressList comment=hk address=104.233.224.0/23} on-error {}
 :do {add list=$AddressList comment=hk address=104.233.252.0/22} on-error {}
-:do {add list=$AddressList comment=hk address=104.234.107.0/24} on-error {}
 :do {add list=$AddressList comment=hk address=104.234.11.0/24} on-error {}
-:do {add list=$AddressList comment=hk address=104.234.112.0/24} on-error {}
 :do {add list=$AddressList comment=hk address=104.234.161.0/24} on-error {}
 :do {add list=$AddressList comment=hk address=104.234.176.0/24} on-error {}
 :do {add list=$AddressList comment=hk address=104.234.20.0/24} on-error {}
 :do {add list=$AddressList comment=hk address=104.234.211.0/24} on-error {}
-:do {add list=$AddressList comment=hk address=104.234.28.0/24} on-error {}
 :do {add list=$AddressList comment=hk address=104.234.86.0/24} on-error {}
 :do {add list=$AddressList comment=hk address=104.245.40.0/21} on-error {}
 :do {add list=$AddressList comment=hk address=104.249.180.0/24} on-error {}
@@ -227,6 +224,7 @@
 :do {add list=$AddressList comment=hk address=104.28.43.56/29} on-error {}
 :do {add list=$AddressList comment=hk address=104.28.66.107/32} on-error {}
 :do {add list=$AddressList comment=hk address=104.28.66.108/30} on-error {}
+:do {add list=$AddressList comment=hk address=104.28.66.114/31} on-error {}
 :do {add list=$AddressList comment=hk address=104.28.66.128/29} on-error {}
 :do {add list=$AddressList comment=hk address=104.28.66.136/32} on-error {}
 :do {add list=$AddressList comment=hk address=104.28.66.241/32} on-error {}
@@ -329,6 +327,7 @@
 :do {add list=$AddressList comment=hk address=104.30.179.30/32} on-error {}
 :do {add list=$AddressList comment=hk address=104.30.179.40/32} on-error {}
 :do {add list=$AddressList comment=hk address=104.30.180.169/32} on-error {}
+:do {add list=$AddressList comment=hk address=104.30.180.225/32} on-error {}
 :do {add list=$AddressList comment=hk address=104.30.180.6/32} on-error {}
 :do {add list=$AddressList comment=hk address=104.44.118.0/24} on-error {}
 :do {add list=$AddressList comment=hk address=104.44.203.144/29} on-error {}
@@ -350,3 +349,4 @@
 :do {add list=$AddressList comment=hk address=104.89.100.0/22} on-error {}
 :do {add list=$AddressList comment=hk address=104.89.104.0/23} on-error {}
 :do {add list=$AddressList comment=hk address=104.89.96.0/23} on-error {}
+:do {add list=$AddressList comment=hk address=104.91.80.0/21} on-error {}

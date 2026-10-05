@@ -1,11 +1,5 @@
 :global AddressList
 /ip firewall address-list
-:do {add list=$AddressList comment=jp address=151.186.176.24/31} on-error {}
-:do {add list=$AddressList comment=jp address=151.186.176.26/32} on-error {}
-:do {add list=$AddressList comment=jp address=151.186.176.28/30} on-error {}
-:do {add list=$AddressList comment=jp address=151.186.176.32/30} on-error {}
-:do {add list=$AddressList comment=jp address=151.186.176.38/31} on-error {}
-:do {add list=$AddressList comment=jp address=151.186.176.40/29} on-error {}
 :do {add list=$AddressList comment=jp address=151.186.176.48/29} on-error {}
 :do {add list=$AddressList comment=jp address=151.186.176.56/30} on-error {}
 :do {add list=$AddressList comment=jp address=151.186.176.60/31} on-error {}
@@ -194,7 +188,9 @@
 :do {add list=$AddressList comment=jp address=154.18.0.30/31} on-error {}
 :do {add list=$AddressList comment=jp address=154.18.0.32/29} on-error {}
 :do {add list=$AddressList comment=jp address=154.18.0.44/30} on-error {}
-:do {add list=$AddressList comment=jp address=154.18.0.48/28} on-error {}
+:do {add list=$AddressList comment=jp address=154.18.0.48/29} on-error {}
+:do {add list=$AddressList comment=jp address=154.18.0.56/30} on-error {}
+:do {add list=$AddressList comment=jp address=154.18.0.60/31} on-error {}
 :do {add list=$AddressList comment=jp address=154.18.0.72/29} on-error {}
 :do {add list=$AddressList comment=jp address=154.18.0.80/29} on-error {}
 :do {add list=$AddressList comment=jp address=154.18.0.96/31} on-error {}
@@ -350,3 +346,7 @@
 :do {add list=$AddressList comment=jp address=155.190.48.32/28} on-error {}
 :do {add list=$AddressList comment=jp address=155.190.48.48/29} on-error {}
 :do {add list=$AddressList comment=jp address=155.190.48.56/31} on-error {}
+:do {add list=$AddressList comment=jp address=155.190.48.59/32} on-error {}
+:do {add list=$AddressList comment=jp address=155.190.48.60/30} on-error {}
+:do {add list=$AddressList comment=jp address=155.190.48.64/26} on-error {}
+:do {add list=$AddressList comment=jp address=155.190.49.0/26} on-error {}

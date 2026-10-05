@@ -1,5 +1,11 @@
 :global AddressList
 /ip firewall address-list
+:do {add list=$AddressList comment=ca address=52.96.191.144/28} on-error {}
+:do {add list=$AddressList comment=ca address=52.96.191.176/28} on-error {}
+:do {add list=$AddressList comment=ca address=52.96.192.0/26} on-error {}
+:do {add list=$AddressList comment=ca address=52.96.192.96/27} on-error {}
+:do {add list=$AddressList comment=ca address=52.96.193.0/28} on-error {}
+:do {add list=$AddressList comment=ca address=52.96.193.32/27} on-error {}
 :do {add list=$AddressList comment=ca address=52.96.200.96/27} on-error {}
 :do {add list=$AddressList comment=ca address=52.96.201.128/25} on-error {}
 :do {add list=$AddressList comment=ca address=52.96.207.96/27} on-error {}
@@ -97,6 +103,7 @@
 :do {add list=$AddressList comment=ca address=63.142.164.0/22} on-error {}
 :do {add list=$AddressList comment=ca address=63.142.168.0/21} on-error {}
 :do {add list=$AddressList comment=ca address=63.142.8.0/23} on-error {}
+:do {add list=$AddressList comment=ca address=63.161.69.40/29} on-error {}
 :do {add list=$AddressList comment=ca address=63.164.153.152/29} on-error {}
 :do {add list=$AddressList comment=ca address=63.165.130.32/29} on-error {}
 :do {add list=$AddressList comment=ca address=63.170.192.0/19} on-error {}
@@ -343,10 +350,3 @@
 :do {add list=$AddressList comment=ca address=64.40.4.0/22} on-error {}
 :do {add list=$AddressList comment=ca address=64.42.144.0/21} on-error {}
 :do {add list=$AddressList comment=ca address=64.42.192.0/18} on-error {}
-:do {add list=$AddressList comment=ca address=64.43.108.0/23} on-error {}
-:do {add list=$AddressList comment=ca address=64.43.244.0/24} on-error {}
-:do {add list=$AddressList comment=ca address=64.43.250.192/26} on-error {}
-:do {add list=$AddressList comment=ca address=64.43.252.224/27} on-error {}
-:do {add list=$AddressList comment=ca address=64.45.171.0/24} on-error {}
-:do {add list=$AddressList comment=ca address=64.45.173.0/24} on-error {}
-:do {add list=$AddressList comment=ca address=64.46.0.0/18} on-error {}

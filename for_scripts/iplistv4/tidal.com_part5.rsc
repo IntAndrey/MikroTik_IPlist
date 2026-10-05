@@ -1,5 +1,6 @@
 :global AddressList
 /ip firewall address-list
+:do {add list=$AddressList comment=tidal.com address=18.172.242.99} on-error {}
 :do {add list=$AddressList comment=tidal.com address=18.172.246.246} on-error {}
 :do {add list=$AddressList comment=tidal.com address=18.172.88.20} on-error {}
 :do {add list=$AddressList comment=tidal.com address=18.172.88.42} on-error {}
@@ -157,9 +158,13 @@
 :do {add list=$AddressList comment=tidal.com address=18.239.36.66} on-error {}
 :do {add list=$AddressList comment=tidal.com address=18.239.39.247} on-error {}
 :do {add list=$AddressList comment=tidal.com address=18.239.50.12} on-error {}
+:do {add list=$AddressList comment=tidal.com address=18.239.50.125} on-error {}
 :do {add list=$AddressList comment=tidal.com address=18.239.50.49} on-error {}
+:do {add list=$AddressList comment=tidal.com address=18.239.50.51} on-error {}
 :do {add list=$AddressList comment=tidal.com address=18.239.50.66} on-error {}
+:do {add list=$AddressList comment=tidal.com address=18.239.50.78} on-error {}
 :do {add list=$AddressList comment=tidal.com address=18.239.50.8} on-error {}
+:do {add list=$AddressList comment=tidal.com address=18.239.50.91} on-error {}
 :do {add list=$AddressList comment=tidal.com address=18.239.56.247} on-error {}
 :do {add list=$AddressList comment=tidal.com address=18.239.69.109} on-error {}
 :do {add list=$AddressList comment=tidal.com address=18.239.69.116} on-error {}
@@ -345,8 +350,3 @@
 :do {add list=$AddressList comment=tidal.com address=18.65.39.7} on-error {}
 :do {add list=$AddressList comment=tidal.com address=18.65.39.88} on-error {}
 :do {add list=$AddressList comment=tidal.com address=18.65.39.98} on-error {}
-:do {add list=$AddressList comment=tidal.com address=18.65.41.252} on-error {}
-:do {add list=$AddressList comment=tidal.com address=18.65.81.246} on-error {}
-:do {add list=$AddressList comment=tidal.com address=18.65.82.109} on-error {}
-:do {add list=$AddressList comment=tidal.com address=18.65.82.116} on-error {}
-:do {add list=$AddressList comment=tidal.com address=18.65.82.123} on-error {}

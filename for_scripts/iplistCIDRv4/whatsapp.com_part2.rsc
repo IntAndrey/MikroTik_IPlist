@@ -171,5 +171,6 @@
 :do {add list=$AddressList comment=whatsapp.com address=94.79.192.0/19} on-error {}
 :do {add list=$AddressList comment=whatsapp.com address=94.96.0.0/14} on-error {}
 :do {add list=$AddressList comment=whatsapp.com address=95.107.145.0/24} on-error {}
+:do {add list=$AddressList comment=whatsapp.com address=95.180.0.0/18} on-error {}
 :do {add list=$AddressList comment=whatsapp.com address=95.209.200.0/21} on-error {}
 :do {add list=$AddressList comment=whatsapp.com address=95.94.0.0/15} on-error {}
