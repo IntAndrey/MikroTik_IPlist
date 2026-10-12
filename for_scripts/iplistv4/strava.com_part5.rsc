@@ -1,5 +1,7 @@
 :global AddressList
 /ip firewall address-list
+:do {add list=$AddressList comment=strava.com address=18.244.18.54} on-error {}
+:do {add list=$AddressList comment=strava.com address=18.244.87.115} on-error {}
 :do {add list=$AddressList comment=strava.com address=18.244.87.118} on-error {}
 :do {add list=$AddressList comment=strava.com address=18.244.87.123} on-error {}
 :do {add list=$AddressList comment=strava.com address=18.244.87.126} on-error {}
@@ -256,6 +258,10 @@
 :do {add list=$AddressList comment=strava.com address=18.67.240.97} on-error {}
 :do {add list=$AddressList comment=strava.com address=184.192.146.32} on-error {}
 :do {add list=$AddressList comment=strava.com address=184.73.197.206} on-error {}
+:do {add list=$AddressList comment=strava.com address=216.137.44.17} on-error {}
+:do {add list=$AddressList comment=strava.com address=216.137.44.21} on-error {}
+:do {add list=$AddressList comment=strava.com address=216.137.44.23} on-error {}
+:do {add list=$AddressList comment=strava.com address=216.137.44.65} on-error {}
 :do {add list=$AddressList comment=strava.com address=216.137.52.104} on-error {}
 :do {add list=$AddressList comment=strava.com address=216.137.52.110} on-error {}
 :do {add list=$AddressList comment=strava.com address=216.137.52.111} on-error {}
@@ -344,9 +350,3 @@
 :do {add list=$AddressList comment=strava.com address=3.160.212.73} on-error {}
 :do {add list=$AddressList comment=strava.com address=3.160.212.75} on-error {}
 :do {add list=$AddressList comment=strava.com address=3.160.231.107} on-error {}
-:do {add list=$AddressList comment=strava.com address=3.160.231.115} on-error {}
-:do {add list=$AddressList comment=strava.com address=3.160.231.124} on-error {}
-:do {add list=$AddressList comment=strava.com address=3.160.231.83} on-error {}
-:do {add list=$AddressList comment=strava.com address=3.160.237.109} on-error {}
-:do {add list=$AddressList comment=strava.com address=3.160.237.11} on-error {}
-:do {add list=$AddressList comment=strava.com address=3.160.237.2} on-error {}

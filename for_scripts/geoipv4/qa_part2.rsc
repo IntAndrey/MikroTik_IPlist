@@ -1,5 +1,8 @@
 :global AddressList
 /ip firewall address-list
+:do {add list=$AddressList comment=qa address=34.34.230.0/24} on-error {}
+:do {add list=$AddressList comment=qa address=37.186.32.0/19} on-error {}
+:do {add list=$AddressList comment=qa address=37.208.128.0/17} on-error {}
 :do {add list=$AddressList comment=qa address=37.210.0.0/15} on-error {}
 :do {add list=$AddressList comment=qa address=38.54.74.0/24} on-error {}
 :do {add list=$AddressList comment=qa address=4.170.0.0/15} on-error {}
@@ -102,10 +105,21 @@
 :do {add list=$AddressList comment=qa address=82.148.96.0/19} on-error {}
 :do {add list=$AddressList comment=qa address=86.36.0.0/15} on-error {}
 :do {add list=$AddressList comment=qa address=86.62.192.0/18} on-error {}
+:do {add list=$AddressList comment=qa address=87.61.192.0/22} on-error {}
+:do {add list=$AddressList comment=qa address=87.61.197.0/24} on-error {}
+:do {add list=$AddressList comment=qa address=87.61.198.0/23} on-error {}
+:do {add list=$AddressList comment=qa address=87.61.200.0/21} on-error {}
+:do {add list=$AddressList comment=qa address=87.61.208.0/22} on-error {}
+:do {add list=$AddressList comment=qa address=87.61.212.0/24} on-error {}
+:do {add list=$AddressList comment=qa address=87.61.214.0/24} on-error {}
+:do {add list=$AddressList comment=qa address=87.61.216.0/23} on-error {}
+:do {add list=$AddressList comment=qa address=87.61.218.0/24} on-error {}
+:do {add list=$AddressList comment=qa address=87.61.220.0/22} on-error {}
 :do {add list=$AddressList comment=qa address=87.84.9.0/24} on-error {}
 :do {add list=$AddressList comment=qa address=89.106.3.0/24} on-error {}
 :do {add list=$AddressList comment=qa address=89.211.0.0/16} on-error {}
 :do {add list=$AddressList comment=qa address=9.246.172.0/23} on-error {}
+:do {add list=$AddressList comment=qa address=9.246.178.0/23} on-error {}
 :do {add list=$AddressList comment=qa address=91.102.181.0/24} on-error {}
 :do {add list=$AddressList comment=qa address=91.228.176.0/24} on-error {}
 :do {add list=$AddressList comment=qa address=92.42.103.0/24} on-error {}

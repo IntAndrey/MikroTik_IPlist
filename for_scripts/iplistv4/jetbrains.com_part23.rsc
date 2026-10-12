@@ -1,5 +1,14 @@
 :global AddressList
 /ip firewall address-list
+:do {add list=$AddressList comment=jetbrains.com address=3.160.57.113} on-error {}
+:do {add list=$AddressList comment=jetbrains.com address=3.160.57.114} on-error {}
+:do {add list=$AddressList comment=jetbrains.com address=3.160.57.115} on-error {}
+:do {add list=$AddressList comment=jetbrains.com address=3.160.57.116} on-error {}
+:do {add list=$AddressList comment=jetbrains.com address=3.160.57.118} on-error {}
+:do {add list=$AddressList comment=jetbrains.com address=3.160.57.120} on-error {}
+:do {add list=$AddressList comment=jetbrains.com address=3.160.57.125} on-error {}
+:do {add list=$AddressList comment=jetbrains.com address=3.160.57.128} on-error {}
+:do {add list=$AddressList comment=jetbrains.com address=3.160.57.14} on-error {}
 :do {add list=$AddressList comment=jetbrains.com address=3.160.57.15} on-error {}
 :do {add list=$AddressList comment=jetbrains.com address=3.160.57.16} on-error {}
 :do {add list=$AddressList comment=jetbrains.com address=3.160.57.17} on-error {}
@@ -341,12 +350,3 @@
 :do {add list=$AddressList comment=jetbrains.com address=3.162.3.38} on-error {}
 :do {add list=$AddressList comment=jetbrains.com address=3.162.3.43} on-error {}
 :do {add list=$AddressList comment=jetbrains.com address=3.162.3.46} on-error {}
-:do {add list=$AddressList comment=jetbrains.com address=3.162.3.48} on-error {}
-:do {add list=$AddressList comment=jetbrains.com address=3.162.3.51} on-error {}
-:do {add list=$AddressList comment=jetbrains.com address=3.162.3.57} on-error {}
-:do {add list=$AddressList comment=jetbrains.com address=3.162.3.59} on-error {}
-:do {add list=$AddressList comment=jetbrains.com address=3.162.3.7} on-error {}
-:do {add list=$AddressList comment=jetbrains.com address=3.162.3.74} on-error {}
-:do {add list=$AddressList comment=jetbrains.com address=3.162.3.87} on-error {}
-:do {add list=$AddressList comment=jetbrains.com address=3.162.3.89} on-error {}
-:do {add list=$AddressList comment=jetbrains.com address=3.162.3.99} on-error {}

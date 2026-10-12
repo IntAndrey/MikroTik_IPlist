@@ -2,8 +2,11 @@
 :global RouteTab
 :global GateWay
 /ip route
+:if ([:len [/ip/route/find dst-address=144.124.208.0/24 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=144.124.208.0/24 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=cloudflare }
+:if ([:len [/ip/route/find dst-address=144.124.211.0/24 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=144.124.211.0/24 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=cloudflare }
 :if ([:len [/ip/route/find dst-address=144.124.212.0/24 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=144.124.212.0/24 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=cloudflare }
 :if ([:len [/ip/route/find dst-address=144.124.214.0/23 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=144.124.214.0/23 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=cloudflare }
+:if ([:len [/ip/route/find dst-address=144.124.223.0/24 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=144.124.223.0/24 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=cloudflare }
 :if ([:len [/ip/route/find dst-address=144.208.122.0/24 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=144.208.122.0/24 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=cloudflare }
 :if ([:len [/ip/route/find dst-address=144.225.66.0/23 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=144.225.66.0/23 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=cloudflare }
 :if ([:len [/ip/route/find dst-address=144.225.90.0/24 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=144.225.90.0/24 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=cloudflare }
@@ -85,6 +88,7 @@
 :if ([:len [/ip/route/find dst-address=162.44.118.0/23 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=162.44.118.0/23 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=cloudflare }
 :if ([:len [/ip/route/find dst-address=162.44.208.0/23 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=162.44.208.0/23 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=cloudflare }
 :if ([:len [/ip/route/find dst-address=162.44.32.0/22 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=162.44.32.0/22 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=cloudflare }
+:if ([:len [/ip/route/find dst-address=163.245.49.0/24 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=163.245.49.0/24 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=cloudflare }
 :if ([:len [/ip/route/find dst-address=164.38.155.0/24 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=164.38.155.0/24 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=cloudflare }
 :if ([:len [/ip/route/find dst-address=165.101.60.0/23 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=165.101.60.0/23 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=cloudflare }
 :if ([:len [/ip/route/find dst-address=166.0.10.0/24 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=166.0.10.0/24 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=cloudflare }
@@ -98,7 +102,3 @@
 :if ([:len [/ip/route/find dst-address=167.68.42.0/24 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=167.68.42.0/24 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=cloudflare }
 :if ([:len [/ip/route/find dst-address=167.74.130.0/24 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=167.74.130.0/24 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=cloudflare }
 :if ([:len [/ip/route/find dst-address=167.74.142.0/23 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=167.74.142.0/23 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=cloudflare }
-:if ([:len [/ip/route/find dst-address=167.74.92.0/22 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=167.74.92.0/22 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=cloudflare }
-:if ([:len [/ip/route/find dst-address=168.151.31.0/24 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=168.151.31.0/24 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=cloudflare }
-:if ([:len [/ip/route/find dst-address=168.183.3.0/24 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=168.183.3.0/24 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=cloudflare }
-:if ([:len [/ip/route/find dst-address=169.40.133.0/24 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=169.40.133.0/24 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=cloudflare }

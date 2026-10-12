@@ -329,10 +329,12 @@
 :do {add list=$AddressList comment=bellingcat.com address=65.9.95.78} on-error {}
 :do {add list=$AddressList comment=bellingcat.com address=65.9.95.87} on-error {}
 :do {add list=$AddressList comment=bellingcat.com address=8.47.69.0} on-error {}
+:do {add list=$AddressList comment=bellingcat.com address=8.47.69.5} on-error {}
 :do {add list=$AddressList comment=bellingcat.com address=8.47.69.6} on-error {}
 :do {add list=$AddressList comment=bellingcat.com address=8.47.69.7} on-error {}
 :do {add list=$AddressList comment=bellingcat.com address=8.47.69.8} on-error {}
 :do {add list=$AddressList comment=bellingcat.com address=8.6.112.0} on-error {}
+:do {add list=$AddressList comment=bellingcat.com address=8.6.112.5} on-error {}
 :do {add list=$AddressList comment=bellingcat.com address=8.6.112.6} on-error {}
 :do {add list=$AddressList comment=bellingcat.com address=8.6.112.7} on-error {}
 :do {add list=$AddressList comment=bellingcat.com address=8.6.112.8} on-error {}

@@ -1,5 +1,18 @@
 :global AddressList
 /ip firewall address-list
+:do {add list=$AddressList comment=golosameriki.com address=65.9.187.62} on-error {}
+:do {add list=$AddressList comment=golosameriki.com address=65.9.189.11} on-error {}
+:do {add list=$AddressList comment=golosameriki.com address=65.9.189.116} on-error {}
+:do {add list=$AddressList comment=golosameriki.com address=65.9.189.23} on-error {}
+:do {add list=$AddressList comment=golosameriki.com address=65.9.189.4} on-error {}
+:do {add list=$AddressList comment=golosameriki.com address=65.9.189.53} on-error {}
+:do {add list=$AddressList comment=golosameriki.com address=65.9.189.74} on-error {}
+:do {add list=$AddressList comment=golosameriki.com address=65.9.189.80} on-error {}
+:do {add list=$AddressList comment=golosameriki.com address=65.9.189.84} on-error {}
+:do {add list=$AddressList comment=golosameriki.com address=65.9.46.101} on-error {}
+:do {add list=$AddressList comment=golosameriki.com address=65.9.46.11} on-error {}
+:do {add list=$AddressList comment=golosameriki.com address=65.9.46.115} on-error {}
+:do {add list=$AddressList comment=golosameriki.com address=65.9.46.118} on-error {}
 :do {add list=$AddressList comment=golosameriki.com address=65.9.46.27} on-error {}
 :do {add list=$AddressList comment=golosameriki.com address=65.9.46.6} on-error {}
 :do {add list=$AddressList comment=golosameriki.com address=65.9.46.88} on-error {}
@@ -130,7 +143,9 @@
 :do {add list=$AddressList comment=golosameriki.com address=92.123.103.9} on-error {}
 :do {add list=$AddressList comment=golosameriki.com address=92.123.106.122} on-error {}
 :do {add list=$AddressList comment=golosameriki.com address=92.123.106.130} on-error {}
+:do {add list=$AddressList comment=golosameriki.com address=92.123.106.160} on-error {}
 :do {add list=$AddressList comment=golosameriki.com address=92.123.106.176} on-error {}
+:do {add list=$AddressList comment=golosameriki.com address=92.123.106.195} on-error {}
 :do {add list=$AddressList comment=golosameriki.com address=92.123.12.144} on-error {}
 :do {add list=$AddressList comment=golosameriki.com address=92.123.12.147} on-error {}
 :do {add list=$AddressList comment=golosameriki.com address=92.123.12.168} on-error {}
@@ -205,6 +220,8 @@
 :do {add list=$AddressList comment=golosameriki.com address=95.100.110.93} on-error {}
 :do {add list=$AddressList comment=golosameriki.com address=95.100.133.21} on-error {}
 :do {add list=$AddressList comment=golosameriki.com address=95.100.133.4} on-error {}
+:do {add list=$AddressList comment=golosameriki.com address=95.100.135.34} on-error {}
+:do {add list=$AddressList comment=golosameriki.com address=95.100.135.58} on-error {}
 :do {add list=$AddressList comment=golosameriki.com address=95.100.146.10} on-error {}
 :do {add list=$AddressList comment=golosameriki.com address=95.100.146.16} on-error {}
 :do {add list=$AddressList comment=golosameriki.com address=95.100.146.26} on-error {}
@@ -333,20 +350,3 @@
 :do {add list=$AddressList comment=golosameriki.com address=95.101.63.200} on-error {}
 :do {add list=$AddressList comment=golosameriki.com address=95.101.63.50} on-error {}
 :do {add list=$AddressList comment=golosameriki.com address=95.101.74.100} on-error {}
-:do {add list=$AddressList comment=golosameriki.com address=95.101.74.110} on-error {}
-:do {add list=$AddressList comment=golosameriki.com address=95.101.74.115} on-error {}
-:do {add list=$AddressList comment=golosameriki.com address=95.101.74.122} on-error {}
-:do {add list=$AddressList comment=golosameriki.com address=95.101.74.72} on-error {}
-:do {add list=$AddressList comment=golosameriki.com address=95.101.74.80} on-error {}
-:do {add list=$AddressList comment=golosameriki.com address=95.101.74.99} on-error {}
-:do {add list=$AddressList comment=golosameriki.com address=95.101.79.112} on-error {}
-:do {add list=$AddressList comment=golosameriki.com address=95.101.79.19} on-error {}
-:do {add list=$AddressList comment=golosameriki.com address=95.101.79.59} on-error {}
-:do {add list=$AddressList comment=golosameriki.com address=95.101.79.90} on-error {}
-:do {add list=$AddressList comment=golosameriki.com address=96.16.248.144} on-error {}
-:do {add list=$AddressList comment=golosameriki.com address=96.16.248.146} on-error {}
-:do {add list=$AddressList comment=golosameriki.com address=96.16.248.149} on-error {}
-:do {add list=$AddressList comment=golosameriki.com address=96.16.248.163} on-error {}
-:do {add list=$AddressList comment=golosameriki.com address=96.16.49.196} on-error {}
-:do {add list=$AddressList comment=golosameriki.com address=96.16.49.202} on-error {}
-:do {add list=$AddressList comment=golosameriki.com address=96.16.53.20} on-error {}

@@ -1,5 +1,12 @@
 :global AddressList
 /ip firewall address-list
+:do {add list=$AddressList comment=dw.com address=93.186.134.83} on-error {}
+:do {add list=$AddressList comment=dw.com address=93.186.137.137} on-error {}
+:do {add list=$AddressList comment=dw.com address=93.186.137.147} on-error {}
+:do {add list=$AddressList comment=dw.com address=93.186.137.153} on-error {}
+:do {add list=$AddressList comment=dw.com address=93.186.137.176} on-error {}
+:do {add list=$AddressList comment=dw.com address=93.186.137.185} on-error {}
+:do {add list=$AddressList comment=dw.com address=93.186.137.186} on-error {}
 :do {add list=$AddressList comment=dw.com address=93.186.137.202} on-error {}
 :do {add list=$AddressList comment=dw.com address=93.186.137.203} on-error {}
 :do {add list=$AddressList comment=dw.com address=95.100.109.101} on-error {}
@@ -14,7 +21,9 @@
 :do {add list=$AddressList comment=dw.com address=95.100.155.242} on-error {}
 :do {add list=$AddressList comment=dw.com address=95.100.155.243} on-error {}
 :do {add list=$AddressList comment=dw.com address=95.100.158.16} on-error {}
+:do {add list=$AddressList comment=dw.com address=95.100.158.18} on-error {}
 :do {add list=$AddressList comment=dw.com address=95.100.158.25} on-error {}
+:do {add list=$AddressList comment=dw.com address=95.100.158.41} on-error {}
 :do {add list=$AddressList comment=dw.com address=95.100.158.88} on-error {}
 :do {add list=$AddressList comment=dw.com address=95.100.158.90} on-error {}
 :do {add list=$AddressList comment=dw.com address=95.100.165.92} on-error {}

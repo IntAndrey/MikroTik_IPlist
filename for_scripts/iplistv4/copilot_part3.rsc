@@ -1,5 +1,8 @@
 :global AddressList
 /ip firewall address-list
+:do {add list=$AddressList comment=copilot address=184.25.148.216} on-error {}
+:do {add list=$AddressList comment=copilot address=184.25.148.217} on-error {}
+:do {add list=$AddressList comment=copilot address=184.25.148.218} on-error {}
 :do {add list=$AddressList comment=copilot address=184.25.148.225} on-error {}
 :do {add list=$AddressList comment=copilot address=184.25.148.226} on-error {}
 :do {add list=$AddressList comment=copilot address=184.25.148.232} on-error {}
@@ -347,6 +350,3 @@
 :do {add list=$AddressList comment=copilot address=2.16.158.89} on-error {}
 :do {add list=$AddressList comment=copilot address=2.16.158.90} on-error {}
 :do {add list=$AddressList comment=copilot address=2.16.158.91} on-error {}
-:do {add list=$AddressList comment=copilot address=2.16.158.96} on-error {}
-:do {add list=$AddressList comment=copilot address=2.16.158.97} on-error {}
-:do {add list=$AddressList comment=copilot address=2.16.16.228} on-error {}

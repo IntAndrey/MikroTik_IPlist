@@ -2,6 +2,8 @@
 :global RouteTab
 :global GateWay
 /ip route
+:if ([:len [/ip/route/find dst-address=155.2.170.176/29 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=155.2.170.176/29 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=qa }
+:if ([:len [/ip/route/find dst-address=155.2.174.176/29 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=155.2.174.176/29 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=qa }
 :if ([:len [/ip/route/find dst-address=155.212.121.0/24 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=155.212.121.0/24 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=qa }
 :if ([:len [/ip/route/find dst-address=156.244.3.0/24 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=156.244.3.0/24 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=qa }
 :if ([:len [/ip/route/find dst-address=156.244.41.0/24 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=156.244.41.0/24 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=qa }
@@ -81,6 +83,7 @@
 :if ([:len [/ip/route/find dst-address=185.37.96.0/22 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=185.37.96.0/22 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=qa }
 :if ([:len [/ip/route/find dst-address=185.96.224.0/22 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=185.96.224.0/22 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=qa }
 :if ([:len [/ip/route/find dst-address=187.40.33.0/24 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=187.40.33.0/24 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=qa }
+:if ([:len [/ip/route/find dst-address=191.222.42.0/24 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=191.222.42.0/24 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=qa }
 :if ([:len [/ip/route/find dst-address=192.109.41.136/29 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=192.109.41.136/29 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=qa }
 :if ([:len [/ip/route/find dst-address=193.168.166.0/24 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=193.168.166.0/24 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=qa }
 :if ([:len [/ip/route/find dst-address=193.84.183.224/28 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=193.84.183.224/28 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=qa }
@@ -99,6 +102,3 @@
 :if ([:len [/ip/route/find dst-address=2.23.168.0/22 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=2.23.168.0/22 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=qa }
 :if ([:len [/ip/route/find dst-address=20.135.238.0/23 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=20.135.238.0/23 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=qa }
 :if ([:len [/ip/route/find dst-address=20.135.242.0/23 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=20.135.242.0/23 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=qa }
-:if ([:len [/ip/route/find dst-address=20.135.244.0/22 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=20.135.244.0/22 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=qa }
-:if ([:len [/ip/route/find dst-address=20.157.154.0/24 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=20.157.154.0/24 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=qa }
-:if ([:len [/ip/route/find dst-address=20.157.190.0/24 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=20.157.190.0/24 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=qa }

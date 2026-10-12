@@ -1,5 +1,10 @@
 :global AddressList
 /ip firewall address-list
+:do {add list=$AddressList comment=AS212238 address=140.99.113.0/24} on-error {}
+:do {add list=$AddressList comment=AS212238 address=140.99.121.0/24} on-error {}
+:do {add list=$AddressList comment=AS212238 address=140.99.125.0/24} on-error {}
+:do {add list=$AddressList comment=AS212238 address=140.99.130.0/24} on-error {}
+:do {add list=$AddressList comment=AS212238 address=140.99.136.0/22} on-error {}
 :do {add list=$AddressList comment=AS212238 address=140.99.213.0/24} on-error {}
 :do {add list=$AddressList comment=AS212238 address=140.99.215.0/24} on-error {}
 :do {add list=$AddressList comment=AS212238 address=140.99.228.0/22} on-error {}
@@ -192,6 +197,7 @@
 :do {add list=$AddressList comment=AS212238 address=154.13.136.0/24} on-error {}
 :do {add list=$AddressList comment=AS212238 address=154.13.197.0/24} on-error {}
 :do {add list=$AddressList comment=AS212238 address=154.13.208.0/22} on-error {}
+:do {add list=$AddressList comment=AS212238 address=154.16.108.0/24} on-error {}
 :do {add list=$AddressList comment=AS212238 address=154.16.110.0/24} on-error {}
 :do {add list=$AddressList comment=AS212238 address=154.16.131.0/24} on-error {}
 :do {add list=$AddressList comment=AS212238 address=154.16.133.0/24} on-error {}
@@ -344,9 +350,3 @@
 :do {add list=$AddressList comment=AS212238 address=166.88.69.0/24} on-error {}
 :do {add list=$AddressList comment=AS212238 address=166.88.74.0/24} on-error {}
 :do {add list=$AddressList comment=AS212238 address=166.88.79.0/24} on-error {}
-:do {add list=$AddressList comment=AS212238 address=166.88.80.0/24} on-error {}
-:do {add list=$AddressList comment=AS212238 address=166.88.82.0/24} on-error {}
-:do {add list=$AddressList comment=AS212238 address=166.88.84.0/24} on-error {}
-:do {add list=$AddressList comment=AS212238 address=166.88.89.0/24} on-error {}
-:do {add list=$AddressList comment=AS212238 address=166.88.91.0/24} on-error {}
-:do {add list=$AddressList comment=AS212238 address=166.88.93.0/24} on-error {}

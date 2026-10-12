@@ -1,5 +1,7 @@
 :global AddressList
 /ip firewall address-list
+:do {add list=$AddressList comment=pixiv.net address=18.244.28.112} on-error {}
+:do {add list=$AddressList comment=pixiv.net address=18.244.28.12} on-error {}
 :do {add list=$AddressList comment=pixiv.net address=18.244.28.16} on-error {}
 :do {add list=$AddressList comment=pixiv.net address=18.244.28.94} on-error {}
 :do {add list=$AddressList comment=pixiv.net address=18.244.87.44} on-error {}
@@ -210,6 +212,10 @@
 :do {add list=$AddressList comment=pixiv.net address=3.174.98.26} on-error {}
 :do {add list=$AddressList comment=pixiv.net address=3.174.98.58} on-error {}
 :do {add list=$AddressList comment=pixiv.net address=3.174.98.6} on-error {}
+:do {add list=$AddressList comment=pixiv.net address=3.175.246.122} on-error {}
+:do {add list=$AddressList comment=pixiv.net address=3.175.246.17} on-error {}
+:do {add list=$AddressList comment=pixiv.net address=3.175.246.48} on-error {}
+:do {add list=$AddressList comment=pixiv.net address=3.175.246.69} on-error {}
 :do {add list=$AddressList comment=pixiv.net address=34.54.229.174} on-error {}
 :do {add list=$AddressList comment=pixiv.net address=35.190.50.194} on-error {}
 :do {add list=$AddressList comment=pixiv.net address=35.227.252.161} on-error {}

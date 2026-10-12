@@ -1,5 +1,14 @@
 :global AddressList
 /ip firewall address-list
+:do {add list=$AddressList comment=jetbrains.com address=3.166.96.46} on-error {}
+:do {add list=$AddressList comment=jetbrains.com address=3.166.96.47} on-error {}
+:do {add list=$AddressList comment=jetbrains.com address=3.166.96.49} on-error {}
+:do {add list=$AddressList comment=jetbrains.com address=3.166.96.52} on-error {}
+:do {add list=$AddressList comment=jetbrains.com address=3.166.96.70} on-error {}
+:do {add list=$AddressList comment=jetbrains.com address=3.166.96.75} on-error {}
+:do {add list=$AddressList comment=jetbrains.com address=3.166.96.86} on-error {}
+:do {add list=$AddressList comment=jetbrains.com address=3.166.96.92} on-error {}
+:do {add list=$AddressList comment=jetbrains.com address=3.166.96.96} on-error {}
 :do {add list=$AddressList comment=jetbrains.com address=3.167.112.118} on-error {}
 :do {add list=$AddressList comment=jetbrains.com address=3.167.112.123} on-error {}
 :do {add list=$AddressList comment=jetbrains.com address=3.167.112.128} on-error {}
@@ -341,12 +350,3 @@
 :do {add list=$AddressList comment=jetbrains.com address=3.171.214.71} on-error {}
 :do {add list=$AddressList comment=jetbrains.com address=3.171.214.84} on-error {}
 :do {add list=$AddressList comment=jetbrains.com address=3.171.214.86} on-error {}
-:do {add list=$AddressList comment=jetbrains.com address=3.171.214.93} on-error {}
-:do {add list=$AddressList comment=jetbrains.com address=3.171.61.104} on-error {}
-:do {add list=$AddressList comment=jetbrains.com address=3.171.61.11} on-error {}
-:do {add list=$AddressList comment=jetbrains.com address=3.171.61.36} on-error {}
-:do {add list=$AddressList comment=jetbrains.com address=3.171.61.46} on-error {}
-:do {add list=$AddressList comment=jetbrains.com address=3.171.61.55} on-error {}
-:do {add list=$AddressList comment=jetbrains.com address=3.171.61.60} on-error {}
-:do {add list=$AddressList comment=jetbrains.com address=3.171.61.71} on-error {}
-:do {add list=$AddressList comment=jetbrains.com address=3.171.61.79} on-error {}

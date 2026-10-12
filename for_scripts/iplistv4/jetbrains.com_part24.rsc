@@ -1,5 +1,14 @@
 :global AddressList
 /ip firewall address-list
+:do {add list=$AddressList comment=jetbrains.com address=3.162.3.48} on-error {}
+:do {add list=$AddressList comment=jetbrains.com address=3.162.3.51} on-error {}
+:do {add list=$AddressList comment=jetbrains.com address=3.162.3.57} on-error {}
+:do {add list=$AddressList comment=jetbrains.com address=3.162.3.59} on-error {}
+:do {add list=$AddressList comment=jetbrains.com address=3.162.3.7} on-error {}
+:do {add list=$AddressList comment=jetbrains.com address=3.162.3.74} on-error {}
+:do {add list=$AddressList comment=jetbrains.com address=3.162.3.87} on-error {}
+:do {add list=$AddressList comment=jetbrains.com address=3.162.3.89} on-error {}
+:do {add list=$AddressList comment=jetbrains.com address=3.162.3.99} on-error {}
 :do {add list=$AddressList comment=jetbrains.com address=3.162.38.104} on-error {}
 :do {add list=$AddressList comment=jetbrains.com address=3.162.38.108} on-error {}
 :do {add list=$AddressList comment=jetbrains.com address=3.162.38.124} on-error {}
@@ -341,12 +350,3 @@
 :do {add list=$AddressList comment=jetbrains.com address=3.164.240.105} on-error {}
 :do {add list=$AddressList comment=jetbrains.com address=3.164.240.106} on-error {}
 :do {add list=$AddressList comment=jetbrains.com address=3.164.240.107} on-error {}
-:do {add list=$AddressList comment=jetbrains.com address=3.164.240.108} on-error {}
-:do {add list=$AddressList comment=jetbrains.com address=3.164.240.109} on-error {}
-:do {add list=$AddressList comment=jetbrains.com address=3.164.240.11} on-error {}
-:do {add list=$AddressList comment=jetbrains.com address=3.164.240.110} on-error {}
-:do {add list=$AddressList comment=jetbrains.com address=3.164.240.111} on-error {}
-:do {add list=$AddressList comment=jetbrains.com address=3.164.240.112} on-error {}
-:do {add list=$AddressList comment=jetbrains.com address=3.164.240.113} on-error {}
-:do {add list=$AddressList comment=jetbrains.com address=3.164.240.115} on-error {}
-:do {add list=$AddressList comment=jetbrains.com address=3.164.240.118} on-error {}

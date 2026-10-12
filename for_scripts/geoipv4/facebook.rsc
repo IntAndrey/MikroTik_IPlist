@@ -2,7 +2,7 @@
 /ip firewall address-list
 :do {add list=$AddressList comment=facebook address=102.132.112.0/24} on-error {}
 :do {add list=$AddressList comment=facebook address=102.132.115.0/24} on-error {}
-:do {add list=$AddressList comment=facebook address=102.132.117.0/24} on-error {}
+:do {add list=$AddressList comment=facebook address=102.132.116.0/23} on-error {}
 :do {add list=$AddressList comment=facebook address=102.132.119.0/24} on-error {}
 :do {add list=$AddressList comment=facebook address=102.132.120.0/23} on-error {}
 :do {add list=$AddressList comment=facebook address=102.132.123.0/24} on-error {}
@@ -46,9 +46,7 @@
 :do {add list=$AddressList comment=facebook address=157.240.179.0/24} on-error {}
 :do {add list=$AddressList comment=facebook address=157.240.181.0/24} on-error {}
 :do {add list=$AddressList comment=facebook address=157.240.182.0/23} on-error {}
-:do {add list=$AddressList comment=facebook address=157.240.184.0/22} on-error {}
-:do {add list=$AddressList comment=facebook address=157.240.188.0/23} on-error {}
-:do {add list=$AddressList comment=facebook address=157.240.190.0/24} on-error {}
+:do {add list=$AddressList comment=facebook address=157.240.184.0/21} on-error {}
 :do {add list=$AddressList comment=facebook address=157.240.192.0/18} on-error {}
 :do {add list=$AddressList comment=facebook address=163.114.128.0/20} on-error {}
 :do {add list=$AddressList comment=facebook address=163.70.128.0/17} on-error {}

@@ -20,12 +20,14 @@
 :do {add list=$AddressList comment=unian.net address=195.137.240.83} on-error {}
 :do {add list=$AddressList comment=unian.net address=8.47.69.0} on-error {}
 :do {add list=$AddressList comment=unian.net address=8.47.69.4} on-error {}
+:do {add list=$AddressList comment=unian.net address=8.47.69.5} on-error {}
 :do {add list=$AddressList comment=unian.net address=8.47.69.6} on-error {}
 :do {add list=$AddressList comment=unian.net address=8.47.69.7} on-error {}
 :do {add list=$AddressList comment=unian.net address=8.47.69.8} on-error {}
 :do {add list=$AddressList comment=unian.net address=8.47.69.9} on-error {}
 :do {add list=$AddressList comment=unian.net address=8.6.112.0} on-error {}
 :do {add list=$AddressList comment=unian.net address=8.6.112.4} on-error {}
+:do {add list=$AddressList comment=unian.net address=8.6.112.5} on-error {}
 :do {add list=$AddressList comment=unian.net address=8.6.112.6} on-error {}
 :do {add list=$AddressList comment=unian.net address=8.6.112.7} on-error {}
 :do {add list=$AddressList comment=unian.net address=8.6.112.8} on-error {}

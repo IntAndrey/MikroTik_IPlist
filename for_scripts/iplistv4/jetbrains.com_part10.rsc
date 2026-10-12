@@ -1,5 +1,14 @@
 :global AddressList
 /ip firewall address-list
+:do {add list=$AddressList comment=jetbrains.com address=13.35.93.110} on-error {}
+:do {add list=$AddressList comment=jetbrains.com address=13.35.93.128} on-error {}
+:do {add list=$AddressList comment=jetbrains.com address=13.35.93.33} on-error {}
+:do {add list=$AddressList comment=jetbrains.com address=13.35.93.43} on-error {}
+:do {add list=$AddressList comment=jetbrains.com address=13.35.93.53} on-error {}
+:do {add list=$AddressList comment=jetbrains.com address=13.35.93.67} on-error {}
+:do {add list=$AddressList comment=jetbrains.com address=13.35.93.78} on-error {}
+:do {add list=$AddressList comment=jetbrains.com address=13.48.101.129} on-error {}
+:do {add list=$AddressList comment=jetbrains.com address=13.48.110.164} on-error {}
 :do {add list=$AddressList comment=jetbrains.com address=13.48.113.181} on-error {}
 :do {add list=$AddressList comment=jetbrains.com address=13.48.115.119} on-error {}
 :do {add list=$AddressList comment=jetbrains.com address=13.48.169.85} on-error {}
@@ -341,12 +350,3 @@
 :do {add list=$AddressList comment=jetbrains.com address=143.204.55.44} on-error {}
 :do {add list=$AddressList comment=jetbrains.com address=143.204.55.45} on-error {}
 :do {add list=$AddressList comment=jetbrains.com address=143.204.55.46} on-error {}
-:do {add list=$AddressList comment=jetbrains.com address=143.204.55.47} on-error {}
-:do {add list=$AddressList comment=jetbrains.com address=143.204.55.48} on-error {}
-:do {add list=$AddressList comment=jetbrains.com address=143.204.55.49} on-error {}
-:do {add list=$AddressList comment=jetbrains.com address=143.204.55.5} on-error {}
-:do {add list=$AddressList comment=jetbrains.com address=143.204.55.51} on-error {}
-:do {add list=$AddressList comment=jetbrains.com address=143.204.55.52} on-error {}
-:do {add list=$AddressList comment=jetbrains.com address=143.204.55.53} on-error {}
-:do {add list=$AddressList comment=jetbrains.com address=143.204.55.55} on-error {}
-:do {add list=$AddressList comment=jetbrains.com address=143.204.55.57} on-error {}

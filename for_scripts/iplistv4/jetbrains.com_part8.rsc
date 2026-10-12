@@ -1,5 +1,14 @@
 :global AddressList
 /ip firewall address-list
+:do {add list=$AddressList comment=jetbrains.com address=13.249.228.98} on-error {}
+:do {add list=$AddressList comment=jetbrains.com address=13.249.231.119} on-error {}
+:do {add list=$AddressList comment=jetbrains.com address=13.249.231.124} on-error {}
+:do {add list=$AddressList comment=jetbrains.com address=13.249.231.2} on-error {}
+:do {add list=$AddressList comment=jetbrains.com address=13.249.231.47} on-error {}
+:do {add list=$AddressList comment=jetbrains.com address=13.249.39.106} on-error {}
+:do {add list=$AddressList comment=jetbrains.com address=13.249.39.22} on-error {}
+:do {add list=$AddressList comment=jetbrains.com address=13.249.39.34} on-error {}
+:do {add list=$AddressList comment=jetbrains.com address=13.249.39.58} on-error {}
 :do {add list=$AddressList comment=jetbrains.com address=13.249.74.33} on-error {}
 :do {add list=$AddressList comment=jetbrains.com address=13.249.74.5} on-error {}
 :do {add list=$AddressList comment=jetbrains.com address=13.249.74.55} on-error {}
@@ -341,12 +350,3 @@
 :do {add list=$AddressList comment=jetbrains.com address=13.32.220.54} on-error {}
 :do {add list=$AddressList comment=jetbrains.com address=13.32.220.56} on-error {}
 :do {add list=$AddressList comment=jetbrains.com address=13.32.220.58} on-error {}
-:do {add list=$AddressList comment=jetbrains.com address=13.32.220.59} on-error {}
-:do {add list=$AddressList comment=jetbrains.com address=13.32.220.65} on-error {}
-:do {add list=$AddressList comment=jetbrains.com address=13.32.220.66} on-error {}
-:do {add list=$AddressList comment=jetbrains.com address=13.32.220.67} on-error {}
-:do {add list=$AddressList comment=jetbrains.com address=13.32.220.72} on-error {}
-:do {add list=$AddressList comment=jetbrains.com address=13.32.220.75} on-error {}
-:do {add list=$AddressList comment=jetbrains.com address=13.32.220.76} on-error {}
-:do {add list=$AddressList comment=jetbrains.com address=13.32.220.77} on-error {}
-:do {add list=$AddressList comment=jetbrains.com address=13.32.220.8} on-error {}
