@@ -1,5 +1,17 @@
 :global AddressList
 /ip firewall address-list
+:do {add list=$AddressList comment=deviantart.com address=18.239.69.18} on-error {}
+:do {add list=$AddressList comment=deviantart.com address=18.239.69.27} on-error {}
+:do {add list=$AddressList comment=deviantart.com address=18.239.69.31} on-error {}
+:do {add list=$AddressList comment=deviantart.com address=18.239.69.65} on-error {}
+:do {add list=$AddressList comment=deviantart.com address=18.239.69.91} on-error {}
+:do {add list=$AddressList comment=deviantart.com address=18.239.83.119} on-error {}
+:do {add list=$AddressList comment=deviantart.com address=18.239.83.26} on-error {}
+:do {add list=$AddressList comment=deviantart.com address=18.239.83.39} on-error {}
+:do {add list=$AddressList comment=deviantart.com address=18.239.83.6} on-error {}
+:do {add list=$AddressList comment=deviantart.com address=18.244.102.105} on-error {}
+:do {add list=$AddressList comment=deviantart.com address=18.244.102.129} on-error {}
+:do {add list=$AddressList comment=deviantart.com address=18.244.102.60} on-error {}
 :do {add list=$AddressList comment=deviantart.com address=18.244.102.64} on-error {}
 :do {add list=$AddressList comment=deviantart.com address=18.244.102.69} on-error {}
 :do {add list=$AddressList comment=deviantart.com address=18.244.102.72} on-error {}
@@ -338,15 +350,3 @@
 :do {add list=$AddressList comment=deviantart.com address=3.175.34.2} on-error {}
 :do {add list=$AddressList comment=deviantart.com address=3.175.34.33} on-error {}
 :do {add list=$AddressList comment=deviantart.com address=3.175.34.34} on-error {}
-:do {add list=$AddressList comment=deviantart.com address=3.175.34.49} on-error {}
-:do {add list=$AddressList comment=deviantart.com address=3.175.34.73} on-error {}
-:do {add list=$AddressList comment=deviantart.com address=3.175.86.12} on-error {}
-:do {add list=$AddressList comment=deviantart.com address=3.175.86.55} on-error {}
-:do {add list=$AddressList comment=deviantart.com address=3.175.86.7} on-error {}
-:do {add list=$AddressList comment=deviantart.com address=3.175.86.82} on-error {}
-:do {add list=$AddressList comment=deviantart.com address=34.117.88.159} on-error {}
-:do {add list=$AddressList comment=deviantart.com address=52.222.132.128} on-error {}
-:do {add list=$AddressList comment=deviantart.com address=52.222.132.129} on-error {}
-:do {add list=$AddressList comment=deviantart.com address=52.222.132.5} on-error {}
-:do {add list=$AddressList comment=deviantart.com address=52.222.132.77} on-error {}
-:do {add list=$AddressList comment=deviantart.com address=52.222.136.101} on-error {}

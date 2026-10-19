@@ -125,6 +125,7 @@
 :do {add list=$AddressList comment=make.com address=76.76.21.61/32} on-error {}
 :do {add list=$AddressList comment=make.com address=76.76.21.93/32} on-error {}
 :do {add list=$AddressList comment=make.com address=76.76.21.98/32} on-error {}
+:do {add list=$AddressList comment=make.com address=79.125.64.0/18} on-error {}
 :do {add list=$AddressList comment=make.com address=8.47.0.0/16} on-error {}
 :do {add list=$AddressList comment=make.com address=8.6.0.0/16} on-error {}
 :do {add list=$AddressList comment=make.com address=91.197.243.0/24} on-error {}

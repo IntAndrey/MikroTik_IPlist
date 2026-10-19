@@ -46,7 +46,7 @@
 :do {add list=$AddressList comment=google address=104.237.160.0/19} on-error {}
 :do {add list=$AddressList comment=google address=104.237.42.0/24} on-error {}
 :do {add list=$AddressList comment=google address=104.254.204.0/24} on-error {}
-:do {add list=$AddressList comment=google address=104.254.207.0/24} on-error {}
+:do {add list=$AddressList comment=google address=104.254.206.0/23} on-error {}
 :do {add list=$AddressList comment=google address=104.36.194.0/24} on-error {}
 :do {add list=$AddressList comment=google address=107.167.160.0/19} on-error {}
 :do {add list=$AddressList comment=google address=107.178.192.0/18} on-error {}

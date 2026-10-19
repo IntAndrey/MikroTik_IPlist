@@ -1,5 +1,17 @@
 :global AddressList
 /ip firewall address-list
+:do {add list=$AddressList comment=ralphlauren.eu address=23.212.248.196} on-error {}
+:do {add list=$AddressList comment=ralphlauren.eu address=23.212.248.215} on-error {}
+:do {add list=$AddressList comment=ralphlauren.eu address=23.212.248.23} on-error {}
+:do {add list=$AddressList comment=ralphlauren.eu address=23.212.249.197} on-error {}
+:do {add list=$AddressList comment=ralphlauren.eu address=23.212.249.202} on-error {}
+:do {add list=$AddressList comment=ralphlauren.eu address=23.212.249.204} on-error {}
+:do {add list=$AddressList comment=ralphlauren.eu address=23.212.250.14} on-error {}
+:do {add list=$AddressList comment=ralphlauren.eu address=23.212.250.16} on-error {}
+:do {add list=$AddressList comment=ralphlauren.eu address=23.212.62.197} on-error {}
+:do {add list=$AddressList comment=ralphlauren.eu address=23.212.62.209} on-error {}
+:do {add list=$AddressList comment=ralphlauren.eu address=23.213.13.63} on-error {}
+:do {add list=$AddressList comment=ralphlauren.eu address=23.213.13.72} on-error {}
 :do {add list=$AddressList comment=ralphlauren.eu address=23.213.186.197} on-error {}
 :do {add list=$AddressList comment=ralphlauren.eu address=23.213.186.198} on-error {}
 :do {add list=$AddressList comment=ralphlauren.eu address=23.214.22.228} on-error {}
@@ -172,6 +184,8 @@
 :do {add list=$AddressList comment=ralphlauren.eu address=95.100.110.7} on-error {}
 :do {add list=$AddressList comment=ralphlauren.eu address=95.100.110.76} on-error {}
 :do {add list=$AddressList comment=ralphlauren.eu address=95.100.110.88} on-error {}
+:do {add list=$AddressList comment=ralphlauren.eu address=95.100.146.10} on-error {}
+:do {add list=$AddressList comment=ralphlauren.eu address=95.100.146.11} on-error {}
 :do {add list=$AddressList comment=ralphlauren.eu address=95.100.155.152} on-error {}
 :do {add list=$AddressList comment=ralphlauren.eu address=95.100.155.17} on-error {}
 :do {add list=$AddressList comment=ralphlauren.eu address=95.100.158.120} on-error {}

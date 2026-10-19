@@ -1,5 +1,9 @@
 :global AddressList
 /ip firewall address-list
+:do {add list=$AddressList comment=patreon.com address=3.164.206.66} on-error {}
+:do {add list=$AddressList comment=patreon.com address=3.164.230.127} on-error {}
+:do {add list=$AddressList comment=patreon.com address=3.164.230.33} on-error {}
+:do {add list=$AddressList comment=patreon.com address=3.164.230.61} on-error {}
 :do {add list=$AddressList comment=patreon.com address=3.164.230.93} on-error {}
 :do {add list=$AddressList comment=patreon.com address=3.164.240.111} on-error {}
 :do {add list=$AddressList comment=patreon.com address=3.164.240.13} on-error {}
@@ -30,6 +34,7 @@
 :do {add list=$AddressList comment=patreon.com address=3.169.173.54} on-error {}
 :do {add list=$AddressList comment=patreon.com address=3.169.173.74} on-error {}
 :do {add list=$AddressList comment=patreon.com address=3.17.195.251} on-error {}
+:do {add list=$AddressList comment=patreon.com address=3.173.0.4} on-error {}
 :do {add list=$AddressList comment=patreon.com address=3.174.18.117} on-error {}
 :do {add list=$AddressList comment=patreon.com address=3.174.18.128} on-error {}
 :do {add list=$AddressList comment=patreon.com address=3.174.18.67} on-error {}
@@ -38,6 +43,10 @@
 :do {add list=$AddressList comment=patreon.com address=3.174.230.126} on-error {}
 :do {add list=$AddressList comment=patreon.com address=3.174.230.31} on-error {}
 :do {add list=$AddressList comment=patreon.com address=3.174.230.48} on-error {}
+:do {add list=$AddressList comment=patreon.com address=3.175.246.129} on-error {}
+:do {add list=$AddressList comment=patreon.com address=3.175.246.81} on-error {}
+:do {add list=$AddressList comment=patreon.com address=3.175.246.90} on-error {}
+:do {add list=$AddressList comment=patreon.com address=3.175.246.99} on-error {}
 :do {add list=$AddressList comment=patreon.com address=3.20.194.73} on-error {}
 :do {add list=$AddressList comment=patreon.com address=3.20.87.51} on-error {}
 :do {add list=$AddressList comment=patreon.com address=3.220.122.174} on-error {}

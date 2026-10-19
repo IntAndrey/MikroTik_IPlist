@@ -119,6 +119,7 @@
 :do {add list=$AddressList comment=claude.ai address=107.23.166.230} on-error {}
 :do {add list=$AddressList comment=claude.ai address=107.23.22.198} on-error {}
 :do {add list=$AddressList comment=claude.ai address=107.23.35.191} on-error {}
+:do {add list=$AddressList comment=claude.ai address=107.23.52.44} on-error {}
 :do {add list=$AddressList comment=claude.ai address=107.23.53.233} on-error {}
 :do {add list=$AddressList comment=claude.ai address=107.23.89.253} on-error {}
 :do {add list=$AddressList comment=claude.ai address=108.138.192.102} on-error {}
@@ -266,6 +267,10 @@
 :do {add list=$AddressList comment=claude.ai address=108.156.22.78} on-error {}
 :do {add list=$AddressList comment=claude.ai address=108.156.22.85} on-error {}
 :do {add list=$AddressList comment=claude.ai address=108.156.22.95} on-error {}
+:do {add list=$AddressList comment=claude.ai address=108.156.221.102} on-error {}
+:do {add list=$AddressList comment=claude.ai address=108.156.221.123} on-error {}
+:do {add list=$AddressList comment=claude.ai address=108.156.221.36} on-error {}
+:do {add list=$AddressList comment=claude.ai address=108.156.221.86} on-error {}
 :do {add list=$AddressList comment=claude.ai address=108.156.39.103} on-error {}
 :do {add list=$AddressList comment=claude.ai address=108.156.39.119} on-error {}
 :do {add list=$AddressList comment=claude.ai address=108.156.39.124} on-error {}
@@ -345,8 +350,3 @@
 :do {add list=$AddressList comment=claude.ai address=108.157.214.88} on-error {}
 :do {add list=$AddressList comment=claude.ai address=108.157.214.9} on-error {}
 :do {add list=$AddressList comment=claude.ai address=108.157.229.104} on-error {}
-:do {add list=$AddressList comment=claude.ai address=108.157.229.105} on-error {}
-:do {add list=$AddressList comment=claude.ai address=108.157.229.107} on-error {}
-:do {add list=$AddressList comment=claude.ai address=108.157.229.109} on-error {}
-:do {add list=$AddressList comment=claude.ai address=108.157.229.122} on-error {}
-:do {add list=$AddressList comment=claude.ai address=108.157.229.126} on-error {}

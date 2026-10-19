@@ -212,6 +212,7 @@
 :do {add list=$AddressList comment=svoboda.org address=2.20.142.107} on-error {}
 :do {add list=$AddressList comment=svoboda.org address=2.20.142.129} on-error {}
 :do {add list=$AddressList comment=svoboda.org address=2.20.142.146} on-error {}
+:do {add list=$AddressList comment=svoboda.org address=2.20.142.192} on-error {}
 :do {add list=$AddressList comment=svoboda.org address=2.20.142.193} on-error {}
 :do {add list=$AddressList comment=svoboda.org address=2.20.142.26} on-error {}
 :do {add list=$AddressList comment=svoboda.org address=2.20.142.81} on-error {}
@@ -275,8 +276,10 @@
 :do {add list=$AddressList comment=svoboda.org address=2.21.240.7} on-error {}
 :do {add list=$AddressList comment=svoboda.org address=2.21.240.80} on-error {}
 :do {add list=$AddressList comment=svoboda.org address=2.21.243.109} on-error {}
+:do {add list=$AddressList comment=svoboda.org address=2.21.243.111} on-error {}
 :do {add list=$AddressList comment=svoboda.org address=2.21.243.144} on-error {}
 :do {add list=$AddressList comment=svoboda.org address=2.21.243.154} on-error {}
+:do {add list=$AddressList comment=svoboda.org address=2.21.243.78} on-error {}
 :do {add list=$AddressList comment=svoboda.org address=2.21.243.97} on-error {}
 :do {add list=$AddressList comment=svoboda.org address=2.21.245.10} on-error {}
 :do {add list=$AddressList comment=svoboda.org address=2.21.245.198} on-error {}
@@ -347,6 +350,3 @@
 :do {add list=$AddressList comment=svoboda.org address=2.22.245.59} on-error {}
 :do {add list=$AddressList comment=svoboda.org address=2.22.245.64} on-error {}
 :do {add list=$AddressList comment=svoboda.org address=2.22.245.65} on-error {}
-:do {add list=$AddressList comment=svoboda.org address=2.22.245.83} on-error {}
-:do {add list=$AddressList comment=svoboda.org address=2.22.245.89} on-error {}
-:do {add list=$AddressList comment=svoboda.org address=2.22.248.104} on-error {}

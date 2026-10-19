@@ -1,5 +1,10 @@
 :global AddressList
 /ip firewall address-list
+:do {add list=$AddressList comment=AS749 address=28.4.56.0/22} on-error {}
+:do {add list=$AddressList comment=AS749 address=28.4.61.0/24} on-error {}
+:do {add list=$AddressList comment=AS749 address=28.4.62.0/23} on-error {}
+:do {add list=$AddressList comment=AS749 address=28.4.64.0/18} on-error {}
+:do {add list=$AddressList comment=AS749 address=28.6.0.0/15} on-error {}
 :do {add list=$AddressList comment=AS749 address=28.64.0.0/10} on-error {}
 :do {add list=$AddressList comment=AS749 address=28.8.0.0/13} on-error {}
 :do {add list=$AddressList comment=AS749 address=29.0.0.0/8} on-error {}
@@ -315,8 +320,8 @@
 :do {add list=$AddressList comment=AS749 address=6.74.24.0/21} on-error {}
 :do {add list=$AddressList comment=AS749 address=6.74.32.0/21} on-error {}
 :do {add list=$AddressList comment=AS749 address=6.74.40.0/23} on-error {}
-:do {add list=$AddressList comment=AS749 address=6.74.44.0/22} on-error {}
-:do {add list=$AddressList comment=AS749 address=6.74.48.0/20} on-error {}
+:do {add list=$AddressList comment=AS749 address=6.74.44.0/23} on-error {}
+:do {add list=$AddressList comment=AS749 address=6.74.56.0/21} on-error {}
 :do {add list=$AddressList comment=AS749 address=6.74.6.0/23} on-error {}
 :do {add list=$AddressList comment=AS749 address=6.74.64.0/18} on-error {}
 :do {add list=$AddressList comment=AS749 address=6.75.0.0/18} on-error {}
@@ -345,8 +350,3 @@
 :do {add list=$AddressList comment=AS749 address=6.77.52.0/23} on-error {}
 :do {add list=$AddressList comment=AS749 address=6.77.58.0/23} on-error {}
 :do {add list=$AddressList comment=AS749 address=6.77.60.0/22} on-error {}
-:do {add list=$AddressList comment=AS749 address=6.77.64.0/18} on-error {}
-:do {add list=$AddressList comment=AS749 address=6.78.0.0/16} on-error {}
-:do {add list=$AddressList comment=AS749 address=6.79.0.0/19} on-error {}
-:do {add list=$AddressList comment=AS749 address=6.79.128.0/17} on-error {}
-:do {add list=$AddressList comment=AS749 address=6.79.40.0/21} on-error {}

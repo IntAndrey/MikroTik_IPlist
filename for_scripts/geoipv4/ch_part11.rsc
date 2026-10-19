@@ -1,8 +1,5 @@
 :global AddressList
 /ip firewall address-list
-:do {add list=$AddressList comment=ch address=194.77.99.104/29} on-error {}
-:do {add list=$AddressList comment=ch address=194.77.99.224/28} on-error {}
-:do {add list=$AddressList comment=ch address=194.77.99.24/29} on-error {}
 :do {add list=$AddressList comment=ch address=194.77.99.248/29} on-error {}
 :do {add list=$AddressList comment=ch address=194.77.99.88/29} on-error {}
 :do {add list=$AddressList comment=ch address=194.8.15.0/24} on-error {}
@@ -30,6 +27,7 @@
 :do {add list=$AddressList comment=ch address=194.93.97.0/24} on-error {}
 :do {add list=$AddressList comment=ch address=194.93.98.0/24} on-error {}
 :do {add list=$AddressList comment=ch address=195.10.20.0/24} on-error {}
+:do {add list=$AddressList comment=ch address=195.110.9.0/24} on-error {}
 :do {add list=$AddressList comment=ch address=195.112.64.0/19} on-error {}
 :do {add list=$AddressList comment=ch address=195.114.125.0/24} on-error {}
 :do {add list=$AddressList comment=ch address=195.12.224.64/29} on-error {}
@@ -237,7 +235,6 @@
 :do {add list=$AddressList comment=ch address=196.197.185.0/24} on-error {}
 :do {add list=$AddressList comment=ch address=196.198.185.0/24} on-error {}
 :do {add list=$AddressList comment=ch address=196.199.185.0/24} on-error {}
-:do {add list=$AddressList comment=ch address=196.199.234.0/24} on-error {}
 :do {add list=$AddressList comment=ch address=196.240.106.0/24} on-error {}
 :do {add list=$AddressList comment=ch address=196.240.170.0/24} on-error {}
 :do {add list=$AddressList comment=ch address=196.240.42.0/24} on-error {}
@@ -350,3 +347,6 @@
 :do {add list=$AddressList comment=ch address=20.47.67.0/24} on-error {}
 :do {add list=$AddressList comment=ch address=20.47.71.0/24} on-error {}
 :do {add list=$AddressList comment=ch address=20.60.174.0/23} on-error {}
+:do {add list=$AddressList comment=ch address=20.60.176.0/23} on-error {}
+:do {add list=$AddressList comment=ch address=20.95.106.0/24} on-error {}
+:do {add list=$AddressList comment=ch address=20.95.116.0/24} on-error {}

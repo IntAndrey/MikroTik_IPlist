@@ -50,4 +50,5 @@
 :do {add list=$AddressList comment=fastly address=66.43.1.0/24} on-error {}
 :do {add list=$AddressList comment=fastly address=85.236.106.0/24} on-error {}
 :do {add list=$AddressList comment=fastly address=87.81.224.0/19} on-error {}
-:do {add list=$AddressList comment=fastly address=90.98.0.0/18} on-error {}
+:do {add list=$AddressList comment=fastly address=90.98.0.0/17} on-error {}
+:do {add list=$AddressList comment=fastly address=90.98.128.0/18} on-error {}
