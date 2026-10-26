@@ -240,7 +240,7 @@
 :do {add list=$AddressList comment=ua address=193.228.161.2/32} on-error {}
 :do {add list=$AddressList comment=ua address=193.228.161.6/32} on-error {}
 :do {add list=$AddressList comment=ua address=193.228.2.0/24} on-error {}
-:do {add list=$AddressList comment=ua address=193.228.228.0/24} on-error {}
+:do {add list=$AddressList comment=ua address=193.228.228.0/23} on-error {}
 :do {add list=$AddressList comment=ua address=193.228.235.0/24} on-error {}
 :do {add list=$AddressList comment=ua address=193.228.52.0/22} on-error {}
 :do {add list=$AddressList comment=ua address=193.23.122.0/24} on-error {}

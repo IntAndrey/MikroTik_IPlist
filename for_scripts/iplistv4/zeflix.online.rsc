@@ -11,6 +11,7 @@
 :do {add list=$AddressList comment=zeflix.online address=159.69.186.9} on-error {}
 :do {add list=$AddressList comment=zeflix.online address=159.69.42.212} on-error {}
 :do {add list=$AddressList comment=zeflix.online address=159.69.83.207} on-error {}
+:do {add list=$AddressList comment=zeflix.online address=162.4.84.234} on-error {}
 :do {add list=$AddressList comment=zeflix.online address=172.104.149.86} on-error {}
 :do {add list=$AddressList comment=zeflix.online address=172.104.203.186} on-error {}
 :do {add list=$AddressList comment=zeflix.online address=172.104.251.198} on-error {}

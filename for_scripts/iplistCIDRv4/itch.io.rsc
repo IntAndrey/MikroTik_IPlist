@@ -145,7 +145,8 @@
 :do {add list=$AddressList comment=itch.io address=62.115.253.24/31} on-error {}
 :do {add list=$AddressList comment=itch.io address=62.115.253.26/32} on-error {}
 :do {add list=$AddressList comment=itch.io address=62.115.253.33/32} on-error {}
-:do {add list=$AddressList comment=itch.io address=62.115.253.41/32} on-error {}
+:do {add list=$AddressList comment=itch.io address=62.115.253.40/31} on-error {}
+:do {add list=$AddressList comment=itch.io address=62.115.253.49/32} on-error {}
 :do {add list=$AddressList comment=itch.io address=62.115.253.57/32} on-error {}
 :do {add list=$AddressList comment=itch.io address=62.115.253.65/32} on-error {}
 :do {add list=$AddressList comment=itch.io address=72.246.0.0/15} on-error {}

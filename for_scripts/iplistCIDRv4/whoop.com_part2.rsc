@@ -51,6 +51,7 @@
 :do {add list=$AddressList comment=whoop.com address=54.220.0.0/15} on-error {}
 :do {add list=$AddressList comment=whoop.com address=54.224.122.165/32} on-error {}
 :do {add list=$AddressList comment=whoop.com address=54.224.97.48/32} on-error {}
+:do {add list=$AddressList comment=whoop.com address=54.225.2.208/32} on-error {}
 :do {add list=$AddressList comment=whoop.com address=54.225.239.80/32} on-error {}
 :do {add list=$AddressList comment=whoop.com address=54.227.163.24/32} on-error {}
 :do {add list=$AddressList comment=whoop.com address=54.230.0.0/16} on-error {}

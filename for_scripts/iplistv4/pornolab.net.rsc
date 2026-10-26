@@ -4,6 +4,7 @@
 :do {add list=$AddressList comment=pornolab.net address=103.224.182.253} on-error {}
 :do {add list=$AddressList comment=pornolab.net address=103.224.212.131} on-error {}
 :do {add list=$AddressList comment=pornolab.net address=13.229.114.252} on-error {}
+:do {add list=$AddressList comment=pornolab.net address=162.4.84.255} on-error {}
 :do {add list=$AddressList comment=pornolab.net address=172.233.212.129} on-error {}
 :do {add list=$AddressList comment=pornolab.net address=172.233.212.151} on-error {}
 :do {add list=$AddressList comment=pornolab.net address=172.233.212.224} on-error {}

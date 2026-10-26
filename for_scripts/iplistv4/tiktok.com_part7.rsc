@@ -1,5 +1,14 @@
 :global AddressList
 /ip firewall address-list
+:do {add list=$AddressList comment=tiktok.com address=104.166.182.24} on-error {}
+:do {add list=$AddressList comment=tiktok.com address=104.166.182.25} on-error {}
+:do {add list=$AddressList comment=tiktok.com address=104.166.182.26} on-error {}
+:do {add list=$AddressList comment=tiktok.com address=104.166.182.27} on-error {}
+:do {add list=$AddressList comment=tiktok.com address=104.22.123.205} on-error {}
+:do {add list=$AddressList comment=tiktok.com address=104.22.123.223} on-error {}
+:do {add list=$AddressList comment=tiktok.com address=104.22.123.224} on-error {}
+:do {add list=$AddressList comment=tiktok.com address=104.22.123.225} on-error {}
+:do {add list=$AddressList comment=tiktok.com address=104.22.123.227} on-error {}
 :do {add list=$AddressList comment=tiktok.com address=104.22.123.228} on-error {}
 :do {add list=$AddressList comment=tiktok.com address=104.22.123.229} on-error {}
 :do {add list=$AddressList comment=tiktok.com address=104.22.123.230} on-error {}
@@ -341,12 +350,3 @@
 :do {add list=$AddressList comment=tiktok.com address=104.77.110.135} on-error {}
 :do {add list=$AddressList comment=tiktok.com address=104.77.110.136} on-error {}
 :do {add list=$AddressList comment=tiktok.com address=104.77.110.137} on-error {}
-:do {add list=$AddressList comment=tiktok.com address=104.77.110.138} on-error {}
-:do {add list=$AddressList comment=tiktok.com address=104.77.110.139} on-error {}
-:do {add list=$AddressList comment=tiktok.com address=104.77.110.140} on-error {}
-:do {add list=$AddressList comment=tiktok.com address=104.77.110.141} on-error {}
-:do {add list=$AddressList comment=tiktok.com address=104.77.110.142} on-error {}
-:do {add list=$AddressList comment=tiktok.com address=104.77.110.143} on-error {}
-:do {add list=$AddressList comment=tiktok.com address=104.77.110.144} on-error {}
-:do {add list=$AddressList comment=tiktok.com address=104.77.110.145} on-error {}
-:do {add list=$AddressList comment=tiktok.com address=104.77.110.146} on-error {}

@@ -1,14 +1,5 @@
 :global AddressList
 /ip firewall address-list
-:do {add list=$AddressList comment=AS20001 address=172.112.202.0/23} on-error {}
-:do {add list=$AddressList comment=AS20001 address=172.112.204.0/22} on-error {}
-:do {add list=$AddressList comment=AS20001 address=172.112.208.0/21} on-error {}
-:do {add list=$AddressList comment=AS20001 address=172.112.216.0/28} on-error {}
-:do {add list=$AddressList comment=AS20001 address=172.112.216.128/25} on-error {}
-:do {add list=$AddressList comment=AS20001 address=172.112.216.16/29} on-error {}
-:do {add list=$AddressList comment=AS20001 address=172.112.216.25/32} on-error {}
-:do {add list=$AddressList comment=AS20001 address=172.112.216.26/31} on-error {}
-:do {add list=$AddressList comment=AS20001 address=172.112.216.28/30} on-error {}
 :do {add list=$AddressList comment=AS20001 address=172.112.216.32/27} on-error {}
 :do {add list=$AddressList comment=AS20001 address=172.112.216.64/26} on-error {}
 :do {add list=$AddressList comment=AS20001 address=172.112.217.0/24} on-error {}
@@ -350,3 +341,12 @@
 :do {add list=$AddressList comment=AS20001 address=172.116.136.176/31} on-error {}
 :do {add list=$AddressList comment=AS20001 address=172.116.136.178/32} on-error {}
 :do {add list=$AddressList comment=AS20001 address=172.116.136.180/30} on-error {}
+:do {add list=$AddressList comment=AS20001 address=172.116.136.184/29} on-error {}
+:do {add list=$AddressList comment=AS20001 address=172.116.136.192/26} on-error {}
+:do {add list=$AddressList comment=AS20001 address=172.116.137.0/24} on-error {}
+:do {add list=$AddressList comment=AS20001 address=172.116.138.0/23} on-error {}
+:do {add list=$AddressList comment=AS20001 address=172.116.140.0/23} on-error {}
+:do {add list=$AddressList comment=AS20001 address=172.116.142.0/24} on-error {}
+:do {add list=$AddressList comment=AS20001 address=172.116.143.0/26} on-error {}
+:do {add list=$AddressList comment=AS20001 address=172.116.143.100/32} on-error {}
+:do {add list=$AddressList comment=AS20001 address=172.116.143.102/31} on-error {}

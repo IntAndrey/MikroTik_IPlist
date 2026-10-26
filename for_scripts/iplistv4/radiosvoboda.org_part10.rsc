@@ -1,5 +1,11 @@
 :global AddressList
 /ip firewall address-list
+:do {add list=$AddressList comment=radiosvoboda.org address=95.101.27.85} on-error {}
+:do {add list=$AddressList comment=radiosvoboda.org address=95.101.29.19} on-error {}
+:do {add list=$AddressList comment=radiosvoboda.org address=95.101.29.52} on-error {}
+:do {add list=$AddressList comment=radiosvoboda.org address=95.101.29.63} on-error {}
+:do {add list=$AddressList comment=radiosvoboda.org address=95.101.35.120} on-error {}
+:do {add list=$AddressList comment=radiosvoboda.org address=95.101.35.137} on-error {}
 :do {add list=$AddressList comment=radiosvoboda.org address=95.101.35.160} on-error {}
 :do {add list=$AddressList comment=radiosvoboda.org address=95.101.35.163} on-error {}
 :do {add list=$AddressList comment=radiosvoboda.org address=95.101.35.178} on-error {}
