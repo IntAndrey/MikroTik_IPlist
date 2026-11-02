@@ -5,6 +5,7 @@
 :do {add list=$AddressList comment=pornhub.com address=208.99.84.17} on-error {}
 :do {add list=$AddressList comment=pornhub.com address=208.99.84.32} on-error {}
 :do {add list=$AddressList comment=pornhub.com address=208.99.84.33} on-error {}
+:do {add list=$AddressList comment=pornhub.com address=216.18.168.84} on-error {}
 :do {add list=$AddressList comment=pornhub.com address=216.18.191.176} on-error {}
 :do {add list=$AddressList comment=pornhub.com address=216.18.191.177} on-error {}
 :do {add list=$AddressList comment=pornhub.com address=216.18.191.192} on-error {}

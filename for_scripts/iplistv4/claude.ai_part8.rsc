@@ -1,5 +1,23 @@
 :global AddressList
 /ip firewall address-list
+:do {add list=$AddressList comment=claude.ai address=3.224.208.1} on-error {}
+:do {add list=$AddressList comment=claude.ai address=3.224.222.64} on-error {}
+:do {add list=$AddressList comment=claude.ai address=3.224.3.210} on-error {}
+:do {add list=$AddressList comment=claude.ai address=3.224.5.198} on-error {}
+:do {add list=$AddressList comment=claude.ai address=3.224.61.212} on-error {}
+:do {add list=$AddressList comment=claude.ai address=3.224.88.112} on-error {}
+:do {add list=$AddressList comment=claude.ai address=3.225.121.170} on-error {}
+:do {add list=$AddressList comment=claude.ai address=3.225.137.96} on-error {}
+:do {add list=$AddressList comment=claude.ai address=3.225.187.223} on-error {}
+:do {add list=$AddressList comment=claude.ai address=3.225.188.227} on-error {}
+:do {add list=$AddressList comment=claude.ai address=3.225.245.252} on-error {}
+:do {add list=$AddressList comment=claude.ai address=3.225.40.33} on-error {}
+:do {add list=$AddressList comment=claude.ai address=3.225.77.26} on-error {}
+:do {add list=$AddressList comment=claude.ai address=3.225.9.117} on-error {}
+:do {add list=$AddressList comment=claude.ai address=3.226.139.43} on-error {}
+:do {add list=$AddressList comment=claude.ai address=3.226.188.144} on-error {}
+:do {add list=$AddressList comment=claude.ai address=3.226.226.139} on-error {}
+:do {add list=$AddressList comment=claude.ai address=3.226.3.129} on-error {}
 :do {add list=$AddressList comment=claude.ai address=3.226.56.172} on-error {}
 :do {add list=$AddressList comment=claude.ai address=3.226.83.236} on-error {}
 :do {add list=$AddressList comment=claude.ai address=3.226.88.139} on-error {}
@@ -306,6 +324,7 @@
 :do {add list=$AddressList comment=claude.ai address=35.174.43.239} on-error {}
 :do {add list=$AddressList comment=claude.ai address=35.174.47.55} on-error {}
 :do {add list=$AddressList comment=claude.ai address=35.174.53.107} on-error {}
+:do {add list=$AddressList comment=claude.ai address=35.174.84.133} on-error {}
 :do {add list=$AddressList comment=claude.ai address=35.175.34.149} on-error {}
 :do {add list=$AddressList comment=claude.ai address=35.175.35.231} on-error {}
 :do {add list=$AddressList comment=claude.ai address=35.175.51.53} on-error {}
@@ -331,22 +350,3 @@
 :do {add list=$AddressList comment=claude.ai address=44.194.233.247} on-error {}
 :do {add list=$AddressList comment=claude.ai address=44.194.237.134} on-error {}
 :do {add list=$AddressList comment=claude.ai address=44.194.248.194} on-error {}
-:do {add list=$AddressList comment=claude.ai address=44.194.250.127} on-error {}
-:do {add list=$AddressList comment=claude.ai address=44.194.49.207} on-error {}
-:do {add list=$AddressList comment=claude.ai address=44.194.76.151} on-error {}
-:do {add list=$AddressList comment=claude.ai address=44.195.10.43} on-error {}
-:do {add list=$AddressList comment=claude.ai address=44.195.16.138} on-error {}
-:do {add list=$AddressList comment=claude.ai address=44.195.17.28} on-error {}
-:do {add list=$AddressList comment=claude.ai address=44.195.232.57} on-error {}
-:do {add list=$AddressList comment=claude.ai address=44.195.73.18} on-error {}
-:do {add list=$AddressList comment=claude.ai address=44.196.117.107} on-error {}
-:do {add list=$AddressList comment=claude.ai address=44.196.132.62} on-error {}
-:do {add list=$AddressList comment=claude.ai address=44.196.154.234} on-error {}
-:do {add list=$AddressList comment=claude.ai address=44.196.160.136} on-error {}
-:do {add list=$AddressList comment=claude.ai address=44.196.207.201} on-error {}
-:do {add list=$AddressList comment=claude.ai address=44.196.231.16} on-error {}
-:do {add list=$AddressList comment=claude.ai address=44.196.238.217} on-error {}
-:do {add list=$AddressList comment=claude.ai address=44.196.52.250} on-error {}
-:do {add list=$AddressList comment=claude.ai address=44.196.68.172} on-error {}
-:do {add list=$AddressList comment=claude.ai address=44.196.78.2} on-error {}
-:do {add list=$AddressList comment=claude.ai address=44.197.127.17} on-error {}

@@ -6,7 +6,6 @@
 :do {add list=$AddressList comment=kz address=199.189.248.0/21} on-error {}
 :do {add list=$AddressList comment=kz address=2.132.0.0/14} on-error {}
 :do {add list=$AddressList comment=kz address=2.27.130.0/23} on-error {}
-:do {add list=$AddressList comment=kz address=2.27.82.224/27} on-error {}
 :do {add list=$AddressList comment=kz address=2.57.96.0/22} on-error {}
 :do {add list=$AddressList comment=kz address=2.72.0.0/13} on-error {}
 :do {add list=$AddressList comment=kz address=202.181.128.208/29} on-error {}
@@ -39,7 +38,6 @@
 :do {add list=$AddressList comment=kz address=212.46.56.0/24} on-error {}
 :do {add list=$AddressList comment=kz address=212.76.0.0/19} on-error {}
 :do {add list=$AddressList comment=kz address=212.96.64.0/19} on-error {}
-:do {add list=$AddressList comment=kz address=212.97.69.0/24} on-error {}
 :do {add list=$AddressList comment=kz address=213.109.146.0/24} on-error {}
 :do {add list=$AddressList comment=kz address=213.109.208.0/20} on-error {}
 :do {add list=$AddressList comment=kz address=213.109.98.0/23} on-error {}
@@ -104,7 +102,7 @@
 :do {add list=$AddressList comment=kz address=31.31.216.0/21} on-error {}
 :do {add list=$AddressList comment=kz address=31.43.179.0/24} on-error {}
 :do {add list=$AddressList comment=kz address=31.56.240.0/24} on-error {}
-:do {add list=$AddressList comment=kz address=31.77.6.224/27} on-error {}
+:do {add list=$AddressList comment=kz address=31.77.217.152/29} on-error {}
 :do {add list=$AddressList comment=kz address=37.140.243.0/24} on-error {}
 :do {add list=$AddressList comment=kz address=37.150.0.0/15} on-error {}
 :do {add list=$AddressList comment=kz address=37.17.176.0/21} on-error {}
@@ -350,3 +348,5 @@
 :do {add list=$AddressList comment=kz address=81.27.65.0/24} on-error {}
 :do {add list=$AddressList comment=kz address=81.29.159.0/24} on-error {}
 :do {add list=$AddressList comment=kz address=81.88.144.0/20} on-error {}
+:do {add list=$AddressList comment=kz address=81.91.180.0/22} on-error {}
+:do {add list=$AddressList comment=kz address=81.91.184.0/22} on-error {}

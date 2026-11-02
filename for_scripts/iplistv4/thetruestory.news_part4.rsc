@@ -76,6 +76,10 @@
 :do {add list=$AddressList comment=thetruestory.news address=18.66.112.32} on-error {}
 :do {add list=$AddressList comment=thetruestory.news address=18.66.112.39} on-error {}
 :do {add list=$AddressList comment=thetruestory.news address=18.66.112.95} on-error {}
+:do {add list=$AddressList comment=thetruestory.news address=18.66.118.32} on-error {}
+:do {add list=$AddressList comment=thetruestory.news address=18.66.118.35} on-error {}
+:do {add list=$AddressList comment=thetruestory.news address=18.66.118.38} on-error {}
+:do {add list=$AddressList comment=thetruestory.news address=18.66.118.77} on-error {}
 :do {add list=$AddressList comment=thetruestory.news address=18.66.122.105} on-error {}
 :do {add list=$AddressList comment=thetruestory.news address=18.66.122.28} on-error {}
 :do {add list=$AddressList comment=thetruestory.news address=18.66.122.37} on-error {}
@@ -346,7 +350,3 @@
 :do {add list=$AddressList comment=thetruestory.news address=3.164.240.32} on-error {}
 :do {add list=$AddressList comment=thetruestory.news address=3.164.240.37} on-error {}
 :do {add list=$AddressList comment=thetruestory.news address=3.164.240.39} on-error {}
-:do {add list=$AddressList comment=thetruestory.news address=3.164.240.45} on-error {}
-:do {add list=$AddressList comment=thetruestory.news address=3.164.240.48} on-error {}
-:do {add list=$AddressList comment=thetruestory.news address=3.164.240.6} on-error {}
-:do {add list=$AddressList comment=thetruestory.news address=3.164.240.64} on-error {}

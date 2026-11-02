@@ -1,5 +1,14 @@
 :global AddressList
 /ip firewall address-list
+:do {add list=$AddressList comment=za address=196.192.88.0/21} on-error {}
+:do {add list=$AddressList comment=za address=196.196.49.0/24} on-error {}
+:do {add list=$AddressList comment=za address=196.196.50.0/24} on-error {}
+:do {add list=$AddressList comment=za address=196.196.7.0/24} on-error {}
+:do {add list=$AddressList comment=za address=196.196.89.0/24} on-error {}
+:do {add list=$AddressList comment=za address=196.197.179.0/24} on-error {}
+:do {add list=$AddressList comment=za address=196.197.28.0/24} on-error {}
+:do {add list=$AddressList comment=za address=196.197.4.0/24} on-error {}
+:do {add list=$AddressList comment=za address=196.197.6.0/23} on-error {}
 :do {add list=$AddressList comment=za address=196.198.179.0/24} on-error {}
 :do {add list=$AddressList comment=za address=196.198.28.0/24} on-error {}
 :do {add list=$AddressList comment=za address=196.199.179.0/24} on-error {}
@@ -341,12 +350,3 @@
 :do {add list=$AddressList comment=za address=196.59.0.0/22} on-error {}
 :do {add list=$AddressList comment=za address=196.59.10.0/23} on-error {}
 :do {add list=$AddressList comment=za address=196.59.102.0/23} on-error {}
-:do {add list=$AddressList comment=za address=196.59.104.0/21} on-error {}
-:do {add list=$AddressList comment=za address=196.59.112.0/22} on-error {}
-:do {add list=$AddressList comment=za address=196.59.116.0/23} on-error {}
-:do {add list=$AddressList comment=za address=196.59.119.0/24} on-error {}
-:do {add list=$AddressList comment=za address=196.59.12.0/23} on-error {}
-:do {add list=$AddressList comment=za address=196.59.120.0/22} on-error {}
-:do {add list=$AddressList comment=za address=196.59.124.0/23} on-error {}
-:do {add list=$AddressList comment=za address=196.59.126.0/24} on-error {}
-:do {add list=$AddressList comment=za address=196.59.128.0/22} on-error {}

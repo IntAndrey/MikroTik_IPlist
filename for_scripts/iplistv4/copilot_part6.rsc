@@ -1,5 +1,11 @@
 :global AddressList
 /ip firewall address-list
+:do {add list=$AddressList comment=copilot address=2.19.122.13} on-error {}
+:do {add list=$AddressList comment=copilot address=2.19.122.14} on-error {}
+:do {add list=$AddressList comment=copilot address=2.19.122.15} on-error {}
+:do {add list=$AddressList comment=copilot address=2.19.122.16} on-error {}
+:do {add list=$AddressList comment=copilot address=2.19.122.17} on-error {}
+:do {add list=$AddressList comment=copilot address=2.19.122.18} on-error {}
 :do {add list=$AddressList comment=copilot address=2.19.122.19} on-error {}
 :do {add list=$AddressList comment=copilot address=2.19.122.20} on-error {}
 :do {add list=$AddressList comment=copilot address=2.19.122.21} on-error {}
@@ -344,9 +350,3 @@
 :do {add list=$AddressList comment=copilot address=2.19.51.145} on-error {}
 :do {add list=$AddressList comment=copilot address=2.19.51.146} on-error {}
 :do {add list=$AddressList comment=copilot address=2.19.51.147} on-error {}
-:do {add list=$AddressList comment=copilot address=2.19.51.152} on-error {}
-:do {add list=$AddressList comment=copilot address=2.19.51.153} on-error {}
-:do {add list=$AddressList comment=copilot address=2.19.51.154} on-error {}
-:do {add list=$AddressList comment=copilot address=2.19.51.155} on-error {}
-:do {add list=$AddressList comment=copilot address=2.19.51.16} on-error {}
-:do {add list=$AddressList comment=copilot address=2.19.51.160} on-error {}

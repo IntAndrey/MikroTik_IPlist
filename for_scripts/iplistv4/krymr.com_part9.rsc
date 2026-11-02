@@ -1,5 +1,18 @@
 :global AddressList
 /ip firewall address-list
+:do {add list=$AddressList comment=krymr.com address=99.86.18.122} on-error {}
+:do {add list=$AddressList comment=krymr.com address=99.86.18.6} on-error {}
+:do {add list=$AddressList comment=krymr.com address=99.86.18.80} on-error {}
+:do {add list=$AddressList comment=krymr.com address=99.86.18.92} on-error {}
+:do {add list=$AddressList comment=krymr.com address=99.86.182.108} on-error {}
+:do {add list=$AddressList comment=krymr.com address=99.86.182.11} on-error {}
+:do {add list=$AddressList comment=krymr.com address=99.86.182.17} on-error {}
+:do {add list=$AddressList comment=krymr.com address=99.86.182.33} on-error {}
+:do {add list=$AddressList comment=krymr.com address=99.86.182.42} on-error {}
+:do {add list=$AddressList comment=krymr.com address=99.86.182.51} on-error {}
+:do {add list=$AddressList comment=krymr.com address=99.86.182.62} on-error {}
+:do {add list=$AddressList comment=krymr.com address=99.86.182.96} on-error {}
+:do {add list=$AddressList comment=krymr.com address=99.86.240.106} on-error {}
 :do {add list=$AddressList comment=krymr.com address=99.86.240.124} on-error {}
 :do {add list=$AddressList comment=krymr.com address=99.86.240.24} on-error {}
 :do {add list=$AddressList comment=krymr.com address=99.86.240.54} on-error {}

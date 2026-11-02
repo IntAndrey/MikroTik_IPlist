@@ -1,5 +1,10 @@
 :global AddressList
 /ip firewall address-list
+:do {add list=$AddressList comment=linktr.ee address=3.165.190.117} on-error {}
+:do {add list=$AddressList comment=linktr.ee address=3.165.190.120} on-error {}
+:do {add list=$AddressList comment=linktr.ee address=3.165.190.122} on-error {}
+:do {add list=$AddressList comment=linktr.ee address=3.165.190.17} on-error {}
+:do {add list=$AddressList comment=linktr.ee address=3.165.190.31} on-error {}
 :do {add list=$AddressList comment=linktr.ee address=3.165.190.34} on-error {}
 :do {add list=$AddressList comment=linktr.ee address=3.165.190.36} on-error {}
 :do {add list=$AddressList comment=linktr.ee address=3.165.190.50} on-error {}
@@ -345,8 +350,3 @@
 :do {add list=$AddressList comment=linktr.ee address=65.9.95.37} on-error {}
 :do {add list=$AddressList comment=linktr.ee address=65.9.95.77} on-error {}
 :do {add list=$AddressList comment=linktr.ee address=65.9.95.80} on-error {}
-:do {add list=$AddressList comment=linktr.ee address=65.9.95.83} on-error {}
-:do {add list=$AddressList comment=linktr.ee address=65.9.95.85} on-error {}
-:do {add list=$AddressList comment=linktr.ee address=65.9.95.9} on-error {}
-:do {add list=$AddressList comment=linktr.ee address=65.9.95.98} on-error {}
-:do {add list=$AddressList comment=linktr.ee address=99.84.31.59} on-error {}

@@ -8,6 +8,7 @@
 :do {add list=$AddressList comment=holod.media address=104.21.64.1} on-error {}
 :do {add list=$AddressList comment=holod.media address=104.21.80.1} on-error {}
 :do {add list=$AddressList comment=holod.media address=104.21.96.1} on-error {}
+:do {add list=$AddressList comment=holod.media address=140.248.137.194} on-error {}
 :do {add list=$AddressList comment=holod.media address=146.75.117.194} on-error {}
 :do {add list=$AddressList comment=holod.media address=146.75.121.194} on-error {}
 :do {add list=$AddressList comment=holod.media address=146.75.29.194} on-error {}

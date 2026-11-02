@@ -14,3 +14,4 @@
 :do {add list=$AddressList comment=rulate.ru address=190.115.16.41} on-error {}
 :do {add list=$AddressList comment=rulate.ru address=190.115.31.90} on-error {}
 :do {add list=$AddressList comment=rulate.ru address=84.201.182.120} on-error {}
+:do {add list=$AddressList comment=rulate.ru address=95.129.238.170} on-error {}

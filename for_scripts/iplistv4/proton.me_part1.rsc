@@ -68,6 +68,10 @@
 :do {add list=$AddressList comment=proton.me address=13.226.175.64} on-error {}
 :do {add list=$AddressList comment=proton.me address=13.226.175.86} on-error {}
 :do {add list=$AddressList comment=proton.me address=13.226.175.96} on-error {}
+:do {add list=$AddressList comment=proton.me address=13.226.53.125} on-error {}
+:do {add list=$AddressList comment=proton.me address=13.226.53.128} on-error {}
+:do {add list=$AddressList comment=proton.me address=13.226.53.42} on-error {}
+:do {add list=$AddressList comment=proton.me address=13.226.53.7} on-error {}
 :do {add list=$AddressList comment=proton.me address=13.227.146.108} on-error {}
 :do {add list=$AddressList comment=proton.me address=13.227.146.35} on-error {}
 :do {add list=$AddressList comment=proton.me address=13.227.146.53} on-error {}
@@ -96,6 +100,7 @@
 :do {add list=$AddressList comment=proton.me address=13.35.93.2} on-error {}
 :do {add list=$AddressList comment=proton.me address=13.35.93.41} on-error {}
 :do {add list=$AddressList comment=proton.me address=13.35.93.52} on-error {}
+:do {add list=$AddressList comment=proton.me address=140.248.138.208} on-error {}
 :do {add list=$AddressList comment=proton.me address=143.204.237.22} on-error {}
 :do {add list=$AddressList comment=proton.me address=143.204.237.39} on-error {}
 :do {add list=$AddressList comment=proton.me address=143.204.237.78} on-error {}
@@ -345,8 +350,3 @@
 :do {add list=$AddressList comment=proton.me address=3.169.85.23} on-error {}
 :do {add list=$AddressList comment=proton.me address=3.169.85.48} on-error {}
 :do {add list=$AddressList comment=proton.me address=3.169.85.70} on-error {}
-:do {add list=$AddressList comment=proton.me address=3.169.85.71} on-error {}
-:do {add list=$AddressList comment=proton.me address=3.173.161.11} on-error {}
-:do {add list=$AddressList comment=proton.me address=3.173.161.117} on-error {}
-:do {add list=$AddressList comment=proton.me address=3.173.161.22} on-error {}
-:do {add list=$AddressList comment=proton.me address=3.173.161.71} on-error {}

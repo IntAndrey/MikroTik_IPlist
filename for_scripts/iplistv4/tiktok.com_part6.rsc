@@ -1,5 +1,10 @@
 :global AddressList
 /ip firewall address-list
+:do {add list=$AddressList comment=tiktok.com address=104.123.68.243} on-error {}
+:do {add list=$AddressList comment=tiktok.com address=104.123.68.25} on-error {}
+:do {add list=$AddressList comment=tiktok.com address=104.123.68.26} on-error {}
+:do {add list=$AddressList comment=tiktok.com address=104.123.68.27} on-error {}
+:do {add list=$AddressList comment=tiktok.com address=104.123.68.32} on-error {}
 :do {add list=$AddressList comment=tiktok.com address=104.123.68.33} on-error {}
 :do {add list=$AddressList comment=tiktok.com address=104.123.68.34} on-error {}
 :do {add list=$AddressList comment=tiktok.com address=104.123.68.35} on-error {}
@@ -13,6 +18,7 @@
 :do {add list=$AddressList comment=tiktok.com address=104.123.68.75} on-error {}
 :do {add list=$AddressList comment=tiktok.com address=104.123.68.8} on-error {}
 :do {add list=$AddressList comment=tiktok.com address=104.123.68.80} on-error {}
+:do {add list=$AddressList comment=tiktok.com address=104.123.68.82} on-error {}
 :do {add list=$AddressList comment=tiktok.com address=104.123.68.83} on-error {}
 :do {add list=$AddressList comment=tiktok.com address=104.123.68.88} on-error {}
 :do {add list=$AddressList comment=tiktok.com address=104.123.68.89} on-error {}
@@ -344,9 +350,3 @@
 :do {add list=$AddressList comment=tiktok.com address=104.166.182.212} on-error {}
 :do {add list=$AddressList comment=tiktok.com address=104.166.182.215} on-error {}
 :do {add list=$AddressList comment=tiktok.com address=104.166.182.216} on-error {}
-:do {add list=$AddressList comment=tiktok.com address=104.166.182.22} on-error {}
-:do {add list=$AddressList comment=tiktok.com address=104.166.182.226} on-error {}
-:do {add list=$AddressList comment=tiktok.com address=104.166.182.227} on-error {}
-:do {add list=$AddressList comment=tiktok.com address=104.166.182.228} on-error {}
-:do {add list=$AddressList comment=tiktok.com address=104.166.182.229} on-error {}
-:do {add list=$AddressList comment=tiktok.com address=104.166.182.23} on-error {}

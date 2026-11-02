@@ -94,7 +94,6 @@
 :do {add list=$AddressList comment=et address=196.60.116.0/24} on-error {}
 :do {add list=$AddressList comment=et address=197.154.0.0/16} on-error {}
 :do {add list=$AddressList comment=et address=197.156.64.0/18} on-error {}
-:do {add list=$AddressList comment=et address=212.32.81.0/24} on-error {}
 :do {add list=$AddressList comment=et address=213.55.64.0/18} on-error {}
 :do {add list=$AddressList comment=et address=45.112.182.128/26} on-error {}
 :do {add list=$AddressList comment=et address=45.39.106.128/28} on-error {}

@@ -1,17 +1,5 @@
 :global AddressList
 /ip firewall address-list
-:do {add list=$AddressList comment=nl address=24.144.74.0/23} on-error {}
-:do {add list=$AddressList comment=nl address=24.144.76.0/22} on-error {}
-:do {add list=$AddressList comment=nl address=24.206.115.0/24} on-error {}
-:do {add list=$AddressList comment=nl address=24.239.159.0/24} on-error {}
-:do {add list=$AddressList comment=nl address=24.239.170.0/24} on-error {}
-:do {add list=$AddressList comment=nl address=24.25.24.24/32} on-error {}
-:do {add list=$AddressList comment=nl address=31.10.5.0/24} on-error {}
-:do {add list=$AddressList comment=nl address=31.12.89.0/24} on-error {}
-:do {add list=$AddressList comment=nl address=31.12.90.0/23} on-error {}
-:do {add list=$AddressList comment=nl address=31.130.128.0/22} on-error {}
-:do {add list=$AddressList comment=nl address=31.131.20.0/23} on-error {}
-:do {add list=$AddressList comment=nl address=31.131.26.0/23} on-error {}
 :do {add list=$AddressList comment=nl address=31.132.200.0/21} on-error {}
 :do {add list=$AddressList comment=nl address=31.133.208.0/20} on-error {}
 :do {add list=$AddressList comment=nl address=31.134.200.0/21} on-error {}
@@ -209,7 +197,7 @@
 :do {add list=$AddressList comment=nl address=31.6.28.0/23} on-error {}
 :do {add list=$AddressList comment=nl address=31.7.0.0/21} on-error {}
 :do {add list=$AddressList comment=nl address=31.76.109.0/24} on-error {}
-:do {add list=$AddressList comment=nl address=31.76.110.152/32} on-error {}
+:do {add list=$AddressList comment=nl address=31.76.110.0/24} on-error {}
 :do {add list=$AddressList comment=nl address=31.76.14.0/24} on-error {}
 :do {add list=$AddressList comment=nl address=31.76.180.0/23} on-error {}
 :do {add list=$AddressList comment=nl address=31.76.188.0/23} on-error {}
@@ -236,6 +224,8 @@
 :do {add list=$AddressList comment=nl address=31.77.162.0/24} on-error {}
 :do {add list=$AddressList comment=nl address=31.77.198.0/24} on-error {}
 :do {add list=$AddressList comment=nl address=31.77.204.0/24} on-error {}
+:do {add list=$AddressList comment=nl address=31.77.217.72/29} on-error {}
+:do {add list=$AddressList comment=nl address=31.77.229.0/24} on-error {}
 :do {add list=$AddressList comment=nl address=31.77.237.64/27} on-error {}
 :do {add list=$AddressList comment=nl address=31.77.239.0/24} on-error {}
 :do {add list=$AddressList comment=nl address=31.77.28.0/24} on-error {}
@@ -350,3 +340,13 @@
 :do {add list=$AddressList comment=nl address=32.42.40.48/28} on-error {}
 :do {add list=$AddressList comment=nl address=32.42.40.64/26} on-error {}
 :do {add list=$AddressList comment=nl address=32.42.47.0/26} on-error {}
+:do {add list=$AddressList comment=nl address=32.42.5.128/25} on-error {}
+:do {add list=$AddressList comment=nl address=32.42.5.64/29} on-error {}
+:do {add list=$AddressList comment=nl address=32.42.5.80/28} on-error {}
+:do {add list=$AddressList comment=nl address=32.42.5.96/27} on-error {}
+:do {add list=$AddressList comment=nl address=32.42.6.0/25} on-error {}
+:do {add list=$AddressList comment=nl address=32.42.6.176/28} on-error {}
+:do {add list=$AddressList comment=nl address=32.42.6.192/27} on-error {}
+:do {add list=$AddressList comment=nl address=32.42.7.0/25} on-error {}
+:do {add list=$AddressList comment=nl address=32.42.7.144/29} on-error {}
+:do {add list=$AddressList comment=nl address=32.42.7.160/28} on-error {}

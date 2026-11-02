@@ -1,5 +1,10 @@
 :global AddressList
 /ip firewall address-list
+:do {add list=$AddressList comment=proton.me address=3.169.85.71} on-error {}
+:do {add list=$AddressList comment=proton.me address=3.173.161.11} on-error {}
+:do {add list=$AddressList comment=proton.me address=3.173.161.117} on-error {}
+:do {add list=$AddressList comment=proton.me address=3.173.161.22} on-error {}
+:do {add list=$AddressList comment=proton.me address=3.173.161.71} on-error {}
 :do {add list=$AddressList comment=proton.me address=3.174.18.110} on-error {}
 :do {add list=$AddressList comment=proton.me address=3.174.18.115} on-error {}
 :do {add list=$AddressList comment=proton.me address=3.174.18.31} on-error {}
@@ -42,6 +47,10 @@
 :do {add list=$AddressList comment=proton.me address=54.192.100.27} on-error {}
 :do {add list=$AddressList comment=proton.me address=54.192.100.5} on-error {}
 :do {add list=$AddressList comment=proton.me address=54.192.100.62} on-error {}
+:do {add list=$AddressList comment=proton.me address=54.192.138.117} on-error {}
+:do {add list=$AddressList comment=proton.me address=54.192.138.124} on-error {}
+:do {add list=$AddressList comment=proton.me address=54.192.138.59} on-error {}
+:do {add list=$AddressList comment=proton.me address=54.192.138.94} on-error {}
 :do {add list=$AddressList comment=proton.me address=54.192.97.39} on-error {}
 :do {add list=$AddressList comment=proton.me address=54.192.97.49} on-error {}
 :do {add list=$AddressList comment=proton.me address=54.192.97.67} on-error {}

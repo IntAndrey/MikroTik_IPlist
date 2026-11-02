@@ -151,11 +151,13 @@
 :do {add list=$AddressList comment=dw.com address=23.64.0.0/16} on-error {}
 :do {add list=$AddressList comment=dw.com address=23.65.19.19/32} on-error {}
 :do {add list=$AddressList comment=dw.com address=23.66.133.84/32} on-error {}
+:do {add list=$AddressList comment=dw.com address=23.66.157.19/32} on-error {}
 :do {add list=$AddressList comment=dw.com address=23.72.0.0/15} on-error {}
 :do {add list=$AddressList comment=dw.com address=23.74.161.38/32} on-error {}
 :do {add list=$AddressList comment=dw.com address=23.74.173.19/32} on-error {}
 :do {add list=$AddressList comment=dw.com address=23.75.0.0/16} on-error {}
 :do {add list=$AddressList comment=dw.com address=23.76.43.49/32} on-error {}
+:do {add list=$AddressList comment=dw.com address=23.9.76.192/32} on-error {}
 :do {add list=$AddressList comment=dw.com address=5.178.42.128/25} on-error {}
 :do {add list=$AddressList comment=dw.com address=62.115.252.0/24} on-error {}
 :do {add list=$AddressList comment=dw.com address=62.115.253.24/32} on-error {}
@@ -179,6 +181,7 @@
 :do {add list=$AddressList comment=dw.com address=88.221.192.0/21} on-error {}
 :do {add list=$AddressList comment=dw.com address=88.221.24.0/22} on-error {}
 :do {add list=$AddressList comment=dw.com address=88.221.60.0/22} on-error {}
+:do {add list=$AddressList comment=dw.com address=88.221.83.0/24} on-error {}
 :do {add list=$AddressList comment=dw.com address=92.122.100.0/22} on-error {}
 :do {add list=$AddressList comment=dw.com address=92.122.144.0/20} on-error {}
 :do {add list=$AddressList comment=dw.com address=92.122.16.0/22} on-error {}

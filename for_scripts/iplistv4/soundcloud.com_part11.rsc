@@ -1,5 +1,17 @@
 :global AddressList
 /ip firewall address-list
+:do {add list=$AddressList comment=soundcloud.com address=18.67.13.56} on-error {}
+:do {add list=$AddressList comment=soundcloud.com address=18.67.13.57} on-error {}
+:do {add list=$AddressList comment=soundcloud.com address=18.67.13.60} on-error {}
+:do {add list=$AddressList comment=soundcloud.com address=18.67.13.66} on-error {}
+:do {add list=$AddressList comment=soundcloud.com address=18.67.13.73} on-error {}
+:do {add list=$AddressList comment=soundcloud.com address=18.67.13.74} on-error {}
+:do {add list=$AddressList comment=soundcloud.com address=18.67.13.75} on-error {}
+:do {add list=$AddressList comment=soundcloud.com address=18.67.13.8} on-error {}
+:do {add list=$AddressList comment=soundcloud.com address=18.67.13.81} on-error {}
+:do {add list=$AddressList comment=soundcloud.com address=18.67.13.88} on-error {}
+:do {add list=$AddressList comment=soundcloud.com address=18.67.130.10} on-error {}
+:do {add list=$AddressList comment=soundcloud.com address=18.67.130.106} on-error {}
 :do {add list=$AddressList comment=soundcloud.com address=18.67.130.11} on-error {}
 :do {add list=$AddressList comment=soundcloud.com address=18.67.130.26} on-error {}
 :do {add list=$AddressList comment=soundcloud.com address=18.67.130.32} on-error {}
@@ -338,15 +350,3 @@
 :do {add list=$AddressList comment=soundcloud.com address=3.162.140.20} on-error {}
 :do {add list=$AddressList comment=soundcloud.com address=3.162.140.27} on-error {}
 :do {add list=$AddressList comment=soundcloud.com address=3.162.140.29} on-error {}
-:do {add list=$AddressList comment=soundcloud.com address=3.162.140.32} on-error {}
-:do {add list=$AddressList comment=soundcloud.com address=3.162.140.48} on-error {}
-:do {add list=$AddressList comment=soundcloud.com address=3.162.140.57} on-error {}
-:do {add list=$AddressList comment=soundcloud.com address=3.162.140.63} on-error {}
-:do {add list=$AddressList comment=soundcloud.com address=3.162.140.68} on-error {}
-:do {add list=$AddressList comment=soundcloud.com address=3.162.140.74} on-error {}
-:do {add list=$AddressList comment=soundcloud.com address=3.162.140.78} on-error {}
-:do {add list=$AddressList comment=soundcloud.com address=3.162.140.8} on-error {}
-:do {add list=$AddressList comment=soundcloud.com address=3.162.140.86} on-error {}
-:do {add list=$AddressList comment=soundcloud.com address=3.162.140.87} on-error {}
-:do {add list=$AddressList comment=soundcloud.com address=3.162.140.91} on-error {}
-:do {add list=$AddressList comment=soundcloud.com address=3.162.20.115} on-error {}

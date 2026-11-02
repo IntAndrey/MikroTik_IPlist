@@ -1,5 +1,6 @@
 :global AddressList
 /ip firewall address-list
+:do {add list=$AddressList comment=youtube.com address=142.251.132.1} on-error {}
 :do {add list=$AddressList comment=youtube.com address=142.251.132.10} on-error {}
 :do {add list=$AddressList comment=youtube.com address=142.251.132.106} on-error {}
 :do {add list=$AddressList comment=youtube.com address=142.251.132.108} on-error {}
@@ -216,11 +217,13 @@
 :do {add list=$AddressList comment=youtube.com address=142.251.141.14} on-error {}
 :do {add list=$AddressList comment=youtube.com address=142.251.141.140} on-error {}
 :do {add list=$AddressList comment=youtube.com address=142.251.141.142} on-error {}
+:do {add list=$AddressList comment=youtube.com address=142.251.141.161} on-error {}
 :do {add list=$AddressList comment=youtube.com address=142.251.141.163} on-error {}
 :do {add list=$AddressList comment=youtube.com address=142.251.141.164} on-error {}
 :do {add list=$AddressList comment=youtube.com address=142.251.141.170} on-error {}
 :do {add list=$AddressList comment=youtube.com address=142.251.141.172} on-error {}
 :do {add list=$AddressList comment=youtube.com address=142.251.141.174} on-error {}
+:do {add list=$AddressList comment=youtube.com address=142.251.141.175} on-error {}
 :do {add list=$AddressList comment=youtube.com address=142.251.141.22} on-error {}
 :do {add list=$AddressList comment=youtube.com address=142.251.141.225} on-error {}
 :do {add list=$AddressList comment=youtube.com address=142.251.141.227} on-error {}
@@ -347,6 +350,3 @@
 :do {add list=$AddressList comment=youtube.com address=142.251.149.6} on-error {}
 :do {add list=$AddressList comment=youtube.com address=142.251.15.100} on-error {}
 :do {add list=$AddressList comment=youtube.com address=142.251.15.101} on-error {}
-:do {add list=$AddressList comment=youtube.com address=142.251.15.102} on-error {}
-:do {add list=$AddressList comment=youtube.com address=142.251.15.103} on-error {}
-:do {add list=$AddressList comment=youtube.com address=142.251.15.104} on-error {}
