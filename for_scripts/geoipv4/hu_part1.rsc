@@ -246,7 +246,7 @@
 :do {add list=$AddressList comment=hu address=149.6.182.80/28} on-error {}
 :do {add list=$AddressList comment=hu address=150.228.112.0/23} on-error {}
 :do {add list=$AddressList comment=hu address=150.228.16.0/23} on-error {}
-:do {add list=$AddressList comment=hu address=150.40.103.0/24} on-error {}
+:do {add list=$AddressList comment=hu address=150.40.104.0/24} on-error {}
 :do {add list=$AddressList comment=hu address=150.40.108.0/24} on-error {}
 :do {add list=$AddressList comment=hu address=150.40.110.0/23} on-error {}
 :do {add list=$AddressList comment=hu address=150.40.112.0/24} on-error {}

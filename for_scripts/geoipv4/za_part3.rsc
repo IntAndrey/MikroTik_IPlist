@@ -1,7 +1,5 @@
 :global AddressList
 /ip firewall address-list
-:do {add list=$AddressList comment=za address=102.36.140.0/22} on-error {}
-:do {add list=$AddressList comment=za address=102.36.152.0/21} on-error {}
 :do {add list=$AddressList comment=za address=102.36.172.0/22} on-error {}
 :do {add list=$AddressList comment=za address=102.36.182.0/24} on-error {}
 :do {add list=$AddressList comment=za address=102.36.192.0/23} on-error {}
@@ -271,6 +269,8 @@
 :do {add list=$AddressList comment=za address=104.30.179.122/32} on-error {}
 :do {add list=$AddressList comment=za address=104.30.179.254/32} on-error {}
 :do {add list=$AddressList comment=za address=104.30.179.43/32} on-error {}
+:do {add list=$AddressList comment=za address=104.30.182.87/32} on-error {}
+:do {add list=$AddressList comment=za address=104.30.182.88/32} on-error {}
 :do {add list=$AddressList comment=za address=104.31.1.224/28} on-error {}
 :do {add list=$AddressList comment=za address=104.44.66.0/24} on-error {}
 :do {add list=$AddressList comment=za address=104.47.19.0/24} on-error {}
@@ -334,7 +334,8 @@
 :do {add list=$AddressList comment=za address=105.28.80.0/20} on-error {}
 :do {add list=$AddressList comment=za address=105.28.96.0/19} on-error {}
 :do {add list=$AddressList comment=za address=105.29.0.0/17} on-error {}
-:do {add list=$AddressList comment=za address=105.29.144.0/20} on-error {}
+:do {add list=$AddressList comment=za address=105.29.128.0/19} on-error {}
+:do {add list=$AddressList comment=za address=105.29.176.0/20} on-error {}
 :do {add list=$AddressList comment=za address=105.29.192.0/18} on-error {}
 :do {add list=$AddressList comment=za address=105.30.0.0/17} on-error {}
 :do {add list=$AddressList comment=za address=105.30.144.0/20} on-error {}
@@ -349,4 +350,3 @@
 :do {add list=$AddressList comment=za address=108.181.120.0/24} on-error {}
 :do {add list=$AddressList comment=za address=109.204.30.0/24} on-error {}
 :do {add list=$AddressList comment=za address=109.204.67.0/24} on-error {}
-:do {add list=$AddressList comment=za address=109.68.58.0/24} on-error {}

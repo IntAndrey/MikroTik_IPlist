@@ -1,11 +1,5 @@
 :global AddressList
 /ip firewall address-list
-:do {add list=$AddressList comment=AS16509 address=161.193.0.0/16} on-error {}
-:do {add list=$AddressList comment=AS16509 address=161.199.13.0/24} on-error {}
-:do {add list=$AddressList comment=AS16509 address=161.199.250.0/23} on-error {}
-:do {add list=$AddressList comment=AS16509 address=161.199.67.0/24} on-error {}
-:do {add list=$AddressList comment=AS16509 address=161.206.0.0/16} on-error {}
-:do {add list=$AddressList comment=AS16509 address=161.223.188.0/24} on-error {}
 :do {add list=$AddressList comment=AS16509 address=161.228.0.0/16} on-error {}
 :do {add list=$AddressList comment=AS16509 address=161.32.64.0/24} on-error {}
 :do {add list=$AddressList comment=AS16509 address=161.46.0.0/16} on-error {}
@@ -319,6 +313,7 @@
 :do {add list=$AddressList comment=AS16509 address=170.176.216.0/23} on-error {}
 :do {add list=$AddressList comment=AS16509 address=170.176.218.0/24} on-error {}
 :do {add list=$AddressList comment=AS16509 address=170.176.220.0/22} on-error {}
+:do {add list=$AddressList comment=AS16509 address=170.178.148.0/23} on-error {}
 :do {add list=$AddressList comment=AS16509 address=170.178.192.0/19} on-error {}
 :do {add list=$AddressList comment=AS16509 address=170.200.188.0/22} on-error {}
 :do {add list=$AddressList comment=AS16509 address=170.200.247.0/24} on-error {}
@@ -350,3 +345,8 @@
 :do {add list=$AddressList comment=AS16509 address=170.85.50.0/24} on-error {}
 :do {add list=$AddressList comment=AS16509 address=170.85.52.0/24} on-error {}
 :do {add list=$AddressList comment=AS16509 address=170.89.128.0/22} on-error {}
+:do {add list=$AddressList comment=AS16509 address=170.89.132.0/23} on-error {}
+:do {add list=$AddressList comment=AS16509 address=170.89.136.0/22} on-error {}
+:do {add list=$AddressList comment=AS16509 address=170.89.141.0/24} on-error {}
+:do {add list=$AddressList comment=AS16509 address=170.89.146.0/23} on-error {}
+:do {add list=$AddressList comment=AS16509 address=170.89.150.0/24} on-error {}

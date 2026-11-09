@@ -136,6 +136,7 @@
 :do {add list=$AddressList comment=cloudfront address=47.129.84.0/24} on-error {}
 :do {add list=$AddressList comment=cloudfront address=51.44.234.0/23} on-error {}
 :do {add list=$AddressList comment=cloudfront address=51.44.236.0/22} on-error {}
+:do {add list=$AddressList comment=cloudfront address=51.72.40.128/27} on-error {}
 :do {add list=$AddressList comment=cloudfront address=51.74.192.0/18} on-error {}
 :do {add list=$AddressList comment=cloudfront address=51.74.20.0/23} on-error {}
 :do {add list=$AddressList comment=cloudfront address=51.74.22.0/24} on-error {}

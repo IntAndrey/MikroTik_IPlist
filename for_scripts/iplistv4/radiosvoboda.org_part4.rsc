@@ -1,5 +1,7 @@
 :global AddressList
 /ip firewall address-list
+:do {add list=$AddressList comment=radiosvoboda.org address=2.16.158.186} on-error {}
+:do {add list=$AddressList comment=radiosvoboda.org address=2.16.158.72} on-error {}
 :do {add list=$AddressList comment=radiosvoboda.org address=2.16.158.96} on-error {}
 :do {add list=$AddressList comment=radiosvoboda.org address=2.16.16.167} on-error {}
 :do {add list=$AddressList comment=radiosvoboda.org address=2.16.16.168} on-error {}
@@ -325,7 +327,10 @@
 :do {add list=$AddressList comment=radiosvoboda.org address=2.20.143.171} on-error {}
 :do {add list=$AddressList comment=radiosvoboda.org address=2.20.178.205} on-error {}
 :do {add list=$AddressList comment=radiosvoboda.org address=2.20.178.214} on-error {}
+:do {add list=$AddressList comment=radiosvoboda.org address=2.20.180.131} on-error {}
+:do {add list=$AddressList comment=radiosvoboda.org address=2.20.180.138} on-error {}
 :do {add list=$AddressList comment=radiosvoboda.org address=2.20.180.156} on-error {}
+:do {add list=$AddressList comment=radiosvoboda.org address=2.20.180.163} on-error {}
 :do {add list=$AddressList comment=radiosvoboda.org address=2.20.187.107} on-error {}
 :do {add list=$AddressList comment=radiosvoboda.org address=2.20.187.40} on-error {}
 :do {add list=$AddressList comment=radiosvoboda.org address=2.20.216.150} on-error {}
@@ -345,8 +350,3 @@
 :do {add list=$AddressList comment=radiosvoboda.org address=2.20.45.80} on-error {}
 :do {add list=$AddressList comment=radiosvoboda.org address=2.20.45.81} on-error {}
 :do {add list=$AddressList comment=radiosvoboda.org address=2.20.45.84} on-error {}
-:do {add list=$AddressList comment=radiosvoboda.org address=2.20.68.88} on-error {}
-:do {add list=$AddressList comment=radiosvoboda.org address=2.20.68.91} on-error {}
-:do {add list=$AddressList comment=radiosvoboda.org address=2.21.0.199} on-error {}
-:do {add list=$AddressList comment=radiosvoboda.org address=2.21.11.48} on-error {}
-:do {add list=$AddressList comment=radiosvoboda.org address=2.21.11.89} on-error {}

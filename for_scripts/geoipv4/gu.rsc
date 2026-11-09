@@ -131,9 +131,6 @@
 :do {add list=$AddressList comment=gu address=202.151.64.0/19} on-error {}
 :do {add list=$AddressList comment=gu address=202.22.176.0/20} on-error {}
 :do {add list=$AddressList comment=gu address=202.47.144.0/20} on-error {}
-:do {add list=$AddressList comment=gu address=202.88.64.0/23} on-error {}
-:do {add list=$AddressList comment=gu address=202.88.67.0/24} on-error {}
-:do {add list=$AddressList comment=gu address=202.88.68.0/22} on-error {}
 :do {add list=$AddressList comment=gu address=202.88.72.0/24} on-error {}
 :do {add list=$AddressList comment=gu address=202.88.74.0/23} on-error {}
 :do {add list=$AddressList comment=gu address=202.88.76.0/22} on-error {}

@@ -83,6 +83,7 @@
 :do {add list=$AddressList comment=jetbrains.com address=34.246.0.0/15} on-error {}
 :do {add list=$AddressList comment=jetbrains.com address=34.248.0.0/13} on-error {}
 :do {add list=$AddressList comment=jetbrains.com address=34.78.67.165/32} on-error {}
+:do {add list=$AddressList comment=jetbrains.com address=35.152.0.0/13} on-error {}
 :do {add list=$AddressList comment=jetbrains.com address=35.160.0.0/12} on-error {}
 :do {add list=$AddressList comment=jetbrains.com address=35.224.0.0/12} on-error {}
 :do {add list=$AddressList comment=jetbrains.com address=35.80.0.0/12} on-error {}

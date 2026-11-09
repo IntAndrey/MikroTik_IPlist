@@ -30,6 +30,8 @@
 :do {add list=$AddressList comment=instagram.com address=57.144.162.5} on-error {}
 :do {add list=$AddressList comment=instagram.com address=57.144.164.5} on-error {}
 :do {add list=$AddressList comment=instagram.com address=57.144.168.5} on-error {}
+:do {add list=$AddressList comment=instagram.com address=57.144.170.192} on-error {}
+:do {add list=$AddressList comment=instagram.com address=57.144.170.5} on-error {}
 :do {add list=$AddressList comment=instagram.com address=57.144.172.5} on-error {}
 :do {add list=$AddressList comment=instagram.com address=57.144.174.5} on-error {}
 :do {add list=$AddressList comment=instagram.com address=57.144.176.5} on-error {}
@@ -144,6 +146,7 @@
 :do {add list=$AddressList comment=instagram.com address=57.144.254.34} on-error {}
 :do {add list=$AddressList comment=instagram.com address=57.144.254.36} on-error {}
 :do {add list=$AddressList comment=instagram.com address=57.144.254.5} on-error {}
+:do {add list=$AddressList comment=instagram.com address=57.144.26.5} on-error {}
 :do {add list=$AddressList comment=instagram.com address=57.144.28.5} on-error {}
 :do {add list=$AddressList comment=instagram.com address=57.144.32.5} on-error {}
 :do {add list=$AddressList comment=instagram.com address=57.144.36.141} on-error {}
@@ -176,7 +179,9 @@
 :do {add list=$AddressList comment=instagram.com address=57.144.68.144} on-error {}
 :do {add list=$AddressList comment=instagram.com address=57.144.68.145} on-error {}
 :do {add list=$AddressList comment=instagram.com address=57.144.68.192} on-error {}
+:do {add list=$AddressList comment=instagram.com address=57.144.68.196} on-error {}
 :do {add list=$AddressList comment=instagram.com address=57.144.68.34} on-error {}
+:do {add list=$AddressList comment=instagram.com address=57.144.68.36} on-error {}
 :do {add list=$AddressList comment=instagram.com address=57.144.68.5} on-error {}
 :do {add list=$AddressList comment=instagram.com address=57.144.70.5} on-error {}
 :do {add list=$AddressList comment=instagram.com address=57.144.72.5} on-error {}

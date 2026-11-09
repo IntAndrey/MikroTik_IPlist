@@ -1,5 +1,6 @@
 :global AddressList
 /ip firewall address-list
+:do {add list=$AddressList comment=cn address=103.40.212.0/22} on-error {}
 :do {add list=$AddressList comment=cn address=103.40.220.0/22} on-error {}
 :do {add list=$AddressList comment=cn address=103.40.228.0/22} on-error {}
 :do {add list=$AddressList comment=cn address=103.40.232.0/21} on-error {}
@@ -127,7 +128,8 @@
 :do {add list=$AddressList comment=cn address=103.52.80.0/21} on-error {}
 :do {add list=$AddressList comment=cn address=103.52.96.0/21} on-error {}
 :do {add list=$AddressList comment=cn address=103.53.100.0/22} on-error {}
-:do {add list=$AddressList comment=cn address=103.53.124.0/22} on-error {}
+:do {add list=$AddressList comment=cn address=103.53.124.0/23} on-error {}
+:do {add list=$AddressList comment=cn address=103.53.126.0/24} on-error {}
 :do {add list=$AddressList comment=cn address=103.53.128.0/20} on-error {}
 :do {add list=$AddressList comment=cn address=103.53.144.0/22} on-error {}
 :do {add list=$AddressList comment=cn address=103.53.180.0/22} on-error {}
@@ -310,6 +312,7 @@
 :do {add list=$AddressList comment=cn address=103.73.244.0/22} on-error {}
 :do {add list=$AddressList comment=cn address=103.73.248.0/22} on-error {}
 :do {add list=$AddressList comment=cn address=103.73.48.0/22} on-error {}
+:do {add list=$AddressList comment=cn address=103.74.124.0/24} on-error {}
 :do {add list=$AddressList comment=cn address=103.74.126.0/23} on-error {}
 :do {add list=$AddressList comment=cn address=103.74.148.0/22} on-error {}
 :do {add list=$AddressList comment=cn address=103.74.152.0/21} on-error {}
@@ -347,6 +350,3 @@
 :do {add list=$AddressList comment=cn address=103.78.196.0/22} on-error {}
 :do {add list=$AddressList comment=cn address=103.78.228.0/22} on-error {}
 :do {add list=$AddressList comment=cn address=103.78.56.0/21} on-error {}
-:do {add list=$AddressList comment=cn address=103.78.64.0/21} on-error {}
-:do {add list=$AddressList comment=cn address=103.79.136.0/22} on-error {}
-:do {add list=$AddressList comment=cn address=103.79.188.0/22} on-error {}

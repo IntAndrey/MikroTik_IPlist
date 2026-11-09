@@ -44,14 +44,10 @@
 :do {add list=$AddressList comment=tv address=172.225.231.96/28} on-error {}
 :do {add list=$AddressList comment=tv address=172.225.245.32/28} on-error {}
 :do {add list=$AddressList comment=tv address=172.225.62.192/27} on-error {}
-:do {add list=$AddressList comment=tv address=196.197.196.0/24} on-error {}
-:do {add list=$AddressList comment=tv address=196.198.196.0/24} on-error {}
-:do {add list=$AddressList comment=tv address=196.199.196.0/24} on-error {}
-:do {add list=$AddressList comment=tv address=196.48.196.0/24} on-error {}
-:do {add list=$AddressList comment=tv address=196.56.196.0/24} on-error {}
-:do {add list=$AddressList comment=tv address=196.57.196.0/24} on-error {}
-:do {add list=$AddressList comment=tv address=196.58.196.0/24} on-error {}
 :do {add list=$AddressList comment=tv address=202.2.96.0/19} on-error {}
 :do {add list=$AddressList comment=tv address=45.11.240.128/26} on-error {}
 :do {add list=$AddressList comment=tv address=45.138.10.36/30} on-error {}
 :do {add list=$AddressList comment=tv address=66.96.121.64/26} on-error {}
+:do {add list=$AddressList comment=tv address=94.192.73.228/31} on-error {}
+:do {add list=$AddressList comment=tv address=94.192.75.228/31} on-error {}
+:do {add list=$AddressList comment=tv address=94.192.77.228/31} on-error {}

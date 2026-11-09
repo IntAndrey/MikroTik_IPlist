@@ -1,5 +1,9 @@
 :global AddressList
 /ip firewall address-list
+:do {add list=$AddressList comment=bbc.com address=18.245.29.169} on-error {}
+:do {add list=$AddressList comment=bbc.com address=18.245.31.100} on-error {}
+:do {add list=$AddressList comment=bbc.com address=18.245.31.123} on-error {}
+:do {add list=$AddressList comment=bbc.com address=18.245.31.13} on-error {}
 :do {add list=$AddressList comment=bbc.com address=18.245.31.16} on-error {}
 :do {add list=$AddressList comment=bbc.com address=18.245.31.24} on-error {}
 :do {add list=$AddressList comment=bbc.com address=18.245.31.63} on-error {}
@@ -220,6 +224,7 @@
 :do {add list=$AddressList comment=bbc.com address=2.18.108.23} on-error {}
 :do {add list=$AddressList comment=bbc.com address=2.18.12.153} on-error {}
 :do {add list=$AddressList comment=bbc.com address=2.18.168.120} on-error {}
+:do {add list=$AddressList comment=bbc.com address=2.18.168.162} on-error {}
 :do {add list=$AddressList comment=bbc.com address=2.18.168.57} on-error {}
 :do {add list=$AddressList comment=bbc.com address=2.18.172.119} on-error {}
 :do {add list=$AddressList comment=bbc.com address=2.18.172.170} on-error {}
@@ -345,8 +350,3 @@
 :do {add list=$AddressList comment=bbc.com address=2.22.56.32} on-error {}
 :do {add list=$AddressList comment=bbc.com address=2.22.76.135} on-error {}
 :do {add list=$AddressList comment=bbc.com address=2.22.76.68} on-error {}
-:do {add list=$AddressList comment=bbc.com address=2.22.80.150} on-error {}
-:do {add list=$AddressList comment=bbc.com address=2.22.84.149} on-error {}
-:do {add list=$AddressList comment=bbc.com address=2.22.85.100} on-error {}
-:do {add list=$AddressList comment=bbc.com address=2.23.115.162} on-error {}
-:do {add list=$AddressList comment=bbc.com address=2.23.144.145} on-error {}

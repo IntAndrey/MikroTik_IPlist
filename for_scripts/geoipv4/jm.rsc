@@ -130,9 +130,6 @@
 :do {add list=$AddressList comment=jm address=195.158.204.64/26} on-error {}
 :do {add list=$AddressList comment=jm address=196.1.136.0/24} on-error {}
 :do {add list=$AddressList comment=jm address=196.1.138.0/23} on-error {}
-:do {add list=$AddressList comment=jm address=196.197.108.0/24} on-error {}
-:do {add list=$AddressList comment=jm address=196.198.108.0/24} on-error {}
-:do {add list=$AddressList comment=jm address=196.199.108.0/24} on-error {}
 :do {add list=$AddressList comment=jm address=196.2.0.0/23} on-error {}
 :do {add list=$AddressList comment=jm address=196.3.0.0/21} on-error {}
 :do {add list=$AddressList comment=jm address=196.3.104.0/24} on-error {}
@@ -140,10 +137,6 @@
 :do {add list=$AddressList comment=jm address=196.3.184.0/21} on-error {}
 :do {add list=$AddressList comment=jm address=196.3.95.0/24} on-error {}
 :do {add list=$AddressList comment=jm address=196.32.0.0/21} on-error {}
-:do {add list=$AddressList comment=jm address=196.48.108.0/24} on-error {}
-:do {add list=$AddressList comment=jm address=196.56.108.0/24} on-error {}
-:do {add list=$AddressList comment=jm address=196.57.108.0/24} on-error {}
-:do {add list=$AddressList comment=jm address=196.58.108.0/24} on-error {}
 :do {add list=$AddressList comment=jm address=198.58.0.0/23} on-error {}
 :do {add list=$AddressList comment=jm address=199.115.28.0/24} on-error {}
 :do {add list=$AddressList comment=jm address=199.115.29.0/25} on-error {}
@@ -244,5 +237,8 @@
 :do {add list=$AddressList comment=jm address=9.170.64.0/23} on-error {}
 :do {add list=$AddressList comment=jm address=92.118.185.128/25} on-error {}
 :do {add list=$AddressList comment=jm address=93.113.52.0/23} on-error {}
+:do {add list=$AddressList comment=jm address=94.192.73.36/31} on-error {}
+:do {add list=$AddressList comment=jm address=94.192.75.36/31} on-error {}
+:do {add list=$AddressList comment=jm address=94.192.77.36/31} on-error {}
 :do {add list=$AddressList comment=jm address=95.142.123.0/24} on-error {}
 :do {add list=$AddressList comment=jm address=96.43.160.0/19} on-error {}

@@ -347,6 +347,6 @@
 :do {add list=$AddressList comment=jut.su address=78.47.81.177} on-error {}
 :do {add list=$AddressList comment=jut.su address=8.47.69.0} on-error {}
 :do {add list=$AddressList comment=jut.su address=8.47.69.4} on-error {}
+:do {add list=$AddressList comment=jut.su address=8.47.69.5} on-error {}
+:do {add list=$AddressList comment=jut.su address=8.47.69.7} on-error {}
 :do {add list=$AddressList comment=jut.su address=8.47.69.8} on-error {}
-:do {add list=$AddressList comment=jut.su address=8.47.69.9} on-error {}
-:do {add list=$AddressList comment=jut.su address=8.6.112.0} on-error {}
